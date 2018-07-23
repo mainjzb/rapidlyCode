@@ -1,0 +1,129 @@
+# '#'开头是注释
+# '=='左边是原文，右边是翻译
+# '==' 左边支持正则
+#　
+
+
+##长句翻译
+Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
+Zero characters must have completed up to Chapter 2==神之子必须完成第二章
+
+
+
+##等级 10
+Req. Lv: ([1-9]?\d\d)==\1级以上
+Lv. ([1-9]?\d\d) and above==\1级以上
+Lv. ([1-9]?\d\d)==\1级
+(\d)(\w\w) Job==\1转
+
+#
+Non-Reboot worlds==普通区
+Reboot world==R区
+All worlds==所有区
+Reboot==R区
+
+##5转
+Chu Chu Island==啾啾岛(2岛)
+Lachelein==梦都(3岛)
+Arcana==阿尔卡那(4岛)
+Morass==莫拉斯(5岛)
+Esfera==埃斯佩拉(6岛)
+
+
+##物品
+Miracle Circulator==Miracle Circulator(内在还原器)
+Master Craftsman's Cube==黄魔方
+
+
+##杂项+属性  10
+(\d) Slot Coupon==\1格扩展卷
+after maintenance==维护后
+Untradeable==不可交易
+Weapon ATT/Magic ATT==攻击力
+STR/DEX/INT/LUK==四维
+EXP==经验
+star event notifier==星星
+Star Force Enhancing==装备星星强化
+Star Force==装备星星强化
+Monster DEF Ignored==无视防御
+Tradeable within account==账号内可交易
+Cash Shop==商城
+Hyper Teleport Rock==传送石
+Mu Lung Dojo==武陵道场
+Label Ring==名片戒指
+Chat Ring==聊天戒指
+(\d)x Drop Coupon==\1倍爆率卷
+Drop buff==爆率Buff
+Respawn Token==原地复活符
+Epic Potential Scroll==A潜能卷
+Epic Potential==A潜能
+Buff Freezer==Buff保留符
+Safety Charm==死亡保护符
+Weapon DEF/Magic DEF ==防御力
+Bonus Stats==火花属性
+Spell Trace==痕迹
+Mysterious Meso Pouch==随机金币袋
+Hot Week==炙热周
+Storage Room==仓库
+Mega Burning==斗燃
+a Character Name Change Coupon==改名卡
+OX Quiz==“对错问答”
+Arcane Umbra==神秘之影
+Soul Shard==灵魂碎片
+Occult Cubes==怪异魔方
+Arachno Coins==蜘蛛币
+Stone Cobweb Droplets==蜘蛛币碎片石
+Maple World==冒险世界
+Mirror World==镜像世界
+True Arachnid Reflection==真*蜘蛛之影
+Discovery Arena==探索竞技场
+Discovery Desert==探索沙漠
+Explorer-class character==冒险家职业
+Grab a party==组队
+Lab Server Coins==LAB币
+Lab Server==LAB服务器
+Lab world==LAB世界
+boost potions==强化药水
+
+
+#语法
+to trade in for==换取
+dropped by (\w+)==通过\1掉落
+
+
+
+
+#========单
+Will==威尔
+Will's==威尔的
+Will’s==威尔的
+coins==币
+Coins==币
+Coin==币
+coin==币
+Coupon==卡
+channel==频道
+character==角色
+Maplers==冒险家们
+flames==火花
+Ring==戒指
+Cape==披风
+equipment==装备
+equips==装备套
+events==活动
+event==活动
+EVENTS==活动
+Nodestone==核心
+nodestone==核心
+nodestones==核心
+node==核心
+mesos==金币
+players==玩家
+reflection==反伤
+Potions==药水
+potions==药水
+dorp==掉落
+hardcore==极端
+job==职业
+scroll==卷轴
+Scroll==卷轴
