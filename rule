@@ -1,7 +1,7 @@
 # '#'开头是注释
 # '=='左边是原文，右边是翻译
 # '==' 左边支持正则
-#　
+# 首字母小写，自动匹配大写版本
 
 
 ##长句翻译
@@ -98,22 +98,19 @@ Will==威尔
 Will's==威尔的
 Will’s==威尔的
 coins==币
-Coins==币
-Coin==币
 coin==币
-Coupon==卡
+coupon==卡
 channel==频道
 character==角色
-Maplers==冒险家们
+maplers==冒险家们
 flames==火花
-Ring==戒指
-Cape==披风
+ring==戒指
+cape==披风
 equipment==装备
 equips==装备套
 events==活动
 event==活动
 EVENTS==活动
-Nodestone==核心
 nodestone==核心
 nodestones==核心
 node==核心
@@ -126,6 +123,4 @@ dorp==掉落
 hardcore==极端
 job==职业
 scroll==卷轴
-Scroll==卷轴
-Boss==BOSS
 boss==BOSS
