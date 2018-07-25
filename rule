@@ -28,20 +28,37 @@ Lachelein==梦都(3岛)
 Arcana==阿尔卡那(4岛)
 Morass==莫拉斯(5岛)
 Esfera==埃斯佩拉(6岛)
-
+Arcane River==奥术河
 
 ##物品
 Miracle Circulator==Miracle Circulator(内在还原器)
-Master Craftsman's Cube==黄魔方
+Master Craftsman's Cubes?==黄魔方
+Master Craftsman’s Cubes?==黄魔方
+Occult Cubes?==怪异魔方
+Meister's Cubes?==匠人魔方
+Meister’s Cubes?==匠人魔方
+Red Cubes?==红魔方
+Black Cubes?==黑魔方
+Gold Potential Stamp==金色潜能印章
+Silver Potential Stamp==银色潜能印章
+Advanced Potential Scroll==b级潜能卷
+Twisted Time==扭曲的时间
+Intense Power Crystal==蓝水晶
+Boss Medal of Honor==荣誉
+Arachno Coins==蜘蛛币
+Stone Cobweb Droplets?==蜘蛛币碎片石
+Mastery Book==能手册
+
 
 
 ##杂项+属性  10
 (\d) Slot Coupon==\1格扩展卷
 after maintenance==维护后
 Untradeable==不可交易
-Weapon ATT/Magic ATT==攻击力
-STR/DEX/INT/LUK==四维
-EXP==经验
+(Grants\s)?Weapon ATT/Magic ATT==攻击力
+Weapon ATT==物理攻击力
+Magic ATT==魔法攻击力
+STR/DEX/INT/LUK==全属性
 star event notifier==星星
 Star Force Enhancing==装备星星强化
 Star Force==装备星星强化
@@ -55,24 +72,24 @@ Chat Ring==聊天戒指
 (\d)x Drop Coupon==\1倍爆率卷
 Drop buff==爆率Buff
 Respawn Token==原地复活符
+Respawn Pass==无限*原地复活符
 Epic Potential Scroll==A潜能卷
 Epic Potential==A潜能
 Buff Freezer==Buff保留符
 Safety Charm==死亡保护符
+Safety Gem==无限*死亡保护符
 Weapon DEF/Magic DEF ==防御力
 Bonus Stats==火花属性
-Spell Trace==痕迹
+Spell Traces?==痕迹
 Mysterious Meso Pouch==随机金币袋
 Hot Week==炙热周
 Storage Room==仓库
 Mega Burning==斗燃
 a Character Name Change Coupon==改名卡
 OX Quiz==“对错问答”
+OX quiz==“对错问答”
 Arcane Umbra==神秘之影
 Soul Shard==灵魂碎片
-Occult Cubes==怪异魔方
-Arachno Coins==蜘蛛币
-Stone Cobweb Droplets==蜘蛛币碎片石
 Maple World==冒险世界
 Mirror World==镜像世界
 True Arachnid Reflection==真*蜘蛛之影
@@ -84,6 +101,60 @@ Lab Server Coins==LAB币
 Lab Server==LAB服务器
 Lab world==LAB世界
 boost potions==强化药水
+Hard Will==困难级威尔
+Hard Mode==困难模式
+character slots==角色位
+star reduction chance==降低等级率
+star maintain chance==保留星级率
+item destruction chance==装备破坏率
+success chance==的成功率
+Soul Shooter==灵魂手铳
+Boss Monster Damage==BOSS伤害
+Ignored Monster Defense==无视防御
+Ignored Monster DEF==无视防御
+Ignored Monster Def==无视防御
+Lucky Item Scroll==幸运卷轴
+Mage Suit==法师套服
+Critical Rate==暴击率
+Boss Damage==BOSS伤害
+5th job==5转
+HP Cost==HP消耗
+Ark Points==Ark点
+El Nath==冰封雪域
+1 person is in the party==单人在队伍中
+Potential Items==潜能物品
+Potential Stamp==潜能印章
+Advanced Bonus==高级
+Intermediate Bonus==中级
+Basic Bonus==基础
+All Stats==全属性
+Hard Lotus==困难级斯乌
+Hard Damien==困难级戴安米
+World Leap system==转区系统
+Monster Life==怪物家园系统
+Trait Items==倾向物品
+Raid Boss==BOSS
+Soul Enchanter==灵魂附魔石
+Clean Slate Scroll==白衣卷轴
+Chaos Scroll==混沌卷轴
+Potential Scroll==潜能卷轴
+Surprise Pet Box==宠物抽奖箱
+Extra Character Slot Coupon==扩展角色位卡
+EXP Coupons?==经验卡
+Armor Supply Box==防具箱
+Weapon Supply Box==武器箱
+Eternal Rebirth Flame==彩虹火花
+Powerful Rebirth Flame==绯红火花
+Potion Pot==药剂罐
+Cash Inventory Transfer==商城转移
+Hair Color Coupon==染发卡
+Skin Coupon==肤色卡
+Hair Coupon==理发卡
+Maple Point==枫叶点
+Captain Vaga==瓦加舰长
+\(M\)==(女)
+\(F\)==(男)
+Henesys==射手村
 
 
 #语法
@@ -94,26 +165,28 @@ dropped by (\w+)==通过\1掉落
 
 
 #========单
+Lucid==露西德
+EXP==经验
+Recipes?==配方
+Julieta==侏莉塔
+Ossyria==神秘岛
+Abrup==阿布鲁
 Will==威尔
 Will's==威尔的
 Will’s==威尔的
-coins==币
-coin==币
+coins?==币
 coupon==卡
 channel==频道
-character==角色
+characters?==角色
 maplers==冒险家们
 flames==火花
-ring==戒指
-cape==披风
+\sring==戒指
 equipment==装备
-equips==装备套
-events==活动
-event==活动
-EVENTS==活动
-nodestone==核心
-nodestones==核心
-node==核心
+equips?==装备套
+events?==活动
+EVENTS?==活动
+nodestones?==核心
+nodes?==核心
 mesos==金币
 players==玩家
 reflection==反伤
@@ -124,3 +197,76 @@ hardcore==极端
 job==职业
 scroll==卷轴
 boss==BOSS
+gollux==贝勒德
+sweetwater==漩涡
+non-Transposed==非继承
+transposed==继承
+Lv.==等级
+zero==神之子
+Thief==飞侠
+Shoulder==护肩
+Archer==射手
+STR==力量
+DEX==敏捷
+LUK==运气
+INT==智力
+Essence==精华
+Fortuitous==幸运的
+Swift==敏捷的
+Clever==聪明的
+Beefy==强壮的
+Flashy==华丽的
+Hearty==旺盛的
+Potent\s==强效的
+Radiant==闪耀的
+Soul==灵魂
+Items==物品
+Kanna==阴阳师
+Illium==圣晶使徒
+Luminous==夜光法师
+Afinas?==阿维纳斯
+Mage==法师
+Pirate==海盗
+Knight==骑士
+Bebe==贝贝
+Chair==椅子
+Ark==ARK
+Player==玩家
+AbsoLab==AB
+Credit==信用值
+
+#####装备
+Two-handed Sword==双手剑
+Two-Handed Axe==双手斧
+Two-Handed Hammer==双手锤
+Energy Chain==能量剑(尖兵)
+Shining Rod==双头杖
+Psy-limiter==ESP限制器(超能)
+Lucent Gauntlet==魔力手套(圣晶使徒)
+Secondary Weapon==副手武器
+####
+Katana==武士刀
+Fan==扇子
+Scepter==驯兽魔法棒
+Bow==弓
+Spear==枪
+Polearm==矛
+Ellaha==机甲手枪
+Crossbow==弩
+Katara==副刀
+Cane==手杖(幻影)
+Dagger==匕首
+Hammer==单手锤
+Desperado==死亡使者(白毛)
+Axe==单手斧
+Saber==单手剑
+Wand==短杖
+Staff==长杖
+Guards==拳套
+Claw==关节
+Pistol==手枪
+Siege Gun==手炮
+Hat==帽子
+Suit==套服
+cape==披风
+Frozen==寒冰
