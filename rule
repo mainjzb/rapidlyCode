@@ -152,9 +152,9 @@ Skin Coupon==肤色卡
 Hair Coupon==理发卡
 Maple Point==枫叶点
 Captain Vaga==瓦加舰长
+Double Rewards==双倍奖励
 \(M\)==(女)
 \(F\)==(男)
-Henesys==射手村
 
 
 #语法
@@ -165,6 +165,7 @@ dropped by (\w+)==通过\1掉落
 
 
 #========单
+Henesys==射手村
 Lucid==露西德
 EXP==经验
 Recipes?==配方
@@ -234,6 +235,9 @@ Ark==ARK
 Player==玩家
 AbsoLab==AB
 Credit==信用值
+Monad==莫奈得
+Drop==爆率
+
 
 #####装备
 Two-handed Sword==双手剑
