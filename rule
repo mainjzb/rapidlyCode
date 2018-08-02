@@ -167,8 +167,11 @@ Gift Box==礼物盒
 Miu Miu the Merchant==缪缪商店卡
 Maple Administrator==管理员
 Maple Admin==管理员
-
-
+Maple Relay Tier (\d) Box==冒险岛接力第\1礼盒
+Maple Relay==冒险接力
+Flash Jump==二段跳
+Sunny Sunday==阳光周日
+Transfer Hammer==托德之锤
 
 #语法
 to trade in for==换取
@@ -255,8 +258,9 @@ Megaphone==喇叭
 Beret==蓓蕾帽
 Epic== -A级(紫色)
 armor==防具
-
-
+potential==潜能
+safeguard==强化防爆
+ATT==攻击力
 
 #冒险岛
 MapleStoryM==冒险岛手机版
@@ -277,6 +281,7 @@ Shining Rod==双头杖
 Psy-limiter==ESP限制器(超能)
 Lucent Gauntlet==魔力手套(圣晶使徒)
 Secondary Weapon==副手武器
+Absolab weapons==埃苏莱布斯武器
 ####
 Katana==武士刀
 Fan==扇子
@@ -303,3 +308,4 @@ Hat==帽子
 Suit==套服
 cape==披风
 Frozen==寒冰
+Absolab==埃苏莱布斯
