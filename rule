@@ -7,7 +7,7 @@
 ##长句翻译
 Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
 Zero characters must have completed up to Chapter 2==神之子必须完成第二章
-
+20 levels below and 20 levels above==20级以内
 
 
 ##等级 10
@@ -39,9 +39,10 @@ Meister's Cubes?==匠人魔方
 Meister’s Cubes?==匠人魔方
 Red Cubes?==红魔方
 Black Cubes?==黑魔方
-Gold Potential Stamp==金色潜能印章
-Silver Potential Stamp==银色潜能印章
-Advanced Potential Scroll==b级潜能卷
+Gold Potential Stamps?==金色潜能印章
+Silver Potential Stamps?==银色潜能印章
+Advanced Potential Scroll==B级潜能卷
+Unique Potential Scroll==S级潜能卷
 Twisted Time==扭曲的时间
 Intense Power Crystal==蓝水晶
 Boss Medal of Honor==荣誉
@@ -50,6 +51,8 @@ Stone Cobweb Droplets?==蜘蛛币碎片石
 Mastery Book==能手册
 Bonus Potential Cubes?==附加潜能魔方
 Trait Boost Potion==倾向药水
+Eternal Flame of Rebirth==彩虹火花
+Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 
 
 ##杂项+属性  10
@@ -62,6 +65,7 @@ Weapon ATT==物理攻击力
 Magic ATT==魔法攻击力
 STR/DEX/INT/LUK==全属性
 star event notifier==星星
+Star Force enhancements==星星强化
 Star Force Enhancing==装备星星强化
 Star Force==装备星星强化
 Monster DEF Ignored==无视防御
@@ -77,6 +81,7 @@ Drop buff==爆率Buff
 Respawn Token==原地复活符
 Respawn Pass==无限*原地复活符
 Epic Potential Scroll==A潜能卷
+Legendary Potential Scrolls?==ss潜能卷轴
 Epic Potential==A潜能
 Buff Freezer==Buff保留符
 Safety Charm==死亡保护符
@@ -172,6 +177,7 @@ Maple Relay==冒险接力
 Flash Jump==二段跳
 Sunny Sunday==阳光周日
 Transfer Hammer==托德之锤
+Surprise Style Box==幸运箱
 
 #语法
 to trade in for==换取
@@ -193,7 +199,7 @@ Will==威尔
 Will's==威尔的
 Will’s==威尔的
 coins?==币
-coupon==卡
+coupons?==卡
 channel==频道
 characters?==角色
 maplers==冒险家们
@@ -213,7 +219,7 @@ potions==药水
 dorp==掉落
 hardcore==极端
 job==职业
-scroll==卷轴
+scrolls?==卷轴
 boss==BOSS
 gollux==贝勒德
 sweetwater==漩涡
@@ -261,11 +267,13 @@ armor==防具
 potential==潜能
 safeguard==强化防爆
 ATT==攻击力
+gachapon==玩具
+
 
 #冒险岛
 MapleStoryM==冒险岛手机版
 MapleStory M==冒险岛手机版
-Maple M==冒险岛手机版
+Maple M\s==冒险岛手机版
 MapleStory==冒险岛
 
 
