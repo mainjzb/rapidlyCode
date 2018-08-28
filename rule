@@ -178,6 +178,13 @@ Flash Jump==二段跳
 Sunny Sunday==阳光周日
 Transfer Hammer==托德之锤
 Surprise Style Box==幸运箱
+Cardcaptor Sakura==百变小樱
+Sakura Kinomoto==小樱
+Kero-chan==“小可”
+Tomoyo Daidouji==“知世”
+Tomoyo==“知世”
+Syaoran==“小狼”
+Syaoran Li==“小狼”
 
 #语法
 to trade in for==换取
@@ -207,7 +214,7 @@ flames==火花
 \sring==戒指
 equipment==装备
 equips?==装备套
-events?==活动
+\s+events?==活动
 EVENTS?==活动
 nodestones?==核心
 nodes?==核心
@@ -314,6 +321,6 @@ Pistol==手枪
 Siege Gun==手炮
 Hat==帽子
 Suit==套服
-cape==披风
+capes?==披风
 Frozen==寒冰
 Absolab==埃苏莱布斯
