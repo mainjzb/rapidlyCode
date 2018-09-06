@@ -1,2 +1,2 @@
 # rapidlyCode
-help google translate for game 
+help google translate for maplestory to chinese 

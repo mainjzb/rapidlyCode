@@ -8,6 +8,9 @@
 Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
 Zero characters must have completed up to Chapter 2==神之子必须完成第二章
 20 levels below and 20 levels above==20级以内
+2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
+5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
+All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
 
 
 ##等级 10
@@ -31,7 +34,7 @@ Esfera==埃斯佩拉(6岛)
 Arcane River==奥术河
 
 ##物品
-Miracle Circulator==Miracle Circulator(内在还原器)
+Miracle Circulator==内在还原器
 Master Craftsman's Cubes?==黄魔方
 Master Craftsman’s Cubes?==黄魔方
 Occult Cubes?==怪异魔方
@@ -41,6 +44,7 @@ Red Cubes?==红魔方
 Black Cubes?==黑魔方
 Gold Potential Stamps?==金色潜能印章
 Silver Potential Stamps?==银色潜能印章
+Epic Potential Scroll==A级潜能卷
 Advanced Potential Scroll==B级潜能卷
 Unique Potential Scroll==S级潜能卷
 Twisted Time==扭曲的时间
@@ -53,14 +57,17 @@ Bonus Potential Cubes?==附加潜能魔方
 Trait Boost Potion==倾向药水
 Eternal Flame of Rebirth==彩虹火花
 Maplehood Watch Mechanical Heart==枫叶M机器人心脏
-
+Mega Character Burninator==斗燃药水
 
 ##杂项+属性  10
+Cash Cover Hat==帽子时装
+Cash Cover Eye Accessory==眼镜时装
 Selective (\d) Slot Coupon==可选择\1格扩展卷
 (\d) Slot Coupon==\1格扩展卷
 after maintenance==维护后
 Untradeable==不可交易
 (Grants\s)?Weapon ATT/Magic ATT==攻击力
+Weapon ATT/magic ATT==攻击力
 Weapon ATT==物理攻击力
 Magic ATT==魔法攻击力
 STR/DEX/INT/LUK==全属性
@@ -182,9 +189,20 @@ Cardcaptor Sakura==百变小樱
 Sakura Kinomoto==小樱
 Kero-chan==“小可”
 Tomoyo Daidouji==“知世”
-Tomoyo==“知世”
-Syaoran==“小狼”
-Syaoran Li==“小狼”
+Hard Lucid's==困难级露西德
+Chaos Horntail==进阶黑龙
+Act (\d)==第\1章
+Sengoku High==战国高校
+Bug Brawl==昆虫大作战
+Inferno Wolf==地狱火焰狼
+Combo Kill orbs==连击经验球
+Unique Equipped Item==唯一装备
+(\d\d?)-day duration==保留\1天
+Maple Reward Points==RP积分
+Special Medal of Honor==特殊荣誉勋章
+Medal of Honor==荣誉勋章
+Maple Missions==枫之使命
+Sengoku Class Supplementary Pass==战国高校额外通行证
 
 #语法
 to trade in for==换取
@@ -194,6 +212,12 @@ dropped by (\w+)==通过\1掉落
 
 
 #========单
+Lotus==斯乌
+Erda==艾尔达
+evan==龙神
+Tomoyo==“知世”
+Syaoran==“小狼”
+Syaoran Li==“小狼”
 Henesys==射手村
 Lucid==露西德
 EXP==经验
@@ -275,6 +299,7 @@ potential==潜能
 safeguard==强化防爆
 ATT==攻击力
 gachapon==玩具
+Tradeable==可交易
 
 
 #冒险岛
@@ -298,6 +323,10 @@ Lucent Gauntlet==魔力手套(圣晶使徒)
 Secondary Weapon==副手武器
 Absolab weapons==埃苏莱布斯武器
 ####
+Medal==勋章
+Badge==徽章
+Totem==图腾
+title==称号
 Katana==武士刀
 Fan==扇子
 Scepter==驯兽魔法棒
