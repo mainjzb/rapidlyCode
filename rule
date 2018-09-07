@@ -10,6 +10,7 @@ Zero characters must have completed up to Chapter 2==神之子必须完成第二
 20 levels below and 20 levels above==20级以内
 2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
 5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
+12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
 All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
 
 
@@ -34,7 +35,7 @@ Esfera==埃斯佩拉(6岛)
 Arcane River==奥术河
 
 ##物品
-Miracle Circulator==内在还原器
+Miracle Circulators?==内在还原器
 Master Craftsman's Cubes?==黄魔方
 Master Craftsman’s Cubes?==黄魔方
 Occult Cubes?==怪异魔方
@@ -203,12 +204,26 @@ Special Medal of Honor==特殊荣誉勋章
 Medal of Honor==荣誉勋章
 Maple Missions==枫之使命
 Sengoku Class Supplementary Pass==战国高校额外通行证
+Inner Abilities==内在能力
+
+
 
 #语法
 to trade in for==换取
 dropped by (\w+)==通过\1掉落
+a special deal==优惠
 
 
+#宠物技能 和 宠物杂项
+Expanded Auto Move Skill==扩展移动技能
+Auto Move Skill==自动移动技能
+Auto Feed and Movement Skill==自动喂食和移动技能
+Expired Pickup Skill==额外拾取技能
+Ignore Item Skill==忽略物品技能
+Auto Buff Skill==自动BUFF技能
+Premium Pet Food==永久宠物食品
+Permanent when applied==使用后永久学会
+Pet Boost Package==宠物技能包
 
 
 #========单
@@ -293,13 +308,14 @@ Monad==莫奈得
 Drop==爆率
 Megaphone==喇叭
 Beret==蓓蕾帽
-Epic== -A级(紫色)
+Epic (Rank)?== -A级(紫色)
 armor==防具
 potential==潜能
 safeguard==强化防爆
 ATT==攻击力
 gachapon==玩具
 Tradeable==可交易
+Circulator==内在还原器
 
 
 #冒险岛
