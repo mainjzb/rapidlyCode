@@ -68,6 +68,8 @@ Reboot==R区
 	Eternal Flame of Rebirth==彩虹火花
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
+	nodestones?==核心
+	nodes?==核心
 #}
 
 ##杂项+属性  10
@@ -262,8 +264,6 @@ equipment==装备
 equips?==装备套
 \s+events?==活动
 EVENTS?==活动
-nodestones?==核心
-nodes?==核心
 mesos==金币
 players==玩家
 reflection==反伤
