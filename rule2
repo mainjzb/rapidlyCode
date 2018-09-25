@@ -1,5 +1,4 @@
-AEST==北京时间
-10:00==8:00
-10：00==8:00
-9:59==7:59
-UTC \+10==UTC+8
+Type==类型
+Requirements==要求
+Picture and Name==图片和名称
+Cumulative Effects==叠加属性
