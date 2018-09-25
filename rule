@@ -3,15 +3,23 @@
 # '==' 左边支持正则
 # 首字母小写，自动匹配大写版本
 
+#左边规则
+#\d 匹配一个数字
+#?  前面的内容可有可无
 
-##长句翻译
-Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
-Zero characters must have completed up to Chapter 2==神之子必须完成第二章
-20 levels below and 20 levels above==20级以内
-2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
-5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
-12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
-All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
+#右边规则
+#\1 表示左边第一个被匹配的内容
+
+
+##长句翻译{
+	Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
+	Zero characters must have completed up to Chapter 2==神之子必须完成第二章
+	20 levels below and 20 levels above==20级以内
+	2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
+	5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
+	12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
+	All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
+#}
 
 
 ##等级 10
@@ -26,39 +34,41 @@ Reboot world==R区
 All worlds==所有区
 Reboot==R区
 
-##5转
-Chu Chu Island==啾啾岛(2岛)
-Lachelein==梦都(3岛)
-Arcana==阿尔卡那(4岛)
-Morass==莫拉斯(5岛)
-Esfera==埃斯佩拉(6岛)
-Arcane River==奥术河
+##5转{
+	Chu Chu Island==啾啾岛(2岛)
+	Lachelein==梦都(3岛)
+	Arcana==阿尔卡那(4岛)
+	Morass==莫拉斯(5岛)
+	Esfera==埃斯佩拉(6岛)
+	Arcane River==奥术河
+#}
 
-##物品
-Miracle Circulators?==内在还原器
-Master Craftsman's Cubes?==黄魔方
-Master Craftsman’s Cubes?==黄魔方
-Occult Cubes?==怪异魔方
-Meister's Cubes?==匠人魔方
-Meister’s Cubes?==匠人魔方
-Red Cubes?==红魔方
-Black Cubes?==黑魔方
-Gold Potential Stamps?==金色潜能印章
-Silver Potential Stamps?==银色潜能印章
-Epic Potential Scroll==A级潜能卷
-Advanced Potential Scroll==B级潜能卷
-Unique Potential Scroll==S级潜能卷
-Twisted Time==扭曲的时间
-Intense Power Crystal==蓝水晶
-Boss Medal of Honor==荣誉
-Arachno Coins==蜘蛛币
-Stone Cobweb Droplets?==蜘蛛币碎片石
-Mastery Book==能手册
-Bonus Potential Cubes?==附加潜能魔方
-Trait Boost Potion==倾向药水
-Eternal Flame of Rebirth==彩虹火花
-Maplehood Watch Mechanical Heart==枫叶M机器人心脏
-Mega Character Burninator==斗燃药水
+####物品{
+	Miracle Circulators?==内在还原器
+	Master Craftsman's Cubes?==黄魔方
+	Master Craftsman’s Cubes?==黄魔方
+	Occult Cubes?==怪异魔方
+	Meister's Cubes?==匠人魔方
+	Meister’s Cubes?==匠人魔方
+	Red Cubes?==红魔方
+	Black Cubes?==黑魔方
+	Gold Potential Stamps?==金色潜能印章
+	Silver Potential Stamps?==银色潜能印章
+	Epic Potential Scroll==A级潜能卷
+	Advanced Potential Scroll==B级潜能卷
+	Unique Potential Scroll==S级潜能卷
+	Twisted Time==扭曲的时间
+	Intense Power Crystal==蓝水晶
+	Boss Medal of Honor==荣誉
+	Arachno Coins==蜘蛛币
+	Stone Cobweb Droplets?==蜘蛛币碎片石
+	Mastery Book==能手册
+	Bonus Potential Cubes?==附加潜能魔方
+	Trait Boost Potion==倾向药水
+	Eternal Flame of Rebirth==彩虹火花
+	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
+	Mega Character Burninator==斗燃药水
+#}
 
 ##杂项+属性  10
 Cash Cover Hat==帽子时装
@@ -66,12 +76,6 @@ Cash Cover Eye Accessory==眼镜时装
 Selective (\d) Slot Coupon==可选择\1格扩展卷
 (\d) Slot Coupon==\1格扩展卷
 after maintenance==维护后
-Untradeable==不可交易
-(Grants\s)?Weapon ATT/Magic ATT==攻击力
-Weapon ATT/magic ATT==攻击力
-Weapon ATT==物理攻击力
-Magic ATT==魔法攻击力
-STR/DEX/INT/LUK==全属性
 star event notifier==星星
 Star Force enhancements==星星强化
 Star Force Enhancing==装备星星强化
@@ -132,8 +136,6 @@ Ignored Monster DEF==无视防御
 Ignored Monster Def==无视防御
 Lucky Item Scroll==幸运卷轴
 Mage Suit==法师套服
-Critical Rate==暴击率
-Boss Damage==BOSS伤害
 5th job==5转
 HP Cost==HP消耗
 Ark Points==Ark点
@@ -211,25 +213,27 @@ Divine Intelligence==神圣的智慧
 
 
 
-#语法
-to trade in for==换取
-dropped by (\w+)==通过\1掉落
-a special deal==优惠
+#语法{
+	to trade in for==换取
+	dropped by (\w+)==通过\1掉落
+	a special deal==优惠
+#}
 
 
-#宠物技能 和 宠物杂项
-Expanded Auto Move Skill==扩展移动技能
-Auto Move Skill==自动移动技能
-Auto Feed and Movement Skill==自动喂食和移动技能
-Expired Pickup Skill==额外拾取技能
-Ignore Item Skill==忽略物品技能
-Auto Buff Skill==自动BUFF技能
-Premium Pet Food==永久宠物食品
-Permanent when applied==使用后永久学会
-Pet Boost Package==宠物技能包
+####宠物{
+	Expanded Auto Move Skill==扩展移动技能
+	Auto Move Skill==自动移动技能
+	Auto Feed and Movement Skill==自动喂食和移动技能
+	Expired Pickup Skill==额外拾取技能
+	Ignore Item Skill==忽略物品技能
+	Auto Buff Skill==自动BUFF技能
+	Premium Pet Food==永久宠物食品
+	Permanent when applied==使用后永久学会
+	Pet Boost Package==宠物技能包
+#}
 
 
-#========单
+##单
 Lotus==斯乌
 Erda==艾尔达
 evan==龙神
@@ -279,10 +283,6 @@ zero==神之子
 Thief==飞侠
 Shoulder==护肩
 Archer==射手
-STR==力量
-DEX==敏捷
-LUK==运气
-INT==智力
 Essence==精华
 Fortuitous==幸运的
 Swift==敏捷的
@@ -294,13 +294,7 @@ Potent\s==强效的
 Radiant==闪耀的
 Soul==灵魂
 Items==物品
-Kanna==阴阳师
-Illium==圣晶使徒
-Luminous==夜光法师
 Afinas?==阿维纳斯
-Mage==法师
-Pirate==海盗
-Knight==骑士
 Bebe==贝贝
 Chair==椅子
 Ark==ARK
@@ -315,7 +309,6 @@ Epic (Rank)?== -A级(紫色)
 armor==防具
 potential==潜能
 safeguard==强化防爆
-ATT==攻击力
 gachapon==玩具
 Tradeable==可交易
 Circulator==内在还原器
@@ -331,46 +324,99 @@ MapleStory==冒险岛
 
 
 
-#####装备
-Two-handed Sword==双手剑
-Two-Handed Axe==双手斧
-Two-Handed Hammer==双手锤
-Energy Chain==能量剑(尖兵)
-Shining Rod==双头杖
-Psy-limiter==ESP限制器(超能)
-Lucent Gauntlet==魔力手套(圣晶使徒)
-Secondary Weapon==副手武器
-Absolab weapons==埃苏莱布斯武器
-Sengoku Hakase==战国徽章
-Ghost Ship Exorcist badges==鬼船徽章
-####
-Medal==勋章
-Badge==徽章
-Totem==图腾
-title==称号
-Katana==武士刀
-Fan==扇子
-Scepter==驯兽魔法棒
-Bow==弓
-Spear==枪
-Polearm==矛
-Ellaha==机甲手枪
-Crossbow==弩
-Katara==副刀
-Cane==手杖(幻影)
-Dagger==匕首
-Hammer==单手锤
-Desperado==死亡使者(白毛)
-Axe==单手斧
-Saber==单手剑
-Wand==短杖
-Staff==长杖
-Guards==拳套
-Claw==关节
-Pistol==手枪
-Siege Gun==手炮
-Hat==帽子
-Suit==套服
-capes?==披风
-Frozen==寒冰
-Absolab==埃苏莱布斯
+####装备{
+	Two-handed Sword==双手剑
+	Two-Handed Sword==双手剑
+	Two-Handed Axe==双手斧
+	Two-Handed Hammer==双手锤
+	Two-Handed Blunt Weapon==双手钝器
+	One-Handed Sword==单手剑
+	One-Handed Axe==单手斧
+	One-Handed Mace==单手锤
+	Energy Chain==能量剑(尖兵)
+	Shining Rod==双头杖
+	Psy-limiter==ESP限制器(超能)
+	Lucent Gauntlet==魔力手套(圣晶使徒)
+	Secondary Weapon==副手武器
+	Absolab weapons==埃苏莱布斯武器
+	Sengoku Hakase==战国徽章
+	Ghost Ship Exorcist badges==鬼船徽章
+	Arm Cannon==机甲手枪
+#}   
+
+
+##装备{
+	Top==上衣
+	Bottom==裤子
+	Medal==勋章
+	Badge==徽章
+	Totem==图腾
+	title==称号
+	Katana==武士刀
+	Fan==扇子
+	Scepter==驯兽魔法棒
+	Bow==弓
+	Spear==枪
+	Polearm==矛
+	Ellaha==机甲手枪
+	Crossbow==弩
+	Katara==副刀
+	Cane==手杖(幻影)
+	Dagger==匕首
+	Hammer==单手锤
+	Desperado==死亡使者(白毛)
+	Axe==单手斧
+	Saber==单手剑
+	Wand==短杖
+	Staff==长杖
+	Guards==拳套
+	Claw==关节
+	Pistol==手枪
+	Siege Gun==手炮
+	Hat==帽子
+	Suit==套服
+	capes?==披风
+	Frozen==寒冰
+	Absolab==埃苏莱布斯
+#}
+
+##属性{
+	Level==等级
+	STR==力量
+	DEX==敏捷
+	LUK==运气
+	INT==智力
+	ATT==攻击力
+	Max MP==MP
+	Max HP==HP
+	Weapon Attack==攻击力
+	Enemy Defense Ignored==无视防御
+	Defense==防御力
+	Attack Speed==攻速
+	Set Effects==套装属性
+	(\d) Set Effect==\1件套属性
+	(Grants\s)?Weapon ATT/Magic ATT==攻击力
+	Weapon ATT/magic ATT==攻击力
+	Weapon ATT==物理攻击力
+	Magic ATT==魔法攻击力
+	Critical Rate==暴击率
+	Boss Damage==BOSS伤害
+	Untradeable==不可交易
+	STR/DEX/INT/LUK==全属性
+#}
+
+####职业{
+	Demon Avenger==恶魔复仇者(白毛)
+#}
+
+##职业{
+	Hayato==剑豪
+	Blaster==爆破手
+	Warrior==战士
+	Kanna==阴阳师
+	Illium==圣晶使徒
+	Luminous==夜光法师
+	Mage==法师
+	Pirate==海盗
+	Knight==骑士
+#}
