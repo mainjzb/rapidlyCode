@@ -2,6 +2,8 @@
 # '=='左边是原文，右边是翻译
 # '==' 左边支持正则
 # 首字母小写，自动匹配大写版本
+#首字母小写的单词，自动忽略匹配上的单词首字母大小写。
+
 
 #左边规则
 #\d 匹配一个数字
@@ -35,12 +37,12 @@ All worlds==所有区
 Reboot==R区
 
 ##5转{
+	Arcane River==奥术河
 	Chu Chu Island==啾啾岛(2岛)
 	Lachelein==梦都(3岛)
 	Arcana==阿尔卡那(4岛)
 	Morass==莫拉斯(5岛)
 	Esfera==埃斯佩拉(6岛)
-	Arcane River==奥术河
 #}
 
 ####物品{
@@ -237,13 +239,12 @@ Divine Intelligence==神圣的智慧
 
 ##单
 Lotus==斯乌
+Lucid==露西德
 Erda==艾尔达
-evan==龙神
 Tomoyo==“知世”
 Syaoran==“小狼”
 Syaoran Li==“小狼”
 Henesys==射手村
-Lucid==露西德
 EXP==经验
 Recipes?==配方
 Julieta==朱莉埃塔
@@ -280,7 +281,6 @@ non-Transposed==非继承
 transposed==继承
 Lv.==等级
 zero==神之子
-Thief==飞侠
 Shoulder==护肩
 Archer==射手
 Essence==精华
@@ -306,7 +306,6 @@ Drop==爆率
 Megaphone==喇叭
 Beret==蓓蕾帽
 Epic (Rank)?== -A级(紫色)
-armor==防具
 potential==潜能
 safeguard==强化防爆
 gachapon==玩具
@@ -314,11 +313,12 @@ Tradeable==可交易
 Circulator==内在还原器
 
 
-#冒险岛
-MapleStoryM==冒险岛手机版
-MapleStory M==冒险岛手机版
-Maple M\s==冒险岛手机版
-MapleStory==冒险岛
+#冒险岛{
+	MapleStoryM==冒险岛手机版
+	MapleStory M==冒险岛手机版
+	Maple M\s==冒险岛手机版
+	MapleStory==冒险岛
+#}
 
 
 
@@ -342,43 +342,12 @@ MapleStory==冒险岛
 	Sengoku Hakase==战国徽章
 	Ghost Ship Exorcist badges==鬼船徽章
 	Arm Cannon==机甲手枪
+	Whip Blade==能量剑
+	Dual Bowguns==双弩枪
+	Hand Cannon==手持火炮
 #}   
 
 
-##装备{
-	Top==上衣
-	Bottom==裤子
-	Medal==勋章
-	Badge==徽章
-	Totem==图腾
-	title==称号
-	Katana==武士刀
-	Fan==扇子
-	Scepter==驯兽魔法棒
-	Bow==弓
-	Spear==枪
-	Polearm==矛
-	Ellaha==机甲手枪
-	Crossbow==弩
-	Katara==副刀
-	Cane==手杖(幻影)
-	Dagger==匕首
-	Hammer==单手锤
-	Desperado==死亡使者(白毛)
-	Axe==单手斧
-	Saber==单手剑
-	Wand==短杖
-	Staff==长杖
-	Guards==拳套
-	Claw==关节
-	Pistol==手枪
-	Siege Gun==手炮
-	Hat==帽子
-	Suit==套服
-	capes?==披风
-	Frozen==寒冰
-	Absolab==埃苏莱布斯
-#}
 
 ##属性{
 	Level==等级
@@ -397,6 +366,7 @@ MapleStory==冒险岛
 	(\d) Set Effect==\1件套属性
 	(Grants\s)?Weapon ATT/Magic ATT==攻击力
 	Weapon ATT/magic ATT==攻击力
+	Magic Attack==魔法攻击力
 	Weapon ATT==物理攻击力
 	Magic ATT==魔法攻击力
 	Critical Rate==暴击率
@@ -408,16 +378,63 @@ MapleStory==冒险岛
 
 ####职业{
 	Demon Avenger==恶魔复仇者(白毛)
+	Beast Tamer==林之灵
+	Angelic Buster==爆莉萌天使
 #}
 
 ##职业{
+	Warrior==战士
 	Hayato==剑豪
 	Blaster==爆破手
-	Warrior==战士
+	Magician==法师
+	Mage==法师
+	Evan==龙神
 	Kanna==阴阳师
 	Illium==圣晶使徒
 	Luminous==夜光法师
-	Mage==法师
+	Kinesis==超能力者
+	Thief==飞侠
+	Xenon==尖兵
 	Pirate==海盗
 	Knight==骑士
+	Bowman==弓箭手
+#}
+
+##装备{
+	Top==上衣
+	Bottom==裤子
+	Medal==勋章
+	Badge==徽章
+	Totem==图腾
+	title==称号
+	armor==防具
+	Katana==武士刀
+	Fan==扇子
+	Scepter==驯兽魔法棒
+	Spear==枪
+	Polearm==矛
+	Ellaha==机甲手枪
+	Katara==副刀
+	Cane==手杖(幻影)
+	Dagger==匕首
+	Hammer==单手锤
+	Desperado==死亡使者(白毛)
+	Axe==单手斧
+	Saber==单手剑
+	Wand==短杖
+	Staff==长杖
+	Guards==拳套
+	Claw==拳套
+	Pistol==手枪
+	Siege Gun==手炮
+	Hat==帽子
+	Suit==套服
+	capes?==披风
+	Frozen==寒冰
+	Absolab==埃苏莱布斯
+	Bow==弓
+	Crossbow==弩
+	Chain==锁链
+	Gun==短枪
+	Knuckle==指节
 #}
