@@ -1,0 +1,52 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<style>
+    button#lang {
+        float: right;
+        color: #fff;
+        width: 100px;
+        margin-right: 40px;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+    }
+
+    button#lang:hover {
+        background: #317EF3;
+        border-color: #317EF3;
+        cursor: pointer;
+    }
+</style>
+<div class="wrapper">
+    <button id="lang" class="btn btn-primary btn-block mb-3">切换英文</button>
+    <div class="box1">
+        <p>1</p>
+    </div>
+    <div class="box2">
+        <p>2</p>
+    </div>
+</div>
+<script>window.onload = (function (doc) {
+        let num = 1;
+        const btn = doc.querySelector('#lang');
+        const cn = doc.querySelector('.box1');
+        const en = doc.querySelector('.box2');
+        btn.parentNode.appendChild(cn);
+        btn.parentNode.removeChild(en);
+        btn.addEventListener('click', function (e) {
+            if (num) {
+                btn.innerHTML = '切换中文';
+                btn.parentNode.appendChild(en);
+                btn.parentNode.removeChild(cn);
+                num = 0;
+            } else {
+                btn.innerHTML = '切换英文';
+                btn.parentNode.appendChild(cn);
+                btn.parentNode.removeChild(en);
+                num = 1;
+            }
+        })
+    })(document)</script>

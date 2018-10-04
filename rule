@@ -21,6 +21,8 @@
 	5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
 	12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
 	All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
+	Use coupon to receive permanent item.==双击消耗栏卡卷获得物品。
+	Coupon has 7-day duration.==卡卷保留7天。
 #}
 
 
@@ -31,19 +33,63 @@ Lv. ([1-9]?\d\d)==\1级
 (\d)(\w\w) Job==\1转
 
 #
-Non-Reboot worlds==普通区
-Reboot world==R区
+Non-Reboot Worlds==普通区
+Reboot Worlds?==R区
 All worlds==所有区
 Reboot==R区
 
-##5转{
+##地名{
 	Arcane River==奥术河
+	Nameless Town==无名村
 	Chu Chu Island==啾啾岛(2岛)
 	Lachelein==梦都(3岛)
 	Arcana==阿尔卡那(4岛)
 	Morass==莫拉斯(5岛)
 	Esfera==埃斯佩拉(6岛)
+	Crimsonheart Castle==狮子王城堡
+	Leafre==神木村
+	Monster Park REBORN Coupon==怪物公园优惠券
+	Monster Park==怪物公园
+	Ghost Park==鬼魂公园
+	Pollo/Fritto==保罗/菲利普
+	Nett's Pyramid==奈特的金字塔
+	Dimension Invasion==次元入侵
 #}
+
+##BOSS{
+	Root Abyss==鲁比塔斯
+	Hard Lucid's==困难级路西德的
+	Hard Lucid’s==困难级路西德的
+	Hard Lotus’s==困难级斯乌的
+	Hard Lotus's==困难级斯乌的
+	Hard Will's==困难级威尔的
+	Hard Will’s==困难级威尔的
+	Crimson Queen==血腥女皇
+	Von Bon==半半
+	Pink Bean==品克缤
+	Von Leon==狮子王
+	Cygnus==希纳斯女皇
+	#######################
+	Ursus==乌鲁斯
+	Lotus==斯乌
+	Lucid’s==路西德的
+	Lucid's==路西德的
+	Lucid==路西德
+	Magnus==麦格纳斯
+	Will's==威尔的
+	Will’s==威尔的
+	Will==威尔
+	gollux==贝勒德
+	Zakum==扎昆
+	Horntail==黑龙
+	Hilla==希拉
+	Pierre==皮埃尔
+	Vellum==贝伦
+	Arkarium==阿卡伊勒
+	OMNI-CLN==钻机
+#}
+
+
 
 ####物品{
 	Miracle Circulators?==内在还原器
@@ -56,14 +102,15 @@ Reboot==R区
 	Black Cubes?==黑魔方
 	Gold Potential Stamps?==金色潜能印章
 	Silver Potential Stamps?==银色潜能印章
-	Epic Potential Scroll==A级潜能卷
-	Advanced Potential Scroll==B级潜能卷
-	Unique Potential Scroll==S级潜能卷
+	Epic Potential Scroll==紫色潜能卷
+	Advanced Potential Scroll==蓝色潜能卷
+	Unique Potential Scroll==黄色潜能卷
 	Twisted Time==扭曲的时间
 	Intense Power Crystal==蓝水晶
 	Boss Medal of Honor==荣誉
 	Arachno Coins==蜘蛛币
 	Stone Cobweb Droplets?==蜘蛛币碎片石
+	Mastery Book Set==能手册礼包
 	Mastery Book==能手册
 	Bonus Potential Cubes?==附加潜能魔方
 	Trait Boost Potion==倾向药水
@@ -72,7 +119,16 @@ Reboot==R区
 	Mega Character Burninator==斗燃药水
 	nodestones?==核心
 	nodes?==核心
+	Character Slot Expansion Coupon==角色位扩展卡
+	Trait Increase Potion==倾向药水
+	Circulator==内在还原器
+	Rebirth Flames==绯红火花 
+	2x Exp Coupon==双倍经验卡
+	2x Drop Coupon==双倍爆率卡
+	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
+	Power Elixir==超级药水
 #}
+
 
 ##杂项+属性  10
 Cash Cover Hat==帽子时装
@@ -157,6 +213,7 @@ World Leap system==转区系统
 Monster Life==怪物家园系统
 Trait Items==倾向物品
 Raid Boss==BOSS
+Production Soul Enchanter==蓝色灵魂附魔石
 Soul Enchanter==灵魂附魔石
 Clean Slate Scroll==白衣卷轴
 Chaos Scroll==混沌卷轴
@@ -197,7 +254,6 @@ Cardcaptor Sakura==百变小樱
 Sakura Kinomoto==小樱
 Kero-chan==“小可”
 Tomoyo Daidouji==“知世”
-Hard Lucid's==困难级露西德
 Chaos Horntail==进阶黑龙
 Act (\d)==第\1章
 Sengoku High==战国高校
@@ -214,10 +270,18 @@ Sengoku Class Supplementary Pass==战国高校额外通行证
 Inner Abilities==内在能力
 1 hr==1小时
 Divine Intelligence==神圣的智慧
-Black Mage==黑暗魔法师
+Black Mage==黑暗法师
 Verus Hilla==真神希腊
 Tera Burning==斗燃
-
+(\d) minutes==\1分钟
+tradeable within account==可仓库转移
+Damage Skin==伤害皮肤
+Golden Hammer==金锤子
+party member==队员
+Infinite Pawsibilities==无限可能
+Infinite Pawsibilites==无限可能
+the Multikill counter==多连杀
+Combo Kill counter==连续击杀
 
 
 #语法{
@@ -240,9 +304,20 @@ Tera Burning==斗燃
 #}
 
 
+#万圣节{
+	Ghost Coins==鬼币
+	HALLOWEEN==万圣节
+	Pumpkin Zombie==南瓜僵尸
+	Hallowbat==万圣节
+	Hallowkitty==幽灵猫
+	Advanced Hasty Hunting Box==高级冬季狩猎盒
+	Superior Hasty Hunting Box==超级冬季狩猎盒
+	Basic Hasty Hunting Box==初级冬季狩猎盒
+	Hasty Hunting==冬季狩猎
+#}
+
+
 ##单
-Lotus==斯乌
-Lucid==露西德
 Erda==艾尔达
 Tomoyo==“知世”
 Syaoran==“小狼”
@@ -254,9 +329,6 @@ Julieta==朱莉埃塔
 Skuas==斯库亚斯
 Ossyria==神秘岛
 Abrup==阿布鲁
-Will==威尔
-Will's==威尔的
-Will’s==威尔的
 coins?==币
 coupons?==卡
 channel==频道
@@ -278,14 +350,12 @@ hardcore==极端
 job==职业
 scrolls?==卷轴
 boss==BOSS
-gollux==贝勒德
 sweetwater==漩涡
 non-Transposed==非继承
 transposed==继承
 Lv.==等级
 zero==神之子
 Shoulder==护肩
-Archer==射手
 Essence==精华
 Fortuitous==幸运的
 Swift==敏捷的
@@ -300,7 +370,6 @@ Items==物品
 Afinas?==阿维纳斯
 Bebe==贝贝
 Chair==椅子
-Ark==ARK
 Player==玩家
 AbsoLab==AB
 Credit==信用值
@@ -313,8 +382,11 @@ potential==潜能
 safeguard==强化防爆
 gachapon==玩具
 Tradeable==可交易
-Circulator==内在还原器
-
+untradeable==无法交易
+Untradable==无法交易
+Runes==符文
+Rewards?==奖励
+Whiskers==胡子
 
 #冒险岛{
 	MapleStoryM==冒险岛手机版
@@ -323,8 +395,11 @@ Circulator==内在还原器
 	MapleStory==冒险岛
 #}
 
-
-
+##点装{
+	kaptafel hat==卡塔费帽子
+	Custom Puppy==定制小狗
+	Halloween Candy Hoard Chair==万圣节糖果堆椅子
+#}
 
 
 ####装备{
@@ -348,6 +423,7 @@ Circulator==内在还原器
 	Whip Blade==能量剑
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
+	Pendant of the Spirit==精灵吊坠
 #}   
 
 
@@ -383,9 +459,22 @@ Circulator==内在还原器
 	Demon Avenger==恶魔复仇者(白毛)
 	Beast Tamer==林之灵
 	Angelic Buster==爆莉萌天使
+	Dark Knight==黑骑
+	Wind Archer==风灵使者
+	Thunder Breaker==奇袭者
+	Dual Blade==双刀
+	Blaze Wizard==炎术士
+	Night Walker==夜行者
+	Wild Hunter==豹弩游侠
+	Arch Mage==魔导师
+	\(Fire Poison\)==（火毒）
+	Bow Master==神射手
+	Wind Archer==风灵使者		
+
 #}
 
 ##职业{
+	Bowmaster==神射手
 	Warrior==战士
 	Hayato==剑豪
 	Blaster==爆破手
@@ -401,6 +490,20 @@ Circulator==内在还原器
 	Pirate==海盗
 	Knight==骑士
 	Bowman==弓箭手
+	Ark==影魂异人
+	Aran==战神
+	Hero==英雄
+	Bishop==主教
+	Shadower==刀飞
+	Corsair==船长
+	Cannoneer==神炮王
+	Phantom==幻影
+	Mihile==米哈尔
+	Shade==隐月
+	Paladin==圣骑士
+	Archer==射手
+	Kaiser==狂龙战士
+	Cadena==魔链影士
 #}
 
 ##装备{
