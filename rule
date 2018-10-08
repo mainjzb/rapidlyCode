@@ -52,15 +52,22 @@ Reboot==R区
 	Monster Park==怪物公园
 	Ghost Park==鬼魂公园
 	Pollo/Fritto==保罗/菲利普
+	Pollo and Fritto==保罗和菲利普
 	Nett's Pyramid==奈特的金字塔
 	Nett’s Pyramid==奈特的金字塔
 	Dimension Invasion==次元入侵
+	Fox Valley==狐狸谷
+	Savage Terminal==野蛮终点站
+	Verdel==贝尔达
+	##################################
 #}
 
 ##BOSS{
 	Root Abyss==鲁比塔斯
 	Hard Lucid's==困难级路西德的
 	Hard Lucid’s==困难级路西德的
+	Hard Lotus==困难级斯乌
+	Hard Damien==困难级戴安米
 	Hard Lotus’s==困难级斯乌的
 	Hard Lotus's==困难级斯乌的
 	Hard Will's==困难级威尔的
@@ -88,6 +95,7 @@ Reboot==R区
 	Vellum==贝伦
 	Arkarium==阿卡伊勒
 	OMNI-CLN==钻机
+	Damien==戴安米
 #}
 
 
@@ -127,8 +135,8 @@ Reboot==R区
 	2x Exp Coupon==双倍经验卡
 	2x EXP Coupon==双倍经验卡
 	2x Drop Coupon==双倍爆率卡
-	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 	Power Elixir==超级药水
+	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 #}
 
 
@@ -209,8 +217,6 @@ Advanced Bonus==高级
 Intermediate Bonus==中级
 Basic Bonus==基础
 All Stats==全属性
-Hard Lotus==困难级斯乌
-Hard Damien==困难级戴安米
 World Leap system==转区系统
 Monster Life==怪物家园系统
 Trait Items==倾向物品
@@ -284,6 +290,11 @@ Infinite Pawsibilities==无限可能
 Infinite Pawsibilites==无限可能
 the Multikill counter==多连杀
 Combo Kill counter==连续击杀
+Maple Guide==冒险向导
+advancement prerequisites?==前置任务
+party quests?==组队任务
+V Matrix==V矩阵
+Double Jump==二段跳
 
 
 #语法{
@@ -303,6 +314,7 @@ Combo Kill counter==连续击杀
 	Premium Pet Food==永久宠物食品
 	Permanent when applied==使用后永久学会
 	Pet Boost Package==宠物技能包
+	Silver Husky==银色哈士奇
 #}
 
 
@@ -386,9 +398,12 @@ gachapon==玩具
 Tradeable==可交易
 untradeable==无法交易
 Untradable==无法交易
-Runes==符文
+runes==符文
 Rewards?==奖励
 Whiskers==胡子
+Pollo==保罗
+Fritto==菲利普
+
 
 #冒险岛{
 	MapleStoryM==冒险岛手机版
@@ -493,6 +508,7 @@ Whiskers==胡子
 	Pirate==海盗
 	Knight==骑士
 	Bowman==弓箭手
+	Bowmen==弓箭手
 	Ark==影魂异人
 	Aran==战神
 	Hero==英雄
