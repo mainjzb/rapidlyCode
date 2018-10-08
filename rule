@@ -53,6 +53,7 @@ Reboot==R区
 	Ghost Park==鬼魂公园
 	Pollo/Fritto==保罗/菲利普
 	Nett's Pyramid==奈特的金字塔
+	Nett’s Pyramid==奈特的金字塔
 	Dimension Invasion==次元入侵
 #}
 
@@ -124,6 +125,7 @@ Reboot==R区
 	Circulator==内在还原器
 	Rebirth Flames==绯红火花 
 	2x Exp Coupon==双倍经验卡
+	2x EXP Coupon==双倍经验卡
 	2x Drop Coupon==双倍爆率卡
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 	Power Elixir==超级药水
@@ -148,8 +150,8 @@ Teleport Rock==传送石
 Mu Lung Dojo==武陵道场
 Label Ring==名片戒指
 Chat Ring==聊天戒指
-(\d)x Drop (Rate)? Coupon==\1倍爆率卷
-(\d)x EXP Coupon==\1倍爆率卷
+(\d)x Drop (Rate)? Coupon==\1倍爆率卡
+(\d)x EXP Coupon==\1倍经验卡
 Drop buff==爆率Buff
 Respawn Token==原地复活符
 Respawn Pass==无限*原地复活符
@@ -430,11 +432,6 @@ Whiskers==胡子
 
 ##属性{
 	Level==等级
-	STR==力量
-	DEX==敏捷
-	LUK==运气
-	INT==智力
-	ATT==攻击力
 	Max MP==MP
 	Max HP==HP
 	Weapon Attack==攻击力
@@ -452,7 +449,13 @@ Whiskers==胡子
 	Boss Damage==BOSS伤害
 	BOSS Damage==BOSS伤害
 	Untradeable==不可交易
-	STR/DEX/INT/LUK==全属性
+	(Grants)? STR/DEX/INT/LUK==全属性
+	#########################################
+	STR==力量
+	DEX==敏捷
+	LUK==运气
+	INT==智力
+	ATT==攻击力
 #}
 
 ####职业{
