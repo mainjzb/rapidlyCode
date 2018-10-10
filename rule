@@ -23,6 +23,12 @@
 	All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
 	Use coupon to receive permanent item.==双击消耗栏卡卷获得物品。
 	Coupon has 7-day duration.==卡卷保留7天。
+	Receive 50% off when you do Potential appraisals or resets==装备潜能在鉴定或重置时花费的金币享受五折
+	The chance to receive new monsters for your Monster Collection is doubled==怪物收藏在收藏新怪物时概率翻倍
+	Potential appraisals or resets==装备潜能在鉴定或重置
+	Receive 50% off when you do Ability resets==内在能力花费荣誉半价
+	Can be received once per world==每个大区都可以收到一次
+	(\d\d?)-day stat duration==属性持续\1天
 #}
 
 
@@ -33,12 +39,20 @@ Lv. ([1-9]?\d\d)==\1级
 (\d)(\w\w) Job==\1转
 
 #
+Reboot \(EU\) or Reboot \(NA\) worlds==R区
 Non-Reboot Worlds==普通区
 Reboot Worlds?==R区
 All worlds==所有区
 Reboot==R区
+\[All Worlds\]==
+\(EU\)==(欧服)
+\(NA\)==(美服)
+Mapler==冒险家
 
 ##地名{
+	Vanishing Journey==消失的旅途(岛1每日)
+	Hungry Muto==饥饿的莫托(岛二每日)
+	Dream Defender==梦都防御战(岛三每日)
 	Arcane River==奥术河
 	Nameless Town==无名村
 	Chu Chu Island==啾啾岛(2岛)
@@ -51,15 +65,26 @@ Reboot==R区
 	Monster Park REBORN Coupon==怪物公园优惠券
 	Monster Park==怪物公园
 	Ghost Park==鬼魂公园
-	Pollo/Fritto==保罗/菲利普
-	Pollo and Fritto==保罗和菲利普
+	Pollo/Fritto==保罗/普利托
+	Pollo and Fritto Entry Ticket==保罗和普利托入场卷
+	Pollo and Fritto==保罗和普利托
 	Nett's Pyramid==奈特的金字塔
 	Nett’s Pyramid==奈特的金字塔
 	Dimension Invasion==次元入侵
 	Fox Valley==狐狸谷
 	Savage Terminal==野蛮终点站
-	Verdel==贝尔达
+	Monster Collection==怪物收藏
+	Gold Beach==金海岸
+	Six Path Crossway==六岔路口
+	Temple of Time==时间神殿
 	##################################
+	Verdel==贝尔达
+	Edelstein==埃德尔斯坦
+	Orbis==天空之城
+	Ellinia==魔法密林
+	Ellinel==艾利涅
+	Grandis==格兰蒂斯
+	Ellin==艾利
 #}
 
 ##BOSS{
@@ -72,6 +97,7 @@ Reboot==R区
 	Hard Lotus's==困难级斯乌的
 	Hard Will's==困难级威尔的
 	Hard Will’s==困难级威尔的
+	Hard Will==困难级威尔
 	Crimson Queen==血腥女皇
 	Von Bon==半半
 	Pink Bean==品克缤
@@ -134,7 +160,10 @@ Reboot==R区
 	Rebirth Flames==绯红火花 
 	2x Exp Coupon==双倍经验卡
 	2x EXP Coupon==双倍经验卡
+	2x EXP==双倍经验
+	2x Exp==双倍经验
 	2x Drop Coupon==双倍爆率卡
+	2x Drop==双倍爆率
 	Power Elixir==超级药水
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 #}
@@ -147,10 +176,9 @@ Selective (\d) Slot Coupon==可选择\1格扩展卷
 (\d) Slot Coupon==\1格扩展卷
 after maintenance==维护后
 star event notifier==星星
-Star Force enhancements==星星强化
-Star Force Enhancing==装备星星强化
-Star Force==装备星星强化
-Monster DEF Ignored==无视防御
+Star Force enhancements==装备星之力强化
+Star Force Enhancing==装备星之力强化
+Star Force==装备星之力强化
 Tradeable within account==账号内可交易
 Cash Shop==商城
 Hyper Teleport Rock==传送石
@@ -171,6 +199,7 @@ Safety Charm==死亡保护符
 Safety Gem==无限*死亡保护符
 Weapon DEF/Magic DEF ==防御力
 Bonus Stats==火花属性
+Spell Traces? enhancements==痕迹强化
 Spell Traces?==痕迹
 Mysterious Meso Pouch==随机金币袋
 Hot Week==炙热周
@@ -180,7 +209,7 @@ a Character Name Change Coupon==改名卡
 OX Quiz==“对错问答”
 OX quiz==“对错问答”
 Arcane Umbra==神秘之影
-Soul Shard==灵魂碎片
+Soul Shards?==灵魂碎片
 Maple World==冒险世界
 Mirror World==镜像世界
 True Arachnid Reflection==真*蜘蛛之影
@@ -201,9 +230,11 @@ item destruction chance==装备破坏率
 success chance==的成功率
 Soul Shooter==灵魂手铳
 Boss Monster Damage==BOSS伤害
+Monster DEF Ignored==无视防御
 Ignored Monster Defense==无视防御
 Ignored Monster DEF==无视防御
 Ignored Monster Def==无视防御
+Ignore DEF==无视防御
 Lucky Item Scroll==幸运卷轴
 Mage Suit==法师套服
 5th job==5转
@@ -255,6 +286,7 @@ Maple Admin==管理员
 Maple Relay Tier (\d) Box==冒险岛接力第\1礼盒
 Maple Relay==冒险接力
 Flash Jump==二段跳
+Sunny Sunday Perk==阳光周日
 Sunny Sunday==阳光周日
 Transfer Hammer==托德之锤
 Surprise Style Box==幸运箱
@@ -271,6 +303,7 @@ Combo Kill orbs==连击经验球
 Unique Equipped Item==唯一装备
 (\d\d?)-day duration==保留\1天
 Maple Reward Points==RP积分
+Reward Points==RP积分
 Special Medal of Honor==特殊荣誉勋章
 Medal of Honor==荣誉勋章
 Maple Missions==枫之使命
@@ -283,7 +316,6 @@ Verus Hilla==真神希腊
 Tera Burning==斗燃
 (\d) minutes==\1分钟
 tradeable within account==可仓库转移
-Damage Skin==伤害皮肤
 Golden Hammer==金锤子
 party member==队员
 Infinite Pawsibilities==无限可能
@@ -295,12 +327,28 @@ advancement prerequisites?==前置任务
 party quests?==组队任务
 V Matrix==V矩阵
 Double Jump==二段跳
-
+Receive 50% off==享受五折
+50% off==五折
+Elite monsters?==精英怪
+Elite monsters?==精英怪
+Elite Boss==精英BOSS
+Elite boss==精英BOSS
+Bounty Hunting==赏金猎人
+Magnificent Soul==伟大的灵魂
+Daily Box==每日盒子
+party leader==队长
+Lantern Erdas?==灯笼艾尔达
+drop items==爆出物品
 
 #语法{
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
 	a special deal==优惠
+#}
+
+###伤害皮肤{
+	Soccer Uniform==足球制服
+	Damage Skin==伤害皮肤
 #}
 
 
@@ -319,7 +367,8 @@ Double Jump==二段跳
 
 
 #万圣节{
-	Ghost Coins==鬼币
+	Zombuddy==僵尸
+	Ghost Coins?==鬼币
 	HALLOWEEN==万圣节
 	Pumpkin Zombie==南瓜僵尸
 	Hallowbat==万圣节
@@ -332,7 +381,8 @@ Double Jump==二段跳
 
 
 ##单
-Erda==艾尔达
+Ability==内在能力
+Erdas?==艾尔达
 Tomoyo==“知世”
 Syaoran==“小狼”
 Syaoran Li==“小狼”
@@ -343,6 +393,11 @@ Julieta==朱莉埃塔
 Skuas==斯库亚斯
 Ossyria==神秘岛
 Abrup==阿布鲁
+Ring==戒指
+Guild==公会
+Magnificent==伟大的
+Chaos==困难级
+###########################
 coins?==币
 coupons?==卡
 channel==频道
@@ -402,8 +457,9 @@ runes==符文
 Rewards?==奖励
 Whiskers==胡子
 Pollo==保罗
-Fritto==菲利普
-
+Fritto==普利托
+hunting==打怪
+hunt==猎杀 
 
 #冒险岛{
 	MapleStoryM==冒险岛手机版
@@ -471,6 +527,7 @@ Fritto==菲利普
 	LUK==运气
 	INT==智力
 	ATT==攻击力
+	DEF==防御力
 #}
 
 ####职业{
@@ -534,7 +591,7 @@ Fritto==菲利普
 	title==称号
 	armor==防具
 	Katana==武士刀
-	Fan==扇子
+	Fan\s==扇子
 	Scepter==驯兽魔法棒
 	Spear==枪
 	Polearm==矛
