@@ -29,6 +29,7 @@
 	Receive 50% off when you do Ability resets==内在能力花费荣誉半价
 	Can be received once per world==每个大区都可以收到一次
 	(\d\d?)-day stat duration==属性持续\1天
+	around your level==你的等级范围内
 #}
 
 
@@ -77,6 +78,10 @@ Mapler==冒险家
 	Gold Beach==金海岸
 	Six Path Crossway==六岔路口
 	Temple of Time==时间神殿
+	Heroes of Maple==冒险英雄
+	Black Heaven==黑色天堂
+	Oz Tower==起源之塔
+	Seed Tower==起源之塔
 	##################################
 	Verdel==贝尔达
 	Edelstein==埃德尔斯坦
@@ -85,6 +90,7 @@ Mapler==冒险家
 	Ellinel==艾利涅
 	Grandis==格兰蒂斯
 	Ellin==艾利
+	Dojo==道场
 #}
 
 ##BOSS{
@@ -166,14 +172,18 @@ Mapler==冒险家
 	2x Drop==双倍爆率
 	Power Elixir==超级药水
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
+	Storm Growth Potion==风暴成长药水
+	Storage Room (\d)-Slot Coupon==仓库\1格扩展券
+	Selective (\d)-Slot==可选择\1格扩展
+	Selective (\d) Slot Coupon==可选择\1格扩展卷
+	Selective (\d)-Slot Coupon==可选择\1格扩展卷
+	(\d) Slot Coupon==\1格扩展卷
 #}
 
 
 ##杂项+属性  10
-Cash Cover Hat==帽子时装
 Cash Cover Eye Accessory==眼镜时装
-Selective (\d) Slot Coupon==可选择\1格扩展卷
-(\d) Slot Coupon==\1格扩展卷
+Cash Cover Hat==帽子时装
 after maintenance==维护后
 star event notifier==星星
 Star Force enhancements==装备星之力强化
@@ -339,6 +349,7 @@ Daily Box==每日盒子
 party leader==队长
 Lantern Erdas?==灯笼艾尔达
 drop items==爆出物品
+Level Up==升级
 
 #语法{
 	to trade in for==换取
@@ -373,9 +384,9 @@ drop items==爆出物品
 	Pumpkin Zombie==南瓜僵尸
 	Hallowbat==万圣节
 	Hallowkitty==幽灵猫
-	Advanced Hasty Hunting Box==高级冬季狩猎盒
-	Superior Hasty Hunting Box==超级冬季狩猎盒
-	Basic Hasty Hunting Box==初级冬季狩猎盒
+	Advanced Hasty Hunting Box(es)?==高级冬季狩猎盒
+	Superior Hasty Hunting Box(es)?==超级冬季狩猎盒
+	Basic Hasty Hunting Box(es)?==初级冬季狩猎盒
 	Hasty Hunting==冬季狩猎
 #}
 
@@ -453,13 +464,16 @@ gachapon==玩具
 Tradeable==可交易
 untradeable==无法交易
 Untradable==无法交易
+Untradeabe==无法交易
 runes==符文
 Rewards?==奖励
 Whiskers==胡子
 Pollo==保罗
 Fritto==普利托
 hunting==打怪
+hunter==猎杀
 hunt==猎杀 
+permanent==永久
 
 #冒险岛{
 	MapleStoryM==冒险岛手机版
