@@ -1,19 +1,47 @@
-# '#'开头是注释
-# '=='左边是原文，右边是翻译
-# '==' 左边支持正则
-# 首字母小写，自动匹配大写版本
-#首字母小写的单词，自动忽略匹配上的单词首字母大小写。
+<!-- TOC -->
+
+- [规则](#规则)
+- [长句翻译](#长句翻译)
+- [等级](#等级)
+- [区域](#区域)
+- [点装|椅子](#点装椅子)
+- [地名](#地名)
+- [BOSS](#boss)
+- [物品](#物品)
+- [杂项+属性](#杂项属性)
+- [语法](#语法)
+- [伤害皮肤](#伤害皮肤)
+- [宠物](#宠物)
+- [万圣节](#万圣节)
+- [单](#单)
+- [单.](#单)
+- [冒险岛](#冒险岛)
+- [装备](#装备)
+- [属性](#属性)
+- [职业](#职业)
+- [装备](#装备-1)
+
+<!-- /TOC -->
+
+# 规则
+	#'#'开头是注释
+	#'=='左边是原文，右边是翻译
+	#'==' 左边支持正则
+	#首字母小写，自动匹配大写版本
+	#首字母小写的单词，自动忽略匹配上的单词首字母大小写。
+
+	#左边规则
+	#\d 匹配一个数字
+	#?  前面的内容可有可无
+
+	#右边规则
+	#\1 表示左边第一个被匹配的内容
 
 
-#左边规则
-#\d 匹配一个数字
-#?  前面的内容可有可无
-
-#右边规则
-#\1 表示左边第一个被匹配的内容
 
 
-##长句翻译{
+
+#  长句翻译
 	Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
 	Zero characters must have completed up to Chapter 2==神之子必须完成第二章
 	20 levels below and 20 levels above==20级以内
@@ -30,29 +58,29 @@
 	Can be received once per world==每个大区都可以收到一次
 	(\d\d?)-day stat duration==属性持续\1天
 	around your level==你的等级范围内
-#}
 
 
-##等级 10
-Req. Lv: ([1-9]?\d\d)==\1级以上
-Lv. ([1-9]?\d\d) and above==\1级以上
-Lv. ([1-9]?\d\d)==\1级
-(\d)(\w\w) Job==\1转
 
-#
-Reboot \(EU\) or Reboot \(NA\) worlds==R区
-Non-Reboot Worlds==普通区
-Reboot Worlds?==R区
-All worlds==所有区
-Reboot==R区
-\[All Worlds\]==
-\(EU\)==(欧服)
-\(NA\)==(美服)
-Mapler==冒险家
-’=='
+# 等级 
+	Req. Lv: ([1-9]?\d\d)==\1级以上
+	Lv. ([1-9]?\d\d) and above==\1级以上
+	Lv. ([1-9]?\d\d)==\1级
+	(\d)(\w\w) Job==\1转
+
+# 区域
+	Reboot \(EU\) or Reboot \(NA\) worlds==R区
+	Non-Reboot Worlds==普通区
+	Reboot Worlds?==R区
+	All worlds==所有区
+	Reboot==R区
+	\[All Worlds\]==
+	\(EU\)==(欧服)
+	\(NA\)==(美服)
+	Mapler==冒险家
+	’=='
 
 
-##点装|椅子{
+# 点装|椅子
 	kaptafel hat==卡塔费帽子
 	Custom Puppy==定制小狗
 	Halloween Candy Hoard Chair==万圣节糖果堆椅子
@@ -81,9 +109,9 @@ Mapler==冒险家
 	R.I.P. Chair==坟墓椅子
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
 	Worn Ghost Suit==破旧的鬼魂套服
-#}
 
-##地名{
+
+# 地名
 	Vanishing Journey==消失的旅途(岛1每日)
 	Hungry Muto==饥饿的莫托(岛二每日)
 	Dream Defender==梦都防御战(岛三每日)
@@ -124,9 +152,9 @@ Mapler==冒险家
 	Grandis==格兰蒂斯
 	Ellin==艾利
 	Dojo==道场
-#}
 
-##BOSS{
+
+# BOSS
 	Root Abyss==鲁比塔斯
 	Hard Lucid's==困难级路西德的
 	Hard Lucid’s==困难级路西德的
@@ -161,11 +189,11 @@ Mapler==冒险家
 	Arkarium==阿卡伊勒
 	OMNI-CLN==钻机
 	Damien==戴安米
-#}
 
 
 
-####物品{
+
+# 物品
 	Miracle Circulators?==内在还原器
 	Master Craftsman's Cubes?==黄魔方
 	Master Craftsman’s Cubes?==黄魔方
@@ -211,192 +239,192 @@ Mapler==冒险家
 	Selective (\d) Slot Coupon==可选择\1格扩展卷
 	Selective (\d)-Slot Coupon==可选择\1格扩展卷
 	(\d) Slot Coupon==\1格扩展卷
-#}
 
 
-##杂项+属性  10
-Cash Cover Eye Accessory==眼镜时装
-Cash Cover Hat==帽子时装
-after maintenance==维护后
-star event notifier==星星
-Star Force enhancements==装备星之力强化
-Star Force Enhancing==装备星之力强化
-Star Force==装备星之力强化
-Tradeable within account==账号内可交易
-Cash Shop==商城
-Hyper Teleport Rock==传送石
-Teleport Rock==传送石
-Mu Lung Dojo==武陵道场
-Label Ring==名片戒指
-Chat Ring==聊天戒指
-(\d)x Drop (Rate)? Coupon==\1倍爆率卡
-(\d)x EXP Coupon==\1倍经验卡
-Drop buff==爆率Buff
-Respawn Token==原地复活符
-Respawn Pass==无限*原地复活符
-Epic Potential Scroll==A潜能卷
-Legendary Potential Scrolls?==ss潜能卷轴
-Epic Potential==A潜能
-Buff Freezer==Buff保留符
-Safety Charm==死亡保护符
-Safety Gem==无限*死亡保护符
-Weapon DEF/Magic DEF ==防御力
-Bonus Stats==火花属性
-Spell Traces? enhancements==痕迹强化
-Spell Traces?==痕迹
-Mysterious Meso Pouch==随机金币袋
-Hot Week==炙热周
-Storage Room==仓库
-Mega Burning==斗燃
-a Character Name Change Coupon==改名卡
-OX Quiz==“对错问答”
-OX quiz==“对错问答”
-Arcane Umbra==神秘之影
-Soul Shards?==灵魂碎片
-Maple World==冒险世界
-Mirror World==镜像世界
-True Arachnid Reflection==真*蜘蛛之影
-Discovery Arena==探索竞技场
-Discovery Desert==探索沙漠
-Explorer-class character==冒险家职业
-Grab a party==组队
-Lab Server Coins==LAB币
-Lab Server==LAB服务器
-Lab world==LAB世界
-boost potions==强化药水
-Hard Will==困难级威尔
-Hard Mode==困难模式
-character slots==角色位
-star reduction chance==降低等级率
-star maintain chance==保留星级率
-item destruction chance==装备破坏率
-success chance==的成功率
-Soul Shooter==灵魂手铳
-Boss Monster Damage==BOSS伤害
-Monster DEF Ignored==无视防御
-Ignored Monster Defense==无视防御
-Ignored Monster DEF==无视防御
-Ignored Monster Def==无视防御
-Ignore DEF==无视防御
-Lucky Item Scroll==幸运卷轴
-Mage Suit==法师套服
-5th job==5转
-HP Cost==HP消耗
-Ark Points==Ark点
-El Nath==冰封雪域
-1 person is in the party==单人在队伍中
-Potential Items==潜能物品
-Potential Stamp==潜能印章
-Advanced Bonus==高级
-Intermediate Bonus==中级
-Basic Bonus==基础
-All Stats==全属性
-World Leap system==转区系统
-Monster Life==怪物家园系统
-Trait Items==倾向物品
-Raid Boss==BOSS
-Production Soul Enchanter==蓝色灵魂附魔石
-Soul Enchanter==灵魂附魔石
-Clean Slate Scroll==白衣卷轴
-Chaos Scroll==混沌卷轴
-Potential Scroll==潜能卷轴
-Surprise Pet Box==宠物抽奖箱
-Extra Character Slot Coupon==扩展角色位卡
-EXP Coupons?==经验卡
-Armor Supply Box==防具箱
-Weapon Supply Box==武器箱
-Eternal Rebirth Flame==彩虹火花
-Powerful Rebirth Flame==绯红火花
-Potion Pot==药剂罐
-Cash Inventory Transfer==商城转移
-Hair Color Coupon==染发卡
-Skin Coupon==肤色卡
-Hair Coupon==理发卡
-Maple Point==枫叶点
-Captain Vaga==瓦加舰长
-Double Rewards==双倍奖励
-equipment covers==武器点状
-\(M\)==(女)
-\(F\)==(男)
-Bonus Potential==附加潜能
-inventory slots==背包空间
-Bonus Potentials==附加潜能
-Orange Mushroom==花蘑菇
-Gift Box==礼物盒
-Miu Miu the Merchant==缪缪商店卡
-Maple Administrator==管理员
-Maple Admin==管理员
-Maple Relay Tier (\d) Box==冒险岛接力第\1礼盒
-Maple Relay==冒险接力
-Flash Jump==二段跳
-Sunny Sunday Perk==阳光周日
-Sunny Sunday==阳光周日
-Transfer Hammer==托德之锤
-Surprise Style Box==幸运箱
-Cardcaptor Sakura==百变小樱
-Sakura Kinomoto==小樱
-Kero-chan==“小可”
-Tomoyo Daidouji==“知世”
-Chaos Horntail==进阶黑龙
-Act (\d)==第\1章
-Sengoku High==战国高校
-Bug Brawl==昆虫大作战
-Inferno Wolf==地狱火焰狼
-Combo Kill orbs==连击经验球
-Unique Equipped Item==唯一装备
-(\d\d?)-day duration==保留\1天
-Maple Reward Points==RP积分
-Reward Points==RP积分
-Special Medal of Honor==特殊荣誉勋章
-Medal of Honor==荣誉勋章
-Maple Missions==枫之使命
-Sengoku Class Supplementary Pass==战国高校额外通行证
-Inner Abilities==内在能力
-1 hr==1小时
-Divine Intelligence==神圣的智慧
-Black Mage==黑暗法师
-Verus Hilla==真神希腊
-Tera Burning==斗燃
-(\d) minutes==\1分钟
-tradeable within account==可仓库转移
-Golden Hammer==金锤子
-party member==队员
-Infinite Pawsibilities==无限可能
-Infinite Pawsibilites==无限可能
-the Multikill counter==多连杀
-Combo Kill counter==连续击杀
-Maple Guide==冒险向导
-advancement prerequisites?==前置任务
-party quests?==组队任务
-V Matrix==V矩阵
-Double Jump==二段跳
-Receive 50% off==享受五折
-50% off==五折
-Elite monsters?==精英怪
-Elite monsters?==精英怪
-Elite Boss==精英BOSS
-Elite boss==精英BOSS
-Bounty Hunting==赏金猎人
-Magnificent Soul==伟大的灵魂
-Daily Box==每日盒子
-party leader==队长
-Lantern Erdas?==灯笼艾尔达
-drop items==爆出物品
-Level Up==升级
 
-#语法{
+# 杂项+属性  
+	Cash Cover Eye Accessory==眼镜时装
+	Cash Cover Hat==帽子时装
+	after maintenance==维护后
+	star event notifier==星星
+	Star Force enhancements==装备星之力强化
+	Star Force Enhancing==装备星之力强化
+	Star Force==装备星之力强化
+	Tradeable within account==账号内可交易
+	Cash Shop==商城
+	Hyper Teleport Rock==传送石
+	Teleport Rock==传送石
+	Mu Lung Dojo==武陵道场
+	Label Ring==名片戒指
+	Chat Ring==聊天戒指
+	(\d)x Drop (Rate)? Coupon==\1倍爆率卡
+	(\d)x EXP Coupon==\1倍经验卡
+	Drop buff==爆率Buff
+	Respawn Token==原地复活符
+	Respawn Pass==无限*原地复活符
+	Epic Potential Scroll==A潜能卷
+	Legendary Potential Scrolls?==ss潜能卷轴
+	Epic Potential==A潜能
+	Buff Freezer==Buff保留符
+	Safety Charm==死亡保护符
+	Safety Gem==无限*死亡保护符
+	Weapon DEF/Magic DEF ==防御力
+	Bonus Stats==火花属性
+	Spell Traces? enhancements==痕迹强化
+	Spell Traces?==痕迹
+	Mysterious Meso Pouch==随机金币袋
+	Hot Week==炙热周
+	Storage Room==仓库
+	Mega Burning==斗燃
+	a Character Name Change Coupon==改名卡
+	OX Quiz==“对错问答”
+	OX quiz==“对错问答”
+	Arcane Umbra==神秘之影
+	Soul Shards?==灵魂碎片
+	Maple World==冒险世界
+	Mirror World==镜像世界
+	True Arachnid Reflection==真*蜘蛛之影
+	Discovery Arena==探索竞技场
+	Discovery Desert==探索沙漠
+	Explorer-class character==冒险家职业
+	Grab a party==组队
+	Lab Server Coins==LAB币
+	Lab Server==LAB服务器
+	Lab world==LAB世界
+	boost potions==强化药水
+	Hard Will==困难级威尔
+	Hard Mode==困难模式
+	character slots==角色位
+	star reduction chance==降低等级率
+	star maintain chance==保留星级率
+	item destruction chance==装备破坏率
+	success chance==的成功率
+	Soul Shooter==灵魂手铳
+	Boss Monster Damage==BOSS伤害
+	Monster DEF Ignored==无视防御
+	Ignored Monster Defense==无视防御
+	Ignored Monster DEF==无视防御
+	Ignored Monster Def==无视防御
+	Ignore DEF==无视防御
+	Lucky Item Scroll==幸运卷轴
+	Mage Suit==法师套服
+	5th job==5转
+	HP Cost==HP消耗
+	Ark Points==Ark点
+	El Nath==冰封雪域
+	1 person is in the party==单人在队伍中
+	Potential Items==潜能物品
+	Potential Stamp==潜能印章
+	Advanced Bonus==高级
+	Intermediate Bonus==中级
+	Basic Bonus==基础
+	All Stats==全属性
+	World Leap system==转区系统
+	Monster Life==怪物家园系统
+	Trait Items==倾向物品
+	Raid Boss==BOSS
+	Production Soul Enchanter==蓝色灵魂附魔石
+	Soul Enchanter==灵魂附魔石
+	Clean Slate Scroll==白衣卷轴
+	Chaos Scroll==混沌卷轴
+	Potential Scroll==潜能卷轴
+	Surprise Pet Box==宠物抽奖箱
+	Extra Character Slot Coupon==扩展角色位卡
+	EXP Coupons?==经验卡
+	Armor Supply Box==防具箱
+	Weapon Supply Box==武器箱
+	Eternal Rebirth Flame==彩虹火花
+	Powerful Rebirth Flame==绯红火花
+	Potion Pot==药剂罐
+	Cash Inventory Transfer==商城转移
+	Hair Color Coupon==染发卡
+	Skin Coupon==肤色卡
+	Hair Coupon==理发卡
+	Maple Point==枫叶点
+	Captain Vaga==瓦加舰长
+	Double Rewards==双倍奖励
+	equipment covers==武器点状
+	\(M\)==(女)
+	\(F\)==(男)
+	Bonus Potential==附加潜能
+	inventory slots==背包空间
+	Bonus Potentials==附加潜能
+	Orange Mushroom==花蘑菇
+	Gift Box==礼物盒
+	Miu Miu the Merchant==缪缪商店卡
+	Maple Administrator==管理员
+	Maple Admin==管理员
+	Maple Relay Tier (\d) Box==冒险岛接力第\1礼盒
+	Maple Relay==冒险接力
+	Flash Jump==二段跳
+	Sunny Sunday Perk==阳光周日
+	Sunny Sunday==阳光周日
+	Transfer Hammer==托德之锤
+	Surprise Style Box==幸运箱
+	Cardcaptor Sakura==百变小樱
+	Sakura Kinomoto==小樱
+	Kero-chan==“小可”
+	Tomoyo Daidouji==“知世”
+	Chaos Horntail==进阶黑龙
+	Act (\d)==第\1章
+	Sengoku High==战国高校
+	Bug Brawl==昆虫大作战
+	Inferno Wolf==地狱火焰狼
+	Combo Kill orbs==连击经验球
+	Unique Equipped Item==唯一装备
+	(\d\d?)-day duration==保留\1天
+	Maple Reward Points==RP积分
+	Reward Points==RP积分
+	Special Medal of Honor==特殊荣誉勋章
+	Medal of Honor==荣誉勋章
+	Maple Missions==枫之使命
+	Sengoku Class Supplementary Pass==战国高校额外通行证
+	Inner Abilities==内在能力
+	1 hr==1小时
+	Divine Intelligence==神圣的智慧
+	Black Mage==黑暗法师
+	Verus Hilla==真神希腊
+	Tera Burning==斗燃
+	(\d) minutes==\1分钟
+	tradeable within account==可仓库转移
+	Golden Hammer==金锤子
+	party member==队员
+	Infinite Pawsibilities==无限可能
+	Infinite Pawsibilites==无限可能
+	the Multikill counter==多连杀
+	Combo Kill counter==连续击杀
+	Maple Guide==冒险向导
+	advancement prerequisites?==前置任务
+	party quests?==组队任务
+	V Matrix==V矩阵
+	Double Jump==二段跳
+	Receive 50% off==享受五折
+	50% off==五折
+	Elite monsters?==精英怪
+	Elite monsters?==精英怪
+	Elite Boss==精英BOSS
+	Elite boss==精英BOSS
+	Bounty Hunting==赏金猎人
+	Magnificent Soul==伟大的灵魂
+	Daily Box==每日盒子
+	party leader==队长
+	Lantern Erdas?==灯笼艾尔达
+	drop items==爆出物品
+	Level Up==升级
+
+# 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
 	a special deal==优惠
-#}
 
-###伤害皮肤{
+
+# 伤害皮肤
 	Soccer Uniform==足球制服
 	Damage Skin==伤害皮肤
-#}
 
 
-####宠物{
+
+# 宠物
 	Expanded Auto Move Skill==扩展移动技能
 	Auto Move Skill==自动移动技能
 	Auto Feed and Movement Skill==自动喂食和移动技能
@@ -407,10 +435,10 @@ Level Up==升级
 	Permanent when applied==使用后永久学会
 	Pet Boost Package==宠物技能包
 	Silver Husky==银色哈士奇
-#}
 
 
-#万圣节{
+
+# 万圣节
 	Zombuddy==僵尸
 	Ghost Coins?==鬼币
 	HALLOWEEN==万圣节
@@ -427,106 +455,106 @@ Level Up==升级
 	Ghoulbusting==僵尸狩猎
 	Worn Witch==破旧的女巫
 	Zombie==僵尸
-#}
 
 
 
 
-##单
-Ability==内在能力
-Erdas?==艾尔达
-Tomoyo==“知世”
-Syaoran==“小狼”
-Syaoran Li==“小狼”
-Henesys==射手村
-EXP==经验
-Recipes?==配方
-Julieta==朱莉埃塔
-Skuas==斯库亚斯
-Ossyria==神秘岛
-Abrup==阿布鲁
-Ring==戒指
-Guild==公会
-Magnificent==伟大的
-Chaos==困难级
-Costume==套服
-###########################
-coins?==币
-coupons?==卡
-channel==频道
-characters?==角色
-maplers==冒险家们
-flames==火花
-\sring==戒指
-equipment==装备
-equips?==装备套
-\s+events?==活动
-EVENTS?==活动
-mesos==金币
-players==玩家
-reflection==反伤
-Potions==药水
-potions==药水
-dorp==掉落
-hardcore==极端
-job==职业
-scrolls?==卷轴
-boss==BOSS
-sweetwater==漩涡
-non-Transposed==非继承
-transposed==继承
-Lv.==等级
-zero==神之子
-Shoulder==护肩
-Essence==精华
-Fortuitous==幸运的
-Swift==敏捷的
-Clever==聪明的
-Beefy==强壮的
-Flashy==华丽的
-Hearty==旺盛的
-Potent\s==强效的
-Radiant==闪耀的
-Soul==灵魂
-Items==物品
-Afinas?==阿维纳斯
-Bebe==贝贝
-Chair==椅子
-Player==玩家
-AbsoLab==AB
-Credit==信用值
-Monad==莫奈得
-Drop==爆率
-Megaphone==喇叭
-Beret==蓓蕾帽
-Epic (Rank)?== -A级(紫色)
-potential==潜能
-safeguard==强化防爆
-gachapon==玩具
-Tradeable==可交易
-untradeable==无法交易
-Untradable==无法交易
-Untradeabe==无法交易
-runes==符文
-Rewards?==奖励
-Whiskers==胡子
-Pollo==保罗
-Fritto==普利托
-hunting==猎杀
-hunter==猎杀
-hunt==猎杀 
-permanent==永久
 
-#冒险岛{
+# 单
+	Ability==内在能力
+	Erdas?==艾尔达
+	Tomoyo==“知世”
+	Syaoran==“小狼”
+	Syaoran Li==“小狼”
+	Henesys==射手村
+	EXP==经验
+	Recipes?==配方
+	Julieta==朱莉埃塔
+	Skuas==斯库亚斯
+	Ossyria==神秘岛
+	Abrup==阿布鲁
+	Ring==戒指
+	Guild==公会
+	Magnificent==伟大的
+	Chaos==困难级
+	Costume==套服
+# 单.
+	coins?==币
+	coupons?==卡
+	channel==频道
+	characters?==角色
+	maplers==冒险家们
+	flames==火花
+	\sring==戒指
+	equipment==装备
+	equips?==装备套
+	\s+events?==活动
+	EVENTS?==活动
+	mesos==金币
+	players==玩家
+	reflection==反伤
+	Potions==药水
+	potions==药水
+	dorp==掉落
+	hardcore==极端
+	job==职业
+	scrolls?==卷轴
+	boss==BOSS
+	sweetwater==漩涡
+	non-Transposed==非继承
+	transposed==继承
+	Lv.==等级
+	zero==神之子
+	Shoulder==护肩
+	Essence==精华
+	Fortuitous==幸运的
+	Swift==敏捷的
+	Clever==聪明的
+	Beefy==强壮的
+	Flashy==华丽的
+	Hearty==旺盛的
+	Potent\s==强效的
+	Radiant==闪耀的
+	Soul==灵魂
+	Items==物品
+	Afinas?==阿维纳斯
+	Bebe==贝贝
+	Chair==椅子
+	Player==玩家
+	AbsoLab==AB
+	Credit==信用值
+	Monad==莫奈得
+	Drop==爆率
+	Megaphone==喇叭
+	Beret==蓓蕾帽
+	Epic (Rank)?== -A级(紫色)
+	potential==潜能
+	safeguard==强化防爆
+	gachapon==玩具
+	Tradeable==可交易
+	untradeable==无法交易
+	Untradable==无法交易
+	Untradeabe==无法交易
+	runes==符文
+	Rewards?==奖励
+	Whiskers==胡子
+	Pollo==保罗
+	Fritto==普利托
+	hunting==猎杀
+	hunter==猎杀
+	hunt==猎杀 
+	permanent==永久
+
+# 冒险岛
 	MapleStoryM==冒险岛手机版
 	MapleStory M==冒险岛手机版
 	Maple M\s==冒险岛手机版
 	MapleStory==冒险岛
-#}
 
 
 
-####装备{
+
+# 装备
 	Two-handed Sword==双手剑
 	Two-Handed Sword==双手剑
 	Two-Handed Axe==双手斧
@@ -548,11 +576,9 @@ permanent==永久
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
 	Pendant of the Spirit==精灵吊坠
-#}   
 
 
-
-##属性{
+# 属性
 	Level==等级
 	Max MP==MP
 	Max HP==HP
@@ -572,16 +598,17 @@ permanent==永久
 	BOSS Damage==BOSS伤害
 	Untradeable==不可交易
 	(Grants)? STR/DEX/INT/LUK==全属性
-	#########################################
+
+
 	STR==力量
 	DEX==敏捷
 	LUK==运气
 	INT==智力
 	ATT==攻击力
 	DEF==防御力
-#}
 
-####职业{
+
+# 职业
 	Demon Avenger==恶魔复仇者(白毛)
 	Beast Tamer==林之灵
 	Angelic Buster==爆莉萌天使
@@ -597,9 +624,7 @@ permanent==永久
 	Bow Master==神射手
 	Wind Archer==风灵使者		
 
-#}
 
-##职业{
 	Bowmaster==神射手
 	Warrior==战士
 	Hayato==剑豪
@@ -631,16 +656,15 @@ permanent==永久
 	Archer==射手
 	Kaiser==狂龙战士
 	Cadena==魔链影士
-#}
 
-##装备{
+
+# 装备
 	Top==上衣
 	Bottom==裤子
 	Medal==勋章
 	Badge==徽章
 	Totem==图腾
-	title==称号
-	armor==防具
+	Title==称号
 	Katana==武士刀
 	Fan\s==扇子
 	Scepter==驯兽魔法棒
@@ -670,4 +694,4 @@ permanent==永久
 	Chain==锁链
 	Gun==短枪
 	Knuckle==指节
-#}
+	armor==防具
