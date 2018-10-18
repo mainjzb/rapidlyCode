@@ -49,6 +49,39 @@ Reboot==R区
 \(EU\)==(欧服)
 \(NA\)==(美服)
 Mapler==冒险家
+’=='
+
+
+##点装|椅子{
+	kaptafel hat==卡塔费帽子
+	Custom Puppy==定制小狗
+	Halloween Candy Hoard Chair==万圣节糖果堆椅子
+	Ghost Ship Chair==幽灵船椅子
+	Black Cat Camper==黑色猫咪露营车
+	Elite Pumpkin Pal==僵尸朋友椅子
+	Halloween Pumpkin Chair==万圣节南瓜椅子
+	Halloween Damage Skin==万圣节伤害皮肤
+	Halloween Cat-O-Lantern Mask==万圣节南瓜猫咪头套
+	Halloween Mummy Mask==万圣节木乃伊头套
+	Halloween Werewolf Mask==万圣节狼人头套
+	Halloween Skull Mask==万圣节骷髅头套
+	Halloween Frankenstein Mask==万圣节绿人头套
+	Halloween Dracula Mask==万圣节吸血鬼头套
+	Hallowkitty's Witch Hat==万圣节巫婆猫帽子
+	Cow Mask==小黄牛头套
+	Cow Costume==小黄牛套服
+	Ghost Mask==幽灵头套
+	Ghost Costume==幽灵套服
+	Jiangshi Hat==僵尸帽子
+	Blue Jiangshi Costume==蓝色僵尸套服
+	Paper Bag==纸袋头套
+	Paper Box==纸盒衣服
+	Angel Halo==天使光环
+	Angel Costume==天使套服
+	R.I.P. Chair==坟墓椅子
+	Witch's Broomstick Mount==巫婆的扫帚坐骑
+	Worn Ghost Suit==破旧的鬼魂套服
+#}
 
 ##地名{
 	Vanishing Journey==消失的旅途(岛1每日)
@@ -381,14 +414,22 @@ Level Up==升级
 	Zombuddy==僵尸
 	Ghost Coins?==鬼币
 	HALLOWEEN==万圣节
-	Pumpkin Zombie==南瓜僵尸
+	Pumpkin Zombies?==南瓜僵尸
 	Hallowbat==万圣节
 	Hallowkitty==幽灵猫
 	Advanced Hasty Hunting Box(es)?==高级冬季狩猎盒
 	Superior Hasty Hunting Box(es)?==超级冬季狩猎盒
 	Basic Hasty Hunting Box(es)?==初级冬季狩猎盒
 	Hasty Hunting==冬季狩猎
+	Frankenbalrogs==蝙蝠魔僵尸
+	Ghoulbusters Coin Shop==鬼币兑换商店
+	Ghoulbusters==僵尸猎杀
+	Ghoulbusting==僵尸狩猎
+	Worn Witch==破旧的女巫
+	Zombie==僵尸
 #}
+
+
 
 
 ##单
@@ -408,6 +449,7 @@ Ring==戒指
 Guild==公会
 Magnificent==伟大的
 Chaos==困难级
+Costume==套服
 ###########################
 coins?==币
 coupons?==卡
@@ -470,7 +512,7 @@ Rewards?==奖励
 Whiskers==胡子
 Pollo==保罗
 Fritto==普利托
-hunting==打怪
+hunting==猎杀
 hunter==猎杀
 hunt==猎杀 
 permanent==永久
@@ -482,11 +524,6 @@ permanent==永久
 	MapleStory==冒险岛
 #}
 
-##点装{
-	kaptafel hat==卡塔费帽子
-	Custom Puppy==定制小狗
-	Halloween Candy Hoard Chair==万圣节糖果堆椅子
-#}
 
 
 ####装备{
