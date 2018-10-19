@@ -76,9 +76,11 @@
 	\(NA\)==(美服)
 	Mapler==冒险家
 	’=='
-
+	v.(\d\d\d)==\1版本
+	Nexon Launcher==NX登录器
 
 # 点装|椅子
+	Avatar Box Stamps==黑色星票
 	kaptafel hat==卡塔费帽子
 	Custom Puppy==定制小狗
 	Halloween Candy Hoard Chair==万圣节糖果堆椅子
@@ -479,7 +481,7 @@
 # 单.
 	coins?==币
 	coupons?==卡
-	channel==频道
+	channels?==频道
 	characters?==角色
 	maplers==冒险家们
 	flames==火花
@@ -662,7 +664,7 @@
 	Medal==勋章
 	Badge==徽章
 	Totem==图腾
-	Title==称号
+	title==称号
 	Katana==武士刀
 	Fan\s==扇子
 	Scepter==驯兽魔法棒
