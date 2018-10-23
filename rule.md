@@ -111,6 +111,57 @@
 	Worn Ghost Suit==破旧的鬼魂套服
 
 
+# 职业
+	Demon Avenger==恶魔复仇者(白毛)
+	Beast Tamer==林之灵
+	Angelic Buster==爆莉萌天使
+	Dark Knight==黑骑
+	Wind Archer==风灵使者
+	Thunder Breaker==奇袭者
+	Dual Blade==双刀
+	Blaze Wizard==炎术士
+	Night Walker==夜行者
+	Wild Hunter==豹弩游侠
+	Arch Mage==魔导师
+	\(Fire Poison\)==（火毒）
+	Bow Master==神射手
+	Wind Archer==风灵使者		
+
+
+	Bowmaster==神射手
+	Warrior==战士
+	Hayato==剑豪
+	Blaster==爆破手
+	Magician==法师
+	Mage==法师
+	Evan==龙神
+	Kanna==阴阳师
+	Illium==圣晶使徒
+	Luminous==夜光法师
+	Kinesis==超能力者
+	Thief==飞侠
+	Xenon==尖兵
+	Pirate==海盗
+	Knight==骑士
+	Bowman==弓箭手
+	Bowmen==弓箭手
+	Ark==影魂异人
+	Aran==战神
+	Hero==英雄
+	Bishop==主教
+	Shadower==刀飞
+	Corsair==船长
+	Cannoneer==神炮王
+	Phantom==幻影
+	Mihile==米哈尔
+	Shade==隐月
+	Paladin==圣骑士
+	Archer==射手
+	Kaiser==狂龙战士
+	Cadena==魔链影士
+
+
+
 # 地名
 	Vanishing Journey==消失的旅途(岛1每日)
 	Hungry Muto==饥饿的莫托(岛二每日)
@@ -606,56 +657,6 @@
 	INT==智力
 	ATT==攻击力
 	DEF==防御力
-
-
-# 职业
-	Demon Avenger==恶魔复仇者(白毛)
-	Beast Tamer==林之灵
-	Angelic Buster==爆莉萌天使
-	Dark Knight==黑骑
-	Wind Archer==风灵使者
-	Thunder Breaker==奇袭者
-	Dual Blade==双刀
-	Blaze Wizard==炎术士
-	Night Walker==夜行者
-	Wild Hunter==豹弩游侠
-	Arch Mage==魔导师
-	\(Fire Poison\)==（火毒）
-	Bow Master==神射手
-	Wind Archer==风灵使者		
-
-
-	Bowmaster==神射手
-	Warrior==战士
-	Hayato==剑豪
-	Blaster==爆破手
-	Magician==法师
-	Mage==法师
-	Evan==龙神
-	Kanna==阴阳师
-	Illium==圣晶使徒
-	Luminous==夜光法师
-	Kinesis==超能力者
-	Thief==飞侠
-	Xenon==尖兵
-	Pirate==海盗
-	Knight==骑士
-	Bowman==弓箭手
-	Bowmen==弓箭手
-	Ark==影魂异人
-	Aran==战神
-	Hero==英雄
-	Bishop==主教
-	Shadower==刀飞
-	Corsair==船长
-	Cannoneer==神炮王
-	Phantom==幻影
-	Mihile==米哈尔
-	Shade==隐月
-	Paladin==圣骑士
-	Archer==射手
-	Kaiser==狂龙战士
-	Cadena==魔链影士
 
 
 # 装备

@@ -1,4 +1,5 @@
 *.html
 !GLCSM.html
+!New_GLCSM.html
 !cn2en.html
 Code/
