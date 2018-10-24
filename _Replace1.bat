@@ -1,3 +1,3 @@
 del b.html
-start IntelligentReplace.exe
+start ./bin/RapidlyCode.exe 
 exit
