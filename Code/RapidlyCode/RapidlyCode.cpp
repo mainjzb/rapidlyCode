@@ -8,11 +8,20 @@
 #include <QDate>
 #include "cmdline.h"
 
-QString * XRule2Content( QString ruleFile_s, QString * content );
-QString * XReplace( QString *, const QStringList& );
+
+struct sRule
+{
+	QRegExp before;
+	QString after;
+};
+
+
+void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules );
+QString * XReplace( QString * content, const QVector<sRule*>& rules );
 void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFile );
 bool XPrint( const char* );
 void CoverDateTimeToBeijin( QString & utcTime );
+
 
 
 
@@ -64,8 +73,9 @@ int main( int argc, char *argv[] )
 	QString * content = new QString( u8"" );
 	*content = stream.readAll();
 
-
-	content = XRule2Content(ruleFile_s, content);
+	QVector<sRule*> rules;
+	XParseRule(ruleFile_s, rules);
+	content = XReplace( content, rules );
 
 
 	SaveToFile( outStream, *content, adFlag, adPath );
@@ -81,7 +91,7 @@ int main( int argc, char *argv[] )
 	return 0;
 }
 
-QString * XReplace( QString * content, const QStringList & ruleList )
+QString * XReplace( QString * content, const QVector<sRule*>& rules )
 {
 	if ( content == nullptr )
 	{
@@ -89,16 +99,11 @@ QString * XReplace( QString * content, const QStringList & ruleList )
 		return nullptr;
 	}
 
-
 	QString * result = new QString();
-	QRegExp src = QRegExp( ruleList.at( 0 ) );
-	QString dest = ruleList.at( 1 );
-
 
 #ifdef QT_DEBUG
 	QTextStream out( stdout );
-	//out << src << "==" << dest << endl;
-	qDebug() << src;
+	//qDebug() << src;
 #endif
 
 	int start = 0, end = 1;
@@ -134,10 +139,16 @@ QString * XReplace( QString * content, const QStringList & ruleList )
 			//content.remove( 0, end );
 			start = end;
 
-			tmpString.replace( src, dest );
+			for ( const sRule* rule : rules )
+			{
+				tmpString.replace( rule->before, rule->after );
+			}
+
 			result->append( tmpString );
 		}
 	}
+
+
 
 	delete content;
 	return result;
@@ -145,27 +156,25 @@ QString * XReplace( QString * content, const QStringList & ruleList )
 
 bool XPrint( const char* s )
 {
-	QTextStream out( stdout );
-	out << s << endl;
+	//QTextStream out( stdout );
+	//out << s << endl;
 	qDebug() << s;
 	return true;
 }
 
-QString * XRule2Content( QString ruleFile_s, QString * content )
+void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules )
 {
 	QFile ruleFile( ruleFile_s );
 	if ( !ruleFile.open( QFile::ReadWrite ) )
 	{
 		XPrint( "[XRule2Content]: ruleFile open error" );
 		Q_ASSERT(false);
-		return content;
 	}
 	QString ruleFilePath = ruleFile_s.left( ruleFile_s.lastIndexOf( "/" ) + 1 );
 
 
 	QTextStream replaceStream( &ruleFile );
 	replaceStream.setCodec( "UTF-8" );
-
 
 	while ( !replaceStream.atEnd() )
 	{
@@ -181,7 +190,7 @@ QString * XRule2Content( QString ruleFile_s, QString * content )
 				int start = rule.indexOf( '"' );
 				int end = rule.lastIndexOf( '"' );
 				QString importRulePath = ruleFilePath + rule.mid( start + 1, end - start - 1 ).trimmed();
-				content = XRule2Content( importRulePath, content );
+				XParseRule( importRulePath, rules );
 				continue;
 			}
 		}
@@ -191,7 +200,10 @@ QString * XRule2Content( QString ruleFile_s, QString * content )
 
 		Q_ASSERT( ruleList.length() == 2 );
 
-		content = XReplace( content, ruleList );
+		sRule * newRule = new sRule();
+		newRule->before = QRegExp( ruleList.at( 0 ) );
+		newRule->after = ruleList.at( 1 );
+		rules.push_back( newRule );
 		
 		if ( ruleList.at( 0 ).at( 0 ).isLower() )
 		{
@@ -200,16 +212,15 @@ QString * XRule2Content( QString ruleFile_s, QString * content )
 
 			QString::iterator it = rule_src.begin();
 			*it = ( *it ).toUpper();
-			QStringList ruleList2;
-			ruleList2.append( rule_src );
-			ruleList2.append( rule_dst );
-			content = XReplace( content, ruleList2 );
+
+			sRule * newRule2 = new sRule();
+			newRule2->before = QRegExp( rule_src );
+			newRule2->after = rule_dst;
+			rules.push_back( newRule2 );
 		}
 	}
 
-
 	ruleFile.close();
-	return content;
 }
 
 void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFilePath)
