@@ -4,12 +4,15 @@
 #include <QTextStream>
 #include <QTextCodec>
 #include <QDebug>
+#include <QDateTime>
+#include <QDate>
 #include "cmdline.h"
 
 QString * XRule2Content( QString ruleFile_s, QString * content );
 QString * XReplace( QString *, const QStringList& );
 void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFile );
 bool XPrint( const char* );
+void CoverDateTimeToBeijin( QString & utcTime );
 
 
 
@@ -43,7 +46,7 @@ int main( int argc, char *argv[] )
 
 	//set UTF-8
 	QTextCodec::setCodecForLocale( QTextCodec::codecForName( "UTF8" ) );
-	int ruleCount = cmdopt.rest().size();
+	size_t ruleCount = cmdopt.rest().size();
 	int iRule = 0;
 
 	QFile srcFile( srcFile_s );
@@ -123,6 +126,11 @@ QString * XReplace( QString * content, const QStringList & ruleList )
 				end = contentLength;
 			}
 			QString tmpString = content->mid( start, end - start );
+
+			if ( tmpString.leftRef( 3 ) == "UTC" )
+			{
+				CoverDateTimeToBeijin( tmpString );
+			}
 			//content.remove( 0, end );
 			start = end;
 
@@ -184,6 +192,7 @@ QString * XRule2Content( QString ruleFile_s, QString * content )
 		Q_ASSERT( ruleList.length() == 2 );
 
 		content = XReplace( content, ruleList );
+		
 		if ( ruleList.at( 0 ).at( 0 ).isLower() )
 		{
 			QString rule_src = ruleList.at( 0 );
@@ -235,4 +244,58 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 		outStream << content;
 		outStream.flush();
 	}
+}
+
+void CoverDateTimeToBeijin(QString & utcTime)
+{
+	QString result1, result2;
+	utcTime.remove( 0, 4 ).trimmed();
+
+	QStringList tmpstring = utcTime.split( QString::fromWCharArray(L"–") );
+	if ( tmpstring.length() < 2 )
+	{
+		tmpstring = utcTime.split( '-' );
+	}
+	if ( tmpstring.length() != 2 )
+	{
+		return;
+	}
+
+	QString startTime = tmpstring.at( 0 ).trimmed();
+	QString endTime = tmpstring.at( 1 ).trimmed();
+
+	QLocale loc = QLocale( QLocale::English );
+	QDateTime date1 = loc.toDateTime( startTime, "MMMM d 'at' h:mm AP" );
+	QDateTime date2 = loc.toDateTime( endTime, "MMMM d 'at' h:mm AP" );
+	QDate currentDate = QDate::currentDate();
+
+
+	if ( !date1.isValid() && !date2.isValid() )
+	{
+		return;
+	}
+	if ( date1.isValid() )
+	{
+		date1 = date1.addSecs( qint64( 8 * 3600 ) );
+		date1.setDate( QDate( currentDate.year(), date1.date().month(), date1.date().day() ) );
+		result1 = date1.toString( L"M月d日 ap h:mm" );
+	}
+	else
+	{
+		result1 = startTime;
+	}
+
+	if ( date2.isValid() )
+	{
+		date2 = date2.addSecs( qint64( 8 * 3600 ) );
+		date2.setDate( QDate( currentDate.year(), date2.date().month(), date2.date().day() ) );
+		result2 = date2.toString( L"M月d日 ap h:mm" );
+	}
+	else
+	{
+		result2 = endTime;
+	}
+
+	utcTime.clear();
+	utcTime = QString(u8"北京时间：") + result1 + " - " + result2;
 }
