@@ -21,10 +21,9 @@
 - [装备.](#装备)
 
 
-	#预计新功能   @import(./rule2.md) 
-	#导入rule2.md文件
+##预计功能：替换完成在文章最后+上广告链接。
 
-@import "./rule2"
+@import "./rule_event.md"
 
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
@@ -132,7 +131,8 @@
 	Bow Master==神射手
 	Wind Archer==风灵使者		
 
-
+	Explorer==冒险家
+	Resistance==反抗者
 	Bowmaster==神射手
 	Warrior==战士
 	Hayato==剑豪
@@ -199,7 +199,13 @@
 	Black Heaven==黑色天堂
 	Oz Tower==起源之塔
 	Seed Tower==起源之塔
+	Kerning Jazz Bar==废弃都市爵士酒吧
+	Tru's Info Shop==特鲁的情报商店（明珠港）
+	Tangyoon's Food==唐云的料理
+	
 	##################################
+	Magatia==玛加提亚
+	Tangyoon==唐云
 	Verdel==贝尔达
 	Edelstein==埃德尔斯坦
 	Orbis==天空之城
@@ -208,7 +214,10 @@
 	Grandis==格兰蒂斯
 	Ellin==艾利
 	Dojo==道场
-
+	Cassandra==卡珊德拉
+	Ludibrium==玩具城
+	Kerning==废弃都市
+	Tru==特鲁
 
 # BOSS
 	Root Abyss==鲁比塔斯
@@ -467,6 +476,7 @@
 	Lantern Erdas?==灯笼艾尔达
 	drop items==爆出物品
 	Level Up==升级
+	Hard Boss==困难级BOSS
 
 # 语法
 	to trade in for==换取
@@ -534,6 +544,13 @@
 	Magnificent==伟大的
 	Chaos==困难级
 	Costume==套服
+	Legion==联盟
+	Bwuh==混乱
+	Eep==沮丧
+	Luv==喜欢
+	Kissy==吻
+	Yeti==白雪人
+	Pepe==蓝企鹅
 # 单.
 	coins?==币
 	coupons?==卡

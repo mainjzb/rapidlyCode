@@ -1,19 +1,34 @@
 # rapidlyCode
 help google translate for maplestory to chinese 
 
+## command
+`--src` or  `-s` input file path, default is `./a.html`
 
-# v1.2
+`--dest` or `-d` output file path , default is `./b.html`
 
-add feature Single-line commentes are created simply by beginning in line with '#' or '-'
+`--rule` or `-r` rule file path, default is `./rule.md`
 
-# v1.3
+`--noad` don't add AD to output file content
 
-add featrue that in rule file can import other rule file 
- 
-`@import "other_rule.md"` 
+`--adpath` don't use `--noad` than set ad file path, default is `./Tools/ad.html`
 
-# v1.4
+### v1.2
 
-upload rapidlycode sourcode
+- add feature Single-line commentes are created simply by beginning in line with '#' or '-'
 
-skip the content in <>
+### v1.3
+
+- add featrue that in rule file can import other rule file 
+```
+@import "other_rule.md"
+``` 
+
+### v1.4
+
+- upload rapidlycode source code in 'Code' folder
+
+- skip the content in <>
+
+### v1.5
+
+- add `--noad` `--adpath`

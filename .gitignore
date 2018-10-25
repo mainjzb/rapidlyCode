@@ -4,3 +4,5 @@
 !cn2en.html
 /Code/RapidlyCode/Solution
 /bin/RapidlyCode_*
+!/Tools/
+_Replace_Debug.bat

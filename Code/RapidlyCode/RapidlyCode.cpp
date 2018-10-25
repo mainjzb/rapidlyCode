@@ -7,8 +7,9 @@
 #include "cmdline.h"
 
 QString * XRule2Content( QString ruleFile_s, QString * content );
-QString * XReplace( QString * content, const QStringList& ruleList );
-bool XPrint( const char* s );
+QString * XReplace( QString *, const QStringList& );
+void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFile );
+bool XPrint( const char* );
 
 
 
@@ -17,9 +18,12 @@ int main( int argc, char *argv[] )
 	QCoreApplication *a = new QCoreApplication( argc, argv );
 
 	cmdline::parser cmdopt;
-	cmdopt.add<std::string>( "src", 's', "src file", false, "./a.html" );
-	cmdopt.add<std::string>( "dest", 'd', "dest file", false, "./b.html" );
+	cmdopt.add<std::string>( "src", 's', "in file", false, "./a.html" );
+	cmdopt.add<std::string>( "dest", 'd', "out file", false, "./b.html" );
 	cmdopt.add<std::string>( "rule", 'r', "rule file", false, "./rule.md" );
+	cmdopt.add( "noad", '\0', "don't add ad to out File" );
+	cmdopt.add<std::string>( "adpath", '\0', "ad file", false, "./Tools/ad.html" );
+
 	cmdopt.add( "help", 0, "print this message" );
 	cmdopt.footer( "filename ..." );
 	cmdopt.set_program_name( "IR" );
@@ -30,9 +34,12 @@ int main( int argc, char *argv[] )
 		std::cout << cmdopt.usage();
 	}
 
-	QString ruleFile_s = QString::fromStdString( cmdopt.get<std::string>( "rule" ) );
-	QString srcFile_s = QString::fromStdString( cmdopt.get<std::string>( "src" ) );
-	QString destFile_s = QString::fromStdString( cmdopt.get<std::string>( "dest" ) );
+	QString	ruleFile_s = QString::fromStdString( cmdopt.get<std::string>( "rule" ) );
+	QString	srcFile_s = QString::fromStdString( cmdopt.get<std::string>( "src" ) );
+	QString	destFile_s = QString::fromStdString( cmdopt.get<std::string>( "dest" ) );
+	bool	adFlag = !cmdopt.exist( "noad" );
+	QString	adPath = QString::fromStdString( cmdopt.get<std::string>( "adpath" ) );
+
 
 	//set UTF-8
 	QTextCodec::setCodecForLocale( QTextCodec::codecForName( "UTF8" ) );
@@ -54,21 +61,11 @@ int main( int argc, char *argv[] )
 	QString * content = new QString( u8"" );
 	*content = stream.readAll();
 
-	while ( true )
-	{
-		content = XRule2Content(ruleFile_s, content);
-		if ( iRule != ruleCount )
-		{
-			ruleFile_s = QString::fromStdString( cmdopt.rest()[iRule++] );
-		}
-		else
-		{
-			break;
-		}
-	}
 
-	outStream << *content;
-	outStream.flush();
+	content = XRule2Content(ruleFile_s, content);
+
+
+	SaveToFile( outStream, *content, adFlag, adPath );
 
 	XPrint( "Success!" );
 
@@ -153,7 +150,7 @@ QString * XRule2Content( QString ruleFile_s, QString * content )
 	{
 		XPrint( "[XRule2Content]: ruleFile open error" );
 		Q_ASSERT(false);
-		return nullptr;
+		return content;
 	}
 	QString ruleFilePath = ruleFile_s.left( ruleFile_s.lastIndexOf( "/" ) + 1 );
 
@@ -204,4 +201,38 @@ QString * XRule2Content( QString ruleFile_s, QString * content )
 
 	ruleFile.close();
 	return content;
+}
+
+void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFilePath)
+{
+	if ( AD == true )
+	{
+		QString adString;
+		QFile adFile( adFilePath );
+		if ( adFile.open( QFile::ReadWrite ) )
+		{
+			adString = adFile.readAll();
+		}
+		int ans = content.lastIndexOf( R"(</div>)" );
+		if ( ans != -1 )
+		{
+			content.remove( ans, 6 );
+			outStream << content;
+			outStream.flush();
+			outStream << adString;
+			outStream << R"(</div>)";
+			outStream.flush();
+		}
+		else
+		{
+			outStream << content;
+			outStream << adString;
+			outStream.flush();
+		}
+	}
+	else
+	{
+		outStream << content;
+		outStream.flush();
+	}
 }
