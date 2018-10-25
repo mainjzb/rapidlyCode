@@ -3,6 +3,6 @@
 !New_GLCSM.html
 !cn2en.html
 Code/RapidlyCode/Solution/
-bin/RapidlyCode_*/
+bin/RapidlyCode_*
 !Tools/*.*
 _Replace_Debug.bat
