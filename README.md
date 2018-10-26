@@ -19,17 +19,24 @@ help google translate for maplestory to chinese
 
 ### v1.3
 
-- add featrue that in rule file can import other rule file 
+- add feature that in rule file can import other rule file .
 ```
 @import "other_rule.md"
 ``` 
 
 ### v1.4
 
-- upload rapidlycode source code in 'Code' folder
+- upload rapidlycode source code in 'Code' folder.
 
-- skip the content in <>
+- skip the content in <>.
 
 ### v1.5
 
 - add `--noad` `--adpath`
+
+### v1.6
+
+- code refactoring, running faster .
+
+- add feature that `UTC time -> BeiJin time` and  `AEDT  time -> BeiJin time`.
+

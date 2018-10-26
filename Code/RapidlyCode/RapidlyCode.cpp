@@ -131,13 +131,19 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 				end = contentLength;
 			}
 			QString tmpString = content->mid( start, end - start );
+			start = end;
 
-			if ( tmpString.leftRef( 3 ) == "UTC" )
+			if ( tmpString.leftRef( 3 ) == "UTC" || tmpString.leftRef( 4 ) == "AEDT")
 			{
 				CoverDateTimeToBeijin( tmpString );
 			}
-			//content.remove( 0, end );
-			start = end;
+
+			if ( tmpString.left( 3 ) == "PDT" || tmpString.left( 3 ) == "EDT" || tmpString.left( 4 ) == "CEST" )
+			{
+				continue;
+			}
+
+
 
 			for ( const sRule* rule : rules )
 			{
@@ -260,53 +266,124 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 void CoverDateTimeToBeijin(QString & utcTime)
 {
 	QString result1, result2;
-	utcTime.remove( 0, 4 ).trimmed();
 
-	QStringList tmpstring = utcTime.split( QString::fromWCharArray(L"–") );
-	if ( tmpstring.length() < 2 )
+	if ( utcTime.leftRef( 3 ) == "UTC" )
 	{
-		tmpstring = utcTime.split( '-' );
-	}
-	if ( tmpstring.length() != 2 )
-	{
-		return;
-	}
-
-	QString startTime = tmpstring.at( 0 ).trimmed();
-	QString endTime = tmpstring.at( 1 ).trimmed();
-
-	QLocale loc = QLocale( QLocale::English );
-	QDateTime date1 = loc.toDateTime( startTime, "MMMM d 'at' h:mm AP" );
-	QDateTime date2 = loc.toDateTime( endTime, "MMMM d 'at' h:mm AP" );
-	QDate currentDate = QDate::currentDate();
+		utcTime.remove( 0, 4 ).trimmed();
 
 
-	if ( !date1.isValid() && !date2.isValid() )
-	{
-		return;
-	}
-	if ( date1.isValid() )
-	{
-		date1 = date1.addSecs( qint64( 8 * 3600 ) );
-		date1.setDate( QDate( currentDate.year(), date1.date().month(), date1.date().day() ) );
-		result1 = date1.toString( L"M月d日 ap h:mm" );
-	}
-	else
-	{
-		result1 = startTime;
+		QStringList tmpstring = utcTime.split( QString::fromWCharArray( L"–" ) );
+		if ( tmpstring.length() < 2 )
+		{
+			tmpstring = utcTime.split( '-' );
+		}
+		if ( tmpstring.length() != 2 )
+		{
+			return;
+		}
+
+		QString startTime = tmpstring.at( 0 ).trimmed();
+		QString endTime = tmpstring.at( 1 ).trimmed();
+
+		QLocale loc = QLocale( QLocale::English );
+		QDateTime date1 = loc.toDateTime( startTime, "MMMM d 'at' h:mm AP" );
+		QDateTime date2 = loc.toDateTime( endTime, "MMMM d 'at' h:mm AP" );
+		QDate currentDate = QDate::currentDate();
+
+
+		if ( !date1.isValid() && !date2.isValid() )
+		{
+			return;
+		}
+		if ( date1.isValid() )
+		{
+			date1 = date1.addSecs( qint64( 8 * 3600 ) );
+			date1.setDate( QDate( currentDate.year(), date1.date().month(), date1.date().day() ) );
+			result1 = date1.toString( L"M月d日 ap h:mm" );
+		}
+		else
+		{
+			result1 = startTime;
+		}
+
+		if ( date2.isValid() )
+		{
+			date2 = date2.addSecs( qint64( 8 * 3600 ) );
+			date2.setDate( QDate( currentDate.year(), date2.date().month(), date2.date().day() ) );
+			result2 = date2.toString( L"M月d日 ap h:mm" );
+		}
+		else
+		{
+			result2 = endTime;
+		}
 	}
 
-	if ( date2.isValid() )
+	if ( utcTime.leftRef( 4 ) == "AEDT" )
 	{
-		date2 = date2.addSecs( qint64( 8 * 3600 ) );
-		date2.setDate( QDate( currentDate.year(), date2.date().month(), date2.date().day() ) );
-		result2 = date2.toString( L"M月d日 ap h:mm" );
-	}
-	else
-	{
-		result2 = endTime;
-	}
+		int index = utcTime.indexOf( ':' );
+		if ( index < 0 )
+		{
+			Q_ASSERT( "AEDT time can't find ':' " );
+		}
+		int index2 = utcTime.indexOf( '+' );
+		int rightTime = 0;
+		if ( index2 < 0 )
+		{
+			Q_ASSERT( "AEDT time can't find '+' " );
+		}
+		if ( utcTime.midRef( index2 + 1, 2 ) == "10" )
+		{
+			rightTime = -2;
+		}
+		if ( utcTime.midRef( index2 + 1, 2 ) == "11" )
+		{
+			rightTime = -3;
+		}
 
+		utcTime.remove( 0, index + 1 );
+		QStringList tmpstring = utcTime.split( QString::fromWCharArray( L"–" ) );
+		if ( tmpstring.length() < 2 )
+		{
+			tmpstring = utcTime.split( '-' );
+		}
+		if ( tmpstring.length() != 2 )
+		{
+			return;
+		}
+		QString startTime = tmpstring.at( 0 ).trimmed();
+		QString endTime = tmpstring.at( 1 ).trimmed();
+
+		QLocale loc = QLocale( QLocale::English );
+		QDateTime date1 = loc.toDateTime( startTime, "dddd, MMMM d, yyyy h:mm AP" );
+		QDateTime date2 = loc.toDateTime( endTime, "dddd, MMMM d, yyyy h:mm AP" );
+
+
+		if ( !date1.isValid() && !date2.isValid() )
+		{
+			return;
+		}
+		if ( date1.isValid() )
+		{
+			date1 = date1.addSecs( qint64( rightTime * 3600 ) );
+			result1 = date1.toString( L"yyyy年 M月d日 ap h:mm" );
+		}
+		else
+		{
+			result1 = startTime;
+		}
+
+		if ( date2.isValid() )
+		{
+			date2 = date2.addSecs( qint64( rightTime * 3600 ) );
+			result2 = date2.toString( L"yyyy年 M月d日 ap h:mm" );
+		}
+		else
+		{
+			result2 = endTime;
+		}
+
+	}
 	utcTime.clear();
-	utcTime = QString(u8"北京时间：") + result1 + " - " + result2;
+	utcTime = QString(u8"北京时间：") + result1 + "  -  " + result2;
 }
+//CEST (UTC +2): Wednesday, October 24, 2018 2:00 AM - Wednesday, November 7, 2018 12:59 AM (CET)
