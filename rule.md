@@ -113,7 +113,7 @@
 	R\.I\.P Chair==坟墓椅子
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
 	Worn Ghost Suit==破旧的鬼魂套服
-
+	The Wave Chair==观众席椅子
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
@@ -219,7 +219,7 @@
 	Cassandra==卡珊德拉
 	Ludibrium==玩具城
 	Kerning==废弃都市
-	Tru==特鲁
+	Tru\s==特鲁
 
 # BOSS
 	Root Abyss==鲁比塔斯
@@ -308,7 +308,7 @@
 	(\d) Slot Coupon==\1格扩展卷
 	Beauty Album Hair Slot Coupons?==头发储存槽扩展卡
 	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
-
+	Innocence Scroll==纯真卷轴
 # 杂项+属性  
 	Cash Cover Eye Accessory==眼镜时装
 	Cash Cover Hat==帽子时装
