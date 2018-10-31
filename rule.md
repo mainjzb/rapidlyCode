@@ -21,7 +21,6 @@
 - [装备.](#装备)
 
 
-##预计功能：替换完成在文章最后+上广告链接。
 
 @import "./rule_event.md"
 
@@ -33,6 +32,7 @@
 	#  首字母小写的单词，自动忽略匹配上的单词首字母大小写。
 
 	#  左边规则
+	#  任何正则规则都能使用例如下
 	#  \d 匹配一个数字
 	#  ?  前面的内容可有可无
 
@@ -60,7 +60,7 @@
 	Can be received once per world==每个大区都可以收到一次
 	(\d\d?)-day stat duration==属性持续\1天
 	around your level==你的等级范围内
-
+	You have until.*to purchase these items==你可以在活动时间内购买物品 
 
 
 # 等级 
@@ -167,7 +167,9 @@
 
 
 
-# 地名
+# 地名 NPC
+	Orchid==奥尔卡
+	Tenebris==阴暗之地
 	Vanishing Journey==消失的旅途(岛1每日)
 	Hungry Muto==饥饿的莫托(岛二每日)
 	Dream Defender==梦都防御战(岛三每日)
@@ -304,8 +306,8 @@
 	Selective (\d) Slot Coupon==可选择\1格扩展卷
 	Selective (\d)-Slot Coupon==可选择\1格扩展卷
 	(\d) Slot Coupon==\1格扩展卷
-
-
+	Beauty Album Hair Slot Coupons?==头发储存槽扩展卡
+	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
 
 # 杂项+属性  
 	Cash Cover Eye Accessory==眼镜时装
@@ -364,7 +366,6 @@
 	star maintain chance==保留星级率
 	item destruction chance==装备破坏率
 	success chance==的成功率
-	Soul Shooter==灵魂手铳
 	Boss Monster Damage==BOSS伤害
 	Monster DEF Ignored==无视防御
 	Ignored Monster Defense==无视防御
@@ -390,6 +391,7 @@
 	Raid Boss==BOSS
 	Production Soul Enchanter==蓝色灵魂附魔石
 	Soul Enchanter==灵魂附魔石
+	Pure Clean Slate Scroll==纯白卷轴
 	Clean Slate Scroll==白衣卷轴
 	Chaos Scroll==混沌卷轴
 	Potential Scroll==潜能卷轴
@@ -649,6 +651,7 @@
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
 	Pendant of the Spirit==精灵吊坠
+	Soul Shooter==灵魂手铳
 
 
 # 属性

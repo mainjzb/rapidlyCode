@@ -138,7 +138,12 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 				CoverDateTimeToBeijin( tmpString );
 			}
 
-			if ( tmpString.left( 3 ) == "PDT" || tmpString.left( 3 ) == "EDT" || tmpString.left( 4 ) == "CEST" )
+			if ( tmpString.left( 3 ) == "PDT" || 
+				tmpString.left( 3 ) == "PST" || 
+				tmpString.left( 3 ) == "EDT" || 
+				tmpString.left( 3 ) == "EST" || 
+				tmpString.left( 4 ) == "CEST" ||
+				tmpString.left( 3 ) == "CET" )
 			{
 				continue;
 			}
@@ -352,6 +357,10 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		}
 		QString startTime = tmpstring.at( 0 ).trimmed();
 		QString endTime = tmpstring.at( 1 ).trimmed();
+		startTime = startTime.replace( "&nbsp;", " " );
+		endTime = endTime.replace( "&nbsp;", " " );
+		startTime = startTime.replace( "  ", " " );
+		endTime = endTime.replace( "  ", " " );
 
 		QLocale loc = QLocale( QLocale::English );
 		QDateTime date1 = loc.toDateTime( startTime, "dddd, MMMM d, yyyy h:mm AP" );
@@ -387,3 +396,4 @@ void CoverDateTimeToBeijin(QString & utcTime)
 	utcTime = QString(u8"北京时间：") + result1 + "  -  " + result2;
 }
 //CEST (UTC +2): Wednesday, October 24, 2018 2:00 AM - Wednesday, November 7, 2018 12:59 AM (CET)
+//Wednesday, November 14, 2018 ; 10:59 AM
