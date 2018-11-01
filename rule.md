@@ -1,11 +1,10 @@
-
 - [规则](#规则)
 - [长句翻译](#长句翻译)
 - [等级](#等级)
 - [区域](#区域)
 - [点装|椅子](#点装椅子)
 - [职业](#职业)
-- [地名](#地名)
+- [地名 NPC](#地名-npc)
 - [BOSS](#boss)
 - [物品](#物品)
 - [杂项+属性](#杂项属性)
@@ -13,10 +12,10 @@
 - [伤害皮肤](#伤害皮肤)
 - [宠物](#宠物)
 - [万圣节](#万圣节)
+- [装备](#装备)
 - [单](#单)
 - [单.](#单)
 - [冒险岛](#冒险岛)
-- [装备](#装备)
 - [属性](#属性)
 - [装备.](#装备)
 
@@ -204,8 +203,11 @@
 	Kerning Jazz Bar==废弃都市爵士酒吧
 	Tru's Info Shop==特鲁的情报商店（明珠港）
 	Tangyoon's Food==唐云的料理
+	Alliance Supply Depot==同盟供应商
+	Maple Alliance==冒险同盟
 	
 	##################################
+	Alliance==同盟
 	Magatia==玛加提亚
 	Tangyoon==唐云
 	Verdel==贝尔达
@@ -220,6 +222,7 @@
 	Ludibrium==玩具城
 	Kerning==废弃都市
 	Tru\s==特鲁
+	Shinsoo==神兽
 
 # BOSS
 	Root Abyss==鲁比塔斯
@@ -236,6 +239,7 @@
 	Von Bon==半半
 	Pink Bean==品克缤
 	Von Leon==狮子王
+	Cygnusroid==希纳斯机器人
 	Cygnus==希纳斯女皇
 	#######################
 	Ursus==乌鲁斯
@@ -261,6 +265,8 @@
 
 
 # 物品
+	Alliance Medal==同盟币
+	Android Heart==机器人心脏
 	Miracle Circulators?==内在还原器
 	Master Craftsman's Cubes?==黄魔方
 	Master Craftsman’s Cubes?==黄魔方
@@ -411,8 +417,8 @@
 	Captain Vaga==瓦加舰长
 	Double Rewards==双倍奖励
 	equipment covers==武器点状
-	\(M\)==(女)
-	\(F\)==(男)
+	\(M\)==(男)
+	\(F\)==(女)
 	Bonus Potential==附加潜能
 	inventory slots==背包空间
 	Bonus Potentials==附加潜能
@@ -479,6 +485,8 @@
 	drop items==爆出物品
 	Level Up==升级
 	Hard Boss==困难级BOSS
+	Ability Point==属性点
+	Skill Point==技能点
 
 # 语法
 	to trade in for==换取
@@ -503,7 +511,7 @@
 	Permanent when applied==使用后永久学会
 	Pet Boost Package==宠物技能包
 	Silver Husky==银色哈士奇
-
+	Black Kitty Pet==黑色猫咪宠物
 
 
 # 万圣节
@@ -526,6 +534,30 @@
 
 
 
+# 装备
+	Two-handed Sword==双手剑
+	Two-Handed Sword==双手剑
+	Two-Handed Axe==双手斧
+	Two-Handed Hammer==双手锤
+	Two-Handed Blunt Weapon==双手钝器
+	One-Handed Sword==单手剑
+	One-Handed Axe==单手斧
+	One-Handed Mace==单手锤
+	Energy Chain==能量剑(尖兵)
+	Shining Rod==双头杖
+	Psy-limiter==ESP限制器(超能)
+	Lucent Gauntlet==魔力手套(圣晶使徒)
+	Secondary Weapon==副手武器
+	Absolab weapons==埃苏莱布斯武器
+	Sengoku Hakase==战国徽章
+	Ghost Ship Exorcist badges==鬼船徽章
+	Arm Cannon==机甲手枪
+	Whip Blade==能量剑
+	Dual Bowguns==双弩枪
+	Hand Cannon==手持火炮
+	Pendant of the Spirit==精灵吊坠
+	Soul Shooter==灵魂手铳
+	Kinship Ring==血缘戒指
 
 
 # 单
@@ -553,6 +585,7 @@
 	Kissy==吻
 	Yeti==白雪人
 	Pepe==蓝企鹅
+	Mount==坐骑
 # 单.
 	coins?==币
 	coupons?==卡
@@ -566,7 +599,7 @@
 	\s+events?==活动
 	EVENTS?==活动
 	mesos==金币
-	players==玩家
+	players?==玩家
 	reflection==反伤
 	Potions==药水
 	potions==药水
@@ -629,29 +662,6 @@
 
 
 
-# 装备
-	Two-handed Sword==双手剑
-	Two-Handed Sword==双手剑
-	Two-Handed Axe==双手斧
-	Two-Handed Hammer==双手锤
-	Two-Handed Blunt Weapon==双手钝器
-	One-Handed Sword==单手剑
-	One-Handed Axe==单手斧
-	One-Handed Mace==单手锤
-	Energy Chain==能量剑(尖兵)
-	Shining Rod==双头杖
-	Psy-limiter==ESP限制器(超能)
-	Lucent Gauntlet==魔力手套(圣晶使徒)
-	Secondary Weapon==副手武器
-	Absolab weapons==埃苏莱布斯武器
-	Sengoku Hakase==战国徽章
-	Ghost Ship Exorcist badges==鬼船徽章
-	Arm Cannon==机甲手枪
-	Whip Blade==能量剑
-	Dual Bowguns==双弩枪
-	Hand Cannon==手持火炮
-	Pendant of the Spirit==精灵吊坠
-	Soul Shooter==灵魂手铳
 
 
 # 属性

@@ -105,12 +105,14 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 	QTextStream out( stdout );
 	//qDebug() << src;
 #endif
+	//delete "</strong><strong>"
+	content->replace( R"(</strong><strong>)", "" );
+
 
 	int start = 0, end = 1;
 	const int contentLength = content->length();
 	while ( start < contentLength )
 	{
-
 		if ( content->at( start ) == '<' )
 		{
 
@@ -131,6 +133,7 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 				end = contentLength;
 			}
 			QString tmpString = content->mid( start, end - start );
+			tmpString = tmpString.trimmed();
 			start = end;
 
 			if ( tmpString.leftRef( 3 ) == "UTC" || tmpString.leftRef( 4 ) == "AEDT")
@@ -396,4 +399,5 @@ void CoverDateTimeToBeijin(QString & utcTime)
 	utcTime = QString(u8"北京时间：") + result1 + "  -  " + result2;
 }
 //CEST (UTC +2): Wednesday, October 24, 2018 2:00 AM - Wednesday, November 7, 2018 12:59 AM (CET)
-//Wednesday, November 14, 2018 ; 10:59 AM
+//Wednesday, November 14, 2018 10:59 AM
+//Thursday, November 1, 2018 5:00 AM – Tuesday, November 13, 2018 5:59 AM
