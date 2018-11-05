@@ -151,8 +151,6 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 				continue;
 			}
 
-
-
 			for ( const sRule* rule : rules )
 			{
 				tmpString.replace( rule->before, rule->after );

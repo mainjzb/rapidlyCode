@@ -114,6 +114,130 @@
 	Worn Ghost Suit==破旧的鬼魂套服
 	The Wave Chair==观众席椅子
 
+
+# 地名 NPC
+	Orchid==奥尔卡
+	Tenebris==阴暗之地
+	Vanishing Journey==消失的旅途(岛1每日)
+	Hungry Muto==饥饿的莫托(岛二每日)
+	Dream Defender==梦都防御战(岛三每日)
+	Arcane River==奥术河
+	Nameless Town==无名村
+	Chu Chu Island==啾啾岛(2岛)
+	Chew Chew Island==啾啾岛(2岛)
+	Lachelein==梦都(3岛)
+	Arcana==阿尔卡那(4岛)
+	Morass==莫拉斯(5岛)
+	Esfera==埃斯佩拉(6岛)
+	Crimsonheart Castle==狮子王城堡
+	Leafre==神木村
+	Monster Park REBORN Coupon==怪物公园优惠券
+	Monster Park==怪物公园
+	Ghost Park==鬼魂公园
+	Pollo/Fritto==保罗/普利托
+	Pollo and Fritto Entry Ticket==保罗和普利托入场卷
+	Pollo and Fritto==保罗和普利托
+	Nett's Pyramid==奈特的金字塔
+	Nett’s Pyramid==奈特的金字塔
+	Dimension Invasion==次元入侵
+	Dimension Invade==次元入侵
+	Fox Valley==狐狸谷
+	Savage Terminal==野蛮终点站
+	Monster Collection==怪物收藏
+	Gold Beach==金海岸
+	Six Path Crossway==六岔路口
+	Temple of Time==时间神殿
+	Heroes of Maple==冒险英雄
+	Black Heaven==黑色天堂
+	Oz Tower==起源之塔
+	Seed Tower==起源之塔
+	Kerning Jazz Bar==废弃都市爵士酒吧
+	Tru's Info Shop==特鲁的情报商店（明珠港）
+	Tangyoon's Food==唐云的料理
+	Tang Yoon's Cooking Class==唐云的料理班
+	Tang Yoon==唐云
+	Alliance Supply Depot==同盟供应商
+	Maple Alliance==冒险同盟
+	Romeo and Juliet ==罗密欧与朱丽叶
+	Maple Union==联盟
+	Xerxes of Chryse==克里塞的薛西斯
+	Dimensional Crack==玩具城组队任务
+	Pirate Davy Jones==海盗船组队任务
+	Dragon Rider==御龙魔
+	Kenta in Danger==坎特
+	Resurrection of the Hob King==侏儒帝王的复活
+	##################################
+	Escape==逃脱组队任务
+	Kritias==克城
+	Alliance==同盟
+	Magatia==玛加提亚
+	Tangyoon==唐云
+	Verdel==贝尔达
+	Edelstein==埃德尔斯坦
+	Orbis==天空之城
+	Ellinia==魔法密林
+	Ellinel==艾利涅
+	Grandis==格兰蒂斯
+	Ellin==艾利
+	Mu Lung Dojo==武陵道场
+	Mu Lung Points==道场积分
+	Dojo==道场
+	Cassandra==卡珊德拉
+	Ludibrium==玩具城
+	Kerning==废弃都市
+	Tru\s==特鲁
+	Shinsoo==神兽
+
+# BOSS
+	Root Abyss==鲁比塔斯
+	Hard Lucid's==困难级路西德的
+	Hard Lucid’s==困难级路西德的
+	Hard Lotus==困难级斯乌
+	Hard Damien==困难级戴安米
+	Hard Lotus’s==困难级斯乌的
+	Hard Lotus's==困难级斯乌的
+	Hard Will's==困难级威尔的
+	Hard Will’s==困难级威尔的
+	Hard Will==困难级威尔
+	Crimson Queen==血腥女皇
+	Von Bon==半半
+	Normal Pink Bean==普通品克缤
+	Pink Bean==品克缤
+	Von Leon==狮子王
+	Cygnusroid==希纳斯机器人
+	Normal Cygnus==普通希纳斯女皇
+	Easy Cygnus==简单希纳斯女皇
+	Cygnus==希纳斯女皇
+	Easy Zakum==简单扎昆
+	Normal Zakum==普通扎昆
+	Easy Horntail==简单黑龙
+	Normal Horntail==普通黑龙
+	Easy Papulatus==简单闹钟
+	Normal Papulatus==普通闹钟
+	Papulatus==闹钟
+	#######################
+	Ursus==乌鲁斯
+	Lotus==斯乌
+	Lucid’s==路西德的
+	Lucid's==路西德的
+	Lucid==路西德
+	Magnus==麦格纳斯
+	Will's==威尔的
+	Will’s==威尔的
+	Will==威尔
+	gollux==贝勒德
+	Zakum==扎昆
+	Horntail==黑龙
+	Hilla==希拉
+	Pierre==皮埃尔
+	Vellum==贝伦
+	Arkarium==阿卡伊勒
+	OMNI-CLN==钻机
+	Damien==戴安米
+
+
+
+
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
 	Beast Tamer==林之灵
@@ -165,111 +289,12 @@
 	Cadena==魔链影士
 
 
-
-# 地名 NPC
-	Orchid==奥尔卡
-	Tenebris==阴暗之地
-	Vanishing Journey==消失的旅途(岛1每日)
-	Hungry Muto==饥饿的莫托(岛二每日)
-	Dream Defender==梦都防御战(岛三每日)
-	Arcane River==奥术河
-	Nameless Town==无名村
-	Chu Chu Island==啾啾岛(2岛)
-	Lachelein==梦都(3岛)
-	Arcana==阿尔卡那(4岛)
-	Morass==莫拉斯(5岛)
-	Esfera==埃斯佩拉(6岛)
-	Crimsonheart Castle==狮子王城堡
-	Leafre==神木村
-	Monster Park REBORN Coupon==怪物公园优惠券
-	Monster Park==怪物公园
-	Ghost Park==鬼魂公园
-	Pollo/Fritto==保罗/普利托
-	Pollo and Fritto Entry Ticket==保罗和普利托入场卷
-	Pollo and Fritto==保罗和普利托
-	Nett's Pyramid==奈特的金字塔
-	Nett’s Pyramid==奈特的金字塔
-	Dimension Invasion==次元入侵
-	Fox Valley==狐狸谷
-	Savage Terminal==野蛮终点站
-	Monster Collection==怪物收藏
-	Gold Beach==金海岸
-	Six Path Crossway==六岔路口
-	Temple of Time==时间神殿
-	Heroes of Maple==冒险英雄
-	Black Heaven==黑色天堂
-	Oz Tower==起源之塔
-	Seed Tower==起源之塔
-	Kerning Jazz Bar==废弃都市爵士酒吧
-	Tru's Info Shop==特鲁的情报商店（明珠港）
-	Tangyoon's Food==唐云的料理
-	Alliance Supply Depot==同盟供应商
-	Maple Alliance==冒险同盟
-	
-	##################################
-	Alliance==同盟
-	Magatia==玛加提亚
-	Tangyoon==唐云
-	Verdel==贝尔达
-	Edelstein==埃德尔斯坦
-	Orbis==天空之城
-	Ellinia==魔法密林
-	Ellinel==艾利涅
-	Grandis==格兰蒂斯
-	Ellin==艾利
-	Dojo==道场
-	Cassandra==卡珊德拉
-	Ludibrium==玩具城
-	Kerning==废弃都市
-	Tru\s==特鲁
-	Shinsoo==神兽
-
-# BOSS
-	Root Abyss==鲁比塔斯
-	Hard Lucid's==困难级路西德的
-	Hard Lucid’s==困难级路西德的
-	Hard Lotus==困难级斯乌
-	Hard Damien==困难级戴安米
-	Hard Lotus’s==困难级斯乌的
-	Hard Lotus's==困难级斯乌的
-	Hard Will's==困难级威尔的
-	Hard Will’s==困难级威尔的
-	Hard Will==困难级威尔
-	Crimson Queen==血腥女皇
-	Von Bon==半半
-	Pink Bean==品克缤
-	Von Leon==狮子王
-	Cygnusroid==希纳斯机器人
-	Cygnus==希纳斯女皇
-	#######################
-	Ursus==乌鲁斯
-	Lotus==斯乌
-	Lucid’s==路西德的
-	Lucid's==路西德的
-	Lucid==路西德
-	Magnus==麦格纳斯
-	Will's==威尔的
-	Will’s==威尔的
-	Will==威尔
-	gollux==贝勒德
-	Zakum==扎昆
-	Horntail==黑龙
-	Hilla==希拉
-	Pierre==皮埃尔
-	Vellum==贝伦
-	Arkarium==阿卡伊勒
-	OMNI-CLN==钻机
-	Damien==戴安米
-
-
-
-
 # 物品
 	Alliance Medal==同盟币
 	Android Heart==机器人心脏
 	Miracle Circulators?==内在还原器
+	Craftsman's Cube==黄魔方
 	Master Craftsman's Cubes?==黄魔方
-	Master Craftsman’s Cubes?==黄魔方
 	Occult Cubes?==怪异魔方
 	Meister's Cubes?==匠人魔方
 	Meister’s Cubes?==匠人魔方
@@ -315,6 +340,8 @@
 	Beauty Album Hair Slot Coupons?==头发储存槽扩展卡
 	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
 	Innocence Scroll==纯真卷轴
+	Core Gemstone==核心
+
 # 杂项+属性  
 	Cash Cover Eye Accessory==眼镜时装
 	Cash Cover Hat==帽子时装
@@ -327,7 +354,6 @@
 	Cash Shop==商城
 	Hyper Teleport Rock==传送石
 	Teleport Rock==传送石
-	Mu Lung Dojo==武陵道场
 	Label Ring==名片戒指
 	Chat Ring==聊天戒指
 	(\d)x Drop (Rate)? Coupon==\1倍爆率卡
@@ -398,7 +424,9 @@
 	Production Soul Enchanter==蓝色灵魂附魔石
 	Soul Enchanter==灵魂附魔石
 	Pure Clean Slate Scroll==纯白卷轴
+	Innocent  Scroll==纯白卷轴
 	Clean Slate Scroll==白衣卷轴
+	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
 	Chaos Scroll==混沌卷轴
 	Potential Scroll==潜能卷轴
 	Surprise Pet Box==宠物抽奖箱
@@ -443,6 +471,7 @@
 	Sengoku High==战国高校
 	Bug Brawl==昆虫大作战
 	Inferno Wolf==地狱火焰狼
+	Flame Wolf==地狱火焰狼
 	Combo Kill orbs==连击经验球
 	Unique Equipped Item==唯一装备
 	(\d\d?)-day duration==保留\1天
@@ -460,8 +489,9 @@
 	Tera Burning==斗燃
 	(\d) minutes==\1分钟
 	tradeable within account==可仓库转移
+	Gold  Hammer==金锤子
 	Golden Hammer==金锤子
-	party member==队员
+	party members?==队员
 	Infinite Pawsibilities==无限可能
 	Infinite Pawsibilites==无限可能
 	the Multikill counter==多连杀
@@ -487,6 +517,13 @@
 	Hard Boss==困难级BOSS
 	Ability Point==属性点
 	Skill Point==技能点
+	Content Skills?==生活技能
+	Ability Skills?==能力技能
+	Goddess Statue Skills?==女神状态技能
+	World Merged Party Quest==世界组队任务
+	Party Quest Expert==组队任务专家
+	Party Quest==组队任务
+	Party Points==组队积分
 
 # 语法
 	to trade in for==换取
@@ -586,6 +623,8 @@
 	Yeti==白雪人
 	Pepe==蓝企鹅
 	Mount==坐骑
+	Desire==圣火
+	Guardian==守卫者
 # 单.
 	coins?==币
 	coupons?==卡
@@ -722,7 +761,7 @@
 	Siege Gun==手炮
 	Hat==帽子
 	Suit==套服
-	capes?==披风
+	\scapes?==披风
 	Frozen==寒冰
 	Absolab==埃苏莱布斯
 	Bow==弓
