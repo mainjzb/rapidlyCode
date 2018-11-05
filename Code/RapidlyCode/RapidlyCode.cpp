@@ -21,7 +21,7 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules );
 void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFile );
 bool XPrint( const char* );
 void CoverDateTimeToBeijin( QString & utcTime );
-
+void OptimizeContent( QString & content );
 
 
 
@@ -65,18 +65,19 @@ int main( int argc, char *argv[] )
 		return false;
 	}
 
-	QTextStream stream( &srcFile );
+	QTextStream inStream( &srcFile );
 	QTextStream outStream( &destFile );
-	stream.setCodec( "UTF-8" );
+	inStream.setCodec( "UTF-8" );
 	outStream.setCodec( "UTF-8" );
 
 	QString * content = new QString( u8"" );
-	*content = stream.readAll();
+	*content = inStream.readAll();
+	OptimizeContent( *content );
 
 	QVector<sRule*> rules;
 	XParseRule(ruleFile_s, rules);
-	content = XReplace( content, rules );
 
+	content = XReplace( content, rules );
 
 	SaveToFile( outStream, *content, adFlag, adPath );
 
@@ -105,8 +106,6 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 	QTextStream out( stdout );
 	//qDebug() << src;
 #endif
-	//delete "</strong><strong>"
-	content->replace( R"(</strong><strong>)", "" );
 
 
 	int start = 0, end = 1;
@@ -141,7 +140,8 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 				CoverDateTimeToBeijin( tmpString );
 			}
 
-			if ( tmpString.left( 3 ) == "PDT" || 
+			if ( tmpString.length() == 0 ||
+				tmpString.left( 3 ) == "PDT" || 
 				tmpString.left( 3 ) == "PST" || 
 				tmpString.left( 3 ) == "EDT" || 
 				tmpString.left( 3 ) == "EST" || 
@@ -159,7 +159,6 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 			result->append( tmpString );
 		}
 	}
-
 
 
 	delete content;
@@ -192,6 +191,9 @@ void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules )
 	{
 		QString rule = replaceStream.readLine().trimmed();
 		if ( rule.isEmpty() || ( rule.length() > 0 && ( rule.at( 0 ) == "#" || rule.at( 0 ) == "-" ) ) )
+			continue;
+
+		if ( rule.length() > 0 && rule.left( 4 ) == R"(<!--)" )
 			continue;
 
 		if ( rule.length() > 0 && rule.at( 0 ) == '@' )
@@ -396,6 +398,62 @@ void CoverDateTimeToBeijin(QString & utcTime)
 	utcTime.clear();
 	utcTime = QString(u8"北京时间：") + result1 + "  -  " + result2;
 }
-//CEST (UTC +2): Wednesday, October 24, 2018 2:00 AM - Wednesday, November 7, 2018 12:59 AM (CET)
-//Wednesday, November 14, 2018 10:59 AM
-//Thursday, November 1, 2018 5:00 AM – Tuesday, November 13, 2018 5:59 AM
+
+
+void OptimizeContent(QString & content)
+{
+	if ( content == nullptr )
+	{
+		XPrint( "[OptimizeContent]: content is Null" );
+		return ;
+	}
+
+	content = content.replace( R"(</strong><strong>)", "" );
+	content = content.replace( QRegExp(R"(</strong>\s<strong>)"), " " );
+	content = content.replace( R"(</strong>&nbsp;<strong>)", " " );
+
+
+
+	int start = 0, end = 0;
+	while (true)
+	{
+		start = content.indexOf( R"(<strong>)", start );
+		if ( start == -1 )
+			break;
+
+		int index1 = content.indexOf( R"(</strong>)", start );
+		if ( index1 == -1 )
+			XPrint( "[OptimizeContent] can't find </strong>" );
+		int index2 = content.indexOf( R"(<strong>)", start + 7 );
+		if ( index2 == -1 )
+			break;
+
+		if ( index1 > index2 )
+		{
+
+			if ( content.mid( index1 - 1, 1 ) == " " && content.mid( index1 + 9, 1 ) == " " )
+			{
+				content.remove( index1, 10 );
+			}
+			else
+			{
+				content.remove( index1, 9 );
+			}
+
+			if ( content.mid( index2 - 1, 1 ) == " " && content.mid( index2 + 8, 1 ) == " " )
+			{
+				content.remove( index2, 9 );
+			}
+			else
+			{
+				content.remove( index2, 8 );
+			}
+			start = index1;
+		}
+		else
+		{
+			start = index2;
+		}
+
+	}
+}
