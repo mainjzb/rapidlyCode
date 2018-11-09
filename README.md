@@ -40,3 +40,6 @@ help google translate for maplestory to chinese
 
 - add feature that `UTC time -> BeiJin time` and  `AEDT  time -> BeiJin time`.
 
+### v1.7
+
+-  From a.html delete useless "<strong></strong>" tags in advance, will better work

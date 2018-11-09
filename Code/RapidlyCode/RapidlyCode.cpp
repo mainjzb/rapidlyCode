@@ -409,7 +409,7 @@ void OptimizeContent(QString & content)
 	}
 
 	content = content.replace( R"(</strong><strong>)", "" );
-	content = content.replace( QRegExp(R"(</strong>\s<strong>)"), " " );
+	content = content.replace( QRegExp(R"(</strong>\s*<strong>)"), " " );
 	content = content.replace( R"(</strong>&nbsp;<strong>)", " " );
 
 
@@ -420,40 +420,44 @@ void OptimizeContent(QString & content)
 		start = content.indexOf( R"(<strong>)", start );
 		if ( start == -1 )
 			break;
-
-		int index1 = content.indexOf( R"(</strong>)", start );
-		if ( index1 == -1 )
-			XPrint( "[OptimizeContent] can't find </strong>" );
-		int index2 = content.indexOf( R"(<strong>)", start + 7 );
-		if ( index2 == -1 )
-			break;
-
-		if ( index1 > index2 )
+		while ( true )
 		{
-
-			if ( content.mid( index1 - 1, 1 ) == " " && content.mid( index1 + 9, 1 ) == " " )
+			int index1 = content.indexOf( R"(</strong>)", start + 8 );
+			if ( index1 == -1 )
+				XPrint( "[OptimizeContent] can't find </strong>" );
+			int index2 = content.indexOf( R"(<strong>)", start + 8 );
+			if ( index2 == -1 )
 			{
-				content.remove( index1, 10 );
+				start = index1 + 8;
+				break;
+			}
+
+			if ( index1 > index2 )
+			{
+				if ( content.mid( index1 - 1, 1 ) == " " && content.mid( index1 + 9, 1 ) == " " )
+				{
+					content.remove( index1, 10 );
+				}
+				else
+				{
+					content.remove( index1, 9 );
+				}
+
+				if ( content.mid( index2 - 1, 1 ) == " " && content.mid( index2 + 8, 1 ) == " " )
+				{
+					content.remove( index2, 9 );
+				}
+				else
+				{
+					content.remove( index2, 8 );
+				}
+				start = start + 8;
 			}
 			else
 			{
-				content.remove( index1, 9 );
+				start = index2;
+				break;
 			}
-
-			if ( content.mid( index2 - 1, 1 ) == " " && content.mid( index2 + 8, 1 ) == " " )
-			{
-				content.remove( index2, 9 );
-			}
-			else
-			{
-				content.remove( index2, 8 );
-			}
-			start = index1;
 		}
-		else
-		{
-			start = index2;
-		}
-
 	}
 }

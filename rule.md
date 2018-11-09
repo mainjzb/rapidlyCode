@@ -250,15 +250,19 @@
 	Dual Blade==双刀
 	Blaze Wizard==炎术士
 	Night Walker==夜行者
+	Night Lord==标飞	
 	Wild Hunter==豹弩游侠
 	Arch Mage==魔导师
 	\(Fire Poison\)==（火毒）
-	Bow Master==神射手
-	Wind Archer==风灵使者		
+	Bow Master==神射手(弓)
+	Wind Archer==风灵使者	
+	Flame Wizard==炎术士
+	Cannon Shooter==火炮
+
 
 	Explorer==冒险家
 	Resistance==反抗者
-	Bowmaster==神射手
+	Bowmaster==神射手(弓)
 	Warrior==战士
 	Hayato==剑豪
 	Blaster==爆破手
@@ -284,11 +288,13 @@
 	Cannoneer==神炮王
 	Phantom==幻影
 	Mihile==米哈尔
+	Mikhail==米哈尔
 	Shade==隐月
 	Paladin==圣骑士
 	Archer==射手
 	Kaiser==狂龙战士
 	Cadena==魔链影士
+	Marksman==箭神
 
 
 # 物品
@@ -624,7 +630,7 @@
 	Kissy==吻
 	Yeti==白雪人
 	Pepe==蓝企鹅
-	Mount==坐骑
+	\bMount\b==坐骑
 	Desire==圣火
 	Guardian==守卫者
 # 单.
