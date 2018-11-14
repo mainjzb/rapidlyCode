@@ -152,6 +152,8 @@
 	Heroes of Maple==冒险英雄
 	Black Heaven==黑色天堂
 	Oz Tower==起源之塔
+	Tower of OZ==起源之塔
+	Tower of OZ Lobby==起源之塔大厅
 	Seed Tower==起源之塔
 	Kerning Jazz Bar==废弃都市爵士酒吧
 	Tru's Info Shop==特鲁的情报商店（明珠港）
@@ -168,6 +170,7 @@
 	Dragon Rider==御龙魔
 	Kenta in Danger==坎特
 	Resurrection of the Hob King==侏儒帝王的复活
+	Witch Shop==魔女商店
 	##################################
 	Escape==逃脱组队任务
 	Kritias==克城
@@ -189,7 +192,7 @@
 	Kerning==废弃都市
 	Tru\s==特鲁
 	Shinsoo==神兽
-
+	Glinda==格琳达
 # BOSS
 	Root Abyss==鲁比塔斯
 	Hard Lucid's==困难级路西德的
@@ -483,6 +486,7 @@
 	Combo Kill orbs==连击经验球
 	Unique Equipped Item==唯一装备
 	(\d\d?)-day duration==保留\1天
+	Maple Rewards UI==RP积分界面
 	Maple Reward Points==RP积分
 	Reward Points==RP积分
 	Special Medal of Honor==特殊荣誉勋章
