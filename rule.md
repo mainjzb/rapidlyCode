@@ -1,27 +1,3 @@
-<!-- TOC -->
-
-- [规则](#规则)
-- [长句翻译](#长句翻译)
-- [等级](#等级)
-- [区域](#区域)
-- [点装|椅子](#点装椅子)
-- [地名 NPC](#地名-npc)
-- [BOSS](#boss)
-- [职业](#职业)
-- [物品](#物品)
-- [杂项+属性](#杂项属性)
-- [语法](#语法)
-- [伤害皮肤](#伤害皮肤)
-- [宠物](#宠物)
-- [万圣节](#万圣节)
-- [装备](#装备)
-- [单](#单)
-- [单.](#单)
-- [冒险岛](#冒险岛)
-- [属性](#属性)
-- [装备_单](#装备_单)
-
-<!-- /TOC -->
 
 @import "./rule_event.md"
 
@@ -39,8 +15,6 @@
 
 	#  右边规则
 	#  \1 表示左边第一个被匹配的内容
-
-
 
 
 
@@ -83,6 +57,8 @@
 	’=='
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
+	NON-REBOOT ONLY==仅限普通区
+	REBOOT ONLY==仅限R区
 
 # 点装|椅子
 	Avatar Box Stamps==黑色星票
@@ -120,7 +96,7 @@
 # 地名 NPC
 	Orchid==奥尔卡
 	Tenebris==阴暗之地
-	Vanishing Journey==消失的旅途(岛1每日)
+	Vanishing Journey==消失的旅途(岛1)
 	Hungry Muto==饥饿的莫托(岛二每日)
 	Dream Defender==梦都防御战(岛三每日)
 	Arcane River==奥术河
@@ -152,8 +128,8 @@
 	Heroes of Maple==冒险英雄
 	Black Heaven==黑色天堂
 	Oz Tower==起源之塔
-	Tower of OZ==起源之塔
 	Tower of OZ Lobby==起源之塔大厅
+	Tower of OZ==起源之塔
 	Seed Tower==起源之塔
 	Kerning Jazz Bar==废弃都市爵士酒吧
 	Tru's Info Shop==特鲁的情报商店（明珠港）
@@ -193,6 +169,8 @@
 	Tru\s==特鲁
 	Shinsoo==神兽
 	Glinda==格琳达
+	Moonbridge==月桥
+	
 # BOSS
 	Root Abyss==鲁比塔斯
 	Hard Lucid's==困难级路西德的
@@ -239,73 +217,16 @@
 	Arkarium==阿卡伊勒
 	OMNI-CLN==钻机
 	Damien==戴安米
+	Living Chains==生存链
 
-
-
-
-# 职业
-	Demon Avenger==恶魔复仇者(白毛)
-	Beast Tamer==林之灵
-	Angelic Buster==爆莉萌天使
-	Dark Knight==黑骑
-	Wind Archer==风灵使者
-	Thunder Breaker==奇袭者
-	Dual Blade==双刀
-	Blaze Wizard==炎术士
-	Night Walker==夜行者
-	Night Lord==标飞	
-	Wild Hunter==豹弩游侠
-	Arch Mage==魔导师
-	\(Fire Poison\)==（火毒）
-	Bow Master==神射手(弓)
-	Wind Archer==风灵使者	
-	Flame Wizard==炎术士
-	Cannon Shooter==火炮
-
-
-	Explorer==冒险家
-	Resistance==反抗者
-	Bowmaster==神射手(弓)
-	Warrior==战士
-	Hayato==剑豪
-	Blaster==爆破手
-	Magician==法师
-	Mage==法师
-	Evan==龙神
-	Kanna==阴阳师
-	Illium==圣晶使徒
-	Luminous==夜光法师
-	Kinesis==超能力者
-	Thief==飞侠
-	Xenon==尖兵
-	Pirate==海盗
-	Knight==骑士
-	Bowman==弓箭手
-	Bowmen==弓箭手
-	Ark==影魂异人
-	Aran==战神
-	Hero==英雄
-	Bishop==主教
-	Shadower==刀飞
-	Corsair==船长
-	Cannoneer==神炮王
-	Phantom==幻影
-	Mihile==米哈尔
-	Mikhail==米哈尔
-	Shade==隐月
-	Paladin==圣骑士
-	Archer==射手
-	Kaiser==狂龙战士
-	Cadena==魔链影士
-	Marksman==箭神
 
 
 # 物品
 	Alliance Medal==同盟币
 	Android Heart==机器人心脏
 	Miracle Circulators?==内在还原器
-	Craftsman's Cube==黄魔方
 	Master Craftsman's Cubes?==黄魔方
+	Craftsman's Cube==黄魔方
 	Occult Cubes?==怪异魔方
 	Meister's Cubes?==匠人魔方
 	Meister’s Cubes?==匠人魔方
@@ -334,8 +255,8 @@
 	Trait Increase Potion==倾向药水
 	Circulator==内在还原器
 	Rebirth Flames==绯红火花 
-	2x Exp Coupon==双倍经验卡
-	2x EXP Coupon==双倍经验卡
+	2(x|X) Exp Coupon==双倍经验卡
+	2(x|X) EXP Coupon==双倍经验卡
 	2x EXP==双倍经验
 	2x Exp==双倍经验
 	2x Drop Coupon==双倍爆率卡
@@ -352,6 +273,8 @@
 	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
 	Innocence Scroll==纯真卷轴
 	Core Gemstone==核心
+	Job Advancement Coin==专职币
+	(SP|AP) Reset Scroll==\1重置卷
 
 # 杂项+属性  
 	Cash Cover Eye Accessory==眼镜时装
@@ -365,6 +288,7 @@
 	Cash Shop==商城
 	Hyper Teleport Rock==传送石
 	Teleport Rock==传送石
+	Teleport Scroll==传送卷轴
 	Label Ring==名片戒指
 	Chat Ring==聊天戒指
 	(\d)x Drop (Rate)? Coupon==\1倍爆率卡
@@ -402,6 +326,7 @@
 	Lab Server==LAB服务器
 	Lab world==LAB世界
 	boost potions==强化药水
+	Boost Potion==强化药水
 	Hard Will==困难级威尔
 	Hard Mode==困难模式
 	character slots==角色位
@@ -451,6 +376,8 @@
 	Cash Inventory Transfer==商城转移
 	Hair Color Coupon==染发卡
 	Skin Coupon==肤色卡
+	Royal Hair Coupon==皇家理发卡
+	Royal Face Coupon==皇家整容卡
 	Hair Coupon==理发卡
 	Maple Point==枫叶点
 	Captain Vaga==瓦加舰长
@@ -486,6 +413,7 @@
 	Combo Kill orbs==连击经验球
 	Unique Equipped Item==唯一装备
 	(\d\d?)-day duration==保留\1天
+	(\d\d?) day duration==保留\1天
 	Maple Rewards UI==RP积分界面
 	Maple Reward Points==RP积分
 	Reward Points==RP积分
@@ -496,7 +424,8 @@
 	Inner Abilities==内在能力
 	1 hr==1小时
 	Divine Intelligence==神圣的智慧
-	Black Mage==黑暗法师
+	Black Mage's==黑魔法师的
+	Black Mage==黑魔法师
 	Verus Hilla==真神希腊
 	Tera Burning==斗燃
 	(\d) minutes==\1分钟
@@ -532,10 +461,15 @@
 	Content Skills?==生活技能
 	Ability Skills?==能力技能
 	Goddess Statue Skills?==女神状态技能
+	Stat Skills?==状态技能
+	Support Skills?==生活技能
 	World Merged Party Quest==世界组队任务
 	Party Quest Expert==组队任务专家
 	Party Quest==组队任务
 	Party Points==组队积分
+	Bonus EXP==额外经验
+	Arcane Symbol Selector Coupon==奥术球选择卡
+	Arcane Symbol==奥术球
 
 # 语法
 	to trade in for==换取
@@ -607,7 +541,70 @@
 	Pendant of the Spirit==精灵吊坠
 	Soul Shooter==灵魂手铳
 	Kinship Ring==血缘戒指
+	Fafnir Weapon==FFN武器
+	Fafnir Weapon Box==FFN武器箱
 
+
+# 职业
+	Demon Avenger==恶魔复仇者(白毛)
+	Beast Tamer==林之灵
+	Angelic Buster==爆莉萌天使
+	Dark Knight==黑骑
+	Wind Archer==风灵使者
+	Thunder Breaker==奇袭者
+	Dual Blade==双刀
+	Blaze Wizard==炎术士
+	Night Walker==夜行者
+	Night Lord==标飞	
+	Wild Hunter==豹弩游侠
+	Arch Mage==魔导师
+	\(Fire Poison\)==（火毒）
+	Bow Master==神射手(弓)
+	Wind Archer==风灵使者	
+	Flame Wizard==炎术士
+	Cannon Shooter==火炮
+
+
+	Explorer==冒险家
+	Resistance==反抗者
+	Bowmaster==神射手(弓)
+	Warrior==战士
+	Hayato==剑豪
+	Blaster==爆破手
+	Magician==法师
+	Mage==法师
+	Evan==龙神
+	Kanna==阴阳师
+	Illium==圣晶使徒
+	Luminous==夜光法师
+	Kinesis==超能力者
+	Thief==飞侠
+	Xenon==尖兵
+	Pirate==海盗
+	Knight==骑士
+	Bowman==弓箭手
+	Bowmen==弓箭手
+	Ark==影魂异人
+	Aran==战神
+	Heroes==英雄们
+	Hero==英雄
+	Bishop==主教
+	Shadower==刀飞
+	Corsair==船长
+	Cannoneer==神炮王
+	Phantom==幻影
+	Phanton==幻影
+	Mihile==米哈尔
+	Mikhail==米哈尔
+	Shade==隐月
+	Paladin==圣骑士
+	Archer==射手
+	Kaiser==狂龙战士
+	Cadena==魔链影士
+	Marksman==箭神
+	Buccaneer==冲锋队长
+	Mercedes==双弩
+	Mechanic==机械师
 
 # 单
 	Ability==内在能力
@@ -635,6 +632,10 @@
 	Yeti==白雪人
 	Pepe==蓝企鹅
 	\bMount\b==坐骑
+	World Gauge==世界储存槽
+	Determination Gauge==圣火储存槽
+	Spark of Determination==圣火火花
+	Determination==圣火
 	Desire==圣火
 	Guardian==守卫者
 # 单.
@@ -694,6 +695,7 @@
 	untradeable==无法交易
 	Untradable==无法交易
 	Untradeabe==无法交易
+	Cannot be traded==无法交易
 	runes==符文
 	Rewards?==奖励
 	Whiskers==胡子
@@ -703,6 +705,17 @@
 	hunter==猎杀
 	hunt==猎杀 
 	permanent==永久
+
+	\bCape\b==披风
+	\bBox(es)?\b==盒子
+	\Rank\b==排名
+	\bSkills\b==技能
+	\bcharacters\b==玩家
+	\bdrop\b==掉落
+	\bEnhancement\b==增强
+	\bExpedition\b==远征
+	\bLil\b==迷你
+	\bLabyrinth\b==迷宫
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
@@ -748,7 +761,7 @@
 # 装备_单
 	Top==上衣
 	Bottom==裤子
-	Medal==勋章
+	Medals?==勋章
 	Badge==徽章
 	Totem==图腾
 	title==称号
