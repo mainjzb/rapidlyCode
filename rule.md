@@ -1,3 +1,27 @@
+<!-- TOC -->
+
+- [规则](#规则)
+- [长句翻译](#长句翻译)
+- [等级](#等级)
+- [区域](#区域)
+- [点装|椅子](#点装椅子)
+- [地名 NPC](#地名-npc)
+- [BOSS](#boss)
+- [物品](#物品)
+- [杂项+属性](#杂项属性)
+- [语法](#语法)
+- [伤害皮肤](#伤害皮肤)
+- [宠物](#宠物)
+- [万圣节](#万圣节)
+- [装备](#装备)
+- [职业](#职业)
+- [单](#单)
+- [单.](#单)
+- [冒险岛](#冒险岛)
+- [属性](#属性)
+- [装备_单](#装备_单)
+
+<!-- /TOC -->
 
 @import "./rule_event.md"
 
@@ -91,6 +115,8 @@
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
 	Worn Ghost Suit==破旧的鬼魂套服
 	The Wave Chair==观众席椅子
+	Jeweled Bird==梦幻白凤
+	Sun Chair==太阳椅子
 
 
 # 地名 NPC
@@ -108,7 +134,6 @@
 	Morass==莫拉斯(5岛)
 	Esfera==埃斯佩拉(6岛)
 	Crimsonheart Castle==狮子王城堡
-	Leafre==神木村
 	Monster Park REBORN Coupon==怪物公园优惠券
 	Monster Park==怪物公园
 	Ghost Park==鬼魂公园
@@ -147,7 +172,14 @@
 	Kenta in Danger==坎特
 	Resurrection of the Hob King==侏儒帝王的复活
 	Witch Shop==魔女商店
+	Twilight Perion==黄昏的勇士部落
+	Henesys Ruins==破坏的射手村
+	Herb Town==百草堂
+	Origin Sea==起源之海
+	Flag Race==公会跑旗赛
 	##################################
+	Henesys==射手村
+	Leafre==神木村
 	Escape==逃脱组队任务
 	Kritias==克城
 	Alliance==同盟
@@ -162,6 +194,7 @@
 	Ellin==艾利
 	Mu Lung Dojo==武陵道场
 	Mu Lung Points==道场积分
+	Mu Lung==武陵
 	Dojo==道场
 	Cassandra==卡珊德拉
 	Ludibrium==玩具城
@@ -170,7 +203,13 @@
 	Shinsoo==神兽
 	Glinda==格琳达
 	Moonbridge==月桥
-	
+	Aquarium==水下世界
+	Haven==避风港
+	Sleepywood==林中之城
+	Perion==勇士部落
+	Ardentmill==匠人街
+
+
 # BOSS
 	Root Abyss==鲁比塔斯
 	Hard Lucid's==困难级路西德的
@@ -193,14 +232,20 @@
 	Cygnus==希纳斯女皇
 	Easy Zakum==简单扎昆
 	Normal Zakum==普通扎昆
-	Easy Horntail==简单黑龙
-	Normal Horntail==普通黑龙
+	Easy Horntail==简单暗黑龙王
+	Normal Horntail==普通暗黑龙王
+	Chaos Horntail==进阶暗黑龙王
 	Easy Papulatus==简单闹钟
 	Normal Papulatus==普通闹钟
+	Papulatus Mark==闹钟脸饰
 	Papulatus==闹钟
+	Crimson Balrog==蝙蝠魔
+	Verus Hillaroid==真神希腊机器人
+	Verus Hilla==真神希拉
 	#######################
 	Ursus==乌鲁斯
 	Lotus==斯乌
+	Lucidroid==路西德机器人
 	Lucid’s==路西德的
 	Lucid's==路西德的
 	Lucid==路西德
@@ -210,7 +255,7 @@
 	Will==威尔
 	gollux==贝勒德
 	Zakum==扎昆
-	Horntail==黑龙
+	Horntail==暗黑龙王
 	Hilla==希拉
 	Pierre==皮埃尔
 	Vellum==贝伦
@@ -218,6 +263,7 @@
 	OMNI-CLN==钻机
 	Damien==戴安米
 	Living Chains==生存链
+	Balrog==蝙蝠魔
 
 
 
@@ -227,7 +273,7 @@
 	Miracle Circulators?==内在还原器
 	Master Craftsman's Cubes?==黄魔方
 	Craftsman's Cube==黄魔方
-	Occult Cubes?==怪异魔方
+	(Bonus)? Occult Cubes?==怪异魔方
 	Meister's Cubes?==匠人魔方
 	Meister’s Cubes?==匠人魔方
 	Red Cubes?==红魔方
@@ -243,7 +289,7 @@
 	Arachno Coins==蜘蛛币
 	Stone Cobweb Droplets?==蜘蛛币碎片石
 	Mastery Book Set==能手册礼包
-	Mastery Book==能手册
+	Mastery Books?==能手册
 	Bonus Potential Cubes?==附加潜能魔方
 	Trait Boost Potion==倾向药水
 	Eternal Flame of Rebirth==彩虹火花
@@ -275,6 +321,7 @@
 	Core Gemstone==核心
 	Job Advancement Coin==专职币
 	(SP|AP) Reset Scroll==\1重置卷
+	Pet Coupon==宠物卡
 
 # 杂项+属性  
 	Cash Cover Eye Accessory==眼镜时装
@@ -362,6 +409,7 @@
 	Pure Clean Slate Scroll==纯白卷轴
 	Innocent  Scroll==纯白卷轴
 	Clean Slate Scroll==白衣卷轴
+	Incredible Chaos Scroll of Goodness==惊人的正义混沌卷轴
 	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
 	Chaos Scroll==混沌卷轴
 	Potential Scroll==潜能卷轴
@@ -404,7 +452,6 @@
 	Sakura Kinomoto==小樱
 	Kero-chan==“小可”
 	Tomoyo Daidouji==“知世”
-	Chaos Horntail==进阶黑龙
 	Act (\d)==第\1章
 	Sengoku High==战国高校
 	Bug Brawl==昆虫大作战
@@ -417,7 +464,8 @@
 	Maple Rewards UI==RP积分界面
 	Maple Reward Points==RP积分
 	Reward Points==RP积分
-	Special Medal of Honor==特殊荣誉勋章
+	Special Medal of Honor==特殊的荣誉勋章
+	Legendary Medal of Honor==传奇的荣誉勋章
 	Medal of Honor==荣誉勋章
 	Maple Missions==枫之使命
 	Sengoku Class Supplementary Pass==战国高校额外通行证
@@ -426,7 +474,6 @@
 	Divine Intelligence==神圣的智慧
 	Black Mage's==黑魔法师的
 	Black Mage==黑魔法师
-	Verus Hilla==真神希腊
 	Tera Burning==斗燃
 	(\d) minutes==\1分钟
 	tradeable within account==可仓库转移
@@ -437,7 +484,8 @@
 	Infinite Pawsibilites==无限可能
 	the Multikill counter==多连杀
 	Combo Kill counter==连续击杀
-	Maple Guide==冒险向导
+	Maple Guide stamps==冒险向导的盖章
+	Maple Guides?==冒险向导
 	advancement prerequisites?==前置任务
 	party quests?==组队任务
 	V Matrix==V矩阵
@@ -470,6 +518,8 @@
 	Bonus EXP==额外经验
 	Arcane Symbol Selector Coupon==奥术球选择卡
 	Arcane Symbol==奥术球
+	Stage (\d)==\1阶
+	Combo Kill==连续击杀
 
 # 语法
 	to trade in for==换取
@@ -479,7 +529,7 @@
 
 # 伤害皮肤
 	Soccer Uniform==足球制服
-	Damage Skin==伤害皮肤
+	Damage Skins?==伤害皮肤
 
 
 
@@ -543,6 +593,8 @@
 	Kinship Ring==血缘戒指
 	Fafnir Weapon==FFN武器
 	Fafnir Weapon Box==FFN武器箱
+	Dominator Pendant==统治者吊坠
+
 
 
 # 职业
@@ -612,7 +664,6 @@
 	Tomoyo==“知世”
 	Syaoran==“小狼”
 	Syaoran Li==“小狼”
-	Henesys==射手村
 	EXP==经验
 	Recipes?==配方
 	Julieta==朱莉埃塔
@@ -716,6 +767,8 @@
 	\bExpedition\b==远征
 	\bLil\b==迷你
 	\bLabyrinth\b==迷宫
+	\bkishin\b==鬼神
+	\bNova\b==诺巴
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
@@ -764,7 +817,6 @@
 	Medals?==勋章
 	Badge==徽章
 	Totem==图腾
-	title==称号
 	Katana==武士刀
 	Fan\s==扇子
 	Scepter==驯兽魔法棒
@@ -795,3 +847,5 @@
 	Gun==短枪
 	Knuckle==指节
 	armor==防具
+	\btitle\b==称号
+	Androids?==机器人
