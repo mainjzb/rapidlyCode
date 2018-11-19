@@ -211,6 +211,7 @@
 
 
 # BOSS
+	Root Abyss Set Box==鲁比塔斯装备套盒子
 	Root Abyss==鲁比塔斯
 	Hard Lucid's==困难级路西德的
 	Hard Lucid’s==困难级路西德的
@@ -262,7 +263,7 @@
 	Arkarium==阿卡伊勒
 	OMNI-CLN==钻机
 	Damien==戴安米
-	Living Chains==生存链
+	Living Chains?==生存链
 	Balrog==蝙蝠魔
 
 
@@ -520,6 +521,8 @@
 	Arcane Symbol==奥术球
 	Stage (\d)==\1阶
 	Combo Kill==连续击杀
+	Battle Analysis==战斗分析
+	Battle Statistics UI==战斗统计界面
 
 # 语法
 	to trade in for==换取
@@ -594,6 +597,9 @@
 	Fafnir Weapon==FFN武器
 	Fafnir Weapon Box==FFN武器箱
 	Dominator Pendant==统治者吊坠
+	New Gold Heart==黄金心脏
+	Eternal Flame Title==永恒火焰称号
+	Eternal Flame==永恒火焰
 
 
 
@@ -769,6 +775,8 @@
 	\bLabyrinth\b==迷宫
 	\bkishin\b==鬼神
 	\bNova\b==诺巴
+	\bTiara\b==头饰
+	\bclass\b==职业
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
