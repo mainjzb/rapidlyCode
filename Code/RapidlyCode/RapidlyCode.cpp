@@ -64,7 +64,6 @@ int main( int argc, char *argv[] )
 	{
 		return false;
 	}
-
 	QTextStream inStream( &srcFile );
 	QTextStream outStream( &destFile );
 	inStream.setCodec( "UTF-8" );
@@ -73,6 +72,13 @@ int main( int argc, char *argv[] )
 	QString * content = new QString( u8"" );
 	*content = inStream.readAll();
 	OptimizeContent( *content );
+#ifdef QT_DEBUG
+	QFile tmpFile( "./a_a.html" );
+	tmpFile.open( QFile::ReadWrite );
+	QTextStream tmpStream( &tmpFile );
+	tmpStream.setCodec( "UTF-8" );
+	SaveToFile( tmpStream, *content, adFlag, adPath );
+#endif
 
 	QVector<sRule*> rules;
 	XParseRule(ruleFile_s, rules);
@@ -362,8 +368,8 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		QString endTime = tmpstring.at( 1 ).trimmed();
 		startTime = startTime.replace( "&nbsp;", " " );
 		endTime = endTime.replace( "&nbsp;", " " );
-		startTime = startTime.replace( "  ", " " );
-		endTime = endTime.replace( "  ", " " );
+		startTime = startTime.replace( "  ", " " ).trimmed();
+		endTime = endTime.replace( "  ", " " ).trimmed();
 
 		QLocale loc = QLocale( QLocale::English );
 		QDateTime date1 = loc.toDateTime( startTime, "dddd, MMMM d, yyyy h:mm AP" );
@@ -400,6 +406,8 @@ void CoverDateTimeToBeijin(QString & utcTime)
 }
 
 
+//Tuesday, November 20, 2018 7:00 PM ¨C Wednesday, November 21, 2018 6 : 59 PM
+
 void OptimizeContent(QString & content)
 {
 	if ( content == nullptr )
@@ -413,45 +421,45 @@ void OptimizeContent(QString & content)
 	content = content.replace( R"(</strong>&nbsp;<strong>)", " " );
 
 
-
+	const QString strong( R"(<strong>)" );
+	const QString endStrong( R"(</strong>)" );
 	int start = 0, end = 0;
 	while (true)
 	{
-		start = content.indexOf( R"(<strong>)", start );
-		if ( start == -1 )
+		start = content.indexOf( strong, start ) + strong.length();
+		if ( start == -1 + strong.length() )
 			break;
 		while ( true )
 		{
-			int index1 = content.indexOf( R"(</strong>)", start + 8 );
+			int index1 = content.indexOf( endStrong, start);
 			if ( index1 == -1 )
 				XPrint( "[OptimizeContent] can't find </strong>" );
-			int index2 = content.indexOf( R"(<strong>)", start + 8 );
+			int index2 = content.indexOf( strong, start);
 			if ( index2 == -1 )
 			{
-				start = index1 + 8;
+				start = index1 + endStrong.length();
 				break;
 			}
 
 			if ( index1 > index2 )
 			{
-				if ( content.mid( index1 - 1, 1 ) == " " && content.mid( index1 + 9, 1 ) == " " )
+				if ( content.mid( index1 - 1, 1 ) == " " && content.mid( index1 + endStrong.length(), 1 ) == " " )
 				{
-					content.remove( index1, 10 );
+					content.remove( index1, endStrong.length() + 1 );
 				}
 				else
 				{
-					content.remove( index1, 9 );
+					content.remove( index1, endStrong.length() );
 				}
 
-				if ( content.mid( index2 - 1, 1 ) == " " && content.mid( index2 + 8, 1 ) == " " )
+				if ( content.mid( index2 - 1, 1 ) == " " && content.mid( index2 + strong.length(), 1 ) == " " )
 				{
-					content.remove( index2, 9 );
+					content.remove( index2, strong.length() + 1 );
 				}
 				else
 				{
-					content.remove( index2, 8 );
+					content.remove( index2, strong.length() );
 				}
-				start = start + 8;
 			}
 			else
 			{

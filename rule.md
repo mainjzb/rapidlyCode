@@ -6,12 +6,12 @@
 - [区域](#区域)
 - [点装|椅子](#点装椅子)
 - [地名 NPC](#地名-npc)
+- [宠物](#宠物)
 - [BOSS](#boss)
 - [物品](#物品)
 - [杂项+属性](#杂项属性)
 - [语法](#语法)
 - [伤害皮肤](#伤害皮肤)
-- [宠物](#宠物)
 - [万圣节](#万圣节)
 - [装备](#装备)
 - [职业](#职业)
@@ -117,10 +117,10 @@
 	The Wave Chair==观众席椅子
 	Jeweled Bird==梦幻白凤
 	Sun Chair==太阳椅子
-
+	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
+	Aura Ring==光环戒指
 
 # 地名 NPC
-	Orchid==奥尔卡
 	Tenebris==阴暗之地
 	Vanishing Journey==消失的旅途(岛1)
 	Hungry Muto==饥饿的莫托(岛二每日)
@@ -177,6 +177,10 @@
 	Herb Town==百草堂
 	Origin Sea==起源之海
 	Flag Race==公会跑旗赛
+	Grand Athenaeum==次元图书馆
+	Meso Market==金币市场
+	Pilot Irvin==飞行员艾文
+	Athena Pierce==皮尔斯
 	##################################
 	Henesys==射手村
 	Leafre==神木村
@@ -208,19 +212,35 @@
 	Sleepywood==林中之城
 	Perion==勇士部落
 	Ardentmill==匠人街
+	Nautilus==诺特勒斯
 
+
+# 宠物
+	Expanded Auto Move Skill==扩展移动技能
+	Auto Move Skill==自动移动技能
+	Auto Feed and Movement Skill==自动喂食和移动技能
+	Expired Pickup Skill==额外拾取技能
+	Ignore Item Skill==忽略物品技能
+	Auto Buff Skill==自动BUFF技能
+	Premium Pet Food==永久宠物食品
+	Permanent when applied==使用后永久学会
+	Pet Boost Package==宠物技能包
+	Silver Husky==银色哈士奇
+	Black Kitty Pet==黑色猫咪宠物
+	Lil Neiny Pet==迷你南哈特宠物
+	Jr\. Orchid==迷你奥尔卡
+	Jr\. Hilla==迷你希腊
+	Jr\. Von Leon==迷你狮子王
+	Harp Seal==小海豹
+	Von Soup==半半
 
 # BOSS
 	Root Abyss Set Box==鲁比塔斯装备套盒子
 	Root Abyss==鲁比塔斯
-	Hard Lucid's==困难级路西德的
-	Hard Lucid’s==困难级路西德的
 	Hard Lotus==困难级斯乌
 	Hard Damien==困难级戴安米
-	Hard Lotus’s==困难级斯乌的
 	Hard Lotus's==困难级斯乌的
 	Hard Will's==困难级威尔的
-	Hard Will’s==困难级威尔的
 	Hard Will==困难级威尔
 	Crimson Queen==血腥女皇
 	Von Bon==半半
@@ -246,13 +266,8 @@
 	#######################
 	Ursus==乌鲁斯
 	Lotus==斯乌
-	Lucidroid==路西德机器人
-	Lucid’s==路西德的
-	Lucid's==路西德的
-	Lucid==路西德
 	Magnus==麦格纳斯
 	Will's==威尔的
-	Will’s==威尔的
 	Will==威尔
 	gollux==贝勒德
 	Zakum==扎昆
@@ -266,9 +281,23 @@
 	Living Chains?==生存链
 	Balrog==蝙蝠魔
 
+	
+	Hard Lucid's==困难级路西德的
+	Lucidroid==路西德机器人
+	Lucid's==路西德的
+	Ebony Lucid==黑色路西德
+	Powder Lucid==粉色路西德
+	Rose Lucid==玫瑰路西德
+	Lucid==路西德
+
 
 
 # 物品
+	Infinite Revitalizer==疲劳恢复药水
+	Final Form Main Color Change Coupon==狂龙战士主颜色变更券
+	Final Form Sub Color Change Coupon==狂龙战士辅助颜色变更券
+	Final Form Color Reset Coupon==狂龙战士颜色重置券
+	Premium Water of Life==永久的复活药水
 	Alliance Medal==同盟币
 	Android Heart==机器人心脏
 	Miracle Circulators?==内在还原器
@@ -279,6 +308,7 @@
 	Meister’s Cubes?==匠人魔方
 	Red Cubes?==红魔方
 	Black Cubes?==黑魔方
+	Perfect Potential Stamps?==完美潜能印章
 	Gold Potential Stamps?==金色潜能印章
 	Silver Potential Stamps?==银色潜能印章
 	Epic Potential Scroll==紫色潜能卷
@@ -310,7 +340,7 @@
 	2x Drop==双倍爆率
 	Power Elixir==超级药水
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
-	Storm Growth Potion==风暴成长药水
+	(Mysterious )?Storm Growth Potion==风暴成长药水
 	Storage Room (\d)-Slot Coupon==仓库\1格扩展券
 	Selective (\d)-Slot==可选择\1格扩展
 	Selective (\d) Slot Coupon==可选择\1格扩展卷
@@ -323,6 +353,8 @@
 	Job Advancement Coin==专职币
 	(SP|AP) Reset Scroll==\1重置卷
 	Pet Coupon==宠物卡
+	Mysterious Monsterbloom==神秘怪物袋
+	Onyx Apple==蓝彩苹果
 
 # 杂项+属性  
 	Cash Cover Eye Accessory==眼镜时装
@@ -414,6 +446,7 @@
 	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
 	Chaos Scroll==混沌卷轴
 	Potential Scroll==潜能卷轴
+	Return Scrolls?==回城卷轴
 	Surprise Pet Box==宠物抽奖箱
 	Extra Character Slot Coupon==扩展角色位卡
 	EXP Coupons?==经验卡
@@ -427,6 +460,8 @@
 	Skin Coupon==肤色卡
 	Royal Hair Coupon==皇家理发卡
 	Royal Face Coupon==皇家整容卡
+	Face Coupon==整容卡
+	Hair Style Coupon==理发卡
 	Hair Coupon==理发卡
 	Maple Point==枫叶点
 	Captain Vaga==瓦加舰长
@@ -523,6 +558,9 @@
 	Combo Kill==连续击杀
 	Battle Analysis==战斗分析
 	Battle Statistics UI==战斗统计界面
+	Mysterious Cryptic Chest==神秘礼盒
+	Legendary Cryptic Chest==传奇礼盒
+	Arcane Power==奥数值
 
 # 语法
 	to trade in for==换取
@@ -535,19 +573,6 @@
 	Damage Skins?==伤害皮肤
 
 
-
-# 宠物
-	Expanded Auto Move Skill==扩展移动技能
-	Auto Move Skill==自动移动技能
-	Auto Feed and Movement Skill==自动喂食和移动技能
-	Expired Pickup Skill==额外拾取技能
-	Ignore Item Skill==忽略物品技能
-	Auto Buff Skill==自动BUFF技能
-	Premium Pet Food==永久宠物食品
-	Permanent when applied==使用后永久学会
-	Pet Boost Package==宠物技能包
-	Silver Husky==银色哈士奇
-	Black Kitty Pet==黑色猫咪宠物
 
 
 # 万圣节
@@ -593,6 +618,7 @@
 	Hand Cannon==手持火炮
 	Pendant of the Spirit==精灵吊坠
 	Soul Shooter==灵魂手铳
+	Kin Ring==血缘戒指
 	Kinship Ring==血缘戒指
 	Fafnir Weapon==FFN武器
 	Fafnir Weapon Box==FFN武器箱
@@ -762,6 +788,8 @@
 	hunter==猎杀
 	hunt==猎杀 
 	permanent==永久
+	Orchid==奥尔卡
+	Togetherness==同伴
 
 	\bCape\b==披风
 	\bBox(es)?\b==盒子
@@ -804,7 +832,7 @@
 	Magic Attack==魔法攻击力
 	Weapon ATT==物理攻击力
 	Magic ATT==魔法攻击力
-	Critical Rate==暴击率
+	Critical Rate==暴击命中率
 	Boss Damage==BOSS伤害
 	BOSS Damage==BOSS伤害
 	Untradeable==不可交易
