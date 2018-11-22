@@ -19,15 +19,14 @@ help google translate for maplestory to chinese
 
 ### v1.3
 
-- add feature that in rule file can import other rule file .
+- add feature `Commad_@import` that in rule file can import other rule file .
 ```
-@import "other_rule.md"
+@import "other_rule_file_name"
 ``` 
 
 ### v1.4
 
 - upload rapidlycode source code in 'Code' folder.
-
 - skip the content in <>.
 
 ### v1.5
@@ -37,9 +36,9 @@ help google translate for maplestory to chinese
 ### v1.6
 
 - code refactoring, running faster .
-
-- add feature that `UTC time -> BeiJin time` and  `AEDT  time -> BeiJin time`.
+- add feature `TimeToChineseTime` that `UTC time -> BeiJin time` and  `AEDT  time -> BeiJin time`.
 
 ### v1.7
 
--  From a.html delete useless "<strong></strong>" tags in advance, will better work
+- add new feature `DeleteTags` ath From a.html delete useless "&lt;strong&gt;&lt;/strong&gt;" tags in advance, will better work.
+- fix feature `TimeToChineseTime` that can't cover in sometimes.

@@ -77,7 +77,7 @@
 	\[All Worlds\]==
 	\(EU\)==(欧服)
 	\(NA\)==(美服)
-	Mapler==冒险家
+	Maplers?==冒险家
 	’=='
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
@@ -181,6 +181,7 @@
 	Meso Market==金币市场
 	Pilot Irvin==飞行员艾文
 	Athena Pierce==皮尔斯
+	Lady Blair==布莱尔女士
 	##################################
 	Henesys==射手村
 	Leafre==神木村
@@ -213,6 +214,7 @@
 	Perion==勇士部落
 	Ardentmill==匠人街
 	Nautilus==诺特勒斯
+	Kishin==鬼神
 
 
 # 宠物
@@ -357,6 +359,7 @@
 	Onyx Apple==蓝彩苹果
 
 # 杂项+属性  
+	Daily Quest==每日任务
 	Cash Cover Eye Accessory==眼镜时装
 	Cash Cover Hat==帽子时装
 	after maintenance==维护后
@@ -510,7 +513,6 @@
 	Divine Intelligence==神圣的智慧
 	Black Mage's==黑魔法师的
 	Black Mage==黑魔法师
-	Tera Burning==斗燃
 	(\d) minutes==\1分钟
 	tradeable within account==可仓库转移
 	Gold  Hammer==金锤子
@@ -538,6 +540,7 @@
 	party leader==队长
 	Lantern Erdas?==灯笼艾尔达
 	drop items==爆出物品
+	leveling==升级
 	Level Up==升级
 	Hard Boss==困难级BOSS
 	Ability Point==属性点
@@ -561,6 +564,9 @@
 	Mysterious Cryptic Chest==神秘礼盒
 	Legendary Cryptic Chest==传奇礼盒
 	Arcane Power==奥数值
+	Burning characters?==斗燃角色
+	Tera Burning Project characters?==太斗燃的角色
+	Tera Burning==太斗燃
 
 # 语法
 	to trade in for==换取
@@ -740,7 +746,7 @@
 	potions==药水
 	dorp==掉落
 	hardcore==极端
-	job==职业
+	jobs?==职业
 	scrolls?==卷轴
 	boss==BOSS
 	sweetwater==漩涡
@@ -804,7 +810,7 @@
 	\bkishin\b==鬼神
 	\bNova\b==诺巴
 	\bTiara\b==头饰
-	\bclass\b==职业
+	\bclasss?\b==职业
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
