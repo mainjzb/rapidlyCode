@@ -129,7 +129,7 @@
 	Nameless Town==无名村
 	Chu Chu Island==啾啾岛(2岛)
 	Chew Chew Island==啾啾岛(2岛)
-	Lachelein==梦都(3岛)
+	Lachelein==梦之都拉克兰(3岛)
 	Arcana==阿尔卡那(4岛)
 	Morass==莫拉斯(5岛)
 	Esfera==埃斯佩拉(6岛)
@@ -182,6 +182,9 @@
 	Pilot Irvin==飞行员艾文
 	Athena Pierce==皮尔斯
 	Lady Blair==布莱尔女士
+	Small Spirit==小不点精灵
+	Tree Spirit==树精灵
+	Rock Spirit==石精灵
 	##################################
 	Henesys==射手村
 	Leafre==神木村
@@ -215,6 +218,7 @@
 	Ardentmill==匠人街
 	Nautilus==诺特勒斯
 	Kishin==鬼神
+	
 
 
 # 宠物
@@ -691,7 +695,7 @@
 	Archer==射手
 	Kaiser==狂龙战士
 	Cadena==魔链影士
-	Marksman==箭神
+	Marksman==箭神(弩)
 	Buccaneer==冲锋队长
 	Mercedes==双弩
 	Mechanic==机械师
@@ -817,10 +821,6 @@
 	MapleStory M==冒险岛手机版
 	Maple M\s==冒险岛手机版
 	MapleStory==冒险岛
-
-
-
-
 
 
 # 属性

@@ -13,6 +13,20 @@ help google translate for maplestory to chinese
 
 `--adpath` don't use `--noad` than set ad file path, default is `./Tools/ad.html`
 
+## Feature
+
+-  `TimeToChineseTime` 
+	- cover `AEDT (UTC +11): Thursday, November 22, 2018 7:00 PM` to  `北京时间：2018年 11月22日 下午 4:00`
+	- cover `UTC: December 18 at 11:59 PM` to `北京时间：12月19日 上午 7:59`
+
+- `DeleteTags`
+	- delete &lt;strong&gt;&lt;/strong&gt; that no purpose
+
+
+
+
+
+
 ### v1.2
 
 - add feature Single-line commentes are created simply by beginning in line with '#' or '-'
