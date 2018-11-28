@@ -228,6 +228,7 @@
 	Expired Pickup Skill==额外拾取技能
 	Ignore Item Skill==忽略物品技能
 	Auto Buff Skill==自动BUFF技能
+	Auto HP Potion Skill==自动HP技能
 	Premium Pet Food==永久宠物食品
 	Permanent when applied==使用后永久学会
 	Pet Boost Package==宠物技能包
@@ -239,6 +240,9 @@
 	Jr\. Von Leon==迷你狮子王
 	Harp Seal==小海豹
 	Von Soup==半半
+	Black Bean==黑色品克缤
+	Pet Snack==宠物点心
+	Dye Coupon==染色卡
 
 # BOSS
 	Root Abyss Set Box==鲁比塔斯装备套盒子
@@ -305,7 +309,7 @@
 	Final Form Color Reset Coupon==狂龙战士颜色重置券
 	Premium Water of Life==永久的复活药水
 	Alliance Medal==同盟币
-	Android Heart==机器人心脏
+	Android Hearts?==机器人心脏
 	Miracle Circulators?==内在还原器
 	Master Craftsman's Cubes?==黄魔方
 	Craftsman's Cube==黄魔方
@@ -774,7 +778,6 @@
 	Bebe==贝贝
 	Chair==椅子
 	Player==玩家
-	AbsoLab==AB
 	Credit==信用值
 	Monad==莫奈得
 	Drop==爆率
@@ -883,6 +886,7 @@
 	\scapes?==披风
 	Frozen==寒冰
 	Absolab==埃苏莱布斯
+	AbsoLab==埃苏莱布斯
 	Bow==弓
 	Crossbow==弩
 	Chain==锁链
