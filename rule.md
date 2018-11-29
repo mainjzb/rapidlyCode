@@ -20,6 +20,7 @@
 - [冒险岛](#冒险岛)
 - [属性](#属性)
 - [装备_单](#装备_单)
+- [temple](#temple)
 
 <!-- /TOC -->
 
@@ -218,7 +219,7 @@
 	Ardentmill==匠人街
 	Nautilus==诺特勒斯
 	Kishin==鬼神
-	
+	Darkness==黑暗使者
 
 
 # 宠物
@@ -333,7 +334,6 @@
 	Mastery Books?==能手册
 	Bonus Potential Cubes?==附加潜能魔方
 	Trait Boost Potion==倾向药水
-	Eternal Flame of Rebirth==彩虹火花
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
 	nodestones?==核心
@@ -341,7 +341,11 @@
 	Character Slot Expansion Coupon==角色位扩展卡
 	Trait Increase Potion==倾向药水
 	Circulator==内在还原器
+	Eternal Flame of Rebirth==彩虹火花
 	Rebirth Flames==绯红火花 
+	Eternal Rebirth Flame==彩虹火花
+	Powerful Rebirth Flame==绯红火花
+	Black Rebirth Flame==暗黑火花
 	2(x|X) Exp Coupon==双倍经验卡
 	2(x|X) EXP Coupon==双倍经验卡
 	2x EXP==双倍经验
@@ -456,6 +460,7 @@
 	Incredible Chaos Scroll of Goodness==惊人的正义混沌卷轴
 	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
 	Chaos Scroll==混沌卷轴
+	Bonus Potential Scroll==附加潜能卷轴
 	Potential Scroll==潜能卷轴
 	Return Scrolls?==回城卷轴
 	Surprise Pet Box==宠物抽奖箱
@@ -463,8 +468,6 @@
 	EXP Coupons?==经验卡
 	Armor Supply Box==防具箱
 	Weapon Supply Box==武器箱
-	Eternal Rebirth Flame==彩虹火花
-	Powerful Rebirth Flame==绯红火花
 	Potion Pot==药剂罐
 	Cash Inventory Transfer==商城转移
 	Hair Color Coupon==染发卡
@@ -806,7 +809,7 @@
 
 	\bCape\b==披风
 	\bBox(es)?\b==盒子
-	\Rank\b==排名
+	\bRanks?\b==排名
 	\bSkills\b==技能
 	\bcharacters\b==玩家
 	\bdrop\b==掉落
@@ -895,3 +898,6 @@
 	armor==防具
 	\btitle\b==称号
 	Androids?==机器人
+
+# temple
+Empress's Gift==女皇的礼物
