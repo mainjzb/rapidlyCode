@@ -138,7 +138,7 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 				end = contentLength;
 			}
 			QString tmpString = content->mid( start, end - start );
-			//tmpString = tmpString.trimmed();
+			tmpString = tmpString.trimmed();
 			start = end;
 
 			if ( tmpString.leftRef( 3 ) == "UTC" || tmpString.leftRef( 4 ) == "AEDT")
