@@ -186,6 +186,7 @@
 	Small Spirit==小不点精灵
 	Tree Spirit==树精灵
 	Rock Spirit==石精灵
+	Marvel Machine==抽奖机
 	##################################
 	Henesys==射手村
 	Leafre==神木村
@@ -664,7 +665,7 @@
 	Wind Archer==风灵使者	
 	Flame Wizard==炎术士
 	Cannon Shooter==火炮
-
+	\(I/L\)==(冰雷)
 
 	Explorer==冒险家
 	Resistance==反抗者
