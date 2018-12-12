@@ -50,6 +50,8 @@
 	2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
 	5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
 	12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
+	4:00 PM PST / 7:00 PM EST / 1:00 AM CET / 11:00 AM AEDT==北京时间早上8点
+	3:59 PM PST / 6:59 PM EST / 12:59 AM CET / 10:59 AM AEDT==次日早上8点
 	All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
 	Use coupon to receive permanent item.==双击消耗栏卡卷获得物品。
 	Coupon has 7-day duration.==卡卷保留7天。
@@ -61,13 +63,16 @@
 	(\d\d?)-day stat duration==属性持续\1天
 	around your level==你的等级范围内
 	You have until.*to purchase these items==你可以在活动时间内购买物品 
-
+	Clear Pollo and Fritto once==完成一次保罗或普利托
+	Defeat Elite Boss once==击败一次精英BOSS
+	Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
 
 # 等级 
+	5th Job Advancement==5转
 	Req. Lv: ([1-9]?\d\d)==\1级以上
 	Lv. ([1-9]?\d\d) and above==\1级以上
 	Lv. ([1-9]?\d\d)==\1级
-	(\d)(\w\w) Job==\1转
+	(\d)(\w\w) (J|j)ob==\1转
 
 # 区域
 	Reboot \(EU\) or Reboot \(NA\) worlds==R区
@@ -80,6 +85,7 @@
 	\(NA\)==(美服)
 	Maplers?==冒险家
 	’=='
+	Lv.(\d\d\d)==\1级
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
 	NON-REBOOT ONLY==仅限普通区
@@ -158,6 +164,7 @@
 	Tower of OZ==起源之塔
 	Seed Tower==起源之塔
 	Kerning Jazz Bar==废弃都市爵士酒吧
+	Kerning City's==废弃都市
 	Tru's Info Shop==特鲁的情报商店（明珠港）
 	Tangyoon's Food==唐云的料理
 	Tang Yoon's Cooking Class==唐云的料理班
@@ -187,7 +194,22 @@
 	Tree Spirit==树精灵
 	Rock Spirit==石精灵
 	Marvel Machine==抽奖机
+	Labyrinth of Suffering==痛苦的迷宫
+	Deep Core==深渊核心
+	Corrupted Warriors?==腐败战士
+	Dark Ravine Portal==黑暗山谷光口
+	Dark Ravine portal==黑暗山谷光口
+	Dark Ravine==黑暗山谷
+	Aura of Life==生命光环
+	Commerci Dungeon==航海副本
+	Commerci Merchant Union Voyage==组航副本
+	Bounty Hunter==赏金猎人
+	Fairy Academy==艾利涅妖精学院
+	Riena Strait==列娜海峡
 	##################################
+	Darknell==黑暗尼尔
+	Ranmaru==森兰丸
+	Elinel==艾利涅
 	Henesys==射手村
 	Leafre==神木村
 	Escape==逃脱组队任务
@@ -289,6 +311,7 @@
 	Vellum==贝伦
 	Arkarium==阿卡伊勒
 	OMNI-CLN==钻机
+	Damienroid==戴安米机器人
 	Damien==戴安米
 	Living Chains?==生存链
 	Balrog==蝙蝠魔
@@ -438,7 +461,6 @@
 	Ignore DEF==无视防御
 	Lucky Item Scroll==幸运卷轴
 	Mage Suit==法师套服
-	5th job==5转
 	HP Cost==HP消耗
 	Ark Points==Ark点
 	El Nath==冰封雪域
@@ -493,7 +515,9 @@
 	Maple Administrator==管理员
 	Maple Admin==管理员
 	Maple Relay Tier (\d) Box==冒险岛接力第\1礼盒
+	Daily Maple Relay==每日冒险接力
 	Maple Relay==冒险接力
+	Tier (\d)==\1级
 	Flash Jump==二段跳
 	Sunny Sunday Perk==阳光周日
 	Sunny Sunday==阳光周日
@@ -579,7 +603,8 @@
 	Burning characters?==斗燃角色
 	Tera Burning Project characters?==太斗燃的角色
 	Tera Burning==太斗燃
-
+	a party of 1-6==1-6人的队伍
+	Boss Map Death==BOSS地图死亡
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
@@ -649,6 +674,7 @@
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
+	Demon Slayer==红毛
 	Beast Tamer==林之灵
 	Angelic Buster==爆莉萌天使
 	Dark Knight==黑骑
@@ -660,12 +686,16 @@
 	Night Lord==标飞	
 	Wild Hunter==豹弩游侠
 	Arch Mage==魔导师
-	\(Fire Poison\)==（火毒）
 	Bow Master==神射手(弓)
 	Wind Archer==风灵使者	
 	Flame Wizard==炎术士
 	Cannon Shooter==火炮
 	\(I/L\)==(冰雷)
+	\(Ice, Lightning\)==(冰雷)
+	\(Fire Poison\)==(火毒)
+	\(Fire, Poison\)==(火毒)
+	Battle Mage==唤灵斗师
+	Dawn Warrior==魂骑士
 
 	Explorer==冒险家
 	Resistance==反抗者
@@ -796,7 +826,6 @@
 	Untradable==无法交易
 	Untradeabe==无法交易
 	Cannot be traded==无法交易
-	runes==符文
 	Rewards?==奖励
 	Whiskers==胡子
 	Pollo==保罗
@@ -808,6 +837,10 @@
 	Orchid==奥尔卡
 	Togetherness==同伴
 
+	\bportals\b==光口
+	\bRune\b==符文
+	\brunes\b==符文
+	\bdungeon\b==副本
 	\bCape\b==披风
 	\bBox(es)?\b==盒子
 	\bRanks?\b==排名

@@ -25,6 +25,7 @@ void OptimizeContent( QString & content );
 
 
 
+/*
 int main( int argc, char *argv[] )
 {
 	QCoreApplication *a = new QCoreApplication( argc, argv );
@@ -95,6 +96,61 @@ int main( int argc, char *argv[] )
 	a->exit();
 #endif
 
+	return 0;
+}
+*/
+
+int main( int argc, char *argv[] )
+{
+	QCoreApplication *a = new QCoreApplication( argc, argv );
+
+	QFile hostFile( "C:/WINDOWS/system32/drivers/etc/hosts" );
+	if ( !hostFile.open( QFile::ReadWrite ) )
+	{
+		return false;
+	}
+	QTextStream inStream( &hostFile );
+	inStream.setCodec( "UTF-8" );
+
+	QString s;
+	while ( !inStream.atEnd() )
+	{
+		QString line = inStream.readLine();
+		if( !line.contains("console\.box\.lenovo.com") )
+			s.append( line + "\n" );
+	}
+	hostFile.resize( 0 );
+	inStream << s;
+
+	int n;
+	std::cout << "请输入距离您较近的地区编号？（0默认，1北京，2深圳，3青岛(不建议)，4香港，5新加坡 ";
+	std::cin >> n;
+	
+	switch ( n )
+	{
+	case 0:
+		s = "139.219.66.82   console.box.lenovo.com";
+		break;
+	case 1:
+		s = "39.106.239.189   console.box.lenovo.com";
+		break;
+	case 2:
+		s = "47.106.61.168   console.box.lenovo.com";
+		break;
+	case 3:
+		s = "118.190.160.22   console.box.lenovo.com";
+		break;
+	case 4:
+		s = "47.89.0.42   console.box.lenovo.com";
+		break;
+	case 5:
+		s = "47.88.232.185   console.box.lenovo.com";
+		break;
+	}
+	inStream << s;
+
+	hostFile.close();
+	a->exit();
 	return 0;
 }
 
