@@ -593,7 +593,7 @@
 	Receive 50% off==享受五折
 	50% off==五折
 	Elite monsters?==精英怪
-	Elite monsters?==精英怪
+	Elite Monsters?==精英怪
 	Elite Boss==精英BOSS
 	Elite boss==精英BOSS
 	Bounty Hunting==赏金猎人
