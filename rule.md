@@ -8,6 +8,7 @@
 - [地名 NPC](#地名-npc)
 - [宠物](#宠物)
 - [BOSS](#boss)
+- [圣诞](#圣诞)
 - [物品](#物品)
 - [杂项+属性](#杂项属性)
 - [语法](#语法)
@@ -52,6 +53,7 @@
 	12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
 	4:00 PM PST / 7:00 PM EST / 1:00 AM CET / 11:00 AM AEDT==北京时间早上8点
 	3:59 PM PST / 6:59 PM EST / 12:59 AM CET / 10:59 AM AEDT==次日早上8点
+	\(12\:00 AM UTC\)==(北京早上8点)
 	All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
 	Use coupon to receive permanent item.==双击消耗栏卡卷获得物品。
 	Coupon has 7-day duration.==卡卷保留7天。
@@ -68,11 +70,14 @@
 	Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
 
 # 等级 
+	&nbsp;(\S)== \1
 	5th Job Advancement==5转
 	Req. Lv: ([1-9]?\d\d)==\1级以上
 	Lv. ([1-9]?\d\d) and above==\1级以上
-	Lv. ([1-9]?\d\d)==\1级
+	Lv. ([1-9]?\d?\d)==\1级
+	Lv.(\d\d\d)==\1级
 	(\d)(\w\w) (J|j)ob==\1转
+	Lv.==等级
 
 # 区域
 	Reboot \(EU\) or Reboot \(NA\) worlds==R区
@@ -85,7 +90,6 @@
 	\(NA\)==(美服)
 	Maplers?==冒险家
 	’=='
-	Lv.(\d\d\d)==\1级
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
 	NON-REBOOT ONLY==仅限普通区
@@ -297,6 +301,8 @@
 	Crimson Balrog==蝙蝠魔
 	Verus Hillaroid==真神希腊机器人
 	Verus Hilla==真神希拉
+	Necro Orchid==死灵奥尔卡
+	Necro Lotus==死灵斯乌
 	#######################
 	Ursus==乌鲁斯
 	Lotus==斯乌
@@ -324,8 +330,13 @@
 	Powder Lucid==粉色路西德
 	Rose Lucid==玫瑰路西德
 	Lucid==路西德
+	Aliciaroid==阿丽莎机器人
 
-
+#圣诞
+	Shining Santa Box==闪耀的圣诞老人盒子
+	Red Santa Boots==红色圣诞老人靴子
+	Christmas Stocking==圣诞袜
+	\bSanta\b==圣诞老人
 
 # 物品
 	Infinite Revitalizer==疲劳恢复药水
@@ -343,6 +354,7 @@
 	Meister’s Cubes?==匠人魔方
 	Red Cubes?==红魔方
 	Black Cubes?==黑魔方
+	Violet Cubes?==六角魔方
 	Perfect Potential Stamps?==完美潜能印章
 	Gold Potential Stamps?==金色潜能印章
 	Silver Potential Stamps?==银色潜能印章
@@ -393,6 +405,19 @@
 	Pet Coupon==宠物卡
 	Mysterious Monsterbloom==神秘怪物袋
 	Onyx Apple==蓝彩苹果
+	Café Latte==咖啡牛奶
+	Extra Strength Hard Sanitizer==强力消毒剂
+	Premium Cologne==高级香水
+	Snake Bone Soup==蛇骨汤
+	Premium Carrot Juice==优质胡萝卜汁
+	Premium Hair Wax==优质发蜡
+	Cherry Chocolate Cupcake==巧克力蛋糕
+	White Candy Cupcake==白色糖果蛋糕
+	Strawberry Cupcake==草莓蛋糕
+	All Cure Potion==万能药水
+	Gingerbread Man Cookie==姜饼男人饼干
+	Gingerbread Woman Cookie==姜饼女人饼干
+	Star Force (\d\d)\-Star Enhancement Coupon==\1星强化卷
 
 # 杂项+属性  
 	Daily Quest==每日任务
@@ -480,6 +505,7 @@
 	Pure Clean Slate Scroll==纯白卷轴
 	Innocent  Scroll==纯白卷轴
 	Clean Slate Scroll==白衣卷轴
+	Chaos Scroll of Goodness==正义混沌卷轴
 	Incredible Chaos Scroll of Goodness==惊人的正义混沌卷轴
 	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
 	Chaos Scroll==混沌卷轴
@@ -603,8 +629,11 @@
 	Burning characters?==斗燃角色
 	Tera Burning Project characters?==太斗燃的角色
 	Tera Burning==太斗燃
-	a party of 1-6==1-6人的队伍
+	a party of (\d)-(\d)==\1-\2人的队伍
 	Boss Map Death==BOSS地图死亡
+	Etc tab==其他栏
+	Big Spender==大土豪
+	Hot Time==热力时间
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
@@ -663,14 +692,18 @@
 	Soul Shooter==灵魂手铳
 	Kin Ring==血缘戒指
 	Kinship Ring==血缘戒指
+	Fafnir weapon==FFN武器
 	Fafnir Weapon==FFN武器
 	Fafnir Weapon Box==FFN武器箱
 	Dominator Pendant==统治者吊坠
 	New Gold Heart==黄金心脏
 	Eternal Flame Title==永恒火焰称号
 	Eternal Flame==永恒火焰
-
-
+	Rudolph's Red Nose==鲁道夫的红鼻子
+	\bTyrant\b==暴君
+	\bboots\b==鞋子
+	\bcloak\b==披风
+	\bbelt\b==腰带
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
@@ -779,7 +812,6 @@
 	\sring==戒指
 	equipment==装备
 	equips?==装备套
-	\s+events?==活动
 	EVENTS?==活动
 	mesos==金币
 	players?==玩家
@@ -794,7 +826,6 @@
 	sweetwater==漩涡
 	non-Transposed==非继承
 	transposed==继承
-	Lv.==等级
 	zero==神之子
 	Shoulder==护肩
 	Essence==精华
@@ -837,6 +868,7 @@
 	Orchid==奥尔卡
 	Togetherness==同伴
 
+	\bevents?\b==活动
 	\bportals\b==光口
 	\bRune\b==符文
 	\brunes\b==符文
@@ -866,7 +898,9 @@
 # 属性
 	Level==等级
 	Max MP==MP
+	MaxMP==MP
 	Max HP==HP
+	MaxHP==HP
 	Weapon Attack==攻击力
 	Enemy Defense Ignored==无视防御
 	Defense==防御力
@@ -935,3 +969,5 @@
 
 # temple
 Empress's Gift==女皇的礼物
+
+
