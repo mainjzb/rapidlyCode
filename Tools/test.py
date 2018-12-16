@@ -5,14 +5,7 @@ import platform
 import os
 import sys
 import winreg
-'''
-              _ _        _____        ____  _____ 
-    /\       | (_)      / ____|      / __ \|_   _|
-   /  \      | |_  __ _| (___  _   _| |  | | | |  
-  / /\ \ _   | | |/ _` |\___ \| | | | |  | | | |  
- / ____ \ |__| | | (_| |____) | |_| | |__| |_| |_ 
-/_/    \_\____/|_|\__,_|_____/ \__,_|\___\_\_____|
-'''
+
 def logo():
 	print(r"    ___           __   _             _____             ____      ____")
 	print(r"   /   |         / /  (_)  ____ _   / ___/   __  __   / __ \    /  _/")
@@ -82,10 +75,35 @@ def CheckVC2015():
 		return True
 
 def CheckVC2017_2015():
+	flag = False
+
 	try:
 		value = findRoot(r"Installer\Dependencies\,,amd64,14.0,bundle", "Version")
 	except EnvironmentError:
-		# find 2015
+		flag = False
+	else:
+		print("VC++ 2017版本: " + value)
+		flag = True
+
+	if not flag:
+		try:
+			value = findRoot(r"Installer\Dependencies\VC,redist.x64,amd64,14.16,bundle", "Version")
+		except EnvironmentError:
+			flag = False
+		else:
+			print("VC++ 2017版本 x64: " + value)
+			flag = True
+		try:
+			value = findRoot(r"Installer\Dependencies\VC,redist.x86,x86,14.16,bundle", "Version")
+		except EnvironmentError:
+			flag = False
+		else:
+			print("VC++ 2017版本 x86: " + value)
+			flag = True
+
+
+	# find 2015
+	if not flag:
 		try:
 			value = find(r"SOFTWARE\Classes\Installer\Dependencies\{d992c12e-cab2-426f-bde3-fb8c53950b0d}","Version" )
 		except EnvironmentError:
@@ -93,10 +111,10 @@ def CheckVC2017_2015():
 			return False
 		else:
 			print("VC++2015版本: " + value)
-			return True
-	else:
-		print("VC++ 2017版本: " + value)
-		return True
+			flag = True
+
+	return True
+
 
 def main():
 	logo()

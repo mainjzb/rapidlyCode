@@ -2,7 +2,9 @@
 !GLCSM.html
 !New_GLCSM.html
 !cn2en.html
+!/bin/RapidlyCode_Debug.exe
+!Tools/*.*
+
+
 /Code/RapidlyCode/Solution/
 /bin/RapidlyCode_*
-!Tools/*.*
-_Replace_Debug.bat

@@ -333,7 +333,7 @@
 	Aliciaroid==阿丽莎机器人
 
 #圣诞
-	Shining Santa Box==闪耀的圣诞老人盒子
+	Shining Santa Box(es)?==闪耀的圣诞老人盒子
 	Red Santa Boots==红色圣诞老人靴子
 	Christmas Stocking==圣诞袜
 	\bSanta\b==圣诞老人
@@ -568,7 +568,7 @@
 	Special Medal of Honor==特殊的荣誉勋章
 	Legendary Medal of Honor==传奇的荣誉勋章
 	Medal of Honor==荣誉勋章
-	Maple Missions==枫之使命
+	Maple Missions?==枫之使命
 	Sengoku Class Supplementary Pass==战国高校额外通行证
 	Inner Abilities==内在能力
 	1 hr==1小时
@@ -634,6 +634,7 @@
 	Etc tab==其他栏
 	Big Spender==大土豪
 	Hot Time==热力时间
+	Drop Rates==爆率
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
@@ -868,7 +869,10 @@
 	Orchid==奥尔卡
 	Togetherness==同伴
 
+	\bbotters\b==开挂者
+	\bBotters\b==开挂者
 	\bevents?\b==活动
+	\bEvents?\b==活动
 	\bportals\b==光口
 	\bRune\b==符文
 	\brunes\b==符文
