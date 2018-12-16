@@ -1,10 +1,9 @@
 *.html
+/Code/RapidlyCode/Solution/
+/bin/RapidlyCode_*
+
 !GLCSM.html
 !New_GLCSM.html
 !cn2en.html
 !/bin/RapidlyCode_Debug.exe
 !Tools/*.*
-
-
-/Code/RapidlyCode/Solution/
-/bin/RapidlyCode_*
