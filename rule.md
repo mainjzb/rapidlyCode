@@ -418,6 +418,8 @@
 	Gingerbread Man Cookie==姜饼男人饼干
 	Gingerbread Woman Cookie==姜饼女人饼干
 	Star Force (\d\d)\-Star Enhancement Coupon==\1星强化卷
+	Hyper Teleport Rock==传送石
+	Teleport Rock==传送石
 
 # 杂项+属性  
 	Daily Quest==每日任务
@@ -430,8 +432,6 @@
 	Star Force==装备星之力强化
 	Tradeable within account==账号内可交易
 	Cash Shop==商城
-	Hyper Teleport Rock==传送石
-	Teleport Rock==传送石
 	Teleport Scroll==传送卷轴
 	Label Ring==名片戒指
 	Chat Ring==聊天戒指
@@ -451,7 +451,7 @@
 	Spell Traces? enhancements==痕迹强化
 	Spell Traces?==痕迹
 	Mysterious Meso Pouch==随机金币袋
-	Hot Week==炙热周
+	Hot Week==热力周
 	Storage Room==仓库
 	Mega Burning==斗燃
 	a Character Name Change Coupon==改名卡
@@ -635,6 +635,7 @@
 	Big Spender==大土豪
 	Hot Time==热力时间
 	Drop Rates==爆率
+	Hot Days==令人激动的日子
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
@@ -891,6 +892,7 @@
 	\bNova\b==诺巴
 	\bTiara\b==头饰
 	\bclasss?\b==职业
+	\bbans\b==封号
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
