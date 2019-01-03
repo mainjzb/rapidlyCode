@@ -287,7 +287,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		utcTime.remove( 0, 4 ).trimmed();
 
 
-		QStringList tmpstring = utcTime.split( QString::fromWCharArray( L"¨C" ) );
+		QStringList tmpstring = utcTime.split( QString::fromWCharArray( L"â€“" ) );
 		if ( tmpstring.length() < 2 )
 		{
 			tmpstring = utcTime.split( '-' );
@@ -314,7 +314,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		{
 			date1 = date1.addSecs( qint64( 8 * 3600 ) );
 			date1.setDate( QDate( currentDate.year(), date1.date().month(), date1.date().day() ) );
-			result1 = date1.toString( u8"MÔÂdÈÕ ap h:mm" );
+			result1 = date1.toString( u8"Mæœˆdæ—¥ ap h:mm" );
 		}
 		else
 		{
@@ -325,7 +325,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		{
 			date2 = date2.addSecs( qint64( 8 * 3600 ) );
 			date2.setDate( QDate( currentDate.year(), date2.date().month(), date2.date().day() ) );
-			result2 = date2.toString( u8"MÔÂdÈÕ ap h:mm" );
+			result2 = date2.toString( u8"Mæœˆdæ—¥ ap h:mm" );
 		}
 		else
 		{
@@ -356,7 +356,8 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		}
 
 		utcTime.remove( 0, index + 1 );
-		QStringList tmpstring = utcTime.split( QString::fromWCharArray( L"¨C" ) );
+
+		QStringList tmpstring = utcTime.split( R"(â€“)" );
 		if ( tmpstring.length() < 2 )
 		{
 			tmpstring = utcTime.split( '-' );
@@ -375,7 +376,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		QLocale loc = QLocale( QLocale::English );
 		QDateTime date1 = loc.toDateTime( startTime, "dddd, MMMM d, yyyy h:mm AP" );
 		QDateTime date2 = loc.toDateTime( endTime, "dddd, MMMM d, yyyy h:mm AP" );
-
+		//Sunday, December 30, 2018 11:00 AM â€“ Monday, December 31, 2018 10:59 AM
 
 		if ( !date1.isValid() && !date2.isValid() )
 		{
@@ -384,7 +385,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date1.isValid() )
 		{
 			date1 = date1.addSecs( qint64( rightTime * 3600 ) );
-			result1 = date1.toString( u8"yyyyÄê MÔÂdÈÕ ap h:mm" );
+			result1 = date1.toString( R"(yyyyå¹´ Mæœˆdæ—¥ ap h:mm)" );
 		}
 		else
 		{
@@ -394,7 +395,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date2.isValid() )
 		{
 			date2 = date2.addSecs( qint64( rightTime * 3600 ) );
-			result2 = date2.toString( u8"yyyyÄê MÔÂdÈÕ ap h:mm" );
+			result2 = date2.toString( R"(yyyyå¹´ Mæœˆdæ—¥ ap h:mm)" );
 		}
 		else
 		{
@@ -403,11 +404,11 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 	}
 	utcTime.clear();
-	utcTime = QString(u8"±±¾©Ê±¼ä£º") + result1 + "  -  " + result2;
+	utcTime = QString(R"(åŒ—äº¬æ—¶é—´ï¼š)") + result1 + "  -  " + result2;
 }
 
 
-//Tuesday, November 20, 2018 7:00 PM ¨C Wednesday, November 21, 2018 6 : 59 PM
+//Tuesday, November 20, 2018 7:00 PM â€“ Wednesday, November 21, 2018 6 : 59 PM
 
 void OptimizeContent(QString & content)
 {
@@ -417,9 +418,11 @@ void OptimizeContent(QString & content)
 		return ;
 	}
 
+	content = content.replace( R"(<strong style="font-size: 12pt;">)", "<strong>" );
 	content = content.replace( R"(</strong><strong>)", "" );
 	content = content.replace( QRegExp(R"(</strong>\s*<strong>)"), " " );
 	content = content.replace( R"(</strong>&nbsp;<strong>)", " " );
+	
 
 
 	const QString strong( R"(<strong>)" );

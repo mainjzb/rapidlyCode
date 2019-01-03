@@ -211,6 +211,7 @@
 	Fairy Academy==艾利涅妖精学院
 	Riena Strait==列娜海峡
 	##################################
+	Momijigaokan==枫叶山丘
 	Darknell==黑暗尼尔
 	Ranmaru==森兰丸
 	Elinel==艾利涅
@@ -636,6 +637,7 @@
 	Hot Time==热力时间
 	Drop Rates==爆率
 	Hot Days==令人激动的日子
+	Hard mode==困难模式
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
@@ -748,7 +750,7 @@
 	Thief==飞侠
 	Xenon==尖兵
 	Pirate==海盗
-	Knight==骑士
+	Knights?==骑士
 	Bowman==弓箭手
 	Bowmen==弓箭手
 	Ark==影魂异人
@@ -892,7 +894,12 @@
 	\bNova\b==诺巴
 	\bTiara\b==头饰
 	\bclasss?\b==职业
-	\bbans\b==封号
+	\bclasses\b==职业
+	\bbans?\b==封号
+	\bbanned\b==封号
+	\bHP\b==血量
+	\bbind\b==控制
+	binding skill==控制型技能
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
@@ -902,6 +909,7 @@
 
 
 # 属性
+	Req Level==要求等级
 	Level==等级
 	Max MP==MP
 	MaxMP==MP
@@ -972,7 +980,7 @@
 	armor==防具
 	\btitle\b==称号
 	Androids?==机器人
-
+	
 # temple
 Empress's Gift==女皇的礼物
 
