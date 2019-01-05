@@ -896,6 +896,7 @@
 	\bclasss?\b==职业
 	\bclasses\b==职业
 	\bbans?\b==封号
+	\bBans?\b==封号
 	\bbanned\b==封号
 	\bHP\b==血量
 	\bbind\b==控制
