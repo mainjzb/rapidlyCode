@@ -56,3 +56,4 @@ help google translate for maplestory to chinese
 
 - add new feature `DeleteTags` ath From a.html delete useless "&lt;strong&gt;&lt;/strong&gt;" tags in advance, will better work.
 - fix feature `TimeToChineseTime` that can't cover in sometimes.
+- fix encode to utf-8

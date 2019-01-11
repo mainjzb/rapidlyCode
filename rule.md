@@ -679,7 +679,7 @@
 	Two-Handed Blunt Weapon==双手钝器
 	One-Handed Sword==单手剑
 	One-Handed Axe==单手斧
-	One-Handed Mace==单手锤
+	One-Handed Maces?==单手锤
 	Energy Chain==能量剑(尖兵)
 	Shining Rod==双头杖
 	Psy-limiter==ESP限制器(超能)
@@ -708,6 +708,9 @@
 	\bboots\b==鞋子
 	\bcloak\b==披风
 	\bbelt\b==腰带
+	\bBlunts?\b==钝器
+	1-Handed==单手
+	2-Handed==双手
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
@@ -899,8 +902,9 @@
 	\bBans?\b==封号
 	\bbanned\b==封号
 	\bHP\b==血量
-	\bbind\b==控制
 	binding skill==控制型技能
+	\bbind\b==控制
+	\bIED\b==无视防御
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
@@ -932,7 +936,7 @@
 	BOSS Damage==BOSS伤害
 	Untradeable==不可交易
 	(Grants)? STR/DEX/INT/LUK==全属性
-
+	attack speed IA==攻速内在
 
 	STR==力量
 	DEX==敏捷

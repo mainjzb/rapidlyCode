@@ -1,4 +1,4 @@
-#include <QtCore/QCoreApplication>
+﻿#include <QtCore/QCoreApplication>
 #include <iostream>
 #include <QFile>
 #include <QTextStream>
@@ -68,7 +68,7 @@ int main( int argc, char *argv[] )
 	inStream.setCodec( "UTF-8" );
 	outStream.setCodec( "UTF-8" );
 
-	QString * content = new QString( u8"" );
+	QString * content = new QString(u8"");
 	*content = inStream.readAll();
 	OptimizeContent( *content );
 #ifdef QT_DEBUG
@@ -200,7 +200,7 @@ void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules )
 		if ( rule.isEmpty() || ( rule.length() > 0 && ( rule.at( 0 ) == "#" || rule.at( 0 ) == "-" ) ) )
 			continue;
 
-		if ( rule.length() > 0 && rule.left( 4 ) == R"(<!--)" )
+		if ( rule.length() > 0 && rule.left( 4 ) == "<!--" )
 			continue;
 
 		if ( rule.length() > 0 && rule.at( 0 ) == '@' )
@@ -254,14 +254,14 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 		{
 			adString = adFile.readAll();
 		}
-		int ans = content.lastIndexOf( R"(</div>)" );
+		int ans = content.lastIndexOf( "</div>" );
 		if ( ans != -1 )
 		{
 			content.remove( ans, 6 );
 			outStream << content;
 			outStream.flush();
 			outStream << adString;
-			outStream << R"(</div>)";
+			outStream << u8"</div>";
 			outStream.flush();
 		}
 		else
@@ -285,7 +285,6 @@ void CoverDateTimeToBeijin(QString & utcTime)
 	if ( utcTime.leftRef( 3 ) == "UTC" )
 	{
 		utcTime.remove( 0, 4 ).trimmed();
-
 
 		QStringList tmpstring = utcTime.split( QString::fromWCharArray( L"–" ) );
 		if ( tmpstring.length() < 2 )
@@ -385,7 +384,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date1.isValid() )
 		{
 			date1 = date1.addSecs( qint64( rightTime * 3600 ) );
-			result1 = date1.toString( R"(yyyy年 M月d日 ap h:mm)" );
+			result1 = date1.toString( u8"yyyy年 M月d日 ap h:mm" );
 		}
 		else
 		{
@@ -395,7 +394,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date2.isValid() )
 		{
 			date2 = date2.addSecs( qint64( rightTime * 3600 ) );
-			result2 = date2.toString( R"(yyyy年 M月d日 ap h:mm)" );
+			result2 = date2.toString( u8"yyyy年 M月d日 ap h:mm" );
 		}
 		else
 		{
@@ -404,7 +403,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 	}
 	utcTime.clear();
-	utcTime = QString(R"(北京时间：)") + result1 + "  -  " + result2;
+	utcTime = QString(u8"北京时间：") + result1 + "  -  " + result2;
 }
 
 
