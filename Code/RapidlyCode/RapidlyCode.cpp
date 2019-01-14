@@ -1,4 +1,4 @@
-﻿#include <QtCore/QCoreApplication>
+#include <QtCore/QCoreApplication>
 #include <iostream>
 #include <QFile>
 #include <QTextStream>
@@ -68,7 +68,7 @@ int main( int argc, char *argv[] )
 	inStream.setCodec( "UTF-8" );
 	outStream.setCodec( "UTF-8" );
 
-	QString * content = new QString(u8"");
+	QString * content = new QString("");
 	*content = inStream.readAll();
 	OptimizeContent( *content );
 #ifdef QT_DEBUG
@@ -261,7 +261,7 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 			outStream << content;
 			outStream.flush();
 			outStream << adString;
-			outStream << u8"</div>";
+			outStream << "</div>";
 			outStream.flush();
 		}
 		else
@@ -313,7 +313,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		{
 			date1 = date1.addSecs( qint64( 8 * 3600 ) );
 			date1.setDate( QDate( currentDate.year(), date1.date().month(), date1.date().day() ) );
-			result1 = date1.toString( u8"M月d日 ap h:mm" );
+			result1 = date1.toString( QString::fromLocal8Bit("M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -324,7 +324,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		{
 			date2 = date2.addSecs( qint64( 8 * 3600 ) );
 			date2.setDate( QDate( currentDate.year(), date2.date().month(), date2.date().day() ) );
-			result2 = date2.toString( u8"M月d日 ap h:mm" );
+			result2 = date2.toString( QString::fromLocal8Bit("M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -384,7 +384,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date1.isValid() )
 		{
 			date1 = date1.addSecs( qint64( rightTime * 3600 ) );
-			result1 = date1.toString( u8"yyyy年 M月d日 ap h:mm" );
+			result1 = date1.toString( QString::fromLocal8Bit("yyyy年 M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -394,7 +394,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date2.isValid() )
 		{
 			date2 = date2.addSecs( qint64( rightTime * 3600 ) );
-			result2 = date2.toString( u8"yyyy年 M月d日 ap h:mm" );
+			result2 = date2.toString( QString::fromLocal8Bit("yyyy年 M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -403,11 +403,12 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 	}
 	utcTime.clear();
-	utcTime = QString(u8"北京时间：") + result1 + "  -  " + result2;
+	utcTime = QString::fromLocal8Bit("北京时间：") + result1 + "  -  " + result2;
 }
 
 
 //Tuesday, November 20, 2018 7:00 PM – Wednesday, November 21, 2018 6 : 59 PM
+//AEDT (UTC +11): Monday, January 14, 2019 11:00 AM – Monday, January 21, 2019 10:59 AM
 
 void OptimizeContent(QString & content)
 {
