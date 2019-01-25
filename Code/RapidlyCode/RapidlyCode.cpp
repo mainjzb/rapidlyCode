@@ -1,4 +1,4 @@
-#include <QtCore/QCoreApplication>
+﻿#include <QtCore/QCoreApplication>
 #include <iostream>
 #include <QFile>
 #include <QTextStream>
@@ -15,6 +15,10 @@ struct sRule
 	QString after;
 };
 
+QString cover_T(QString s)
+{
+	return QString::fromUtf8( "123");
+}
 
 void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules );
 QString * XReplace( QString * content, const QVector<sRule*>& rules );
@@ -281,7 +285,7 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 void CoverDateTimeToBeijin(QString & utcTime)
 {
 	QString result1, result2;
-
+	QTextCodec::setCodecForLocale( QTextCodec::codecForName( "GBK" ) );
 	if ( utcTime.leftRef( 3 ) == "UTC" )
 	{
 		utcTime.remove( 0, 4 ).trimmed();
@@ -302,6 +306,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		QLocale loc = QLocale( QLocale::English );
 		QDateTime date1 = loc.toDateTime( startTime, "MMMM d 'at' h:mm AP" );
 		QDateTime date2 = loc.toDateTime( endTime, "MMMM d 'at' h:mm AP" );
+		//UTC: January 30 at 12:00 AM – February 12 at 11:59 PM
 		QDate currentDate = QDate::currentDate();
 
 
@@ -404,11 +409,13 @@ void CoverDateTimeToBeijin(QString & utcTime)
 	}
 	utcTime.clear();
 	utcTime = QString::fromLocal8Bit("北京时间：") + result1 + "  -  " + result2;
+	//qDebug() << QString::fromStdWString(L"世界你好！");
 }
 
 
 //Tuesday, November 20, 2018 7:00 PM – Wednesday, November 21, 2018 6 : 59 PM
 //AEDT (UTC +11): Monday, January 14, 2019 11:00 AM – Monday, January 21, 2019 10:59 AM
+//UTC: January 30 at 12:00 AM – February 12 at 11:59 PM
 
 void OptimizeContent(QString & content)
 {
