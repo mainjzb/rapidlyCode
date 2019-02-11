@@ -27,6 +27,7 @@
 
 @import "./rule_event.md"
 
+
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
 	#  '=='左边是原文，右边是翻译
@@ -70,6 +71,8 @@
 	Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
 
 # 等级 
+	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
+	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
 	&nbsp;(\S)== \1
 	5th Job Advancement==5转
 	Req. Lv: ([1-9]?\d\d)==\1级以上
@@ -130,7 +133,14 @@
 	Sun Chair==太阳椅子
 	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
 	Aura Ring==光环戒指
-
+	Wee Moon Bunny Mount==迷你月兔坐骑
+	Cluckhead==萌鸡头套
+	Cluckbottom==萌鸡套服
+	Forest Sanctuary Chair==森林保护区椅子
+	Forest Tranquility Chair: Stump==森林的宁静-树桩椅子
+	Forest Tranquility Chair: Table==森林的宁静-桌子椅子
+	Forest Tranquility Chair: Cabin==森林的宁静-小木屋椅子
+	Window on the Farm Chair==田野之窗椅子
 # 地名 NPC
 	Tenebris==阴暗之地
 	Vanishing Journey==消失的旅途(岛1)
@@ -351,6 +361,7 @@
 	Master Craftsman's Cubes?==黄魔方
 	Craftsman's Cube==黄魔方
 	(Bonus)? Occult Cubes?==怪异魔方
+	Occult Cube==怪异魔方
 	Meister's Cubes?==匠人魔方
 	Meister’s Cubes?==匠人魔方
 	Red Cubes?==红魔方
@@ -373,6 +384,8 @@
 	Trait Boost Potion==倾向药水
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
+	Typhoon Growth Potion==台风成长药水
+	Experience Nodestone==经验核心
 	nodestones?==核心
 	nodes?==核心
 	Character Slot Expansion Coupon==角色位扩展卡
@@ -423,6 +436,7 @@
 	Teleport Rock==传送石
 
 # 杂项+属性  
+	Bumper Crop Gift==丰收的礼物
 	Daily Quest==每日任务
 	Cash Cover Eye Accessory==眼镜时装
 	Cash Cover Hat==帽子时装
@@ -492,6 +506,7 @@
 	El Nath==冰封雪域
 	1 person is in the party==单人在队伍中
 	Potential Items==潜能物品
+	Special Potential Stamp==特殊的潜能印章
 	Potential Stamp==潜能印章
 	Advanced Bonus==高级
 	Intermediate Bonus==中级
@@ -506,9 +521,9 @@
 	Pure Clean Slate Scroll==纯白卷轴
 	Innocent  Scroll==纯白卷轴
 	Clean Slate Scroll==白衣卷轴
-	Chaos Scroll of Goodness==正义混沌卷轴
 	Incredible Chaos Scroll of Goodness==惊人的正义混沌卷轴
 	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
+	Chaos Scroll of Goodness==正义混沌卷轴
 	Chaos Scroll==混沌卷轴
 	Bonus Potential Scroll==附加潜能卷轴
 	Potential Scroll==潜能卷轴
@@ -646,6 +661,7 @@
 
 # 伤害皮肤
 	Soccer Uniform==足球制服
+	Damage Skin Slot Expansion Coupon==伤害皮肤储存槽扩展卡
 	Damage Skins?==伤害皮肤
 
 
@@ -711,6 +727,14 @@
 	\bBlunts?\b==钝器
 	1-Handed==单手
 	2-Handed==双手
+	Jewel Craft==宝石工艺
+	Magical Jewel==魔法宝石
+	Jewel Craft Ring==宝石工艺戒指
+	SS-rank==SS级
+	Master Ring SS==大师戒指SS
+	Master Jewel Rings?==大师戒指
+	Synergy Ring Cube==集合戒指魔方
+	Synergy Ring==集合戒指
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
@@ -790,7 +814,7 @@
 	Skuas==斯库亚斯
 	Ossyria==神秘岛
 	Abrup==阿布鲁
-	Ring==戒指
+	Rings?==戒指
 	Guild==公会
 	Magnificent==伟大的
 	Chaos==困难级
@@ -816,7 +840,7 @@
 	characters?==角色
 	maplers==冒险家们
 	flames==火花
-	\sring==戒指
+	\srings==戒指
 	equipment==装备
 	equips?==装备套
 	EVENTS?==活动
@@ -861,6 +885,7 @@
 	gachapon==玩具
 	Tradeable==可交易
 	untradeable==无法交易
+	Untradeble==无法交易
 	Untradable==无法交易
 	Untradeabe==无法交易
 	Cannot be traded==无法交易
@@ -905,6 +930,8 @@
 	binding skill==控制型技能
 	\bbind\b==控制
 	\bIED\b==无视防御
+	\bKeen\b==智慧的
+	\bReverse\b==翻转棋
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
