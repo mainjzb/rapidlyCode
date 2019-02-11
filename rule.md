@@ -69,12 +69,14 @@
 	Clear Pollo and Fritto once==完成一次保罗或普利托
 	Defeat Elite Boss once==击败一次精英BOSS
 	Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
+	Entry count limited to once daily. Clear count limited to once per week.==进入次数限每天一次，击杀次数限每周一次。
+	Entry count limited to once daily. Clear count limited to once per month.==进入次数限每天一次，击杀次数限每月一次。
 
 # 等级 
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
 	&nbsp;(\S)== \1
-	5th Job Advancement==5转
+	5th (J|j)ob (A|a)dvancement==5转
 	Req. Lv: ([1-9]?\d\d)==\1级以上
 	Lv. ([1-9]?\d\d) and above==\1级以上
 	Lv. ([1-9]?\d?\d)==\1级
@@ -213,6 +215,7 @@
 	Corrupted Warriors?==腐败战士
 	Dark Ravine Portal==黑暗山谷光口
 	Dark Ravine portal==黑暗山谷光口
+	Dark Lords of Darkness==黑暗领主
 	Dark Ravine==黑暗山谷
 	Aura of Life==生命光环
 	Commerci Dungeon==航海副本
@@ -221,8 +224,10 @@
 	Fairy Academy==艾利涅妖精学院
 	Riena Strait==列娜海峡
 	##################################
+	\bGloom\b==黑暗之眼
 	Momijigaokan==枫叶山丘
 	Darknell==黑暗尼尔
+	Daknell==黑暗尼尔
 	Ranmaru==森兰丸
 	Elinel==艾利涅
 	Henesys==射手村
@@ -367,6 +372,8 @@
 	Red Cubes?==红魔方
 	Black Cubes?==黑魔方
 	Violet Cubes?==六角魔方
+	Bonus Potential Cubes?==附加潜能魔方
+	\bCube\b==魔方
 	Perfect Potential Stamps?==完美潜能印章
 	Gold Potential Stamps?==金色潜能印章
 	Silver Potential Stamps?==银色潜能印章
@@ -380,7 +387,6 @@
 	Stone Cobweb Droplets?==蜘蛛币碎片石
 	Mastery Book Set==能手册礼包
 	Mastery Books?==能手册
-	Bonus Potential Cubes?==附加潜能魔方
 	Trait Boost Potion==倾向药水
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
@@ -405,6 +411,7 @@
 	Power Elixir==超级药水
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 	(Mysterious )?Storm Growth Potion==风暴成长药水
+	Typhoon Growth Potion==台风成长药水
 	Storage Room (\d)-Slot Coupon==仓库\1格扩展券
 	Selective (\d)-Slot==可选择\1格扩展
 	Selective (\d) Slot Coupon==可选择\1格扩展卷
@@ -436,8 +443,8 @@
 	Teleport Rock==传送石
 
 # 杂项+属性  
-	Bumper Crop Gift==丰收的礼物
-	Daily Quest==每日任务
+	Genesis Force==创世之力
+	Bumper Crop Gift==丰收的礼物	Daily Quest==每日任务
 	Cash Cover Eye Accessory==眼镜时装
 	Cash Cover Hat==帽子时装
 	after maintenance==维护后
@@ -450,10 +457,13 @@
 	Teleport Scroll==传送卷轴
 	Label Ring==名片戒指
 	Chat Ring==聊天戒指
+	Arboreal Blessings==神树的祝福
 	(\d)x Drop (Rate)? Coupon==\1倍爆率卡
 	(\d)x EXP Coupon==\1倍经验卡
 	Drop buff==爆率Buff
+	Wee Moon Bunny==小月兔
 	Respawn Token==原地复活符
+	Hyper Stat Points==超级属性点
 	Respawn Pass==无限*原地复活符
 	Epic Potential Scroll==A潜能卷
 	Legendary Potential Scrolls?==ss潜能卷轴
@@ -552,7 +562,8 @@
 	inventory slots==背包空间
 	Bonus Potentials==附加潜能
 	Orange Mushroom==花蘑菇
-	Gift Box==礼物盒
+	Appreciation Gift Box(es)?==感谢礼物盒
+	Gift Box(es)?==礼物盒
 	Miu Miu the Merchant==缪缪商店卡
 	Maple Administrator==管理员
 	Maple Admin==管理员
@@ -653,11 +664,15 @@
 	Drop Rates==爆率
 	Hot Days==令人激动的日子
 	Hard mode==困难模式
+	Choco Onslaught==巧克力大作战
+	Fever Time==热力时间
+	Hot'n'Ready==速食
+
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
 	a special deal==优惠
-
+    Hong Bao==红包
 
 # 伤害皮肤
 	Soccer Uniform==足球制服
@@ -709,9 +724,11 @@
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
 	Pendant of the Spirit==精灵吊坠
+	Prepared Spirit Pendant==精制的精灵吊坠
 	Soul Shooter==灵魂手铳
 	Kin Ring==血缘戒指
 	Kinship Ring==血缘戒指
+	Synergy Ring==集合戒指
 	Fafnir weapon==FFN武器
 	Fafnir Weapon==FFN武器
 	Fafnir Weapon Box==FFN武器箱
@@ -720,6 +737,14 @@
 	Eternal Flame Title==永恒火焰称号
 	Eternal Flame==永恒火焰
 	Rudolph's Red Nose==鲁道夫的红鼻子
+	8-Blessing Ring==八福戒指
+	8-Blessing Charm==八福戒指强化卷
+	new Genesis Weapons==创世武器
+	new Genesis weapon==创世武器
+	Genesis Weapons?==创世武器
+	Genesis weapons?==创世武器
+	Genesis Essence==创世精华
+
 	\bTyrant\b==暴君
 	\bboots\b==鞋子
 	\bcloak\b==披风
@@ -734,7 +759,7 @@
 	Master Ring SS==大师戒指SS
 	Master Jewel Rings?==大师戒指
 	Synergy Ring Cube==集合戒指魔方
-	Synergy Ring==集合戒指
+
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
@@ -932,6 +957,8 @@
 	\bIED\b==无视防御
 	\bKeen\b==智慧的
 	\bReverse\b==翻转棋
+	\bAfterimage\b==残影
+	\binvincible\b==无敌状态
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
