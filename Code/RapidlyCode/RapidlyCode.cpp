@@ -7,7 +7,8 @@
 #include <QDateTime>
 #include <QDate>
 #include "cmdline.h"
-
+#include <cstdio>
+#include "Windows.h"
 
 struct sRule
 {
@@ -198,8 +199,10 @@ void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules )
 	QTextStream replaceStream( &ruleFile );
 	replaceStream.setCodec( "UTF-8" );
 
+    int rule_len = 0;
 	while ( !replaceStream.atEnd() )
 	{
+        rule_len += 1;
 		QString rule = replaceStream.readLine().trimmed();
 		if ( rule.isEmpty() || ( rule.length() > 0 && ( rule.at( 0 ) == "#" || rule.at( 0 ) == "-" ) ) )
 			continue;
@@ -223,7 +226,17 @@ void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules )
 
 		QStringList ruleList = rule.split( "==" );
 
+        if ( ruleList.length() != 2 )
+        {
+            HANDLE handle = GetStdHandle( STD_OUTPUT_HANDLE );
+            SetConsoleTextAttribute( handle, FOREGROUND_INTENSITY | FOREGROUND_RED );
+            printf( "[Error:rule size is %d]  File:%s at %d \n", 
+                ruleList.length(), ruleFile_s.toStdString().c_str(), rule_len );
+            SetConsoleTextAttribute( handle, 0x07 );
+
+        }
 		Q_ASSERT( ruleList.length() == 2 );
+        
 
 		sRule * newRule = new sRule();
 		newRule->before = QRegExp( ruleList.at( 0 ) );
@@ -285,7 +298,7 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 void CoverDateTimeToBeijin(QString & utcTime)
 {
 	QString result1, result2;
-	QTextCodec::setCodecForLocale( QTextCodec::codecForName( "GBK" ) );
+	QTextCodec::setCodecForLocale( QTextCodec::codecForName( "utf8" ) );
 	if ( utcTime.leftRef( 3 ) == "UTC" )
 	{
 		utcTime.remove( 0, 4 ).trimmed();
@@ -318,7 +331,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		{
 			date1 = date1.addSecs( qint64( 8 * 3600 ) );
 			date1.setDate( QDate( currentDate.year(), date1.date().month(), date1.date().day() ) );
-			result1 = date1.toString( QString::fromLocal8Bit("M月d日 ap h:mm") );
+			result1 = date1.toString( QString::fromLocal8Bit(u8"M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -329,7 +342,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		{
 			date2 = date2.addSecs( qint64( 8 * 3600 ) );
 			date2.setDate( QDate( currentDate.year(), date2.date().month(), date2.date().day() ) );
-			result2 = date2.toString( QString::fromLocal8Bit("M月d日 ap h:mm") );
+			result2 = date2.toString( QString::fromLocal8Bit(u8"M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -361,7 +374,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 		utcTime.remove( 0, index + 1 );
 
-		QStringList tmpstring = utcTime.split( R"(–)" );
+		QStringList tmpstring = utcTime.split( L'–' );
 		if ( tmpstring.length() < 2 )
 		{
 			tmpstring = utcTime.split( '-' );
@@ -389,7 +402,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date1.isValid() )
 		{
 			date1 = date1.addSecs( qint64( rightTime * 3600 ) );
-			result1 = date1.toString( QString::fromLocal8Bit("yyyy年 M月d日 ap h:mm") );
+			result1 = date1.toString( QString::fromLocal8Bit(u8"yyyy年 M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -399,7 +412,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		if ( date2.isValid() )
 		{
 			date2 = date2.addSecs( qint64( rightTime * 3600 ) );
-			result2 = date2.toString( QString::fromLocal8Bit("yyyy年 M月d日 ap h:mm") );
+			result2 = date2.toString( QString::fromLocal8Bit(u8"yyyy年 M月d日 ap h:mm") );
 		}
 		else
 		{
@@ -408,8 +421,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 	}
 	utcTime.clear();
-	utcTime = QString::fromLocal8Bit("北京时间：") + result1 + "  -  " + result2;
-	//qDebug() << QString::fromStdWString(L"世界你好！");
+    utcTime = QString::fromLocal8Bit( u8"北京时间：") + result1 + "  -  " + result2;;
 }
 
 

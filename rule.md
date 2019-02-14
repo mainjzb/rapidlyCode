@@ -4,7 +4,6 @@
 - [长句翻译](#长句翻译)
 - [等级](#等级)
 - [区域](#区域)
-- [点装|椅子](#点装椅子)
 - [地名 NPC](#地名-npc)
 - [宠物](#宠物)
 - [BOSS](#boss)
@@ -12,7 +11,6 @@
 - [物品](#物品)
 - [杂项+属性](#杂项属性)
 - [语法](#语法)
-- [伤害皮肤](#伤害皮肤)
 - [万圣节](#万圣节)
 - [装备](#装备)
 - [职业](#职业)
@@ -26,7 +24,8 @@
 <!-- /TOC -->
 
 @import "./rule_event.md"
-
+@import "./rule_cash.md"
+@import "./rule_other.md"
 
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
@@ -100,49 +99,7 @@
 	NON-REBOOT ONLY==仅限普通区
 	REBOOT ONLY==仅限R区
 
-# 点装|椅子
-	Avatar Box Stamps==黑色星票
-	kaptafel hat==卡塔费帽子
-	Custom Puppy==定制小狗
-	Halloween Candy Hoard Chair==万圣节糖果堆椅子
-	Ghost Ship Chair==幽灵船椅子
-	Black Cat Camper==黑色猫咪露营车
-	Elite Pumpkin Pal==僵尸朋友椅子
-	Halloween Pumpkin Chair==万圣节南瓜椅子
-	Halloween Damage Skin==万圣节伤害皮肤
-	Halloween Cat-O-Lantern Mask==万圣节南瓜猫咪头套
-	Halloween Mummy Mask==万圣节木乃伊头套
-	Halloween Werewolf Mask==万圣节狼人头套
-	Halloween Skull Mask==万圣节骷髅头套
-	Halloween Frankenstein Mask==万圣节绿人头套
-	Halloween Dracula Mask==万圣节吸血鬼头套
-	Hallowkitty's Witch Hat==万圣节巫婆猫帽子
-	Cow Mask==小黄牛头套
-	Cow Costume==小黄牛套服
-	Ghost Mask==幽灵头套
-	Ghost Costume==幽灵套服
-	Jiangshi Hat==僵尸帽子
-	Blue Jiangshi Costume==蓝色僵尸套服
-	Paper Bag==纸袋头套
-	Paper Box==纸盒衣服
-	Angel Halo==天使光环
-	Angel Costume==天使套服
-	R\.I\.P Chair==坟墓椅子
-	Witch's Broomstick Mount==巫婆的扫帚坐骑
-	Worn Ghost Suit==破旧的鬼魂套服
-	The Wave Chair==观众席椅子
-	Jeweled Bird==梦幻白凤
-	Sun Chair==太阳椅子
-	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
-	Aura Ring==光环戒指
-	Wee Moon Bunny Mount==迷你月兔坐骑
-	Cluckhead==萌鸡头套
-	Cluckbottom==萌鸡套服
-	Forest Sanctuary Chair==森林保护区椅子
-	Forest Tranquility Chair: Stump==森林的宁静-树桩椅子
-	Forest Tranquility Chair: Table==森林的宁静-桌子椅子
-	Forest Tranquility Chair: Cabin==森林的宁静-小木屋椅子
-	Window on the Farm Chair==田野之窗椅子
+
 # 地名 NPC
 	Tenebris==阴暗之地
 	Vanishing Journey==消失的旅途(岛1)
@@ -443,8 +400,11 @@
 	Teleport Rock==传送石
 
 # 杂项+属性  
+	Combo EXP orbs==连击经验球
+	Lunar New Year==农历新年
 	Genesis Force==创世之力
-	Bumper Crop Gift==丰收的礼物	Daily Quest==每日任务
+	Bumper Crop Gift==丰收的礼物 
+	Daily Quest==每日任务
 	Cash Cover Eye Accessory==眼镜时装
 	Cash Cover Hat==帽子时装
 	after maintenance==维护后
@@ -474,6 +434,7 @@
 	Weapon DEF/Magic DEF ==防御力
 	Bonus Stats==火花属性
 	Spell Traces? enhancements==痕迹强化
+	Spell Traces? Coupon==痕迹
 	Spell Traces?==痕迹
 	Mysterious Meso Pouch==随机金币袋
 	Hot Week==热力周
@@ -664,7 +625,6 @@
 	Drop Rates==爆率
 	Hot Days==令人激动的日子
 	Hard mode==困难模式
-	Choco Onslaught==巧克力大作战
 	Fever Time==热力时间
 	Hot'n'Ready==速食
 
@@ -673,11 +633,6 @@
 	dropped by (\w+)==通过\1掉落
 	a special deal==优惠
     Hong Bao==红包
-
-# 伤害皮肤
-	Soccer Uniform==足球制服
-	Damage Skin Slot Expansion Coupon==伤害皮肤储存槽扩展卡
-	Damage Skins?==伤害皮肤
 
 
 
