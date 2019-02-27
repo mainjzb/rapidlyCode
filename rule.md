@@ -185,6 +185,7 @@
 	Momijigaokan==枫叶山丘
 	Darknell==黑暗尼尔
 	Daknell==黑暗尼尔
+	Djunkel==黑暗尼尔
 	Ranmaru==森兰丸
 	Elinel==艾利涅
 	Henesys==射手村
