@@ -3,6 +3,10 @@
 	Soccer Uniform==足球制服
 	Damage Skin Slot Expansion Coupon==伤害皮肤储存槽扩展卡
 	Halloween Damage Skin==万圣节伤害皮肤
+	8-Bit Damage Skin==像素伤害皮肤
+	Remnant of the Goddess Damage Skin==女神的遗物伤害皮肤
+	Gilded Damage Skin==镀金伤害皮肤
+	Damage Skin Extraction Coupon==伤害皮肤存储槽扩展券
 	Damage Skins?==伤害皮肤
 
 #椅子
@@ -19,6 +23,8 @@
 	Sun Chair==太阳椅子
 	The Wave Chair==观众席椅子
 	R\.I\.P Chair==坟墓椅子
+	Maple Celebrity Chair==枫叶名人椅子
+	I, Snowman Chair==我和雪人椅子
 
 
 # 点装
@@ -53,3 +59,7 @@
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
 	Wee Moon Bunny Mount==迷你月兔坐骑
 	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
+	Permanent Flying Whale Mount==永久飞行鲸鱼坐骑
+	Permanent Baby Snipe Mount==永久小鹬坐骑
+
+

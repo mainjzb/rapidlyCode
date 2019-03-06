@@ -23,6 +23,9 @@
 
 <!-- /TOC -->
 
+’=='
+
+
 @import "./rule_event.md"
 @import "./rule_cash.md"
 @import "./rule_other.md"
@@ -93,7 +96,6 @@
 	\(EU\)==(欧服)
 	\(NA\)==(美服)
 	Maplers?==冒险家
-	’=='
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
 	NON-REBOOT ONLY==仅限普通区
@@ -379,7 +381,7 @@
 	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
 	Innocence Scroll==纯真卷轴
 	Core Gemstone==核心
-	Job Advancement Coin==专职币
+	Job Advancement Coin==转职币
 	(SP|AP) Reset Scroll==\1重置卷
 	Pet Coupon==宠物卡
 	Mysterious Monsterbloom==神秘怪物袋
@@ -401,6 +403,10 @@
 	Teleport Rock==传送石
 
 # 杂项+属性  
+	8-bit==像素
+	Purple Potion==紫色药水
+	Orange Potion==橙色药水
+	Red Potion==红色药水
 	Combo EXP orbs==连击经验球
 	Lunar New Year==农历新年
 	Genesis Force==创世之力
@@ -609,6 +615,7 @@
 	Arcane Symbol Selector Coupon==奥术球选择卡
 	Arcane Symbol==奥术球
 	Stage (\d)==\1阶
+	Combo Kill Orbs==连续击杀经验球
 	Combo Kill==连续击杀
 	Battle Analysis==战斗分析
 	Battle Statistics UI==战斗统计界面
@@ -628,6 +635,7 @@
 	Hard mode==困难模式
 	Fever Time==热力时间
 	Hot'n'Ready==速食
+	Surprise Missions==临时任务
 
 # 语法
 	to trade in for==换取
@@ -700,6 +708,9 @@
 	Genesis Weapons?==创世武器
 	Genesis weapons?==创世武器
 	Genesis Essence==创世精华
+	Maple Anniversary Equipments==冒险岛周年庆装备
+	Pivotal Adventure Ring==冒险暴击戒指
+	Complete Sylph Ring==完整的精灵戒指
 
 	\bTyrant\b==暴君
 	\bboots\b==鞋子
@@ -715,7 +726,7 @@
 	Master Ring SS==大师戒指SS
 	Master Jewel Rings?==大师戒指
 	Synergy Ring Cube==集合戒指魔方
-
+	
 
 # 职业
 	Demon Avenger==恶魔复仇者(白毛)
@@ -825,7 +836,6 @@
 	equipment==装备
 	equips?==装备套
 	EVENTS?==活动
-	mesos==金币
 	players?==玩家
 	reflection==反伤
 	Potions==药水
@@ -915,6 +925,8 @@
 	\bReverse\b==翻转棋
 	\bAfterimage\b==残影
 	\binvincible\b==无敌状态
+	\bmesos?\b==金币
+	\b(\d)x\b==\1倍
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
@@ -959,7 +971,7 @@
 # 装备_单
 	Top==上衣
 	Bottom==裤子
-	Medals?==勋章
+	medals?==勋章
 	Badge==徽章
 	Totem==图腾
 	Katana==武士刀
@@ -990,10 +1002,11 @@
 	Bow==弓
 	Crossbow==弩
 	Chain==锁链
-	Gun==短枪
+	\nGun\n==短枪
 	Knuckle==指节
 	armor==防具
 	\btitle\b==称号
+	\bTitle\b==称号
 	Androids?==机器人
 	
 # temple

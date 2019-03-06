@@ -7,6 +7,35 @@ Cluck, Cluck, Bean==萌鸡豆豆
 Wee Moon Bunny==迷你月兔
 
 
+Detective Rave's Case Notes==乌鸦侦探的破案笔记
+Detective Rave's==乌鸦侦探的
+Detective Rave==乌鸦侦探
+Retro World==复古世界
+Retro Coins==复古币
+Peplock Holmes==福尔摩斯
+Spot the Difference==找茬
+Spot the Different==找茬
+Spotting Master==找茬大师
+Open Celebration==公开庆祝
+Arcade Adventures==街机大冒险
+Champion Jumper==跳远冠军
+Champion Dodger==闪避冠军
+Goddess Statue==女神雕像
+
 ## 币
 Utah Coins?==犹他币
 Utah coins?==犹他币
+
+
+	Balanced Sylph Crystal==平衡水晶
+	Healthy Sylph Crystal==健康水晶
+	Lucky Sylph Crystal==幸运水晶
+	Intelligent Sylph Crystal==智慧水晶
+	Dexterous Sylph Crystal==灵巧水晶
+	Strong Sylph Crystal==强大水晶
+	Balanced Sylph Stone==平衡石
+	Healthy Sylph Stone==健康石
+	Lucky Sylph Stone==幸运石
+	Intelligent Sylph Stone==智慧石
+	Dexterous Sylph Stone==灵巧石
+	Strong Sylph Stone==强大石
