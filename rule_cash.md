@@ -25,7 +25,7 @@
 	R\.I\.P Chair==坟墓椅子
 	Maple Celebrity Chair==枫叶名人椅子
 	I, Snowman Chair==我和雪人椅子
-
+	Sea Lantern 13==海灯13
 
 # 点装
 	Avatar Box Stamps==黑色星票

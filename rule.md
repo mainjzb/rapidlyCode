@@ -333,6 +333,7 @@
 	Black Cubes?==黑魔方
 	Violet Cubes?==六角魔方
 	Bonus Potential Cubes?==附加潜能魔方
+	White Cubes?==白魔方
 	\bCube\b==魔方
 	Perfect Potential Stamps?==完美潜能印章
 	Gold Potential Stamps?==金色潜能印章
@@ -403,6 +404,7 @@
 	Teleport Rock==传送石
 
 # 杂项+属性  
+	Double Miracle Time==DMT
 	8-bit==像素
 	Purple Potion==紫色药水
 	Orange Potion==橙色药水
