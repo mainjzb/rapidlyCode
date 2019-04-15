@@ -28,3 +28,4 @@
 
 
 Golden Ticket==金色门票
+mob respawning==怪物重生
