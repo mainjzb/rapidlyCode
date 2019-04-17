@@ -715,6 +715,7 @@
 	Maple Anniversary Equipments==冒险岛周年庆装备
 	Pivotal Adventure Ring==冒险暴击戒指
 	Complete Sylph Ring==完整的精灵戒指
+	frenzy totem==轮回图腾
 
 	\bTyrant\b==暴君
 	\bboots\b==鞋子
