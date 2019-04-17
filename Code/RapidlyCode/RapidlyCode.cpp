@@ -147,7 +147,7 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 			tmpString = tmpString.trimmed();
 			start = end;
 
-			if ( tmpString.leftRef( 3 ) == "UTC" || tmpString.leftRef( 4 ) == "AEDT")
+			if ( tmpString.leftRef( 3 ) == "UTC" || tmpString.leftRef( 4 ) == "AEDT" || tmpString.leftRef( 4 ) == "AEST" )
 			{
 				CoverDateTimeToBeijin( tmpString );
 			}
@@ -350,7 +350,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		}
 	}
 
-	if ( utcTime.leftRef( 4 ) == "AEDT" )
+	if ( utcTime.leftRef( 4 ) == "AEDT" || utcTime.leftRef( 4 ) == "AEST" )
 	{
 		int index = utcTime.indexOf( ':' );
 		if ( index < 0 )

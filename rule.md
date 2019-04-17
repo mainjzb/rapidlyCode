@@ -26,8 +26,8 @@
 ’=='
 
 
-@import "./rule_event.md"
 @import "./rule_cash.md"
+@import "./rule_event.md"
 @import "./rule_other.md"
 
 # 规则
@@ -315,6 +315,7 @@
 	\bSanta\b==圣诞老人
 
 # 物品
+	Pendant Slot Coupon==项链扩展槽租用卡
 	Infinite Revitalizer==疲劳恢复药水
 	Final Form Main Color Change Coupon==狂龙战士主颜色变更券
 	Final Form Sub Color Change Coupon==狂龙战士辅助颜色变更券
@@ -689,6 +690,7 @@
 	Whip Blade==能量剑
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
+	Prepared Pendant of the Spirit==精制的精灵吊坠 
 	Pendant of the Spirit==精灵吊坠
 	Prepared Spirit Pendant==精制的精灵吊坠
 	Soul Shooter==灵魂手铳

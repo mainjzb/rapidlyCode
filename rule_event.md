@@ -6,6 +6,8 @@ Cluck, Cluck Bean Festival==萌鸡豆豆节
 Cluck, Cluck, Bean==萌鸡豆豆
 Wee Moon Bunny==迷你月兔
 
+LINE FRIENDS Polling==网友投票
+LINE FRIENDS==网友
 
 Detective Rave's Case Notes==乌鸦侦探的破案笔记
 Detective Rave's==乌鸦侦探的

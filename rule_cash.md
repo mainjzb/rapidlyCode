@@ -26,6 +26,7 @@
 	Maple Celebrity Chair==枫叶名人椅子
 	I, Snowman Chair==我和雪人椅子
 	Sea Lantern 13==海灯13
+	Chillin' with LINE FRIENDS Bench==网友希霖和本奇
 
 # 点装
 	Avatar Box Stamps==黑色星票
@@ -61,5 +62,10 @@
 	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
 	Permanent Flying Whale Mount==永久飞行鲸鱼坐骑
 	Permanent Baby Snipe Mount==永久小鹬坐骑
+	MOON Scooter Mount==摩托车坐骑
+	Boppin' LINE FRIENDS Truck Mount==小兔子的卡车坐骑
 
+#戒指名片
+BROWN Chat Ring==棕熊聊天戒指
+BROWN Label Ring==棕熊名片戒指
 
