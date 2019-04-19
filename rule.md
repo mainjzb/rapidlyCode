@@ -182,6 +182,7 @@
 	Bounty Hunter==赏金猎人
 	Fairy Academy==艾利涅妖精学院
 	Riena Strait==列娜海峡
+	Rien==里恩
 	##################################
 	\bGloom\b==黑暗之眼
 	Momijigaokan==枫叶山丘
@@ -196,6 +197,7 @@
 	Kritias==克城
 	Alliance==同盟
 	Magatia==玛加提亚
+	Ariant==阿里安特
 	Tangyoon==唐云
 	Verdel==贝尔达
 	Edelstein==埃德尔斯坦
