@@ -14,3 +14,9 @@ Advanced Quiver==进阶箭筒
 	Lai the Snow Leopard==雪豹
 	Eka the Hawk==猛鹰
 	Arby the Cat==猫咪
+	
+## 品克缤
+Pink Bean's Popcorn Power Buff==品克缤的爆米花BUFF
+Popcorn Power (B|b)uff==爆米花BUFF
+EXP increasing buffs==经验增益BUFF
+Pink Power Buff==品克缤力量BUFF

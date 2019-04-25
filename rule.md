@@ -6,7 +6,6 @@
 - [区域](#区域)
 - [地名 NPC](#地名-npc)
 - [宠物](#宠物)
-- [BOSS](#boss)
 - [圣诞](#圣诞)
 - [物品](#物品)
 - [杂项+属性](#杂项属性)
@@ -16,19 +15,23 @@
 - [职业](#职业)
 - [单](#单)
 - [单.](#单)
+	- [倾向](#倾向)
 - [冒险岛](#冒险岛)
 - [属性](#属性)
 - [装备_单](#装备_单)
 - [temple](#temple)
+- [BOSS](#boss)
 
 <!-- /TOC -->
 
 ’=='
-
+‘=='
 
 @import "./rule_cash.md"
-@import "./rule_event.md"
+@import "./rule_equipment.md"
 @import "./rule_other.md"
+@import "./rule_skill.md"
+@import "./rule_event.md"
 
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
@@ -48,6 +51,7 @@
 
 
 #  长句翻译
+	After your character reaches Lv.10, they will begin to earn two additional levels every time your character gains a level up to Lv.149.==10-148级之间，每升一级，则获得额外2级。
 	Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
 	Zero characters must have completed up to Chapter 2==神之子必须完成第二章
 	20 levels below and 20 levels above==20级以内
@@ -66,6 +70,7 @@
 	Receive 50% off when you do Ability resets==内在能力花费荣誉半价
 	Can be received once per world==每个大区都可以收到一次
 	(\d\d?)-day stat duration==属性持续\1天
+	stat duration lasts for (\d\d?) days==属性持续\1天
 	around your level==你的等级范围内
 	You have until.*to purchase these items==你可以在活动时间内购买物品 
 	Clear Pollo and Fritto once==完成一次保罗或普利托
@@ -250,65 +255,7 @@
 	Pet Snack==宠物点心
 	Dye Coupon==染色卡
 
-# BOSS
-	Root Abyss Set Box==鲁比塔斯装备套盒子
-	Root Abyss==鲁比塔斯
-	Hard Lotus==困难级斯乌
-	Hard Damien==困难级戴安米
-	Hard Lotus's==困难级斯乌的
-	Hard Will's==困难级威尔的
-	Hard Will==困难级威尔
-	Crimson Queen==血腥女皇
-	Von Bon==半半
-	Normal Pink Bean==普通品克缤
-	Pink Bean==品克缤
-	Von Leon==狮子王
-	Cygnusroid==希纳斯机器人
-	Normal Cygnus==普通希纳斯女皇
-	Easy Cygnus==简单希纳斯女皇
-	Cygnus==希纳斯女皇
-	Easy Zakum==简单扎昆
-	Normal Zakum==普通扎昆
-	Easy Horntail==简单暗黑龙王
-	Normal Horntail==普通暗黑龙王
-	Chaos Horntail==进阶暗黑龙王
-	Easy Papulatus==简单闹钟
-	Normal Papulatus==普通闹钟
-	Papulatus Mark==闹钟脸饰
-	Papulatus==闹钟
-	Crimson Balrog==蝙蝠魔
-	Verus Hillaroid==真神希腊机器人
-	Verus Hilla==真神希拉
-	Necro Orchid==死灵奥尔卡
-	Necro Lotus==死灵斯乌
-	#######################
-	Ursus==乌鲁斯
-	Lotus==斯乌
-	Magnus==麦格纳斯
-	Will's==威尔的
-	Will==威尔
-	gollux==贝勒德
-	Zakum==扎昆
-	Horntail==暗黑龙王
-	Hilla==希拉
-	Pierre==皮埃尔
-	Vellum==贝伦
-	Arkarium==阿卡伊勒
-	OMNI-CLN==钻机
-	Damienroid==戴安米机器人
-	Damien==戴安米
-	Living Chains?==生存链
-	Balrog==蝙蝠魔
 
-	
-	Hard Lucid's==困难级路西德的
-	Lucidroid==路西德机器人
-	Lucid's==路西德的
-	Ebony Lucid==黑色路西德
-	Powder Lucid==粉色路西德
-	Rose Lucid==玫瑰路西德
-	Lucid==路西德
-	Aliciaroid==阿丽莎机器人
 
 #圣诞
 	Shining Santa Box(es)?==闪耀的圣诞老人盒子
@@ -317,6 +264,8 @@
 	\bSanta\b==圣诞老人
 
 # 物品
+	Super Megaphone==超级喇叭
+	Yummy Meat==美味的肉
 	Pendant Slot Coupon==项链扩展槽租用卡
 	Infinite Revitalizer==疲劳恢复药水
 	Final Form Main Color Change Coupon==狂龙战士主颜色变更券
@@ -362,17 +311,17 @@
 	Trait Increase Potion==倾向药水
 	Circulator==内在还原器
 	Eternal Flame of Rebirth==彩虹火花
-	Rebirth Flames==绯红火花 
-	Eternal Rebirth Flame==彩虹火花
-	Powerful Rebirth Flame==绯红火花
-	Black Rebirth Flame==暗黑火花
+	Eternal Rebirth Flames?==彩虹火花
+	Powerful Rebirth Flames?==绯红火花
+	Rebirth Flames?==绯红火花 
+	Black Rebirth Flames?==暗黑火花
 	2(x|X) Exp Coupon==双倍经验卡
 	2(x|X) EXP Coupon==双倍经验卡
 	2x EXP==双倍经验
 	2x Exp==双倍经验
 	2x Drop Coupon==双倍爆率卡
 	2x Drop==双倍爆率
-	Power Elixir==超级药水
+	Power Elixirs?==超级药水
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 	(Mysterious )?Storm Growth Potion==风暴成长药水
 	Typhoon Growth Potion==台风成长药水
@@ -392,6 +341,7 @@
 	Onyx Apple==蓝彩苹果
 	Café Latte==咖啡牛奶
 	Extra Strength Hard Sanitizer==强力消毒剂
+	Extra-Strength Hand Sanitizer==强力消毒剂
 	Premium Cologne==高级香水
 	Snake Bone Soup==蛇骨汤
 	Premium Carrot Juice==优质胡萝卜汁
@@ -451,7 +401,7 @@
 	Mysterious Meso Pouch==随机金币袋
 	Hot Week==热力周
 	Storage Room==仓库
-	Mega Burning==斗燃
+	(FIREPOWER )?Mega Burning==斗燃
 	a Character Name Change Coupon==改名卡
 	OX Quiz==“对错问答”
 	OX quiz==“对错问答”
@@ -496,6 +446,7 @@
 	Basic Bonus==基础
 	All Stats==全属性
 	World Leap system==转区系统
+	Monster Life Gem Coupon==怪物家园门票
 	Monster Life==怪物家园系统
 	Trait Items==倾向物品
 	Raid Boss==BOSS
@@ -511,7 +462,6 @@
 	Bonus Potential Scroll==附加潜能卷轴
 	Potential Scroll==潜能卷轴
 	Return Scrolls?==回城卷轴
-	Surprise Pet Box==宠物抽奖箱
 	Extra Character Slot Coupon==扩展角色位卡
 	EXP Coupons?==经验卡
 	Armor Supply Box==防具箱
@@ -583,7 +533,7 @@
 	Infinite Pawsibilities==无限可能
 	Infinite Pawsibilites==无限可能
 	the Multikill counter==多连杀
-	Combo Kill counter==连续击杀
+	Combo Kill counters?==连续击杀
 	Maple Guide stamps==冒险向导的盖章
 	Maple Guides?==冒险向导
 	advancement prerequisites?==前置任务
@@ -621,12 +571,13 @@
 	Arcane Symbol==奥术球
 	Stage (\d)==\1阶
 	Combo Kill Orbs==连续击杀经验球
-	Combo Kill==连续击杀
+	Combo Kills?==连续击杀
 	Battle Analysis==战斗分析
 	Battle Statistics UI==战斗统计界面
 	Mysterious Cryptic Chest==神秘礼盒
 	Legendary Cryptic Chest==传奇礼盒
 	Arcane Power==奥数值
+	'Burning' effect==斗燃特效
 	Burning characters?==斗燃角色
 	Tera Burning Project characters?==太斗燃的角色
 	Tera Burning==太斗燃
@@ -641,12 +592,14 @@
 	Fever Time==热力时间
 	Hot'n'Ready==速食
 	Surprise Missions==临时任务
+	Atmospheric Effect==特效
 
 # 语法
 	to trade in for==换取
 	dropped by (\w+)==通过\1掉落
 	a special deal==优惠
     Hong Bao==红包
+	logging out==退出登录
 
 
 
@@ -699,6 +652,8 @@
 	Kin Ring==血缘戒指
 	Kinship Ring==血缘戒指
 	Synergy Ring==集合戒指
+	Cosmos Ring==宇宙戒指
+	Cosmos Atom==宇宙原子
 	Fafnir weapon==FFN武器
 	Fafnir Weapon==FFN武器
 	Fafnir Weapon Box==FFN武器箱
@@ -717,6 +672,9 @@
 	Maple Anniversary Equipments==冒险岛周年庆装备
 	Pivotal Adventure Ring==冒险暴击戒指
 	Complete Sylph Ring==完整的精灵戒指
+	Chaos Ring==混沌戒指
+	Vengeful Ring==复仇戒指
+	Vengeful Stone==复仇强化石
 	frenzy totem==轮回图腾
 
 	\bTyrant\b==暴君
@@ -733,6 +691,7 @@
 	Master Ring SS==大师戒指SS
 	Master Jewel Rings?==大师戒指
 	Synergy Ring Cube==集合戒指魔方
+	Pink Bean's Buddy==品克缤的伙伴
 	
 
 # 职业
@@ -817,6 +776,7 @@
 	Guild==公会
 	Magnificent==伟大的
 	Chaos==困难级
+	CHAOS==困难级
 	Costume==套服
 	Legion==联盟
 	Bwuh==混乱
@@ -841,7 +801,6 @@
 	flames==火花
 	\srings==戒指
 	equipment==装备
-	equips?==装备套
 	EVENTS?==活动
 	players?==玩家
 	reflection==反伤
@@ -882,6 +841,7 @@
 	safeguard==强化防爆
 	gachapon==玩具
 	Tradeable==可交易
+	untradeable when equipped==装备后无法交易
 	untradeable==无法交易
 	Untradeble==无法交易
 	Untradable==无法交易
@@ -898,6 +858,7 @@
 	Orchid==奥尔卡
 	Togetherness==同伴
 
+	\bequips?\b==装备套
 	\bbotters\b==开挂者
 	\bBotters\b==开挂者
 	\bevents?\b==活动
@@ -918,6 +879,7 @@
 	\bLabyrinth\b==迷宫
 	\bkishin\b==鬼神
 	\bNova\b==诺巴
+	\bNOVA\b==诺巴
 	\bTiara\b==头饰
 	\bclasss?\b==职业
 	\bclasses\b==职业
@@ -932,15 +894,29 @@
 	\bReverse\b==翻转棋
 	\bAfterimage\b==残影
 	\binvincible\b==无敌状态
-	\bmesos?\b==金币
+	\b(m|M)esos?\b==金币
 	\b(\d)x\b==\1倍
+	\bFairgoer\b==街霸
+	\bSugaroid\b==机器人
+
+
+## 倾向
+	\bAmbition\b==领袖气质
+	\bEmpathy\b==感性
+	\bInsight\b==洞察力
+	\bWillpower\b==意志力
+	\bDiligence\b==手技
+	\bCharm\b==魅力
 
 # 冒险岛
 	MapleStoryM==冒险岛手机版
 	MapleStory M==冒险岛手机版
 	Maple M\s==冒险岛手机版
 	MapleStory==冒险岛
-
+	MAPLESTORY==冒险岛
+	\bMaple\b==枫叶
+	(\d\d)th Anniversary==\1周年
+	Anniversary==周年
 
 # 属性
 	Req Level==要求等级
@@ -950,6 +926,7 @@
 	Max HP==HP
 	MaxHP==HP
 	Weapon Attack==攻击力
+	Ignore Defense==无视防御
 	Enemy Defense Ignored==无视防御
 	Defense==防御力
 	Attack Speed==攻速
@@ -961,6 +938,8 @@
 	Weapon ATT==物理攻击力
 	Magic ATT==魔法攻击力
 	Critical Rate==暴击命中率
+	damage when attacking BOSSes==BOSS伤害
+	damage when attacking monsters==怪物伤害
 	Boss Damage==BOSS伤害
 	BOSS Damage==BOSS伤害
 	Untradeable==不可交易
@@ -1019,4 +998,63 @@
 # temple
 Empress's Gift==女皇的礼物
 
+# BOSS
+	Root Abyss Set Box==鲁比塔斯装备套盒子
+	Root Abyss==鲁比塔斯
+	Hard Lotus==困难级斯乌
+	Hard Damien==困难级戴安米
+	Hard Lotus's==困难级斯乌的
+	Hard Will's==困难级威尔的
+	Hard Will==困难级威尔
+	Crimson Queen==血腥女皇
+	Von Bon==半半
+	Normal Pink Bean==普通品克缤
+	Pink Bean==品克缤
+	Von Leon==狮子王
+	Cygnusroid==希纳斯机器人
+	Normal Cygnus==普通希纳斯女皇
+	Easy Cygnus==简单希纳斯女皇
+	Cygnus==希纳斯女皇
+	Easy Zakum==简单扎昆
+	Normal Zakum==普通扎昆
+	Easy Horntail==简单暗黑龙王
+	Normal Horntail==普通暗黑龙王
+	Chaos Horntail==进阶暗黑龙王
+	Easy Papulatus==简单闹钟
+	Normal Papulatus==普通闹钟
+	Papulatus Mark==闹钟脸饰
+	Papulatus==闹钟
+	Crimson Balrog==蝙蝠魔
+	Verus Hillaroid==真神希腊机器人
+	Verus Hilla==真神希拉
+	Necro Orchid==死灵奥尔卡
+	Necro Lotus==死灵斯乌
+	#######################
+	Ursus==乌鲁斯
+	Lotus==斯乌
+	Magnus==麦格纳斯
+	Will's==威尔的
+	Will==威尔
+	gollux==贝勒德
+	Zakum==扎昆
+	Horntail==暗黑龙王
+	Hilla==希拉
+	Pierre==皮埃尔
+	Vellum==贝伦
+	Arkarium==阿卡伊勒
+	OMNI-CLN==钻机
+	Damienroid==戴安米机器人
+	Damien==戴安米
+	Living Chains?==生存链
+	Balrog==蝙蝠魔
+
+	
+	Hard Lucid's==困难级路西德的
+	Lucidroid==路西德机器人
+	Lucid's==路西德的
+	Ebony Lucid==黑色路西德
+	Powder Lucid==粉色路西德
+	Rose Lucid==玫瑰路西德
+	Lucid==路西德
+	Aliciaroid==阿丽莎机器人
 

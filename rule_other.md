@@ -23,9 +23,14 @@
 	Bitter Chocolate==苦心巧克力
 	Choco Digestive Aid==巧克力助消化剂
 	Choco Insurance==巧克力保险
-
-
-
+	Superior Monster Incubator==高级怪物孵化器
+##
+14th Street Celeb Passes==第14街通行证
+14th Street==第14街
+Big Bang Store==大爆炸商店
+Club V Dance Chair==第5俱乐部跳舞椅
+Club V==第5俱乐部
+V Club==第5俱乐部
 
 Golden Ticket==金色门票
 mob respawning==怪物重生

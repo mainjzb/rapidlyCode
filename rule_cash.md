@@ -7,6 +7,8 @@
 	Remnant of the Goddess Damage Skin==女神的遗物伤害皮肤
 	Gilded Damage Skin==镀金伤害皮肤
 	Damage Skin Extraction Coupon==伤害皮肤存储槽扩展券
+	Random Job Damage Skin Box==随机职业伤害皮肤
+	Monster Damage Skin==怪物伤害皮肤
 	Damage Skins?==伤害皮肤
 
 #椅子
@@ -27,7 +29,14 @@
 	I, Snowman Chair==我和雪人椅子
 	Sea Lantern 13==海灯13
 	Chillin' with LINE FRIENDS Bench==网友希霖和本奇
-
+	Pom Pom Pink Bean Chair==砰砰品克缤椅
+	Fountain Fun Chair==快乐喷泉椅
+	Tree of Memory Chair==树下的回忆椅
+	Starglow Chair==星光椅
+	Arcana Spirit Tree Chair==阿尔卡那精灵之树椅
+	DJ Booth Chair==DJ椅
+	Fame Rank Chair==等级排名椅
+	Hall of Maple Warriors==枫叶勇士堂椅
 # 点装
 	Avatar Box Stamps==黑色星票
 	kaptafel hat==卡塔费帽子
@@ -55,6 +64,9 @@
 	Aura Ring==光环戒指
 	Cluckhead==萌鸡头套
 	Cluckbottom==萌鸡套服
+	Unique Chaos Pink Bean Mark==品克缤混沌面具
+	Pink Bean Face Accessory==品克缤的脸饰
+		
 
 #坐骑
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
@@ -63,9 +75,26 @@
 	Permanent Flying Whale Mount==永久飞行鲸鱼坐骑
 	Permanent Baby Snipe Mount==永久小鹬坐骑
 	MOON Scooter Mount==摩托车坐骑
-	Boppin' LINE FRIENDS Truck Mount==小兔子的卡车坐骑
+	Boppin' LINE FRIENDS Truck Mount==小兔子的卡车坐骑	
+	Permanent Pink Balloon Mount==永久粉色气球坐骑
+	Pink Bean Balloon==品克缤的气球
+	Pink Bean Partner Mount==品克缤的伙伴坐骑	
+	Permanent Flying Fish Mount==永久飞鱼坐骑
+	Permanent Best Friend Ballooncycle Mount==永久最好的朋友气球坐骑
+	Permanent Pink Bean Scooter Mount==永久品克缤摩托坐骑
 
 #戒指名片
 BROWN Chat Ring==棕熊聊天戒指
 BROWN Label Ring==棕熊名片戒指
+Squishy Pink Label Ring==粉色名片戒指
 
+##玩具
+Permanent Pink Bean Transformation Potion==永久品克缤变身药水
+
+##宠物
+Pet Naming Coupon Exchange Ticket==宠物改名卡
+Chroma Bean Pet Coupon==品克缤宠物卡
+Chroma Bean Pet==品克缤宠物
+Chroma Bean==迷你品克缤
+Surprise Pet Box==宠物抽奖箱
+Pet Food==宠物食品

@@ -24,6 +24,14 @@ Champion Jumper==跳远冠军
 Champion Dodger==闪避冠军
 Goddess Statue==女神雕像
 
+Celeb Status==名人等级
+Celeb==名人
+
+Restaurant RED==红色餐厅
+The Legends Return==传奇凯旋
+Sub Zero Hunt==零下猎杀
+Sub-Zero Hunt==零下猎杀
+
 ## 币
 Utah Coins?==犹他币
 Utah coins?==犹他币
