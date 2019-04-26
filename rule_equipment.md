@@ -13,7 +13,8 @@ LINE FRIENDS Bestie==最好的网友
 	Pink Bean Caretaker==品克缤管理员
 	Beginner Explorer==初学者冒险家
 	Keep on Burning==保持斗燃
-
+	Pink Bean Buddy==品克缤的好友
+	Holy Pink Beanity==神圣的品克缤
 ##
 	Boss Accessory Random Box==BOSS饰品随机箱
 	Lionheart Armor Box==狮心防具盒

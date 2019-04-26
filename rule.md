@@ -51,6 +51,7 @@
 
 
 #  长句翻译
+	Grants durational stats==
 	After your character reaches Lv.10, they will begin to earn two additional levels every time your character gains a level up to Lv.149.==10-148级之间，每升一级，则获得额外2级。
 	Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
 	Zero characters must have completed up to Chapter 2==神之子必须完成第二章

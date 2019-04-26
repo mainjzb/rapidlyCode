@@ -32,6 +32,8 @@ The Legends Return==传奇凯旋
 Sub Zero Hunt==零下猎杀
 Sub-Zero Hunt==零下猎杀
 
+Override Fashion==超越时尚
+
 ## 币
 Utah Coins?==犹他币
 Utah coins?==犹他币

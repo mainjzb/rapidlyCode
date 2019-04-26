@@ -92,6 +92,7 @@ Squishy Pink Label Ring==粉色名片戒指
 Permanent Pink Bean Transformation Potion==永久品克缤变身药水
 
 ##宠物
+Mysterious Cryptic Gift Box==神秘礼物盒
 Pet Naming Coupon Exchange Ticket==宠物改名卡
 Chroma Bean Pet Coupon==品克缤宠物卡
 Chroma Bean Pet==品克缤宠物
