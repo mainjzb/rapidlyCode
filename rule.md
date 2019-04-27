@@ -898,7 +898,7 @@
 	\b(m|M)esos?\b==金币
 	\b(\d)x\b==\1倍
 	\bFairgoer\b==街霸
-	\bSugaroid\b==机器人
+	\bSugaroid\b==糖果机器人
 
 
 ## 倾向
