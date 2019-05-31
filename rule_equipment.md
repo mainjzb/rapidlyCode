@@ -118,21 +118,8 @@ LINE FRIENDS Bestie==最好的网友
 	Revolution Cape==革命披风
 	Revolution Pendant==革命吊坠
 	Revolution Belt==革命腰带
-	Maple Galaxy Laser Gun Coupon==枫叶银河激光枪
-	Maple Galaxy Helmet==枫叶银河头盔
-	Maple Galaxy Space Suit==枫叶银河太空服
-	Maple Galaxy Cape==枫叶银河披风
-	Maple Gumshoe's Tablet==枫叶侦探碑
-	Maple Gumshoe's Coat==枫叶侦探外套
-	Maple Gumshoe's Gumshoes==枫叶侦探靴子
-	Maple Gumshoe's Fedora==枫叶侦探帽
-	Maple Gumshoe's File Fairy==枫叶侦探精灵
-	Maple Noble Rod==枫叶贵族手杖
-	Maple Noble Crown==枫叶贵族王冠
-	Maple Noble Suit==枫叶贵族套服
-	Maple Noble Cape==枫叶贵族披风
-	Maple Noble Shoes==枫叶贵族鞋子
 	Random Maple Anniversary Equipment==随机周年装备
+	Root Abyss Set Box==鲁比塔斯装备套装礼盒
 ##单
 \bEarrings\b==耳环
 \bGloves\b==手套

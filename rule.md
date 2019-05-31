@@ -1022,7 +1022,7 @@
 Empress's Gift==女皇的礼物
 
 # BOSS
-	Root Abyss Set Box==鲁比塔斯装备套盒子
+	Root Abyss Set Box==鲁比塔斯装备套装礼盒
 	Root Abyss==鲁比塔斯
 	Hard Lotus==困难级斯乌
 	Hard Damien==困难级戴安米

@@ -9,6 +9,7 @@
 	Damage Skin Extraction Coupon==伤害皮肤存储槽扩展券
 	Random Job Damage Skin Box==随机职业伤害皮肤
 	Monster Damage Skin==怪物伤害皮肤
+	Spark Damage Skin==火花四溅伤害皮肤
 	Damage Skins?==伤害皮肤
 
 #椅子
@@ -37,6 +38,8 @@
 	DJ Booth Chair==DJ椅
 	Fame Rank Chair==等级排名椅
 	Hall of Maple Warriors==枫叶勇士堂椅
+	My Year to Shine! Chair==我的闪耀时代! 椅子
+
 # 点装
 	Avatar Box Stamps==黑色星票
 	kaptafel hat==卡塔费帽子
@@ -66,6 +69,21 @@
 	Cluckbottom==萌鸡套服
 	Unique Chaos Pink Bean Mark==品克缤混沌面具
 	Pink Bean Face Accessory==品克缤的脸饰
+	Maple Galaxy Laser Gun Coupon==枫叶银河激光枪
+	Maple Galaxy Helmet==枫叶银河头盔
+	Maple Galaxy Space Suit==枫叶银河太空服
+	Maple Galaxy Cape==枫叶银河披风
+	Maple Gumshoe's Set Package==枫叶侦探套装礼盒
+	Maple Gumshoe's Tablet==枫叶侦探碑
+	Maple Gumshoe's Coat==枫叶侦探外套
+	Maple Gumshoe's Gumshoes==枫叶侦探靴子
+	Maple Gumshoe's Fedora==枫叶侦探帽
+	Maple Gumshoe's File Fairy==枫叶侦探精灵
+	Maple Noble Rod==枫叶贵族手杖
+	Maple Noble Crown==枫叶贵族王冠
+	Maple Noble Suit==枫叶贵族套服
+	Maple Noble Cape==枫叶贵族披风
+	Maple Noble Shoes==枫叶贵族鞋子
 		
 
 #坐骑
@@ -99,3 +117,4 @@ Chroma Bean Pet==品克缤宠物
 Chroma Bean==迷你品克缤
 Surprise Pet Box==宠物抽奖箱
 Pet Food==宠物食品
+Mini Yeti==迷你白雪人
