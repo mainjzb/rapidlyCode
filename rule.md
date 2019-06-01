@@ -701,63 +701,85 @@
 	Beast Tamer==林之灵
 	Angelic Buster==爆莉萌天使
 	Dark Knight==黑骑
+	dark Knight==黑骑士
 	Wind Archer==风灵使者
 	Thunder Breaker==奇袭者
+	striker==奇袭者
 	Dual Blade==双刀
+	Dual blade==双刀
 	Blaze Wizard==炎术士
 	Night Walker==夜行者
-	Night Lord==标飞	
+	Night walker==夜行者
+	Path finder==开拓者
+	Night Lord==标飞
+	Night road==标飞	
 	Wild Hunter==豹弩游侠
+	Wild hunter==豹弩游侠
 	Arch Mage==魔导师
 	Bow Master==神射手(弓)
-	Wind Archer==风灵使者	
+	Wind Archer==风灵使者
+	Wind shooter==风灵使者
 	Flame Wizard==炎术士
 	Cannon Shooter==火炮
+	Cannon shooter==火炮
 	\(I/L\)==(冰雷)
 	\(Ice, Lightning\)==(冰雷)
 	\(Fire Poison\)==(火毒)
 	\(Fire, Poison\)==(火毒)
 	Battle Mage==唤灵斗师
+	Battle mage==唤灵斗师
 	Dawn Warrior==魂骑士
+	Seoul Master==魂骑士
 
 	Explorer==冒险家
 	Resistance==反抗者
 	Bowmaster==神射手(弓)
 	Warrior==战士
 	Hayato==剑豪
+	Hayat==剑豪
 	Blaster==爆破手
 	Magician==法师
 	Mage==法师
 	Evan==龙神
 	Kanna==阴阳师
 	Illium==圣晶使徒
+	Irium==圣晶使徒
 	Luminous==夜光法师
 	Kinesis==超能力者
 	Thief==飞侠
 	Xenon==尖兵
+	Zenon==尖兵
 	Pirate==海盗
 	Knights?==骑士
 	Bowman==弓箭手
 	Bowmen==弓箭手
 	Ark==影魂异人
 	Aran==战神
+	Alan==战神
 	Heroes==英雄们
 	Hero==英雄
 	Bishop==主教
 	Shadower==刀飞
+	\bshadow\b==刀飞
 	Corsair==船长
+	captain==船长
 	Cannoneer==神炮王
 	Phantom==幻影
 	Phanton==幻影
+	phantom==幻影
 	Mihile==米哈尔
 	Mikhail==米哈尔
+	Michael==米哈尔
 	Shade==隐月
+	Hidden moon==隐月
 	Paladin==圣骑士
 	Archer==射手
 	Kaiser==狂龙战士
 	Cadena==魔链影士
 	Marksman==箭神(弩)
+	Crossbow master==箭神(弩)
 	Buccaneer==冲锋队长
+	Viper==冲锋队长
 	Mercedes==双弩
 	Mechanic==机械师
 
@@ -1000,7 +1022,7 @@
 Empress's Gift==女皇的礼物
 
 # BOSS
-	Root Abyss Set Box==鲁比塔斯装备套盒子
+	Root Abyss Set Box==鲁比塔斯装备套装礼盒
 	Root Abyss==鲁比塔斯
 	Hard Lotus==困难级斯乌
 	Hard Damien==困难级戴安米
