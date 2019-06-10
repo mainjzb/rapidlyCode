@@ -358,6 +358,7 @@
 	Teleport Rock==传送石
 
 # 杂项+属性  
+	Fairy Bros Daily Gifts==每日礼物
 	Double Miracle Time==DMT
 	8-bit==像素
 	Purple Potion==紫色药水

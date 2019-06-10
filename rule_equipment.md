@@ -120,6 +120,10 @@ LINE FRIENDS Bestie==最好的网友
 	Revolution Belt==革命腰带
 	Random Maple Anniversary Equipment==随机周年装备
 	Root Abyss Set Box==鲁比塔斯装备套装礼盒
+
+## 图腾
+	Fury Totem==鬼神图腾
+
 ##单
 \bEarrings\b==耳环
 \bGloves\b==手套
