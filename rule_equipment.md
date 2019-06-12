@@ -1,5 +1,6 @@
-# medal
+# Medal
 LINE FRIENDS Bestie==最好的网友
+Elodin Bird Dog==艾洛丁的鹰犬
 
 
 # Title

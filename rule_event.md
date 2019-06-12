@@ -51,3 +51,6 @@ Utah coins?==犹他币
 	Intelligent Sylph Stone==智慧石
 	Dexterous Sylph Stone==灵巧石
 	Strong Sylph Stone==强大石
+
+Adventure Island==探险岛
+Adventure==探险

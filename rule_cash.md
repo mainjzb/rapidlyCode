@@ -84,6 +84,7 @@
 	Maple Noble Suit==枫叶贵族套服
 	Maple Noble Cape==枫叶贵族披风
 	Maple Noble Shoes==枫叶贵族鞋子
+	Death's Scythe==死神之刃
 		
 
 #坐骑
@@ -110,6 +111,9 @@ Squishy Pink Label Ring==粉色名片戒指
 Permanent Pink Bean Transformation Potion==永久品克缤变身药水
 
 ##宠物
+Triple Jr\. Commander Pets Full Package==三指挥官宠物礼包
+Triple Lucid Pets Full Package==三色路西德宠物礼包
+Wonderberry Black Label 1 Package==三精灵宠物礼包
 Mysterious Cryptic Gift Box==神秘礼物盒
 Pet Naming Coupon Exchange Ticket==宠物改名卡
 Chroma Bean Pet Coupon==品克缤宠物卡
@@ -118,3 +122,16 @@ Chroma Bean==迷你品克缤
 Surprise Pet Box==宠物抽奖箱
 Pet Food==宠物食品
 Mini Yeti==迷你白雪人
+Tortoise Pet==乌龟宠物
+Skunk Pet==臭鼬宠物
+Pet Bundle==宠物礼包
+Forest Dori==多利精灵
+Forest Dari==达里精灵
+Forest Finca==芬卡精灵
+White Duck Pet==白鸭宠物
+
+##宠物技能
+	Meso Magnet==捡金币
+	Item Pouch==捡物品
+	Auto Buff==自动BUFF
+	All Pet Skills==全宠物技能

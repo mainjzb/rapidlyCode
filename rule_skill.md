@@ -16,7 +16,15 @@ Advanced Quiver==进阶箭筒
 	Arby the Cat==猫咪
 	
 ## 品克缤
-Pink Bean's Popcorn Power Buff==品克缤的爆米花BUFF
-Popcorn Power (B|b)uff==爆米花BUFF
-EXP increasing buffs==经验增益BUFF
-Pink Power Buff==品克缤力量BUFF
+	Pink Bean's Popcorn Power Buff==品克缤的爆米花BUFF
+	Popcorn Power (B|b)uff==爆米花BUFF
+	EXP increasing buffs==经验增益BUFF
+	Pink Power Buff==品克缤力量BUFF
+
+## 阴阳师
+	Akatsuki Warrior==晓之勇者
+	Kishin Shoukan==鬼神
+	Hero's Will==英雄的意志
+	Akatsuki Blossoms==晓之樱
+	\bkishin\b==鬼神
+	\bKishin\b==鬼神
