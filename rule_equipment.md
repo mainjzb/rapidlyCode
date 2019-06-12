@@ -122,9 +122,13 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Revolution Belt==革命腰带
 	Random Maple Anniversary Equipment==随机周年装备
 	Root Abyss Set Box==鲁比塔斯装备套装礼盒
+	Pink Holy Cup==品克缤的圣杯
+	Black Bean Mark==品克缤的眼
+	Golden Clover Belt==金色三叶草腰带
 
 ## 图腾
 	Fury Totem==鬼神图腾
+	frenzy totem==轮回图腾
 
 ##单
 \bEarrings\b==耳环

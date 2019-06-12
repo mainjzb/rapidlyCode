@@ -35,3 +35,5 @@ V Club==第5俱乐部
 "Burning" effect=="斗燃"效果
 Golden Ticket==金色门票
 mob respawning==怪物重生
+
+June 12==6月12日

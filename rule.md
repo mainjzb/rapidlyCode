@@ -191,8 +191,12 @@
 	Riena Strait==列娜海峡
 	Mushroom Shrine==蘑菇神社
 	Erda Spectrum==艾尔达的颜色
+	Karuppa Town==卡尔帕镇
 	Rien==里恩
 	##################################
+	\bHieizan\b==比睿山
+	\bNina\b==妮娜
+	\bKaruppa\b==卡尔帕
 	\bElodin\b==艾洛丁
 	\bGloom\b==黑暗之眼
 	Momijigaokan==枫叶山丘
@@ -314,6 +318,7 @@
 	Character Slot Expansion Coupon==角色位扩展卡
 	Trait Increase Potion==倾向药水
 	Circulator==内在还原器
+	Black Rebirth Flame==黑火花
 	Eternal Flame of Rebirth==彩虹火花
 	Eternal Rebirth Flames?==彩虹火花
 	Powerful Rebirth Flames?==绯红火花
@@ -366,6 +371,7 @@
 	Selector Coupon==选择卡
 
 # 杂项+属性  
+	Rock-Paper-Scissors==剪刀石头布
 	Dimensional Mirror==次元门
 	Double Miracle Time==DMT
 	Captivating Fragments?==浓姬碎片
@@ -689,7 +695,8 @@
 	Chaos Ring==混沌戒指
 	Vengeful Ring==复仇戒指
 	Vengeful Stone==复仇强化石
-	frenzy totem==轮回图腾
+	Cubic Blade==魔方碎片
+	Cubic Chaos Blade==魔方进阶碎片
 
 	\bTyrant\b==暴君
 	\bboots\b==鞋子
@@ -935,6 +942,7 @@
 	\b(\d)x\b==\1倍
 	\bFairgoer\b==街霸
 	\bSugaroid\b==机器人
+	\bGrants\b==获得
 
 
 ## 倾向
@@ -1071,6 +1079,8 @@ Empress's Gift==女皇的礼物
 	Ursus==乌鲁斯
 	Lotus==斯乌
 	Magnus==麦格纳斯
+	\bWillroid\b==威尔机器人
+	\bManjiroid\b==麦吉机器人
 	Will's==威尔的
 	Will==威尔
 	gollux==贝勒德
