@@ -13,6 +13,7 @@
 	Damage Skins?==伤害皮肤
 
 #椅子
+	Sengoku Command Post==战国指挥部
 	Lunar New Year Video Message of Love Chair==农历新年爱之视频椅
 	Halloween Candy Hoard Chair==万圣节糖果堆椅子
 	Ghost Ship Chair==幽灵船椅子
@@ -85,7 +86,7 @@
 	Maple Noble Cape==枫叶贵族披风
 	Maple Noble Shoes==枫叶贵族鞋子
 	Death's Scythe==死神之刃
-		
+
 
 #坐骑
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
