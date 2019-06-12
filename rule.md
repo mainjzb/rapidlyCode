@@ -79,6 +79,7 @@
 	Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
 	Entry count limited to once daily. Clear count limited to once per week.==进入次数限每天一次，击杀次数限每周一次。
 	Entry count limited to once daily. Clear count limited to once per month.==进入次数限每天一次，击杀次数限每月一次。
+	Rewards can be claimed once==领取一次奖励
 
 # 等级 
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
@@ -101,7 +102,7 @@
 	\[All Worlds\]==
 	\(EU\)==(欧服)
 	\(NA\)==(美服)
-	Maplers?==冒险家
+	\bMaplers?\b==冒险家
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
 	NON-REBOOT ONLY==仅限普通区
@@ -188,8 +189,11 @@
 	Bounty Hunter==赏金猎人
 	Fairy Academy==艾利涅妖精学院
 	Riena Strait==列娜海峡
+	Mushroom Shrine==蘑菇神社
+	Erda Spectrum==艾尔达的颜色
 	Rien==里恩
 	##################################
+	\bElodin\b==艾洛丁
 	\bGloom\b==黑暗之眼
 	Momijigaokan==枫叶山丘
 	Darknell==黑暗尼尔
@@ -229,7 +233,6 @@
 	Perion==勇士部落
 	Ardentmill==匠人街
 	Nautilus==诺特勒斯
-	Kishin==鬼神
 	Darkness==黑暗使者
 
 
@@ -320,8 +323,8 @@
 	2(x|X) EXP Coupon==双倍经验卡
 	2x EXP==双倍经验
 	2x Exp==双倍经验
-	2x Drop Coupon==双倍爆率卡
-	2x Drop==双倍爆率
+	2x Drop( Rate)? Coupon==双倍爆率卡
+	2x Drop( Rate)?==双倍爆率
 	Power Elixirs?==超级药水
 	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
 	(Mysterious )?Storm Growth Potion==风暴成长药水
@@ -330,6 +333,10 @@
 	Selective (\d)-Slot==可选择\1格扩展
 	Selective (\d) Slot Coupon==可选择\1格扩展卷
 	Selective (\d)-Slot Coupon==可选择\1格扩展卷
+	Equip Tab (\d) Slot Coupon==背包装备栏\1格扩展卷
+	Use Tab (\d) Slot Coupon==背包消耗栏\1格扩展卷
+	Set-Up Tab (\d) Slot Coupon==背包点装栏\1格扩展卷
+	Etc Tab (\d) Slot Coupon==背包其他栏\1格扩展卷
 	(\d) Slot Coupon==\1格扩展卷
 	Beauty Album Hair Slot Coupons?==头发储存槽扩展卡
 	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
@@ -356,10 +363,12 @@
 	Star Force (\d\d)\-Star Enhancement Coupon==\1星强化卷
 	Hyper Teleport Rock==传送石
 	Teleport Rock==传送石
+	Selector Coupon==选择卡
 
 # 杂项+属性  
-	Fairy Bros Daily Gifts==每日礼物
+	Dimensional Mirror==次元门
 	Double Miracle Time==DMT
+	Captivating Fragments?==浓姬碎片
 	8-bit==像素
 	Purple Potion==紫色药水
 	Orange Potion==橙色药水
@@ -595,6 +604,8 @@
 	Hot'n'Ready==速食
 	Surprise Missions==临时任务
 	Atmospheric Effect==特效
+	Pre-Creation==预创建
+	Hyper Stats==超级属性
 
 # 语法
 	to trade in for==换取
@@ -640,6 +651,7 @@
 	Psy-limiter==ESP限制器(超能)
 	Lucent Gauntlet==魔力手套(圣晶使徒)
 	Secondary Weapon==副手武器
+	secondary weapon==副手武器
 	Absolab weapons==埃苏莱布斯武器
 	Sengoku Hakase==战国徽章
 	Ghost Ship Exorcist badges==鬼船徽章
@@ -712,6 +724,7 @@
 	Night Walker==夜行者
 	Night walker==夜行者
 	Path finder==开拓者
+	Pathfinder==开拓者
 	Night Lord==标飞
 	Night road==标飞	
 	Wild Hunter==豹弩游侠
@@ -732,7 +745,8 @@
 	Dawn Warrior==魂骑士
 	Seoul Master==魂骑士
 
-	Explorer==冒险家
+
+	\bExplorer\b==冒险家
 	Resistance==反抗者
 	Bowmaster==神射手(弓)
 	Warrior==战士
@@ -881,7 +895,7 @@
 	permanent==永久
 	Orchid==奥尔卡
 	Togetherness==同伴
-
+	\bSpinel\b==绿水晶
 	\bequips?\b==装备套
 	\bbotters\b==开挂者
 	\bBotters\b==开挂者
@@ -901,7 +915,6 @@
 	\bExpedition\b==远征
 	\bLil\b==迷你
 	\bLabyrinth\b==迷宫
-	\bkishin\b==鬼神
 	\bNova\b==诺巴
 	\bNOVA\b==诺巴
 	\bTiara\b==头饰
@@ -921,7 +934,7 @@
 	\b(m|M)esos?\b==金币
 	\b(\d)x\b==\1倍
 	\bFairgoer\b==街霸
-	\bSugaroid\b==糖果机器人
+	\bSugaroid\b==机器人
 
 
 ## 倾向
@@ -1053,6 +1066,7 @@ Empress's Gift==女皇的礼物
 	Verus Hilla==真神希拉
 	Necro Orchid==死灵奥尔卡
 	Necro Lotus==死灵斯乌
+	Princess No==浓姬
 	#######################
 	Ursus==乌鲁斯
 	Lotus==斯乌
