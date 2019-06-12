@@ -1,5 +1,6 @@
-# medal
+# Medal
 LINE FRIENDS Bestie==最好的网友
+Elodin Bird Dog==艾洛丁的鹰犬
 
 
 # Title
@@ -69,6 +70,7 @@ LINE FRIENDS Bestie==最好的网友
 	Onyx Maple Pendant==玛瑙枫叶吊坠
 	Onyx Maple Buckle==玛瑙枫叶腰带
 	Onyx Maple Ring==玛瑙枫叶戒指
+	Onyx Maple ==玛瑙枫叶
 	10th Anniversary Maple Saint Weapon Box==10周年黑色武器盒
 	11th Anniversary Treasure Weapon Box==11周年寻宝武器盒
 	11th Anniversary Treasure Secondary Weapon Box==11周年寻宝武器盒
