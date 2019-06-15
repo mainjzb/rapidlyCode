@@ -248,7 +248,7 @@
 	Ignore Item Skill==忽略物品技能
 	Auto Buff Skill==自动BUFF技能
 	Auto HP Potion Skill==自动HP技能
-	Premium Pet Food==永久宠物食品
+	Premium Pet Food==高级宠物食品
 	Permanent when applied==使用后永久学会
 	Pet Boost Package==宠物技能包
 	Silver Husky==银色哈士奇
@@ -279,7 +279,7 @@
 	Final Form Main Color Change Coupon==狂龙战士主颜色变更券
 	Final Form Sub Color Change Coupon==狂龙战士辅助颜色变更券
 	Final Form Color Reset Coupon==狂龙战士颜色重置券
-	Premium Water of Life==永久的复活药水
+	Premium Water of Life==宠物复活药水
 	Alliance Medal==同盟币
 	Android Hearts?==机器人心脏
 	Miracle Circulators?==内在还原器
@@ -371,6 +371,7 @@
 	Selector Coupon==选择卡
 
 # 杂项+属性  
+	prerequisite quest==前置任务
 	Rock-Paper-Scissors==剪刀石头布
 	Dimensional Mirror==次元门
 	Double Miracle Time==DMT
