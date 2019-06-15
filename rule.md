@@ -31,6 +31,7 @@
 @import "./rule_equipment.md"
 @import "./rule_other.md"
 @import "./rule_skill.md"
+@import "./rule_maple.md"
 @import "./rule_event.md"
 
 # 规则
@@ -94,11 +95,12 @@
 	Lv.==等级
 
 # 区域
+	non-Reboot worlds==普通区
 	Reboot \(EU\) or Reboot \(NA\) worlds==R区
 	Non-Reboot Worlds==普通区
 	Reboot Worlds?==R区
 	All worlds==所有区
-	Reboot==R区
+	Reboot==R区的
 	\[All Worlds\]==
 	\(EU\)==(欧服)
 	\(NA\)==(美服)
@@ -194,6 +196,7 @@
 	Karuppa Town==卡尔帕镇
 	Rien==里恩
 	##################################
+	\bMikagami\b==粉色鲸鱼
 	\bHieizan\b==比睿山
 	\bNina\b==妮娜
 	\bKaruppa\b==卡尔帕

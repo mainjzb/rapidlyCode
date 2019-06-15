@@ -125,6 +125,7 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Pink Holy Cup==品克缤的圣杯
 	Black Bean Mark==品克缤的眼
 	Golden Clover Belt==金色三叶草腰带
+	Firestarter Ring==斗燃戒指
 
 ## 图腾
 	Fury Totem==鬼神图腾

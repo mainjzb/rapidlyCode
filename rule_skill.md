@@ -3,12 +3,16 @@ Fire Ifrit==火魔兽
 Fervent Drain==炽热吸收
 Advanced Quiver==进阶箭筒
 
+## 通用
+	"?Maple Warrior"?=="冒险岛勇士"
 
-
+## 5转通用
+	"?Decent Advanced Blessing"?=="强化进阶祝福”
 
 # 箭神
 	Net Throwing==星云撒网
 	Net Toss==星云撒网
+	Sharp Eyes=="火眼晶晶"
 # 林之灵
 	Fort the Bear==巨熊
 	Lai the Snow Leopard==雪豹
@@ -26,5 +30,18 @@ Advanced Quiver==进阶箭筒
 	Kishin Shoukan==鬼神
 	Hero's Will==英雄的意志
 	Akatsuki Blossoms==晓之樱
+	Shikigami Charm==“式神炎舞”
+	Haku's Blessing==花狐的祝福
+	Blossom Barrier=="结界·樱"
 	\bkishin\b==鬼神
 	\bKishin\b==鬼神
+
+## 龙神 
+	"?Elemental Radiance"?=="星座法阵"
+
+## 天使
+	"?Mighty Mascot"?=="亲热的吉祥物"
+
+## 属性
+Mana Hyper Stat==法力值超级属性
+\bMana\b==法力值
