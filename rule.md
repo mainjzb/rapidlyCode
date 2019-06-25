@@ -670,6 +670,7 @@
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
 	Prepared Pendant of the Spirit==精制的精灵吊坠 
+	Prepared Pendent of the Spirit==精制的精灵吊坠 
 	Pendant of the Spirit==精灵吊坠
 	Prepared Spirit Pendant==精制的精灵吊坠
 	Soul Shooter==灵魂手铳
