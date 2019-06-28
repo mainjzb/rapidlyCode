@@ -98,9 +98,10 @@
 	non-Reboot worlds==普通区
 	Reboot \(EU\) or Reboot \(NA\) worlds==R区
 	Non-Reboot Worlds==普通区
-	Reboot Worlds?==R区
+	Reboot Worlds?=="R区"
 	All worlds==所有区
-	Reboot==R区的
+	Reboot \(NA\)=="美服R区"
+	Reboot=="R区"
 	\[All Worlds\]==
 	\(EU\)==(欧服)
 	\(NA\)==(美服)
