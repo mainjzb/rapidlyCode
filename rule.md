@@ -578,7 +578,7 @@
 	Level Up==升级
 	Hard Boss==困难级BOSS
 	Ability Point==属性点
-	Skill Point==技能点
+	Skill Points?==技能点
 	Content Skills?==生活技能
 	Ability Skills?==能力技能
 	Goddess Statue Skills?==女神状态技能
@@ -888,7 +888,7 @@
 	Megaphone==喇叭
 	Beret==蓓蕾帽
 	Epic (Rank)?== -A级(紫色)
-	potential==潜能
+	potentials?==潜能
 	safeguard==强化防爆
 	gachapon==玩具
 	Tradeable==可交易
@@ -1007,7 +1007,7 @@
 
 # 装备_单
 	Top==上衣
-	Bottom==裤子
+	\bBottom\b==裤子
 	medals?==勋章
 	Badge==徽章
 	Totem==图腾
@@ -1039,12 +1039,13 @@
 	Bow==弓
 	Crossbow==弩
 	Chain==锁链
-	\nGun\n==短枪
+	\bGun\b==短枪
 	Knuckle==指节
 	armor==防具
 	\btitle\b==称号
 	\bTitle\b==称号
 	Androids?==机器人
+	Kodachi==小太刀
 	
 # temple
 Empress's Gift==女皇的礼物

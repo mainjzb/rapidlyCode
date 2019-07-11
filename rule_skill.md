@@ -30,9 +30,12 @@ Advanced Quiver==进阶箭筒
 	Kishin Shoukan==鬼神
 	Hero's Will==英雄的意志
 	Akatsuki Blossoms==晓之樱
-	Shikigami Charm==“式神炎舞”
+	Shikigami Charm=="式神炎舞"
 	Haku's Blessing==花狐的祝福
 	Blossom Barrier=="结界·樱"
+	"?Fortified Bellflower Barrier"?=="强化结界*铃兰"
+	"?Warding Barrier"?=="结界*守护"
+	"?Bellflower Barrier"?=="结界*铃兰"
 	\bkishin\b==鬼神
 	\bKishin\b==鬼神
 
