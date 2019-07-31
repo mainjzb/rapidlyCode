@@ -19,7 +19,6 @@ Elodin Bird Dog==艾洛丁的鹰犬
 ##
 	Boss Accessory Random Box==BOSS饰品随机箱
 	Lionheart Armor Box==狮心防具盒
-	Unique Fafnir Weapon Box==FFN武器盒
 	(\d)\D\D Anniversary Weapon Selection Box==\1周年武器选择盒
 	6th Anniversary Pyrope Weapon Selection Box==6周年镁铝武器选择盒
 	7th Anniversary Beryl Weapon Selection Box==7周年绿宝石武器选择盒
@@ -125,14 +124,112 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Pink Holy Cup==品克缤的圣杯
 	Black Bean Mark==品克缤的眼
 	Golden Clover Belt==金色三叶草腰带
-	Firestarter Ring==斗燃戒指
 
-## 图腾
+
+## 项链
+	Reaper's Pendant==收割者吊坠
+	Prepared Pendant of the Spirit==精制的精灵吊坠 
+	Prepared Pendent of the Spirit==精制的精灵吊坠 
+	Pendant of the Spirit==精灵吊坠
+	Prepared Spirit Pendant==精制的精灵吊坠
+	Dominator Pendant==统治者吊坠
+
+## 耳环
+	Lucid's Earrings==露西德耳环
+
+## 戒指
+	Breath of Divinity==天堂气息
+	The Ring of Torment==折磨之戒
+	Firestarter Ring==燃烧之戒
+	Kin Ring==血缘戒指
+	Kinship Ring==血缘戒指
+	Synergy Ring==集合戒指
+	Cosmos Ring==宇宙戒指
+	Cosmos Atom==宇宙原子
+	8-Blessing Ring==八福戒指
+	8-Blessing Charm==八福戒指强化卷
+	Pivotal Adventure Ring==冒险暴击戒指
+	Complete Sylph Ring==完整的精灵戒指
+	Chaos Ring==混沌戒指
+	Vengeful Stone==复仇强化石
+	Vengeful Ring==复仇戒指
+	Jewel Craft==宝石工艺
+	Magical Jewel==魔法宝石
+	Jewel Craft Ring==宝石工艺戒指
+	Master Ring SS==大师戒指SS
+	Master Jewel Rings?==大师戒指
+	Synergy Ring Cube==集合戒指魔方
+	Arcane Umbra equipment==神秘之影装备
+	Sweetwater weapons==旋涡武器
+
+## 远古弓
+	Fafnir Ancient Bow==法芙娜远古弓
+	Sweetwater Ancient Bow==旋涡远古弓
+	Terminus Ancient Bow==埃苏莱布斯远古弓
+	Ancient Bow==远古弓
+
+
+## 徽章
+	Sengoku Hakase==战国徽章
+	Ghost Ship Exorcist badges==鬼船徽章
+
+## 勋章
+	Blazing Hot==炽热
+
+## 其他
+Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
+
+
+## 通用
+	Two-handed Sword==双手剑
+	Two-Handed Sword==双手剑
+	1-Handed==单手
+	2-Handed==双手
+	Two-Handed Axe==双手斧
+	Two-Handed Hammer==双手锤
+	Two-Handed Blunt Weapon==双手钝器
+	One-Handed Sword==单手剑
+	One-Handed Axe==单手斧
+	One-Handed Maces?==单手锤
+	Energy Chain==能量剑(尖兵)
+	Shining Rod==双头杖
+	Psy-limiter==ESP限制器(超能)
+	Lucent Gauntlet==魔力手套(圣晶使徒)
+	Secondary Weapon==副手武器
+	secondary weapon==副手武器
+	Arm Cannon==机甲手枪
+	Whip Blade==能量剑
+	Dual Bowguns==双弩枪
+	Hand Cannon==手持火炮
+	Soul Shooter==灵魂手铳
+
+	Unique Fafnir Weapon Box=="紫潜法芙娜武器盒"
+	Fafnir Weapon Box==法芙娜武器箱
+	Fafnir weapon==法芙娜武器
+	Fafnir Weapon==法芙娜武器
+	Absolab weapons==埃苏莱布斯武器
+	AbsoLab equipment==埃苏莱布斯装备
+	new Genesis Weapons==创世武器
+	new Genesis weapon==创世武器
+	Genesis Weapons?==创世武器
+	Genesis weapons?==创世武器
+	Genesis Essence==创世精华
+
+## 机器人
+	BattleRoids==战斗机器人
+
+## 图腾 
 	Fury Totem==鬼神图腾
 	frenzy totem==轮回图腾
+	Frenzy Totem==轮回图腾
 
 ##单
-\bEarrings\b==耳环
-\bGloves\b==手套
-\bShoes\b==鞋子
-\bCap\b==帽子
+	\bEarrings\b==耳环
+	\bGloves\b==手套
+	\bShoes\b==鞋子
+	\bCap\b==帽子
+	\bboots\b==鞋子
+	\bcloak\b==披风
+	\bbelt\b==腰带
+	\bBlunts?\b==钝器
+	\bTyrant\b==暴君

@@ -40,6 +40,10 @@
 	Fame Rank Chair==等级排名椅
 	Hall of Maple Warriors==枫叶勇士堂椅
 	My Year to Shine! Chair==我的闪耀时代! 椅子
+	Obnoxious Display of Wealth==炫富椅
+	Magpie Seesaw Chair==喜鹊跷跷板椅
+	Magpie\'s Persimmon Tree Chair==喜鹊柿子树椅
+	Golden Oinker Chair==金色猪头椅
 
 # 点装
 	Avatar Box Stamps==黑色星票
@@ -102,16 +106,23 @@
 	Permanent Flying Fish Mount==永久飞鱼坐骑
 	Permanent Best Friend Ballooncycle Mount==永久最好的朋友气球坐骑
 	Permanent Pink Bean Scooter Mount==永久品克缤摩托坐骑
+	Permanent Galloping Piggy Mount==永久飞奔的猪坐骑
+	Permanent Magpie Mount==永久喜鹊坐骑
+	Magpie Nest-egg Mount==喜鹊蛋坐骑
+	Korean Kite Mount==韩国风筝坐骑
 
-#戒指名片
-BROWN Chat Ring==棕熊聊天戒指
-BROWN Label Ring==棕熊名片戒指
-Squishy Pink Label Ring==粉色名片戒指
+## 戒指名片
+	BROWN Chat Ring==棕熊聊天戒指
+	BROWN Label Ring==棕熊名片戒指
+	Squishy Pink Label Ring==粉色名片戒指
 
-##玩具
+	Label Ring==名片戒指
+	Chat Ring==聊天戒指
+
+## 玩具
 Permanent Pink Bean Transformation Potion==永久品克缤变身药水
 
-##宠物
+## 宠物
 Triple Jr\. Commander Pets Full Package==三指挥官宠物礼包
 Triple Lucid Pets Full Package==三色路西德宠物礼包
 Wonderberry Black Label 1 Package==三精灵宠物礼包
@@ -131,8 +142,9 @@ Forest Dari==达里精灵
 Forest Finca==芬卡精灵
 White Duck Pet==白鸭宠物
 
-##宠物技能
+## 宠物技能
 	Meso Magnet==捡金币
 	Item Pouch==捡物品
 	Auto Buff==自动BUFF
 	All Pet Skills==全宠物技能
+

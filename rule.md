@@ -13,14 +13,14 @@
 - [万圣节](#万圣节)
 - [装备](#装备)
 - [职业](#职业)
-- [单](#单)
-- [单.](#单)
 	- [倾向](#倾向)
 - [冒险岛](#冒险岛)
 - [属性](#属性)
 - [装备_单](#装备_单)
 - [temple](#temple)
 - [BOSS](#boss)
+- [单](#单)
+- [单.](#单)
 
 <!-- /TOC -->
 
@@ -113,6 +113,10 @@
 
 
 # 地名 NPC
+	Party Point Merchant Coin Shop==组队积分商店
+	Party Point Merchant==组队积分商店
+	Partem Ruins==帕坦遗址
+	Immortal Gorgons==不朽的美杜莎
 	Tenebris==阴暗之地
 	Vanishing Journey==消失的旅途(岛1)
 	Hungry Muto==饥饿的莫托(岛二每日)
@@ -276,6 +280,9 @@
 	\bSanta\b==圣诞老人
 
 # 物品
+	MVP Plus EXP Buff==MVP个人经验卡
+	MVP Silver EXP Atmospheric Effect==MVP白银全体经验卡
+	Maplehood Watch==冒险幸运日
 	Super Megaphone==超级喇叭
 	Yummy Meat==美味的肉
 	Pendant Slot Coupon==项链扩展槽租用卡
@@ -312,7 +319,6 @@
 	Stone Cobweb Droplets?==蜘蛛币碎片石
 	Mastery Book Set==能手册礼包
 	Mastery Books?==能手册
-	Trait Boost Potion==倾向药水
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
 	Typhoon Growth Potion==台风成长药水
@@ -320,6 +326,8 @@
 	nodestones?==核心
 	nodes?==核心
 	Character Slot Expansion Coupon==角色位扩展卡
+	Selective Trait Boost Potion==选择倾向药水
+	Trait Boost Potion==倾向药水
 	Trait Increase Potion==倾向药水
 	Circulator==内在还原器
 	Black Rebirth Flame==黑火花
@@ -375,6 +383,7 @@
 	Selector Coupon==选择卡
 
 # 杂项+属性  
+	Theme Dungeon==主题副本
 	prerequisite quest==前置任务
 	Rock-Paper-Scissors==剪刀石头布
 	Dimensional Mirror==次元门
@@ -399,8 +408,6 @@
 	Tradeable within account==账号内可交易
 	Cash Shop==商城
 	Teleport Scroll==传送卷轴
-	Label Ring==名片戒指
-	Chat Ring==聊天戒指
 	Arboreal Blessings==神树的祝福
 	(\d)x Drop (Rate)? Coupon==\1倍爆率卡
 	(\d)x EXP Coupon==\1倍经验卡
@@ -497,7 +504,7 @@
 	Face Coupon==整容卡
 	Hair Style Coupon==理发卡
 	Hair Coupon==理发卡
-	Maple Point==枫叶点
+	Maple Points?==枫叶点
 	Captain Vaga==瓦加舰长
 	Double Rewards==双倍奖励
 	equipment covers==武器点状
@@ -517,8 +524,8 @@
 	Maple Relay==冒险接力
 	Tier (\d)==\1级
 	Flash Jump==二段跳
-	Sunny Sunday Perk==阳光周日
-	Sunny Sunday==阳光周日
+	Sunny Sunday Perks?==阳光周日
+	Sunny Sundays?==阳光周日
 	Transfer Hammer==托德之锤
 	Surprise Style Box==幸运箱
 	Cardcaptor Sakura==百变小樱
@@ -649,75 +656,14 @@
 
 
 # 装备
-	Two-handed Sword==双手剑
-	Two-Handed Sword==双手剑
-	Two-Handed Axe==双手斧
-	Two-Handed Hammer==双手锤
-	Two-Handed Blunt Weapon==双手钝器
-	One-Handed Sword==单手剑
-	One-Handed Axe==单手斧
-	One-Handed Maces?==单手锤
-	Energy Chain==能量剑(尖兵)
-	Shining Rod==双头杖
-	Psy-limiter==ESP限制器(超能)
-	Lucent Gauntlet==魔力手套(圣晶使徒)
-	Secondary Weapon==副手武器
-	secondary weapon==副手武器
-	Absolab weapons==埃苏莱布斯武器
-	Sengoku Hakase==战国徽章
-	Ghost Ship Exorcist badges==鬼船徽章
-	Arm Cannon==机甲手枪
-	Whip Blade==能量剑
-	Dual Bowguns==双弩枪
-	Hand Cannon==手持火炮
-	Prepared Pendant of the Spirit==精制的精灵吊坠 
-	Prepared Pendent of the Spirit==精制的精灵吊坠 
-	Pendant of the Spirit==精灵吊坠
-	Prepared Spirit Pendant==精制的精灵吊坠
-	Soul Shooter==灵魂手铳
-	Kin Ring==血缘戒指
-	Kinship Ring==血缘戒指
-	Synergy Ring==集合戒指
-	Cosmos Ring==宇宙戒指
-	Cosmos Atom==宇宙原子
-	Fafnir weapon==FFN武器
-	Fafnir Weapon==FFN武器
-	Fafnir Weapon Box==FFN武器箱
-	Dominator Pendant==统治者吊坠
 	New Gold Heart==黄金心脏
 	Eternal Flame Title==永恒火焰称号
 	Eternal Flame==永恒火焰
 	Rudolph's Red Nose==鲁道夫的红鼻子
-	8-Blessing Ring==八福戒指
-	8-Blessing Charm==八福戒指强化卷
-	new Genesis Weapons==创世武器
-	new Genesis weapon==创世武器
-	Genesis Weapons?==创世武器
-	Genesis weapons?==创世武器
-	Genesis Essence==创世精华
 	Maple Anniversary Equipments==冒险岛周年庆装备
-	Pivotal Adventure Ring==冒险暴击戒指
-	Complete Sylph Ring==完整的精灵戒指
-	Chaos Ring==混沌戒指
-	Vengeful Ring==复仇戒指
-	Vengeful Stone==复仇强化石
 	Cubic Blade==魔方碎片
 	Cubic Chaos Blade==魔方进阶碎片
-
-	\bTyrant\b==暴君
-	\bboots\b==鞋子
-	\bcloak\b==披风
-	\bbelt\b==腰带
-	\bBlunts?\b==钝器
-	1-Handed==单手
-	2-Handed==双手
-	Jewel Craft==宝石工艺
-	Magical Jewel==魔法宝石
-	Jewel Craft Ring==宝石工艺戒指
 	SS-rank==SS级
-	Master Ring SS==大师戒指SS
-	Master Jewel Rings?==大师戒指
-	Synergy Ring Cube==集合戒指魔方
 	Pink Bean's Buddy==品克缤的伙伴
 	
 
@@ -811,144 +757,6 @@
 	Mercedes==双弩
 	Mechanic==机械师
 
-# 单
-	Ability==内在能力
-	Erdas?==艾尔达
-	Tomoyo==“知世”
-	Syaoran==“小狼”
-	Syaoran Li==“小狼”
-	EXP==经验
-	Recipes?==配方
-	Julieta==朱莉埃塔
-	Skuas==斯库亚斯
-	Ossyria==神秘岛
-	Abrup==阿布鲁
-	Rings?==戒指
-	Guild==公会
-	Magnificent==伟大的
-	Chaos==困难级
-	CHAOS==困难级
-	Costume==套服
-	Legion==联盟
-	Bwuh==混乱
-	Eep==沮丧
-	Luv==喜欢
-	Kissy==吻
-	Yeti==白雪人
-	Pepe==蓝企鹅
-	\bMount\b==坐骑
-	World Gauge==世界储存槽
-	Determination Gauge==圣火储存槽
-	Spark of Determination==圣火火花
-	Determination==圣火
-	Desire==圣火
-	Guardian==守卫者
-# 单.
-	coins?==币
-	coupons?==卡
-	channels?==频道
-	characters?==角色
-	maplers==冒险家们
-	flames==火花
-	\srings==戒指
-	equipment==装备
-	EVENTS?==活动
-	players?==玩家
-	reflection==反伤
-	Potions==药水
-	potions==药水
-	dorp==掉落
-	hardcore==极端
-	jobs?==职业
-	scrolls?==卷轴
-	boss==BOSS
-	sweetwater==漩涡
-	non-Transposed==非继承
-	transposed==继承
-	zero==神之子
-	Shoulder==护肩
-	Essence==精华
-	Fortuitous==幸运的
-	Swift==敏捷的
-	Clever==聪明的
-	Beefy==强壮的
-	Flashy==华丽的
-	Hearty==旺盛的
-	Potent\s==强效的
-	Radiant==闪耀的
-	Soul==灵魂
-	Items==物品
-	Afinas?==阿维纳斯
-	Bebe==贝贝
-	Chair==椅子
-	Player==玩家
-	Credit==信用值
-	Monad==莫奈得
-	Drop==爆率
-	Megaphone==喇叭
-	Beret==蓓蕾帽
-	Epic (Rank)?== -A级(紫色)
-	potentials?==潜能
-	safeguard==强化防爆
-	gachapon==玩具
-	Tradeable==可交易
-	untradeable when equipped==装备后无法交易
-	untradeable==无法交易
-	Untradeble==无法交易
-	Untradable==无法交易
-	Untradeabe==无法交易
-	Cannot be traded==无法交易
-	Rewards?==奖励
-	Whiskers==胡子
-	Pollo==保罗
-	Fritto==普利托
-	hunting==猎杀
-	hunter==猎杀
-	hunt==猎杀 
-	permanent==永久
-	Orchid==奥尔卡
-	Togetherness==同伴
-	\bSpinel\b==绿水晶
-	\bequips?\b==装备套
-	\bbotters\b==开挂者
-	\bBotters\b==开挂者
-	\bevents?\b==活动
-	\bEvents?\b==活动
-	\bportals\b==光口
-	\bRune\b==符文
-	\brunes\b==符文
-	\bdungeon\b==副本
-	\bCape\b==披风
-	\bBox(es)?\b==盒子
-	\bRanks?\b==排名
-	\bSkills\b==技能
-	\bcharacters\b==玩家
-	\bdrop\b==掉落
-	\bEnhancement\b==增强
-	\bExpedition\b==远征
-	\bLil\b==迷你
-	\bLabyrinth\b==迷宫
-	\bNova\b==诺巴
-	\bNOVA\b==诺巴
-	\bTiara\b==头饰
-	\bclasss?\b==职业
-	\bclasses\b==职业
-	\bbans?\b==封号
-	\bBans?\b==封号
-	\bbanned\b==封号
-	\bHP\b==血量
-	binding skill==控制型技能
-	\bbind\b==控制
-	\bIED\b==无视防御
-	\bKeen\b==智慧的
-	\bReverse\b==翻转棋
-	\bAfterimage\b==残影
-	\binvincible\b==无敌状态
-	\b(m|M)esos?\b==金币
-	\b(\d)x\b==\1倍
-	\bFairgoer\b==街霸
-	\bSugaroid\b==机器人
-	\bGrants\b==获得
 
 
 ## 倾向
@@ -994,6 +802,7 @@
 	Boss Damage==BOSS伤害
 	BOSS Damage==BOSS伤害
 	Untradeable==不可交易
+	Grants stats STR/DEX/INT/LUK==全属性
 	(Grants)? STR/DEX/INT/LUK==全属性
 	attack speed IA==攻速内在
 
@@ -1113,3 +922,147 @@ Empress's Gift==女皇的礼物
 	Lucid==路西德
 	Aliciaroid==阿丽莎机器人
 
+
+
+
+
+
+# 单
+	Ability==内在能力
+	Erdas?==艾尔达
+	Tomoyo==“知世”
+	Syaoran==“小狼”
+	Syaoran Li==“小狼”
+	EXP==经验
+	Recipes?==配方
+	Julieta==朱莉埃塔
+	Skuas==斯库亚斯
+	Ossyria==神秘岛
+	Abrup==阿布鲁
+	Rings?==戒指
+	Guild==公会
+	Magnificent==伟大的
+	Chaos==困难级
+	CHAOS==困难级
+	Costume==套服
+	Legion==联盟
+	Bwuh==混乱
+	Eep==沮丧
+	Luv==喜欢
+	Kissy==吻
+	Yeti==白雪人
+	Pepe==蓝企鹅
+	\bMount\b==坐骑
+	World Gauge==世界储存槽
+	Determination Gauge==圣火储存槽
+	Spark of Determination==圣火火花
+	Determination==圣火
+	Desire==圣火
+	Guardian==守卫者
+# 单.
+	coins?==币
+	Entry Coupons?==入场券
+	coupons?==卡
+	channels?==频道
+	characters?==角色
+	maplers==冒险家们
+	flames==火花
+	\srings==戒指
+	equipment==装备
+	EVENTS?==活动
+	players?==玩家
+	reflection==反伤
+	Potions==药水
+	potions==药水
+	dorp==掉落
+	hardcore==极端
+	jobs?==职业
+	scrolls?==卷轴
+	boss==BOSS
+	sweetwater==漩涡
+	non-Transposed==非继承
+	transposed==继承
+	zero==神之子
+	Shoulder==护肩
+	Essence==精华
+	Fortuitous==幸运的
+	Swift==敏捷的
+	Clever==聪明的
+	Beefy==强壮的
+	Flashy==华丽的
+	Hearty==旺盛的
+	Potent\s==强效的
+	Radiant==闪耀的
+	Soul==灵魂
+	Items==物品
+	Afinas?==阿维纳斯
+	Bebe==贝贝
+	Chair==椅子
+	Player==玩家
+	Credit==信用值
+	Monad==莫奈得
+	Drop==爆率
+	Megaphone==喇叭
+	Beret==蓓蕾帽
+	Epic (Rank)?== -A级(紫色)
+	potentials?==潜能
+	safeguard==强化防爆
+	gachapon==玩具
+	Tradeable==可交易
+	untradeable when equipped==装备后无法交易
+	untradeable==无法交易
+	Untradeble==无法交易
+	Untradable==无法交易
+	Untradeabe==无法交易
+	Cannot be traded==无法交易
+	Rewards?==奖励
+	Whiskers==胡子
+	Pollo==保罗
+	Fritto==普利托
+	hunting==猎杀
+	hunter==猎杀
+	hunt==猎杀 
+	permanent==永久
+	Orchid==奥尔卡
+	Togetherness==同伴
+	\bSpinel\b==绿水晶
+	\bequips?\b==装备套
+	\bbotters\b==开挂者
+	\bBotters\b==开挂者
+	\bevents?\b==活动
+	\bEvents?\b==活动
+	\bportals\b==光口
+	\bRune\b==符文
+	\brunes\b==符文
+	\bdungeon\b==副本
+	\bCape\b==披风
+	\bBox(es)?\b==盒子
+	\bRanks?\b==排名
+	\bSkills\b==技能
+	\bcharacters\b==玩家
+	\bdrop\b==掉落
+	\bEnhancement\b==增强
+	\bExpedition\b==远征
+	\bLil\b==迷你
+	\bLabyrinth\b==迷宫
+	\bNova\b==诺巴
+	\bNOVA\b==诺巴
+	\bTiara\b==头饰
+	\bclasss?\b==职业
+	\bclasses\b==职业
+	\bbans?\b==封号
+	\bBans?\b==封号
+	\bbanned\b==封号
+	\bHP\b==血量
+	binding skill==控制型技能
+	\bbind\b==控制
+	\bIED\b==无视防御
+	\bKeen\b==智慧的
+	\bReverse\b==翻转棋
+	\bAfterimage\b==残影
+	\binvincible\b==无敌状态
+	\b(m|M)esos?\b==金币
+	\b(\d)x\b==\1倍
+	\bFairgoer\b==街霸
+	\bSugaroid\b==机器人
+	\bGrants\b==获得

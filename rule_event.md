@@ -53,4 +53,5 @@ Utah coins?==犹他币
 	Strong Sylph Stone==强大石
 
 Adventure Island==探险岛
+Adventurer==探险者
 Adventure==探险
