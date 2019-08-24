@@ -615,7 +615,7 @@
 	Etc tab==其他栏
 	Big Spender==大土豪
 	Hot Time==热力时间
-	Drop Rates==爆率
+	Drop Rates?==爆率
 	Hot Days==令人激动的日子
 	Hard mode==困难模式
 	Fever Time==热力时间
@@ -624,6 +624,7 @@
 	Atmospheric Effect==特效
 	Pre-Creation==预创建
 	Hyper Stats==超级属性
+	Fairy Bros==FB每日
 
 # 语法
 	to trade in for==换取
@@ -661,7 +662,7 @@
 	Eternal Flame==永恒火焰
 	Rudolph's Red Nose==鲁道夫的红鼻子
 	Maple Anniversary Equipments==冒险岛周年庆装备
-	Cubic Blade==魔方碎片
+	Cubic Blade=="魔方碎片"
 	Cubic Chaos Blade==魔方进阶碎片
 	SS-rank==SS级
 	Pink Bean's Buddy==品克缤的伙伴
@@ -1002,6 +1003,7 @@ Empress's Gift==女皇的礼物
 	Credit==信用值
 	Monad==莫奈得
 	Drop==爆率
+	drops==爆率
 	Megaphone==喇叭
 	Beret==蓓蕾帽
 	Epic (Rank)?== -A级(紫色)
@@ -1066,3 +1068,4 @@ Empress's Gift==女皇的礼物
 	\bFairgoer\b==街霸
 	\bSugaroid\b==机器人
 	\bGrants\b==获得
+	\bFlame\b==火花

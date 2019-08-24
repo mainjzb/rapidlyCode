@@ -33,6 +33,11 @@ Advanced Quiver==进阶箭筒
 	Shikigami Charm=="式神炎舞"
 	Haku's Blessing==花狐的祝福
 	Blossom Barrier=="结界·樱"
+	Tengu Strike=="双天狗"
+	Exorcist's Charm=="召唤妖云"
+	Exorcist Charm=="召唤妖云"
+	Orochi Unbound=="妖绘卷"
+	Shikigami Haunting=="紫扇仰波"
 	"?Fortified Bellflower Barrier"?=="强化结界*铃兰"
 	"?Warding Barrier"?=="结界*守护"
 	"?Bellflower Barrier"?=="结界*铃兰"
