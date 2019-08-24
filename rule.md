@@ -113,6 +113,7 @@
 
 
 # 地名 NPC
+	Fairy Bros Daily Gifts==FB每日礼物
 	Party Point Merchant Coin Shop==组队积分商店
 	Party Point Merchant==组队积分商店
 	Partem Ruins==帕坦遗址
@@ -343,7 +344,7 @@
 	2x Drop( Rate)? Coupon==双倍爆率卡
 	2x Drop( Rate)?==双倍爆率
 	Power Elixirs?==超级药水
-	Pollo and Fritto Entry Ticket==保罗/菲利普入场券
+	Pollo and Fritto Entry Ticket==保罗/普利托入场券
 	(Mysterious )?Storm Growth Potion==风暴成长药水
 	Typhoon Growth Potion==台风成长药水
 	Storage Room (\d)-Slot Coupon==仓库\1格扩展券
@@ -450,7 +451,7 @@
 	Boost Potion==强化药水
 	Hard Will==困难级威尔
 	Hard Mode==困难模式
-	character slots==角色位
+	character slots==角色槽
 	star reduction chance==降低等级率
 	star maintain chance==保留星级率
 	item destruction chance==装备破坏率
