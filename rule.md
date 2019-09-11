@@ -48,6 +48,8 @@
 
 	#  右边规则
 	#  \1 表示左边第一个被匹配的内容
+	
+	#  <code>content</code> content不会被翻译
 
 
 
