@@ -241,7 +241,7 @@
 	Glinda==格琳达
 	Moonbridge==月桥
 	Aquarium==水下世界
-	Haven==避风港
+	\bHaven(?<!s)\b==避风港
 	Sleepywood==林中之城
 	Perion==勇士部落
 	Ardentmill==匠人街
