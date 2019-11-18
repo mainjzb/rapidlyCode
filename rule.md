@@ -13,7 +13,7 @@
 - [万圣节](#万圣节)
 - [装备](#装备)
 - [职业](#职业)
-	- [倾向](#倾向)
+- [倾向](#倾向)
 - [冒险岛](#冒险岛)
 - [属性](#属性)
 - [装备_单](#装备_单)
@@ -83,6 +83,7 @@
 	Entry count limited to once daily. Clear count limited to once per week.==进入次数限每天一次，击杀次数限每周一次。
 	Entry count limited to once daily. Clear count limited to once per month.==进入次数限每天一次，击杀次数限每月一次。
 	Rewards can be claimed once==领取一次奖励
+	as you burn your way along==在斗燃的路上
 
 # 等级 
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
@@ -202,8 +203,11 @@
 	Mushroom Shrine==蘑菇神社
 	Erda Spectrum==艾尔达的颜色
 	Karuppa Town==卡尔帕镇
-	Rien==里恩
+	Cheong-woon Valley==青云谷
 	##################################
+	Capricious Sage==云游仙人
+	Anima==达恩维尔
+	Rien==里恩
 	\bMikagami\b==粉色鲸鱼
 	\bHieizan\b==比睿山
 	\bNina\b==妮娜
@@ -384,6 +388,9 @@
 	Hyper Teleport Rock==传送石
 	Teleport Rock==传送石
 	Selector Coupon==选择卡
+	Extreme Breakthrough Growth Potion==极限突破成长药水
+	Extreme Breakthrough==极限突破
+	
 
 # 杂项+属性  
 	Theme Dungeon==主题副本
@@ -611,8 +618,8 @@
 	Arcane Power==奥数值
 	'Burning' effect==斗燃特效
 	Burning characters?==斗燃角色
-	Tera Burning Project characters?==太斗燃的角色
-	Tera Burning==太斗燃
+	Tera Burning Project characters?==泰斗燃的角色
+	Tera Burning==泰斗燃
 	a party of (\d)-(\d)==\1-\2人的队伍
 	Boss Map Death==BOSS地图死亡
 	Etc tab==其他栏
@@ -760,10 +767,11 @@
 	Viper==冲锋队长
 	Mercedes==双弩
 	Mechanic==机械师
+	Hoyoung==虎影
 
 
 
-## 倾向
+# 倾向
 	\bAmbition\b==领袖气质
 	\bEmpathy\b==感性
 	\bInsight\b==洞察力

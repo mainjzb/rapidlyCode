@@ -10,6 +10,7 @@
 	Random Job Damage Skin Box==随机职业伤害皮肤
 	Monster Damage Skin==怪物伤害皮肤
 	Spark Damage Skin==火花四溅伤害皮肤
+	Extreme Breakthrough Damage Skin==伤害皮肤
 	Damage Skins?==伤害皮肤
 
 #椅子

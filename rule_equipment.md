@@ -205,8 +205,8 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 
 	Unique Fafnir Weapon Box=="紫潜法芙娜武器盒"
 	Fafnir Weapon Box==法芙娜武器箱
-	Fafnir weapon==法芙娜武器
-	Fafnir Weapon==法芙娜武器
+	Fafnir weapons?==法芙娜武器
+	Fafnir Weapons?==法芙娜武器
 	Absolab weapons==埃苏莱布斯武器
 	AbsoLab equipment==埃苏莱布斯装备
 	new Genesis Weapons==创世武器
