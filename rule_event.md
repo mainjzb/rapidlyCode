@@ -37,6 +37,7 @@ Override Fashion==超越时尚
 ## 币
 Utah Coins?==犹他币
 Utah coins?==犹他币
+Glory Coins?==荣耀币
 
 
 	Balanced Sylph Crystal==平衡水晶
@@ -55,3 +56,9 @@ Utah coins?==犹他币
 Adventure Island==探险岛
 Adventurer==探险者
 Adventure==探险
+Drill Hall==挂机大厅
+\bScout\b==新兵
+\bSentinel\b==哨兵
+#\bMaster\b==队长
+\bCommander\b==指挥官
+\bJusticar\b==司令

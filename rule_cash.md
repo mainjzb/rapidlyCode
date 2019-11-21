@@ -9,8 +9,12 @@
 	Damage Skin Extraction Coupon==伤害皮肤存储槽扩展券
 	Random Job Damage Skin Box==随机职业伤害皮肤
 	Monster Damage Skin==怪物伤害皮肤
+	Celestial Damage Skin==天空伤害皮肤
+	Ash Damage Skin==灰烬伤害皮肤
+	Dawn Damage Skin==黎明伤害皮肤
 	Spark Damage Skin==火花四溅伤害皮肤
 	Extreme Breakthrough Damage Skin==伤害皮肤
+	Red Flame Damage Skin==红色火花伤害皮肤
 	Damage Skins?==伤害皮肤
 
 #椅子
@@ -45,6 +49,10 @@
 	Magpie Seesaw Chair==喜鹊跷跷板椅
 	Magpie\'s Persimmon Tree Chair==喜鹊柿子树椅
 	Golden Oinker Chair==金色猪头椅
+	Battle of Light and Lightning==战斗之光影
+	Holy Sword Azor==圣剑之域
+	Deep Forest Hermitage==深山野林隐居处
+	Glory Guard Monument Chair==荣耀守卫纪念碑椅子
 
 # 点装
 	Avatar Box Stamps==黑色星票
@@ -91,7 +99,11 @@
 	Maple Noble Cape==枫叶贵族披风
 	Maple Noble Shoes==枫叶贵族鞋子
 	Death's Scythe==死神之刃
-
+	Glory Guard==荣耀守卫
+	Havoc Heavy Sword==浩劫重剑
+	Havoc Horn==浩劫龙角
+	Havoc Uniform==浩劫套服
+	Havoc Wings==浩劫之翼
 
 #坐骑
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
@@ -109,8 +121,10 @@
 	Permanent Pink Bean Scooter Mount==永久品克缤摩托坐骑
 	Permanent Galloping Piggy Mount==永久飞奔的猪坐骑
 	Permanent Magpie Mount==永久喜鹊坐骑
+	Permanent Pegasus Mount==永久金色天马坐骑
 	Magpie Nest-egg Mount==喜鹊蛋坐骑
 	Korean Kite Mount==韩国风筝坐骑
+	Permanent Glory Guard Mount==永久的荣耀守卫飞行坐骑
 
 ## 戒指名片
 	BROWN Chat Ring==棕熊聊天戒指

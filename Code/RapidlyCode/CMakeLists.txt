@@ -10,7 +10,8 @@ set(CMAKE_CXX_STANDARD 11)
 if(EXISTS "${TOOLS_CMAKE_DIR}/CustomConfig.cmake")
 	include("${TOOLS_CMAKE_DIR}/CustomConfig.cmake")
 else()
-	set(QT_DIR "D:/jiang/qt/5.9.2/msvc2017_64/bin")
+	#set(QT_DIR "D:/jiang/qt/5.9.2/msvc2017_64/bin")
+	set(QT_DIR "D:/Qt/Qt5.12.1/5.12.1/msvc2017_64/bin")
 endif()
 
 
