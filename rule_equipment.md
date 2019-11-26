@@ -202,11 +202,13 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 	Dual Bowguns==双弩枪
 	Hand Cannon==手持火炮
 	Soul Shooter==灵魂手铳
+	Ritual Fan==仙扇
+	Fan Tassel==流苏
 
 	Unique Fafnir Weapon Box=="紫潜法芙娜武器盒"
 	Fafnir Weapon Box==法芙娜武器箱
-	Fafnir weapon==法芙娜武器
-	Fafnir Weapon==法芙娜武器
+	Fafnir weapons?==法芙娜武器
+	Fafnir Weapons?==法芙娜武器
 	Absolab weapons==埃苏莱布斯武器
 	AbsoLab equipment==埃苏莱布斯装备
 	new Genesis Weapons==创世武器
@@ -217,6 +219,8 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 
 ## 机器人
 	BattleRoids==战斗机器人
+	Serenoid==赛莲机器人
+	Lidium Heart==锂心脏
 
 ## 图腾 
 	Fury Totem==鬼神图腾

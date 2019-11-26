@@ -13,7 +13,7 @@
 - [万圣节](#万圣节)
 - [装备](#装备)
 - [职业](#职业)
-	- [倾向](#倾向)
+- [倾向](#倾向)
 - [冒险岛](#冒险岛)
 - [属性](#属性)
 - [装备_单](#装备_单)
@@ -83,6 +83,9 @@
 	Entry count limited to once daily. Clear count limited to once per week.==进入次数限每天一次，击杀次数限每周一次。
 	Entry count limited to once daily. Clear count limited to once per month.==进入次数限每天一次，击杀次数限每月一次。
 	Rewards can be claimed once==领取一次奖励
+	as you burn your way along==在斗燃的路上
+	Receive 2 stars when you successfully do Star Force 10 enhancements and lower==10星或以下强化成功时获得2星
+	Receive 3x the amount of Surprise Missions==临时任务可完成次数提高3倍
 
 # 等级 
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
@@ -97,13 +100,18 @@
 	Lv.==等级
 
 # 区域
+	non-Reboot worlds only==仅限普通区
 	non-Reboot worlds==普通区
-	Reboot \(EU\) or Reboot \(NA\) worlds==R区
 	Non-Reboot Worlds==普通区
-	Reboot Worlds?=="R区"
+	
+	Reboot \(EU\) or Reboot \(NA\) worlds==R区
+	Reboot worlds? only==<span kdclassjsq="notranslate">仅限R区</span>
+	Reboot Worlds?==<span kdclassjsq="notranslate">R区</span>
+	Reboot worlds?==<span kdclassjsq="notranslate">R区</span>
+	Reboot \(NA\)==<span kdclassjsq="notranslate">美服R区</span>
+	REBOOT ONLY==仅限R区
+	Reboot==<span kdclassjsq="notranslate">R区</span>
 	All worlds==所有区
-	Reboot \(NA\)=="美服R区"
-	Reboot=="R区"
 	\[All Worlds\]==
 	\(EU\)==(欧服)
 	\(NA\)==(美服)
@@ -111,10 +119,13 @@
 	v.(\d\d\d)==\1版本
 	Nexon Launcher==NX登录器
 	NON-REBOOT ONLY==仅限普通区
-	REBOOT ONLY==仅限R区
 
 
 # 地名 NPC
+	Arcane River Express Pass==奥术河任务快速完成界面
+	Evolving Room Coin Shop's Vendor-C2==进化研究所C2商店
+	Prankster Stormwing==雪地大作战
+	Dimensional Mirror==次元之境
 	Fairy Bros Daily Gifts==FB每日礼物
 	Party Point Merchant Coin Shop==组队积分商店
 	Party Point Merchant==组队积分商店
@@ -154,6 +165,7 @@
 	Oz Tower==起源之塔
 	Tower of OZ Lobby==起源之塔大厅
 	Tower of OZ==起源之塔
+	Tower of Oz==起源之塔
 	Seed Tower==起源之塔
 	Kerning Jazz Bar==废弃都市爵士酒吧
 	Kerning City's==废弃都市
@@ -200,10 +212,18 @@
 	Fairy Academy==艾利涅妖精学院
 	Riena Strait==列娜海峡
 	Mushroom Shrine==蘑菇神社
-	Erda Spectrum==艾尔达的颜色
+	Erda Spectrum==艾尔达的光谱(岛一组队)
 	Karuppa Town==卡尔帕镇
-	Rien==里恩
+	Cheong-woon Valley==青云谷
+	Twisted Aquarium==<span kdclassjsq="notranslate">镜像水下世界</span>
+	Alishan==阿里山
+	Dimensional Gate==次元门
+	Spirit Savior==拯救精灵(岛四每日)
 	##################################
+	Anima==达恩维尔
+	Rien==里恩
+	Taotie==饕餮
+	Neinheart==南哈特
 	\bMikagami\b==粉色鲸鱼
 	\bHieizan\b==比睿山
 	\bNina\b==妮娜
@@ -243,7 +263,7 @@
 	Glinda==格琳达
 	Moonbridge==月桥
 	Aquarium==水下世界
-	Haven==避风港
+	\bHaven(?<!s)\b==避风港
 	Sleepywood==林中之城
 	Perion==勇士部落
 	Ardentmill==匠人街
@@ -283,6 +303,8 @@
 	\bSanta\b==圣诞老人
 
 # 物品
+	40 Slot Chair Bag==40槽椅子包
+	40 Slot Soul Bag==40槽灵魂包
 	MVP Plus EXP Buff==MVP个人经验卡
 	MVP Silver EXP Atmospheric Effect==MVP白银全体经验卡
 	Maplehood Watch==冒险幸运日
@@ -295,10 +317,13 @@
 	Final Form Color Reset Coupon==狂龙战士颜色重置券
 	Premium Water of Life==宠物复活药水
 	Alliance Medal==同盟币
+	Mastery Box==能手册礼盒
+	Weapon Box==武器礼盒
 	Android Hearts?==机器人心脏
+	Inkwell Coin==财富币
 	Miracle Circulators?==内在还原器
 	Master Craftsman's Cubes?==黄魔方
-	Craftsman's Cube==黄魔方
+	Craftsman's Cubes?==黄魔方
 	(Bonus)? Occult Cubes?==怪异魔方
 	Occult Cube==怪异魔方
 	Meister's Cubes?==匠人魔方
@@ -384,12 +409,19 @@
 	Hyper Teleport Rock==传送石
 	Teleport Rock==传送石
 	Selector Coupon==选择卡
+	Extreme Breakthrough Growth Potion==极限突破成长药水
+	Extreme Breakthrough==极限突破
+	Scroll for Pet Equipment for ATT==宠物装备物理攻击卷轴
+	Scroll for Pet Equipment for M. ATT==宠物装备魔法攻击卷轴
+	Pet Equipment Stat Transfer Scroll==宠物装备属性转移卷轴
+	Meso Pouch==钱袋
+	Appraisal Magnifying Glass==鉴定放大镜
 
 # 杂项+属性  
+
 	Theme Dungeon==主题副本
 	prerequisite quest==前置任务
 	Rock-Paper-Scissors==剪刀石头布
-	Dimensional Mirror==次元门
 	Double Miracle Time==DMT
 	Captivating Fragments?==浓姬碎片
 	8-bit==像素
@@ -491,8 +523,10 @@
 	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
 	Chaos Scroll of Goodness==正义混沌卷轴
 	Chaos Scroll==混沌卷轴
+	Special Bonus Potential Scroll==附加潜能卷轴
 	Bonus Potential Scroll==附加潜能卷轴
 	Potential Scroll==潜能卷轴
+	Return Scroll - Nearest Town==回城卷轴
 	Return Scrolls?==回城卷轴
 	Extra Character Slot Coupon==扩展角色位卡
 	EXP Coupons?==经验卡
@@ -500,7 +534,7 @@
 	Weapon Supply Box==武器箱
 	Potion Pot==药剂罐
 	Cash Inventory Transfer==商城转移
-	Hair Color Coupon==染发卡
+	Hair Color Coupons?==染发卡
 	Skin Coupon==肤色卡
 	Royal Hair Coupon==皇家理发卡
 	Royal Face Coupon==皇家整容卡
@@ -600,6 +634,7 @@
 	Party Points==组队积分
 	Bonus EXP==额外经验
 	Arcane Symbol Selector Coupon==奥术球选择卡
+	Labyrinth Arcane Symbol Box==奥术球礼盒
 	Arcane Symbol==奥术球
 	Stage (\d)==\1阶
 	Combo Kill Orbs==连续击杀经验球
@@ -610,9 +645,13 @@
 	Legendary Cryptic Chest==传奇礼盒
 	Arcane Power==奥数值
 	'Burning' effect==斗燃特效
+	Tera Burning characters?==泰斗燃角色
 	Burning characters?==斗燃角色
-	Tera Burning Project characters?==太斗燃的角色
-	Tera Burning==太斗燃
+	Tera Burning Project characters?==泰斗燃的角色
+	Tera Burning==泰斗燃
+	Tera Burned==泰斗燃
+	Tera Burn==泰斗燃
+	Relay Master Box(es)?==接力大师盒子
 	a party of (\d)-(\d)==\1-\2人的队伍
 	Boss Map Death==BOSS地图死亡
 	Etc tab==其他栏
@@ -628,6 +667,8 @@
 	Pre-Creation==预创建
 	Hyper Stats==超级属性
 	Fairy Bros==FB每日
+	primary stat==<span kdclassjsq="notranslate">主属性</span>
+	master level==最高等级
 
 # 语法
 	to trade in for==换取
@@ -707,6 +748,8 @@
 	Battle mage==唤灵斗师
 	Dawn Warrior==魂骑士
 	Seoul Master==魂骑士
+	Capricious Sage==云游仙人
+
 
 
 	\bExplorer\b==冒险家
@@ -760,10 +803,11 @@
 	Viper==冲锋队长
 	Mercedes==双弩
 	Mechanic==机械师
+	Hoyoung==虎影
+	HOYOUNG==虎影
 
 
-
-## 倾向
+# 倾向
 	\bAmbition\b==领袖气质
 	\bEmpathy\b==感性
 	\bInsight\b==洞察力
@@ -1072,3 +1116,6 @@ Empress's Gift==女皇的礼物
 	\bSugaroid\b==机器人
 	\bGrants\b==获得
 	\bFlame\b==火花
+	\bandroid\b==机器人
+
+	kdclassjsq==class

@@ -25,7 +25,7 @@ void XParseRule( QString& ruleFile_s, QVector<sRule*>& rules );
 QString * XReplace( QString * content, const QVector<sRule*>& rules );
 void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, const QString & adFile );
 bool XPrint( const char* );
-void CoverDateTimeToBeijin( QString & utcTime );
+bool CoverDateTimeToBeijin( QString & utcTime );
 void OptimizeContent( QString & content );
 
 
@@ -149,7 +149,11 @@ QString * XReplace( QString * content, const QVector<sRule*>& rules )
 
 			if ( tmpString.leftRef( 3 ) == "UTC" || tmpString.leftRef( 4 ) == "AEDT" || tmpString.leftRef( 4 ) == "AEST" )
 			{
-				CoverDateTimeToBeijin( tmpString );
+				if( CoverDateTimeToBeijin( tmpString ) )
+				{
+					result->append( tmpString );
+					continue;
+				}
 			}
 
 			if ( tmpString.length() == 0 ||
@@ -295,7 +299,7 @@ void SaveToFile( QTextStream & outStream, QString & content, const bool& AD, con
 	}
 }
 
-void CoverDateTimeToBeijin(QString & utcTime)
+bool CoverDateTimeToBeijin(QString & utcTime)
 {
 	QString result1, result2;
 	QTextCodec::setCodecForLocale( QTextCodec::codecForName( "utf8" ) );
@@ -310,7 +314,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		}
 		if ( tmpstring.length() != 2 )
 		{
-			return;
+			return false;
 		}
 
 		QString startTime = tmpstring.at( 0 ).trimmed();
@@ -325,7 +329,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 		if ( !date1.isValid() && !date2.isValid() )
 		{
-			return;
+			return false;
 		}
 		if ( date1.isValid() )
 		{
@@ -335,7 +339,15 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		}
 		else
 		{
-			result1 = startTime;
+			date1 = loc.toDateTime( startTime, "MMMM d '(after maintenance)'" );
+			if( date1.isValid() )
+			{
+				result1 = date1.toString( QString::fromLocal8Bit( u8"M月d日 (维护后)" ) );
+			}
+			else
+			{
+				result1 = startTime;
+			}
 		}
 
 		if ( date2.isValid() )
@@ -381,7 +393,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 		}
 		if ( tmpstring.length() != 2 )
 		{
-			return;
+			return false;
 		}
 		QString startTime = tmpstring.at( 0 ).trimmed();
 		QString endTime = tmpstring.at( 1 ).trimmed();
@@ -397,7 +409,7 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 		if ( !date1.isValid() && !date2.isValid() )
 		{
-			return;
+			return false;
 		}
 		if ( date1.isValid() )
 		{
@@ -421,7 +433,8 @@ void CoverDateTimeToBeijin(QString & utcTime)
 
 	}
 	utcTime.clear();
-    utcTime = QString::fromLocal8Bit( u8"北京时间：") + result1 + "  -  " + result2;;
+    utcTime = QString::fromLocal8Bit( u8"<span class=\"notranslate\">北京时间：") + result1 + "  -  " + result2 + "</span>";
+	return true;
 }
 
 

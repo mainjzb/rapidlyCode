@@ -53,3 +53,20 @@ Advanced Quiver==进阶箭筒
 ## 属性
 Mana Hyper Stat==法力值超级属性
 \bMana\b==法力值
+
+## 隐月
+Fox Spirits==狐仙
+
+## 亚克
+Devious Nightmare==渗出的恶梦
+Devious Dream==渗出的梦魇
+Spectra Fatigue==精神力枯竭
+
+## 隐月
+True Spirit Claw==真*鬼斩
+
+##　凯撒
+Dragon Slash==剑龙连斩
+
+##　伊利恩
+Reaction==即刻反应
