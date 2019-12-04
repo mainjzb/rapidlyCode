@@ -101,16 +101,16 @@
 
 # 区域
 	non-Reboot worlds only==仅限普通区
-	non-Reboot worlds==普通区
-	Non-Reboot Worlds==普通区
+	non-Reboot worlds=="普通区"
+	Non-Reboot Worlds=="普通区"
 	
 	Reboot \(EU\) or Reboot \(NA\) worlds==R区
 	Reboot worlds? only==<span kdclassjsq="notranslate">仅限R区</span>
-	Reboot Worlds?==<span kdclassjsq="notranslate">R区</span>
-	Reboot worlds?==<span kdclassjsq="notranslate">R区</span>
+	Reboot Worlds?=="R区"
+	Reboot worlds?=="R区"
 	Reboot \(NA\)==<span kdclassjsq="notranslate">美服R区</span>
 	REBOOT ONLY==仅限R区
-	Reboot==<span kdclassjsq="notranslate">R区</span>
+	Reboot=="R区"
 	All worlds==所有区
 	\[All Worlds\]==
 	\(EU\)==(欧服)
@@ -194,9 +194,9 @@
 	Pilot Irvin==飞行员艾文
 	Athena Pierce==皮尔斯
 	Lady Blair==布莱尔女士
-	Small Spirit==小不点精灵
-	Tree Spirit==树精灵
-	Rock Spirit==石精灵
+	Small Spirits?==小不点精灵
+	Tree Spirits?==树精灵
+	Rock Spirits?==石精灵
 	Marvel Machine==抽奖机
 	Labyrinth of Suffering==痛苦的迷宫
 	Deep Core==深渊核心

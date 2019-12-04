@@ -1,4 +1,6 @@
-# 伤害皮肤
+
+
+#	伤害皮肤	
 	Lunar New Year Video Message of Love Damage Skin==农历新年爱之视频伤害皮肤
 	Soccer Uniform==足球制服
 	Damage Skin Slot Expansion Coupon==伤害皮肤储存槽扩展卡
@@ -17,7 +19,7 @@
 	Red Flame Damage Skin==红色火花伤害皮肤
 	Damage Skins?==伤害皮肤
 
-#椅子
+# 椅子
 	Sengoku Command Post==战国指挥部
 	Lunar New Year Video Message of Love Chair==农历新年爱之视频椅
 	Halloween Candy Hoard Chair==万圣节糖果堆椅子
@@ -104,8 +106,24 @@
 	Havoc Horn==浩劫龙角
 	Havoc Uniform==浩劫套服
 	Havoc Wings==浩劫之翼
+	Beast Tamer Transparent Ears==林之灵的透明耳朵
+	Beast Tamer Transparent Tail==林之灵的透明尾巴
+	Transparent Cape==<span kdclassjsq="notranslate">透明披风</span>
+	Transparent Gloves==<span kdclassjsq="notranslate">透明手套</span>
+	Transparent Shoes==<span kdclassjsq="notranslate">透明鞋子</span>
+	Transparent Earrings==<span kdclassjsq="notranslate">透明耳环</span>
+	Transparent Eye Accessory==<span kdclassjsq="notranslate">透明眼饰</span>
+	Transparent Face Accessory==<span kdclassjsq="notranslate">透明脸饰</span>
+	Transparent Hat==<span kdclassjsq="notranslate">透明帽子</span>
+	Transparent Katara==<span kdclassjsq="notranslate">透明副刀</span>
+	Transparent Claw==<span kdclassjsq="notranslate">透明拳套</span>
+	Transparent Knuckle==<span kdclassjsq="notranslate">透明指节</span>
+	Transparent Wand==<span kdclassjsq="notranslate">透明短杖</span>
+	Universal Transparent Weapon==通用的透明武器
+	Transparent Shield==<span kdclassjsq="notranslate">透明盾牌</span>
 
-#坐骑
+
+# 坐骑
 	Witch's Broomstick Mount==巫婆的扫帚坐骑
 	Wee Moon Bunny Mount==迷你月兔坐骑
 	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
@@ -162,4 +180,3 @@
 	Item Pouch==捡物品
 	Auto Buff==自动BUFF
 	All Pet Skills==全宠物技能
-
