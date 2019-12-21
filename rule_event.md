@@ -62,3 +62,38 @@ Drill Hall==挂机大厅
 #\bMaster\b==队长
 \bCommander\b==指挥官
 \bJusticar\b==司令
+
+
+# 圣诞
+Baker's Delight Outfits?==贝克的圣诞套装
+Santa Boy Package==男装圣诞礼包
+Santa Boy Hat==男装圣诞帽
+Santa Boy Overall==男装圣诞套服
+Santa Boy Boots==男装圣诞鞋
+Santa Girl Package==女装圣诞礼包
+Santa Girl Hat==女装圣诞帽
+Santa Girl Overall==女装圣诞套服
+Santa Girl Boots==女装圣诞鞋
+Santa \(M/F\) Package==(男/女)圣诞礼包
+Santa Gloves==圣诞手套
+Santa Costume \(M/F\)==(男/女)圣诞套服
+Red Santa Boots \(M/F\)==(男/女)圣诞鞋
+Rosy Reindeer Package==玫瑰驯鹿套装
+Blushing Reindeer Hat==红色驯鹿帽
+Reindeer Hat==驯鹿帽
+Reindeer Suit==驯鹿套服
+Reindeer Hoodie \(M/F\) Package==(男/女)驯鹿连帽衫礼包
+Reindeer Hoodie \(M/F\)==驯鹿连帽衫
+Snowman Package==雪人礼包
+Snowman Mask==雪人头套
+Snowman Costume==雪人套服
+Snowman Gloves==雪人手套
+Shining Santa Box(es)?==闪耀的圣诞老人盒子
+Red Santa Boots==红色圣诞老人靴子
+Christmas Stocking==圣诞袜
+Santa Hat==圣诞帽
+\bSanta\b==圣诞老人
+
+
+Sugar Cookie Blitz==糖果饼干大作战
+Sugar Cookie==糖果饼干

@@ -27,12 +27,14 @@
 ’=='
 ‘=='
 
+@import "./rule_stuff.md"
 @import "./rule_cash.md"
+@import "./rule_event.md"
 @import "./rule_equipment.md"
+
 @import "./rule_other.md"
 @import "./rule_skill.md"
 @import "./rule_maple.md"
-@import "./rule_event.md"
 
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
@@ -219,7 +221,13 @@
 	Alishan==阿里山
 	Dimensional Gate==次元门
 	Spirit Savior==拯救精灵(岛四每日)
+	Allian Base==外星人基地
+	New Leaf City==新叶城
 	##################################
+	Cernium==<span kdclassjsq="notranslate">Cernium</span>
+	Blackgate==黑门
+	Masteria==克拉奇亚
+	Crimsonwood==守护者的要塞
 	Anima==达恩维尔
 	Rien==里恩
 	Taotie==饕餮
@@ -296,12 +304,6 @@
 
 
 
-#圣诞
-	Shining Santa Box(es)?==闪耀的圣诞老人盒子
-	Red Santa Boots==红色圣诞老人靴子
-	Christmas Stocking==圣诞袜
-	\bSanta\b==圣诞老人
-
 # 物品
 	40 Slot Chair Bag==40槽椅子包
 	40 Slot Soul Bag==40槽灵魂包
@@ -321,6 +323,8 @@
 	Weapon Box==武器礼盒
 	Android Hearts?==机器人心脏
 	Inkwell Coin==财富币
+	Manji Coin==一千万财富币
+	Gaga Coin==一亿财富币
 	Miracle Circulators?==内在还原器
 	Master Craftsman's Cubes?==黄魔方
 	Craftsman's Cubes?==黄魔方
@@ -397,6 +401,7 @@
 	Extra-Strength Hand Sanitizer==强力消毒剂
 	Premium Cologne==高级香水
 	Snake Bone Soup==蛇骨汤
+	Extra Strength Hand Sanitizer==强力洗手液
 	Premium Carrot Juice==优质胡萝卜汁
 	Premium Hair Wax==优质发蜡
 	Cherry Chocolate Cupcake==巧克力蛋糕
@@ -469,7 +474,6 @@
 	a Character Name Change Coupon==改名卡
 	OX Quiz==“对错问答”
 	OX quiz==“对错问答”
-	Arcane Umbra==神秘之影
 	Soul Shards?==灵魂碎片
 	Maple World==冒险世界
 	Mirror World==镜像世界
@@ -742,6 +746,7 @@
 	Cannon shooter==火炮
 	\(I/L\)==(冰雷)
 	\(Ice, Lightning\)==(冰雷)
+	Ice/Lightning==冰雷
 	\(Fire Poison\)==(火毒)
 	\(Fire, Poison\)==(火毒)
 	Battle Mage==唤灵斗师
@@ -800,6 +805,7 @@
 	Marksman==箭神(弩)
 	Crossbow master==箭神(弩)
 	Buccaneer==冲锋队长
+	Buccanner==冲锋队长
 	Viper==冲锋队长
 	Mercedes==双弩
 	Mechanic==机械师
@@ -1014,7 +1020,7 @@ Empress's Gift==女皇的礼物
 	channels?==频道
 	characters?==角色
 	maplers==冒险家们
-	flames==火花
+# flames==火花
 	\srings==戒指
 	equipment==装备
 	EVENTS?==活动

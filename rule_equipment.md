@@ -124,6 +124,7 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Pink Holy Cup==品克缤的圣杯
 	Black Bean Mark==品克缤的眼
 	Golden Clover Belt==金色三叶草腰带
+	Reboot Tenebris Expedition Ring Coupon==R区阴暗之地远征戒指卡
 
 
 ## 项链
@@ -205,6 +206,8 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 	Ritual Fan==仙扇
 	Fan Tassel==流苏
 
+	Arcane Umbra Weapon \(Durational\) Box==神秘之影期限武器礼盒
+	Arcane Umbra Weapon \(Permanent\) Box==神秘之影永久武器礼盒
 	Unique Fafnir Weapon Box=="紫潜法芙娜武器盒"
 	Fafnir Weapon Box==法芙娜武器箱
 	Fafnir weapons?==法芙娜武器
@@ -216,6 +219,7 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 	Genesis Weapons?==创世武器
 	Genesis weapons?==创世武器
 	Genesis Essence==创世精华
+	Arcane Umbra==神秘之影
 
 ## 机器人
 	BattleRoids==战斗机器人

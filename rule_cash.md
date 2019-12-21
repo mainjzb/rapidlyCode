@@ -17,6 +17,7 @@
 	Spark Damage Skin==火花四溅伤害皮肤
 	Extreme Breakthrough Damage Skin==伤害皮肤
 	Red Flame Damage Skin==红色火花伤害皮肤
+	Sugar Cookie Damage Skin==糖果饼干伤害皮肤
 	Damage Skins?==伤害皮肤
 
 # 椅子

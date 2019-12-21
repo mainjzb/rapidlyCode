@@ -37,3 +37,4 @@ Golden Ticket==金色门票
 mob respawning==怪物重生
 
 June 12==6月12日
+Creation Event==创建活动
