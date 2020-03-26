@@ -97,3 +97,9 @@ Santa Hat==圣诞帽
 
 Sugar Cookie Blitz==糖果饼干大作战
 Sugar Cookie==糖果饼干
+ISEKAI QUARTET==异世界四重奏
+Isekai Friends==异世界的朋友
+
+
+Full Moon Ticket==满月交换券
+Full Moon==满月

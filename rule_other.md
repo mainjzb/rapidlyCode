@@ -38,3 +38,20 @@ mob respawning==怪物重生
 
 June 12==6月12日
 Creation Event==创建活动
+
+
+
+## 词组
+entered (\d) times==进入\1次
+enter the (\w+) (\d) times==进入\1\2次
+Top (\d{1,2}) - (\d{1,2})%==排名\1% - \2%
+Within top (\d)%==排名前\1%
+buff skills==BUFF技能
+
+
+## 单词
+
+dungeons?==副本
+Master\b==大师
+Novice==新手
+buffs==增益效果

@@ -30,11 +30,11 @@
 @import "./rule_stuff.md"
 @import "./rule_cash.md"
 @import "./rule_event.md"
+@import "./rule_NPC.md"
 @import "./rule_equipment.md"
 
 @import "./rule_other.md"
 @import "./rule_skill.md"
-@import "./rule_maple.md"
 
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
@@ -223,6 +223,7 @@
 	Spirit Savior==拯救精灵(岛四每日)
 	Allian Base==外星人基地
 	New Leaf City==新叶城
+	Lulu Spinel==露露小姐姐
 	##################################
 	Cernium==<span kdclassjsq="notranslate">Cernium</span>
 	Blackgate==黑门
@@ -975,6 +976,7 @@ Empress's Gift==女皇的礼物
 	Rose Lucid==玫瑰路西德
 	Lucid==路西德
 	Aliciaroid==阿丽莎机器人
+	Moniroid==晓月机器人
 
 
 
@@ -1080,6 +1082,7 @@ Empress's Gift==女皇的礼物
 	permanent==永久
 	Orchid==奥尔卡
 	Togetherness==同伴
+
 	\bSpinel\b==绿水晶
 	\bequips?\b==装备套
 	\bbotters\b==开挂者

@@ -16,6 +16,9 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Keep on Burning==保持斗燃
 	Pink Bean Buddy==品克缤的好友
 	Holy Pink Beanity==神圣的品克缤
+	Master Exorcist==驱魔大师
+	Veteran Exorcist==驱魔长者
+	Junior Exorcist==驱魔新手
 ##
 	Boss Accessory Random Box==BOSS饰品随机箱
 	Lionheart Armor Box==狮心防具盒
@@ -241,3 +244,4 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 	\bbelt\b==腰带
 	\bBlunts?\b==钝器
 	\bTyrant\b==暴君
+	Emblem==纹章

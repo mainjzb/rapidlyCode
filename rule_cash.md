@@ -56,6 +56,9 @@
 	Holy Sword Azor==圣剑之域
 	Deep Forest Hermitage==深山野林隐居处
 	Glory Guard Monument Chair==荣耀守卫纪念碑椅子
+	Golden Meso Tree Chair==黄金财富树椅子
+	Meso-Raining Chair==金钱雨椅子
+	My Marvelous Moon Chair==奇妙月亮椅
 
 # 点装
 	Avatar Box Stamps==黑色星票
@@ -144,6 +147,8 @@
 	Magpie Nest-egg Mount==喜鹊蛋坐骑
 	Korean Kite Mount==韩国风筝坐骑
 	Permanent Glory Guard Mount==永久的荣耀守卫飞行坐骑
+	Haechi Mount==獬豸坐骑
+	Haechi==獬豸
 
 ## 戒指名片
 	BROWN Chat Ring==棕熊聊天戒指
