@@ -18,6 +18,16 @@
 	Extreme Breakthrough Damage Skin==伤害皮肤
 	Red Flame Damage Skin==红色火花伤害皮肤
 	Sugar Cookie Damage Skin==糖果饼干伤害皮肤
+	Pixel Starry Damage Skin==<span kdclassjsq="notranslate">像素版星状伤害皮肤</span>
+	Pixel Nine-Tailed Fox Damage Skin==<span kdclassjsq="notranslate">像素版九尾狐伤害皮肤</span>
+	Pixel Basic Damage Skin==<span kdclassjsq="notranslate">像素版普通伤害皮肤</span>
+	Pixel Snowstorm Damage Skin==<span kdclassjsq="notranslate">像素版暴风雪伤害皮肤</span>
+	Pixel Neon Lights Damage Skin==<span kdclassjsq="notranslate">像素版霓虹灯伤害皮肤</span>
+	Pixel Star Planet Damage Skin==<span kdclassjsq="notranslate">像素版恒星伤害皮肤</span>
+	Pixel Scorching Heat Damage Skin==<span kdclassjsq="notranslate">像素版灼热伤害皮肤</span>
+	Pixel Full of Hearts Damage Skin==<span kdclassjsq="notranslate">像素版心心相印伤害皮肤</span>
+	Pixel Crow Damage Skin==<span kdclassjsq="notranslate">像素版乌鸦伤害皮肤</span>
+	Pixel 12th Anniversary Maple Leaf Damage Skin==<span kdclassjsq="notranslate">像素版12周年枫叶伤害皮肤</span>
 	Damage Skins?==伤害皮肤
 
 # 椅子
@@ -32,7 +42,6 @@
 	Window on the Farm Chair==田野之窗椅子
 	Halloween Pumpkin Chair==万圣节南瓜椅子
 	Elite Pumpkin Pal==僵尸朋友椅子
-	Sun Chair==太阳椅子
 	The Wave Chair==观众席椅子
 	R\.I\.P Chair==坟墓椅子
 	Maple Celebrity Chair==枫叶名人椅子
@@ -42,10 +51,11 @@
 	Pom Pom Pink Bean Chair==砰砰品克缤椅
 	Fountain Fun Chair==快乐喷泉椅
 	Tree of Memory Chair==树下的回忆椅
-	Starglow Chair==星光椅
+	Pixel Arcana Spirit Tree Chair==<span kdclassjsq="notranslate">像素版阿尔卡那精灵之树椅</span>
 	Arcana Spirit Tree Chair==阿尔卡那精灵之树椅
 	DJ Booth Chair==DJ椅
 	Fame Rank Chair==等级排名椅
+	Pixel Hall of Maple Warriors==<span kdclassjsq="notranslate">像素版枫叶勇士堂椅</span>
 	Hall of Maple Warriors==枫叶勇士堂椅
 	My Year to Shine! Chair==我的闪耀时代! 椅子
 	Obnoxious Display of Wealth==炫富椅
@@ -59,6 +69,17 @@
 	Golden Meso Tree Chair==黄金财富树椅子
 	Meso-Raining Chair==金钱雨椅子
 	My Marvelous Moon Chair==奇妙月亮椅
+	Small Gollux Chair==小型贝勒德椅子
+	Large Gollux Chair==大型贝勒德椅子
+	Pixel Henesys Chair==<span kdclassjsq="notranslate">像素版射手村椅子</span>
+	Pixel Sun Chair==<span kdclassjsq="notranslate">像素版太阳椅</span>
+	Pixel Starglow Chair==<span kdclassjsq="notranslate">像素版星光椅</span>
+	Pixel Bloom of Lucid==<span kdclassjsq="notranslate">像素版露西德莲花椅</span>
+	Starglow Chair==星光椅
+	Sun Chair==太阳椅子
+	Pixel First Maple Tree==<span kdclassjsq="notranslate">像素版枫树椅子</span>
+	Pixel Ancient Guardian Chair==<span kdclassjsq="notranslate">像素版远古守护者椅子</span>
+	Rollerskating Chair==轮滑椅子
 
 # 点装
 	Avatar Box Stamps==黑色星票
@@ -125,30 +146,42 @@
 	Transparent Wand==<span kdclassjsq="notranslate">透明短杖</span>
 	Universal Transparent Weapon==通用的透明武器
 	Transparent Shield==<span kdclassjsq="notranslate">透明盾牌</span>
+	Pixel Cape==<span kdclassjsq="notranslate">像素版披风</span>
+	Pixel Helm==<span kdclassjsq="notranslate">像素版头盔</span>
+	Pixel Sword==<span kdclassjsq="notranslate">像素版剑</span>
+	Pixel Hero Sword==<span kdclassjsq="notranslate">像素版英雄剑</span>
+	Pixel Hero Helm==<span kdclassjsq="notranslate">像素版英雄头盔</span>
+	Pixel Hero Armor==<span kdclassjsq="notranslate">像素版英雄铠甲</span>
+	Pixel Hero Cape==<span kdclassjsq="notranslate">像素版英雄披风</span>
+	Noble Maple Outfit Coupon==枫叶贵族装备兑换券
+	Maple Galaxy Outfit Coupon==枫叶银河装备兑换券
+	Maple Gumshoe's Outfit Coupon==枫叶侦探装备兑换券
 
 
 # 坐骑
-	Witch's Broomstick Mount==巫婆的扫帚坐骑
-	Wee Moon Bunny Mount==迷你月兔坐骑
-	Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
-	Permanent Flying Whale Mount==永久飞行鲸鱼坐骑
-	Permanent Baby Snipe Mount==永久小鹬坐骑
-	MOON Scooter Mount==摩托车坐骑
-	Boppin' LINE FRIENDS Truck Mount==小兔子的卡车坐骑	
-	Permanent Pink Balloon Mount==永久粉色气球坐骑
-	Pink Bean Balloon==品克缤的气球
-	Pink Bean Partner Mount==品克缤的伙伴坐骑	
-	Permanent Flying Fish Mount==永久飞鱼坐骑
-	Permanent Best Friend Ballooncycle Mount==永久最好的朋友气球坐骑
-	Permanent Pink Bean Scooter Mount==永久品克缤摩托坐骑
-	Permanent Galloping Piggy Mount==永久飞奔的猪坐骑
-	Permanent Magpie Mount==永久喜鹊坐骑
-	Permanent Pegasus Mount==永久金色天马坐骑
-	Magpie Nest-egg Mount==喜鹊蛋坐骑
-	Korean Kite Mount==韩国风筝坐骑
-	Permanent Glory Guard Mount==永久的荣耀守卫飞行坐骑
-	Haechi Mount==獬豸坐骑
-	Haechi==獬豸
+Witch's Broomstick Mount==巫婆的扫帚坐骑
+Wee Moon Bunny Mount==迷你月兔坐骑
+Vroom Vroom Pink Bean Mount==品克缤呜呜车坐骑
+Permanent Flying Whale Mount==永久飞行鲸鱼坐骑
+Permanent Baby Snipe Mount==永久小鹬坐骑
+MOON Scooter Mount==摩托车坐骑
+Boppin' LINE FRIENDS Truck Mount==小兔子的卡车坐骑	
+Permanent Pink Balloon Mount==永久粉色气球坐骑
+Pink Bean Balloon==品克缤的气球
+Pink Bean Partner Mount==品克缤的伙伴坐骑	
+Permanent Flying Fish Mount==永久飞鱼坐骑
+Permanent Best Friend Ballooncycle Mount==永久最好的朋友气球坐骑
+Permanent Pink Bean Scooter Mount==永久品克缤摩托坐骑
+Permanent Galloping Piggy Mount==永久飞奔的猪坐骑
+Permanent Magpie Mount==永久喜鹊坐骑
+Permanent Pegasus Mount==永久金色天马坐骑
+Magpie Nest-egg Mount==喜鹊蛋坐骑
+Korean Kite Mount==韩国风筝坐骑
+Permanent Glory Guard Mount==永久的荣耀守卫飞行坐骑
+Permanent Pixel Flame Bird Mount==<span kdclassjsq="notranslate">像素版火焰鸟坐骑</span>
+Haechi Mount==獬豸坐骑
+Pixel Frozen Tuna Mount==<span kdclassjsq="notranslate">像素版冻冻鱼坐骑</span>
+Haechi==獬豸
 
 ## 戒指名片
 	BROWN Chat Ring==棕熊聊天戒指

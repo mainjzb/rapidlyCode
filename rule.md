@@ -411,7 +411,6 @@
 	All Cure Potion==万能药水
 	Gingerbread Man Cookie==姜饼男人饼干
 	Gingerbread Woman Cookie==姜饼女人饼干
-	Star Force (\d\d)\-Star Enhancement Coupon==\1星强化卷
 	Hyper Teleport Rock==传送石
 	Teleport Rock==传送石
 	Selector Coupon==选择卡
@@ -423,8 +422,18 @@
 	Meso Pouch==钱袋
 	Appraisal Magnifying Glass==鉴定放大镜
 
-# 杂项+属性  
 
+# Failiar 
+	Familiar system==怪怪卡系统
+	Familiar Essence==怪怪精油
+	Familiar Booster Pack==怪怪增强包
+	Suspicious Fauxmiliar Card==怪异万能卡
+	Familiar Breakthrough Card==怪怪突破卡
+	Unique Booster Pack==U级增强包
+	Booster Pack==增强包
+	Familiar==怪怪卡
+
+# 杂项+属性  
 	Theme Dungeon==主题副本
 	prerequisite quest==前置任务
 	Rock-Paper-Scissors==剪刀石头布
@@ -927,7 +936,6 @@ Empress's Gift==女皇的礼物
 	Normal Pink Bean==普通品克缤
 	Pink Bean==品克缤
 	Von Leon==狮子王
-	Cygnusroid==希纳斯机器人
 	Normal Cygnus==普通希纳斯女皇
 	Easy Cygnus==简单希纳斯女皇
 	Cygnus==希纳斯女皇
@@ -969,14 +977,12 @@ Empress's Gift==女皇的礼物
 
 	
 	Hard Lucid's==困难级路西德的
-	Lucidroid==路西德机器人
 	Lucid's==路西德的
 	Ebony Lucid==黑色路西德
 	Powder Lucid==粉色路西德
 	Rose Lucid==玫瑰路西德
 	Lucid==路西德
-	Aliciaroid==阿丽莎机器人
-	Moniroid==晓月机器人
+
 
 
 

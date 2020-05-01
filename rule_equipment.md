@@ -57,6 +57,7 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Maple Amethysian Shoulder==紫水晶枫叶护肩
 	Maple Amethysian Belt==紫水晶枫叶腰带
 	9th Anniversary Pearl Maple Weapon Box==9周年白金武器选择盒
+	Pearl Maple Weapon Selection Box==白金枫叶武器选择箱
 	Pearl Maple Hat==白金枫叶帽
 	Pearl Maple Gum==白金枫叶鞋子
 	Pearl Maple Suit==白金枫叶套服
@@ -65,6 +66,8 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Pearl Maple Buckle==白金枫叶腰带
 	9th Anniversary Onyx Maple Weapon Box==9周年玛瑙武器选择盒
 	9th Anniversary Onyx Maple Secondary Weapon Box==9周年玛瑙副武器选择盒
+	Onyx Maple Weapon Selection Box==玛瑙枫叶武器选择箱
+	Onyx Maple Secondary Weapon Selection Box==玛瑙枫叶副手选择箱
 	Onyx Maple Hat==玛瑙枫叶帽
 	Onyx Maple Gum==玛瑙枫叶鞋子
 	Onyx Maple Suit==玛瑙枫叶套服
@@ -129,6 +132,22 @@ Elodin Bird Dog==艾洛丁的鹰犬
 	Golden Clover Belt==金色三叶草腰带
 	Reboot Tenebris Expedition Ring Coupon==R区阴暗之地远征戒指卡
 
+	Cracked Gollux Earrings==低级贝勒德耳环
+	Cracked Gollux Ring==低级贝勒德戒指
+	Cracked Gollux Pendant==低级贝勒德项链
+	Cracked Gollux Belt==低级贝勒德腰带
+	Solid Gollux Earrings==中级贝勒德耳环
+	Solid Gollux Ring==中级贝勒德戒指
+	Solid Gollux Pendant==中级贝勒德项链
+	Solid Gollux Belt==中级贝勒德腰带
+	Reinforced Gollux Earrings==高级贝勒德耳环
+	Reinforced Gollux Ring==高级贝勒德戒指
+	Reinforced Gollux Pendant==高级贝勒德项链
+	Reinforced Gollux Belt==高级贝勒德腰带
+	Superior Gollux Earrings==超级贝勒德耳环
+	Superior Gollux Ring==超级贝勒德戒指
+	Superior Gollux Pendant==超级贝勒德项链
+	Superior Gollux Belt==超级贝勒德腰带
 
 ## 项链
 	Reaper's Pendant==收割者吊坠
@@ -225,9 +244,20 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 	Arcane Umbra==神秘之影
 
 ## 机器人
-	BattleRoids==战斗机器人
-	Serenoid==赛莲机器人
-	Lidium Heart==锂心脏
+Deluxe Android \(M\) Recipe==豪华男机器人配方
+Deluxe Android \(F\) Recipe==豪华女机器人配方
+Garnet Heart Recipe==石榴心脏配方
+Crystal Heart Recipe==水晶心脏配方
+
+Pixel Damienroid==<span kdclassjsq="notranslate">像素版戴安米机器人</sapn>
+Lucidroid==路西德机器人
+Pixel Aliciaroid==<span kdclassjsq="notranslate">像素版阿丽莎机器人</sapn>
+Aliciaroid==阿丽莎机器人
+Moniroid==晓月机器人
+Cygnusroid==希纳斯机器人
+BattleRoids==战斗机器人
+Serenoid==赛莲机器人
+Lidium Heart==锂心脏
 
 ## 图腾 
 	Fury Totem==鬼神图腾

@@ -33,12 +33,14 @@ Sub Zero Hunt==零下猎杀
 Sub-Zero Hunt==零下猎杀
 
 Override Fashion==超越时尚
+Pixel Coin Shop==像素币商店
+Pixel Party==<span kdclassjsq="notranslate">像素派对</span>
 
 ## 币
-Utah Coins?==犹他币
-Utah coins?==犹他币
-Glory Coins?==荣耀币
-
+	Utah Coins?==犹他币
+	Utah coins?==犹他币
+	Glory Coins?==荣耀币
+	Pixel Coins?==<span kdclassjsq="notranslate">像素币</span>
 
 	Balanced Sylph Crystal==平衡水晶
 	Healthy Sylph Crystal==健康水晶
@@ -99,6 +101,7 @@ Sugar Cookie Blitz==糖果饼干大作战
 Sugar Cookie==糖果饼干
 ISEKAI QUARTET==异世界四重奏
 Isekai Friends==异世界的朋友
+
 
 
 Full Moon Ticket==满月交换券
