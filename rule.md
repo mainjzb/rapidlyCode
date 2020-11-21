@@ -139,9 +139,11 @@
 	Dream Defender==梦都防御战(岛三每日)
 	Arcane River==奥术河
 	Nameless Town==无名村
+	Yum Yum Island==真香岛
 	Chu Chu Island==啾啾岛(2岛)
 	Chew Chew Island==啾啾岛(2岛)
 	Lachelein==梦之都拉克兰(3岛)
+	Lachelein Clocktower==拉克兰钟楼(3岛)
 	Arcana==阿尔卡那(4岛)
 	Morass==莫拉斯(5岛)
 	Esfera==埃斯佩拉(6岛)
@@ -150,7 +152,7 @@
 	Monster Park==怪物公园
 	Ghost Park==鬼魂公园
 	Pollo/Fritto==保罗/普利托
-	Pollo and Fritto Entry Ticket==保罗和普利托入场卷
+	Pollo and Fritto Entry Ticket==<img src="upload/attach/202006/2_TBX3AAR2V5DTWH6.png">保罗和普利托入场卷
 	Pollo and Fritto==保罗和普利托
 	Nett's Pyramid==奈特的金字塔
 	Nett’s Pyramid==奈特的金字塔
@@ -200,7 +202,8 @@
 	Tree Spirits?==树精灵
 	Rock Spirits?==石精灵
 	Marvel Machine==抽奖机
-	Labyrinth of Suffering==痛苦的迷宫
+	Labyrinth of Suffering==痛苦迷宫(8岛)
+	Limina\b==黎曼(9岛)
 	Deep Core==深渊核心
 	Corrupted Warriors?==腐败战士
 	Dark Ravine Portal==黑暗山谷光口
@@ -224,6 +227,9 @@
 	Allian Base==外星人基地
 	New Leaf City==新叶城
 	Lulu Spinel==露露小姐姐
+	Reverse City==反转城市
+	Silent Crusade Shop==十字币商店
+	Crusader Coins==十字币
 	##################################
 	Cernium==<span kdclassjsq="notranslate">Cernium</span>
 	Blackgate==黑门
@@ -270,7 +276,7 @@
 	Tru\s==特鲁
 	Shinsoo==神兽
 	Glinda==格琳达
-	Moonbridge==月桥
+	Moonbridge==月桥(6岛)
 	Aquarium==水下世界
 	\bHaven(?<!s)\b==避风港
 	Sleepywood==林中之城
@@ -313,11 +319,11 @@
 	Maplehood Watch==冒险幸运日
 	Super Megaphone==超级喇叭
 	Yummy Meat==美味的肉
-	Pendant Slot Coupon==项链扩展槽租用卡
-	Infinite Revitalizer==疲劳恢复药水
-	Final Form Main Color Change Coupon==狂龙战士主颜色变更券
-	Final Form Sub Color Change Coupon==狂龙战士辅助颜色变更券
-	Final Form Color Reset Coupon==狂龙战士颜色重置券
+	Pendant Slot Coupon==<img src="upload/attach/202006/2_BAMZUX9Y7ZWZVKK.png">项链扩展槽租用卡
+	Infinite Revitalizer==<img src="upload/attach/202006/2_VH94NZCSUUBDEDW.png">疲劳恢复药水
+	Final Form Main Color Change Coupon==<img src="upload/attach/202006/2_ZBZTNE548R6TDVG.png">狂龙战士主颜色变更券
+	Final Form Sub Color Change Coupon==<img src="upload/attach/202006/2_YJXHG3CAGCQXBUU.png">狂龙战士辅助颜色变更券
+	Final Form Color Reset Coupon==<img src="upload/attach/202006/2_NT95VR8KX87J3XU.png">狂龙战士颜色重置券
 	Premium Water of Life==宠物复活药水
 	Alliance Medal==同盟币
 	Mastery Box==能手册礼盒
@@ -326,76 +332,62 @@
 	Inkwell Coin==财富币
 	Manji Coin==一千万财富币
 	Gaga Coin==一亿财富币
-	Miracle Circulators?==内在还原器
-	Master Craftsman's Cubes?==黄魔方
-	Craftsman's Cubes?==黄魔方
-	(Bonus)? Occult Cubes?==怪异魔方
-	Occult Cube==怪异魔方
-	Meister's Cubes?==匠人魔方
-	Meister’s Cubes?==匠人魔方
-	Red Cubes?==红魔方
-	Black Cubes?==黑魔方
-	Violet Cubes?==六角魔方
-	Bonus Potential Cubes?==附加潜能魔方
-	White Cubes?==白魔方
-	\bCube\b==魔方
+	Chaos Circulator==<img src="upload/attach/202011/2_5ZHAEDQPXWCKZCZ.png">黑色内在还原器
+	Miracle Circulators?==<img src="upload/attach/202011/2_VUPDS65J7F8GF3U.png">内在还原器
 	Perfect Potential Stamps?==完美潜能印章
-	Gold Potential Stamps?==金色潜能印章
+	Gold Potential Stamps?==<img src="upload/attach/202006/2_8XDTYUW2DTQDJ9V.png">金色潜能印章
 	Silver Potential Stamps?==银色潜能印章
-	Epic Potential Scroll==紫色潜能卷
-	Advanced Potential Scroll==蓝色潜能卷
-	Unique Potential Scroll==黄色潜能卷
 	Twisted Time==扭曲的时间
 	Intense Power Crystal==蓝水晶
 	Boss Medal of Honor==荣誉
 	Arachno Coins==蜘蛛币
 	Stone Cobweb Droplets?==蜘蛛币碎片石
 	Mastery Book Set==能手册礼包
+	Mastery Book 30==<img src="upload/attach/202006/2_ZPRYVX6M2YFSH6V.png">能手册30
+	Mastery Book 20==<img src="upload/attach/202006/2_EZ57QFADU9JQVBY.png">能手册20
 	Mastery Books?==能手册
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
 	Typhoon Growth Potion==台风成长药水
-	Experience Nodestone==经验核心
 	nodestones?==核心
 	nodes?==核心
-	Character Slot Expansion Coupon==角色位扩展卡
 	Selective Trait Boost Potion==选择倾向药水
-	Trait Boost Potion==倾向药水
-	Trait Increase Potion==倾向药水
+	Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
+	Trait Increase Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
 	Circulator==内在还原器
-	Black Rebirth Flame==黑火花
 	Eternal Flame of Rebirth==彩虹火花
 	Eternal Rebirth Flames?==彩虹火花
 	Powerful Rebirth Flames?==绯红火花
 	Rebirth Flames?==绯红火花 
-	Black Rebirth Flames?==暗黑火花
-	2(x|X) Exp Coupon==双倍经验卡
-	2(x|X) EXP Coupon==双倍经验卡
+	Black Rebirth Flames?==<img src="upload/attach/202011/2_8AQK8AJDC5QSZM4.png">黑火花
+	2(x|X) (Exp|EXP) Coupon==<img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡
 	2x EXP==双倍经验
 	2x Exp==双倍经验
-	2x Drop( Rate)? Coupon==双倍爆率卡
+	2x Drop( Rate)? Coupon==<img src="upload/attach/202007/2_Z8SZ6E4MH3UAB5C.png">双倍爆率卡
 	2x Drop( Rate)?==双倍爆率
-	Power Elixirs?==超级药水
+	Power Elixirs?==<img src="upload/attach/202006/2_PG775SSSWRUH8EC.png">超级药水
 	Pollo and Fritto Entry Ticket==保罗/普利托入场券
-	(Mysterious )?Storm Growth Potion==风暴成长药水
+	(Mysterious )?Storm Growth Potion==<span kdclassjsq="XMtooltip">风暴成长药水<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/zNXpuf6OxDPeET3.png"/></span></span>
 	Typhoon Growth Potion==台风成长药水
-	Storage Room (\d)-Slot Coupon==仓库\1格扩展券
-	Selective (\d)-Slot==可选择\1格扩展
-	Selective (\d) Slot Coupon==可选择\1格扩展卷
-	Selective (\d)-Slot Coupon==可选择\1格扩展卷
 	Equip Tab (\d) Slot Coupon==背包装备栏\1格扩展卷
 	Use Tab (\d) Slot Coupon==背包消耗栏\1格扩展卷
 	Set-Up Tab (\d) Slot Coupon==背包点装栏\1格扩展卷
 	Etc Tab (\d) Slot Coupon==背包其他栏\1格扩展卷
+	Storage Room (\d)-Slot Coupon==仓库\1格扩展券
+	Selective 8 Slot Coupon==<img src="upload/attach/202006/2_YQAYC6GSBYKKQ5J.png">可选择8格扩展卷
+	Selective (\d) Slot Coupon==可选择\1格扩展卷
+	Selective (\d)-Slot Coupon==可选择\1格扩展卷
+	Selective (\d)-Slot==可选择\1格扩展
 	(\d) Slot Coupon==\1格扩展卷
 	Beauty Album Hair Slot Coupons?==头发储存槽扩展卡
 	Beauty Album Face Slot Coupons?==面部储存槽扩展卡
-	Innocence Scroll==纯真卷轴
+	Innocence Scroll==<img src="upload/attach/202006/2_VQKHPU39PJBS4CX.png">纯真卷轴
 	Core Gemstone==核心
-	Job Advancement Coin==转职币
-	(SP|AP) Reset Scroll==\1重置卷
+	Job Advancement Coin==<img src="upload/attach/202006/2_D9NM3PWGU2C732W.png">转职币
+	SP Reset Scroll==<img src="upload/attach/202011/2_7EK579UAEGT9MNR.png">SP重置卷
+	AP Reset Scroll==<img src="upload/attach/202006/2_AYFY7H3FQNZR6CM.png">AP重置卷
 	Pet Coupon==宠物卡
-	Mysterious Monsterbloom==神秘怪物袋
+	Mysterious Monsterbloom==<img src="upload/attach/202006/2_NYBFB3MRKNMGJEB.png">神秘怪物袋
 	Onyx Apple==蓝彩苹果
 	Café Latte==咖啡牛奶
 	Extra Strength Hard Sanitizer==强力消毒剂
@@ -411,9 +403,8 @@
 	All Cure Potion==万能药水
 	Gingerbread Man Cookie==姜饼男人饼干
 	Gingerbread Woman Cookie==姜饼女人饼干
-	Hyper Teleport Rock==传送石
+	Hyper Teleport Rock==<img src="upload/attach/202006/2_Y4C5J5WNGGPV4U6.png">传送石
 	Teleport Rock==传送石
-	Selector Coupon==选择卡
 	Extreme Breakthrough Growth Potion==极限突破成长药水
 	Extreme Breakthrough==极限突破
 	Scroll for Pet Equipment for ATT==宠物装备物理攻击卷轴
@@ -424,14 +415,18 @@
 
 
 # Failiar 
+	Familiar Slot Expansion Coupon==<span kdclassjsq="XMtooltip">怪怪卡槽扩展券<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/sUJMjWSyn5pdZ6r.png"/></span></span>
+	Suspicious Fauxmiliar Coupon==<span kdclassjsq="XMtooltip">奇怪的怪怪卡券<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/JPWTIx5wC6ZLkm2.png"/></span></span>
 	Familiar system==怪怪卡系统
-	Familiar Essence==怪怪精油
-	Familiar Booster Pack==怪怪增强包
+	Familiar Essence==<span kdclassjsq="XMtooltip">怪怪精油<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/bXsql9oIU8zxTFi.png"/></span></span>
+	Red Familiar Cards?==<span kdclassjsq="XMtooltip">红色怪怪卡<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/4t3vnBeh7RKPfZr.png"/></span></span>
+	Unique Familiar Booster Pack==U级怪怪增强包
+	Familiar Booster Pack==<span kdclassjsq="XMtooltip">怪怪增强包<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/1HMQc9h4vxKnALV.png"/></span></span>
 	Suspicious Fauxmiliar Card==怪异万能卡
 	Familiar Breakthrough Card==怪怪突破卡
 	Unique Booster Pack==U级增强包
 	Booster Pack==增强包
-	Familiar==怪怪卡
+	Familiars?==怪怪卡
 
 # 杂项+属性  
 	Theme Dungeon==主题副本
@@ -499,7 +494,6 @@
 	Boost Potion==强化药水
 	Hard Will==困难级威尔
 	Hard Mode==困难模式
-	character slots==角色槽
 	star reduction chance==降低等级率
 	star maintain chance==保留星级率
 	item destruction chance==装备破坏率
@@ -517,32 +511,20 @@
 	El Nath==冰封雪域
 	1 person is in the party==单人在队伍中
 	Potential Items==潜能物品
-	Special Potential Stamp==特殊的潜能印章
+	Special Potential Stamp==<img src="upload/attach/202006/2_TZYSZP5ZUXZCCNG.png">特殊的潜能印章
 	Potential Stamp==潜能印章
 	Advanced Bonus==高级
 	Intermediate Bonus==中级
 	Basic Bonus==基础
 	All Stats==全属性
 	World Leap system==转区系统
-	Monster Life Gem Coupon==怪物家园门票
-	Monster Life==怪物家园系统
+	Monster Life Gem Coupon==<img src="upload/attach/202006/2_M82A6CGPK3TB76U.png">怪物家园门票
+	Monster Life Gem x7 Coupon==<img src="upload/attach/202006/2_M82A6CGPK3TB76U.png">怪物家园门票x7
+	Monster Life Gem x7==<img src="upload/attach/202006/2_M82A6CGPK3TB76U.png">怪物家园门票x7
+	Monster Life==<img src="upload/attach/202006/2_M82A6CGPK3TB76U.png">怪物家园系统
 	Trait Items==倾向物品
 	Raid Boss==BOSS
-	Production Soul Enchanter==蓝色灵魂附魔石
-	Soul Enchanter==灵魂附魔石
-	Pure Clean Slate Scroll==纯白卷轴
-	Innocent  Scroll==纯白卷轴
-	Clean Slate Scroll==白衣卷轴
-	Incredible Chaos Scroll of Goodness==惊人的正义混沌卷轴
-	Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
-	Chaos Scroll of Goodness==正义混沌卷轴
-	Chaos Scroll==混沌卷轴
-	Special Bonus Potential Scroll==附加潜能卷轴
-	Bonus Potential Scroll==附加潜能卷轴
-	Potential Scroll==潜能卷轴
-	Return Scroll - Nearest Town==回城卷轴
-	Return Scrolls?==回城卷轴
-	Extra Character Slot Coupon==扩展角色位卡
+	character slots==角色槽
 	EXP Coupons?==经验卡
 	Armor Supply Box==防具箱
 	Weapon Supply Box==武器箱
@@ -595,9 +577,9 @@
 	Maple Rewards UI==RP积分界面
 	Maple Reward Points==RP积分
 	Reward Points==RP积分
-	Special Medal of Honor==特殊的荣誉勋章
+	Special Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">特殊的荣誉勋章
 	Legendary Medal of Honor==传奇的荣誉勋章
-	Medal of Honor==荣誉勋章
+	Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">荣誉勋章
 	Maple Missions?==枫之使命
 	Sengoku Class Supplementary Pass==战国高校额外通行证
 	Inner Abilities==内在能力
@@ -607,8 +589,7 @@
 	Black Mage==黑魔法师
 	(\d) minutes==\1分钟
 	tradeable within account==可仓库转移
-	Gold  Hammer==金锤子
-	Golden Hammer==金锤子
+	Gold(en)? Hammer==<img src="upload/attach/202006/2_UVBTC26NK6TF2ZW.png">金锤子
 	party members?==队员
 	Infinite Pawsibilities==无限可能
 	Infinite Pawsibilites==无限可能
@@ -647,9 +628,10 @@
 	Party Quest==组队任务
 	Party Points==组队积分
 	Bonus EXP==额外经验
-	Arcane Symbol Selector Coupon==奥术球选择卡
+	Arcane Symbol Selector Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
 	Labyrinth Arcane Symbol Box==奥术球礼盒
 	Arcane Symbol==奥术球
+	Selector Coupon==选择卡
 	Stage (\d)==\1阶
 	Combo Kill Orbs==连续击杀经验球
 	Combo Kills?==连续击杀
@@ -789,7 +771,7 @@
 	Knights?==骑士
 	Bowman==弓箭手
 	Bowmen==弓箭手
-	Ark==影魂异人
+	\bArk\b==影魂异人
 	Aran==战神
 	Alan==战神
 	Heroes==英雄们
@@ -818,7 +800,7 @@
 	Buccanner==冲锋队长
 	Viper==冲锋队长
 	Mercedes==双弩
-	Mechanic==机械师
+	Mechanic\b==机械师
 	Hoyoung==虎影
 	HOYOUNG==虎影
 
@@ -974,6 +956,7 @@ Empress's Gift==女皇的礼物
 	Damien==戴安米
 	Living Chains?==生存链
 	Balrog==蝙蝠魔
+	Arkarium==阿卡伊勒
 
 	
 	Hard Lucid's==困难级路西德的
@@ -1063,8 +1046,8 @@ Empress's Gift==女皇的礼物
 	Player==玩家
 	Credit==信用值
 	Monad==莫奈得
-	Drop==爆率
-	drops==爆率
+	Drop\b==爆率
+	drops\b==爆率
 	Megaphone==喇叭
 	Beret==蓓蕾帽
 	Epic (Rank)?== -A级(紫色)
@@ -1132,5 +1115,6 @@ Empress's Gift==女皇的礼物
 	\bGrants\b==获得
 	\bFlame\b==火花
 	\bandroid\b==机器人
+	Master\b==大师
 
 	kdclassjsq==class

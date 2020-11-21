@@ -52,6 +52,5 @@ buff skills==BUFF技能
 ## 单词
 
 dungeons?==副本
-Master\b==大师
 Novice==新手
 buffs==增益效果

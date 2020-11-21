@@ -106,3 +106,21 @@ Isekai Friends==异世界的朋友
 
 Full Moon Ticket==满月交换券
 Full Moon==满月
+
+Combo God==连击之神
+Burning World==斗燃世界
+World Leap==世界转移
+
+Celestial Festival==日蚀庆典
+Celestial Points==日蚀积分
+Celestial Skills==日蚀技能
+Celestial Rank==日蚀等级
+
+Celestial Surge==日蚀文献
+Unending Night==日蚀昼夜
+The Umbra==日蚀农场
+
+Celestial==日蚀
+Sengoku==战国
+
+Burning Leap Zone==斗燃转移空间

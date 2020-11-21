@@ -257,7 +257,9 @@ Moniroid==晓月机器人
 Cygnusroid==希纳斯机器人
 BattleRoids==战斗机器人
 Serenoid==赛莲机器人
+Laniaroid==拉尼亚机器人
 Lidium Heart==锂心脏
+Rock Spiritroid==石精灵机器人
 
 ## 图腾 
 	Fury Totem==鬼神图腾
