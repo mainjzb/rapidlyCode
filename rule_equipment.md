@@ -277,3 +277,5 @@ Rock Spiritroid==石精灵机器人
 	\bBlunts?\b==钝器
 	\bTyrant\b==暴君
 	Emblem==纹章
+	\bOutfit\b==衣服
+	\bWeapon\b==武器

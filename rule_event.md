@@ -1,6 +1,21 @@
 Outpost==哨站
 
-##活动
+## 活动
+Burning Events== 斗燃活动
+Burning World==斗燃世界
+World Leap==世界转移
+Burning Leap Zone==斗燃转移空间
+'Burning' effect==斗燃特效
+Tera Burning characters?==泰斗燃角色
+Burning characters?==斗燃角色
+Tera Burning Project characters?==泰斗燃的角色
+Tera Burning==泰斗燃
+Tera Burned==泰斗燃
+Tera Burn==泰斗燃
+(FIREPOWER )?Mega Burning==斗燃
+"Burning" effect=="斗燃"效果
+
+# 其他
 Cluck, Cluck, Bean Festival==萌鸡豆豆节
 Cluck, Cluck Bean Festival==萌鸡豆豆节
 Cluck, Cluck, Bean==萌鸡豆豆
@@ -108,8 +123,7 @@ Full Moon Ticket==满月交换券
 Full Moon==满月
 
 Combo God==连击之神
-Burning World==斗燃世界
-World Leap==世界转移
+
 
 Celestial Festival==日蚀庆典
 Celestial Points==日蚀积分
@@ -123,4 +137,28 @@ The Umbra==日蚀农场
 Celestial==日蚀
 Sengoku==战国
 
-Burning Leap Zone==斗燃转移空间
+
+### 联盟竞技场
+Legion Arena: Season (\d): Ranker==联盟竞技场：第\1季：顶级
+Legion Arena: Season (\d): Gold==联盟竞技场：第\1季：黄金
+Legion Arena: Season (\d): Silver==联盟竞技场：第\1季：白银
+Legion Arena: Season (\d): Bronze==联盟竞技场：第\1季：青铜
+Legion Arena==联盟竞技场
+
+
+# Awake
+Awakening Coins?==觉醒币
+Awakening==觉醒
+Awake==觉醒
+
+Maple Globe Chair==水晶球椅子
+Globe Chair==水晶球椅子
+Maple Globe==水晶球
+Globe Tree==水晶球树木
+Globe Glass==水晶球玻璃
+Globe Effect==水晶球特效
+Globe Mini Figure==水晶球迷你人
+Globe Base==水晶球底座
+Globe Pose==水晶球姿势
+Globe Music==水晶球音乐
+Globe Expression==水晶球表情

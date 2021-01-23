@@ -133,8 +133,8 @@
 	Party Point Merchant==组队积分商店
 	Partem Ruins==帕坦遗址
 	Immortal Gorgons==不朽的美杜莎
-	Tenebris==阴暗之地
-	Vanishing Journey==消失的旅途(岛1)
+	Tenebris==泰涅布里斯(789岛)
+	Vanishing Journey==消失的旅途(1岛)
 	Hungry Muto==饥饿的莫托(岛二每日)
 	Dream Defender==梦都防御战(岛三每日)
 	Arcane River==奥术河
@@ -147,6 +147,7 @@
 	Arcana==阿尔卡那(4岛)
 	Morass==莫拉斯(5岛)
 	Esfera==埃斯佩拉(6岛)
+	Sellas==塞拉斯(6.5岛)
 	Crimsonheart Castle==狮子王城堡
 	Monster Park REBORN Coupon==怪物公园优惠券
 	Monster Park==怪物公园
@@ -276,7 +277,7 @@
 	Tru\s==特鲁
 	Shinsoo==神兽
 	Glinda==格琳达
-	Moonbridge==月桥(6岛)
+	Moonbridge==月桥(7岛)
 	Aquarium==水下世界
 	\bHaven(?<!s)\b==避风港
 	Sleepywood==林中之城
@@ -339,7 +340,6 @@
 	Silver Potential Stamps?==银色潜能印章
 	Twisted Time==扭曲的时间
 	Intense Power Crystal==蓝水晶
-	Boss Medal of Honor==荣誉
 	Arachno Coins==蜘蛛币
 	Stone Cobweb Droplets?==蜘蛛币碎片石
 	Mastery Book Set==能手册礼包
@@ -348,18 +348,13 @@
 	Mastery Books?==能手册
 	Maplehood Watch Mechanical Heart==枫叶M机器人心脏
 	Mega Character Burninator==斗燃药水
-	Typhoon Growth Potion==台风成长药水
+	Typhoon Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">台风成长药水
 	nodestones?==核心
 	nodes?==核心
-	Selective Trait Boost Potion==选择倾向药水
+	Selective Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
 	Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
 	Trait Increase Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
 	Circulator==内在还原器
-	Eternal Flame of Rebirth==彩虹火花
-	Eternal Rebirth Flames?==彩虹火花
-	Powerful Rebirth Flames?==绯红火花
-	Rebirth Flames?==绯红火花 
-	Black Rebirth Flames?==<img src="upload/attach/202011/2_8AQK8AJDC5QSZM4.png">黑火花
 	2(x|X) (Exp|EXP) Coupon==<img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡
 	2x EXP==双倍经验
 	2x Exp==双倍经验
@@ -368,7 +363,6 @@
 	Power Elixirs?==<img src="upload/attach/202006/2_PG775SSSWRUH8EC.png">超级药水
 	Pollo and Fritto Entry Ticket==保罗/普利托入场券
 	(Mysterious )?Storm Growth Potion==<span kdclassjsq="XMtooltip">风暴成长药水<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/zNXpuf6OxDPeET3.png"/></span></span>
-	Typhoon Growth Potion==台风成长药水
 	Equip Tab (\d) Slot Coupon==背包装备栏\1格扩展卷
 	Use Tab (\d) Slot Coupon==背包消耗栏\1格扩展卷
 	Set-Up Tab (\d) Slot Coupon==背包点装栏\1格扩展卷
@@ -412,6 +406,8 @@
 	Pet Equipment Stat Transfer Scroll==宠物装备属性转移卷轴
 	Meso Pouch==钱袋
 	Appraisal Magnifying Glass==鉴定放大镜
+
+
 
 
 # Failiar 
@@ -475,7 +471,6 @@
 	Mysterious Meso Pouch==随机金币袋
 	Hot Week==热力周
 	Storage Room==仓库
-	(FIREPOWER )?Mega Burning==斗燃
 	a Character Name Change Coupon==改名卡
 	OX Quiz==“对错问答”
 	OX quiz==“对错问答”
@@ -577,9 +572,6 @@
 	Maple Rewards UI==RP积分界面
 	Maple Reward Points==RP积分
 	Reward Points==RP积分
-	Special Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">特殊的荣誉勋章
-	Legendary Medal of Honor==传奇的荣誉勋章
-	Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">荣誉勋章
 	Maple Missions?==枫之使命
 	Sengoku Class Supplementary Pass==战国高校额外通行证
 	Inner Abilities==内在能力
@@ -629,8 +621,9 @@
 	Party Points==组队积分
 	Bonus EXP==额外经验
 	Arcane Symbol Selector Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
+	Arcane Symbol Selection Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
 	Labyrinth Arcane Symbol Box==奥术球礼盒
-	Arcane Symbol==奥术球
+	Arcane Symbol==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球
 	Selector Coupon==选择卡
 	Stage (\d)==\1阶
 	Combo Kill Orbs==连续击杀经验球
@@ -640,13 +633,6 @@
 	Mysterious Cryptic Chest==神秘礼盒
 	Legendary Cryptic Chest==传奇礼盒
 	Arcane Power==奥数值
-	'Burning' effect==斗燃特效
-	Tera Burning characters?==泰斗燃角色
-	Burning characters?==斗燃角色
-	Tera Burning Project characters?==泰斗燃的角色
-	Tera Burning==泰斗燃
-	Tera Burned==泰斗燃
-	Tera Burn==泰斗燃
 	Relay Master Box(es)?==接力大师盒子
 	a party of (\d)-(\d)==\1-\2人的队伍
 	Boss Map Death==BOSS地图死亡
@@ -746,6 +732,7 @@
 	Dawn Warrior==魂骑士
 	Seoul Master==魂骑士
 	Capricious Sage==云游仙人
+	Adele==阿黛尔
 
 
 
@@ -914,6 +901,7 @@ Empress's Gift==女皇的礼物
 	Hard Will's==困难级威尔的
 	Hard Will==困难级威尔
 	Crimson Queen==血腥女皇
+	Akechi Mitsuhide==明智光秀
 	Von Bon==半半
 	Normal Pink Bean==普通品克缤
 	Pink Bean==品克缤
@@ -1007,11 +995,10 @@ Empress's Gift==女皇的礼物
 # 单.
 	coins?==币
 	Entry Coupons?==入场券
-	coupons?==卡
+	coupons?==券
 	channels?==频道
 	characters?==角色
 	maplers==冒险家们
-# flames==火花
 	\srings==戒指
 	equipment==装备
 	EVENTS?==活动
@@ -1116,5 +1103,7 @@ Empress's Gift==女皇的礼物
 	\bFlame\b==火花
 	\bandroid\b==机器人
 	Master\b==大师
+	\(Hard\)==(困难级)
+	\(Normal, Hard\)==(普通级，困难级)
 
 	kdclassjsq==class

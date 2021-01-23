@@ -28,9 +28,19 @@
 	Pixel Full of Hearts Damage Skin==<span kdclassjsq="notranslate">像素版心心相印伤害皮肤</span>
 	Pixel Crow Damage Skin==<span kdclassjsq="notranslate">像素版乌鸦伤害皮肤</span>
 	Pixel 12th Anniversary Maple Leaf Damage Skin==<span kdclassjsq="notranslate">像素版12周年枫叶伤害皮肤</span>
+	Arena Damage Skin: Season (\d)==竞技伤害皮肤：第\1季
+	Job Damage Skin Selection Box==职业伤害皮肤选择箱
+	Random Damage Skin Box==随机伤害皮肤箱
 	Damage Skins?==伤害皮肤
 
+
 # 椅子
+	Froggie Water Slide Chair Coupon==青蛙滑梯选择券
+	Purple Froggie Water Slide Chair==紫色青蛙滑梯椅
+	Yellow Froggie Water Slide Chair==黄色青蛙滑梯椅
+	Red Froggie Water Slide Chair==红色青蛙滑梯椅
+	Froggie Water Slide Chair==青蛙滑梯椅
+	Perfect Day for Laundry Chair==大洗之日椅子
 	Sengoku Command Post==战国指挥部
 	Lunar New Year Video Message of Love Chair==农历新年爱之视频椅
 	Halloween Candy Hoard Chair==万圣节糖果堆椅子
@@ -80,6 +90,16 @@
 	Pixel First Maple Tree==<span kdclassjsq="notranslate">像素版枫树椅子</span>
 	Pixel Ancient Guardian Chair==<span kdclassjsq="notranslate">像素版远古守护者椅子</span>
 	Rollerskating Chair==轮滑椅子
+	Legion Arena: Season (\d) Chair: Ranker==联盟竞技场：第\1季椅子：顶级
+	Legion Arena: Season (\d) Chair: Gold==联盟竞技场：第\1季椅子：黄金
+	Legion Arena: Season (\d) Chair: Silver==联盟竞技场：第\1季椅子：白银
+	Legion Arena: Season (\d) Chair: Bronze==联盟竞技场：第\1季椅子：青铜
+	Milk Tea Boba==珍珠奶茶椅
+	Crystal Glacier Chair==水晶冰川椅
+	Summer Resort Massage Chair==避暑胜地按摩椅
+	Globe Chair: Soft Cloud Chair==水晶球椅：流云椅
+	Globe Base: Fluffy Cloud Base==水晶球底座：棉花云底座
+	
 
 # 点装
 	Avatar Box Stamps==黑色星票
@@ -156,6 +176,12 @@
 	Noble Maple Outfit Coupon==枫叶贵族装备兑换券
 	Maple Galaxy Outfit Coupon==枫叶银河装备兑换券
 	Maple Gumshoe's Outfit Coupon==枫叶侦探装备兑换券
+	Lucky Clover Hat==幸运四叶草帽子
+	Lucky Clover Outfit==幸运四叶草衣服
+	Lucky Clover Weapon==幸运四叶草武器
+	Combat Military Academy==战斗军事学院
+
+
 
 
 # 坐骑
@@ -182,8 +208,17 @@ Permanent Pixel Flame Bird Mount==<span kdclassjsq="notranslate">像素版火焰
 Haechi Mount==獬豸坐骑
 Pixel Frozen Tuna Mount==<span kdclassjsq="notranslate">像素版冻冻鱼坐骑</span>
 Haechi==獬豸
+Permanent Arena Drone Mount: Season (\d)==永久的竞技场无人机坐骑：第\1季
+Permanent Monster Hot Air Balloon Mount==永久的怪物热气球坐骑
+Permanent Bunny Moon Gazing Mount==永久的兔子赏月坐骑
+Permanent Heart of Ice Mount==永久的冰之心坐骑
+Permanent Cat Cushion Mount==永久的猫咪垫子坐骑
+Permanent Superhero Mount==永久超级英雄坐骑
+Permanent Aurora Doe Mount==永久极光鹿坐骑
+Permanent Alluring Whale Mount==永久迷人鲸鱼坐骑
 
-## 戒指名片
+
+# 戒指名片
 	BROWN Chat Ring==棕熊聊天戒指
 	BROWN Label Ring==棕熊名片戒指
 	Squishy Pink Label Ring==粉色名片戒指
@@ -191,10 +226,10 @@ Haechi==獬豸
 	Label Ring==名片戒指
 	Chat Ring==聊天戒指
 
-## 玩具
+# 玩具
 	Permanent Pink Bean Transformation Potion==永久品克缤变身药水
 
-## 宠物
+# 宠物
 	Triple Jr\. Commander Pets Full Package==三指挥官宠物礼包
 	Triple Lucid Pets Full Package==三色路西德宠物礼包
 	Wonderberry Black Label 1 Package==三精灵宠物礼包
