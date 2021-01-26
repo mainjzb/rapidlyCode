@@ -309,6 +309,8 @@
 	Black Bean==黑色品克缤
 	Pet Snack==宠物点心
 	Dye Coupon==染色卡
+	Maple Tour==枫叶之旅(MT)
+	Magic Wagon==魔法马车
 
 
 
