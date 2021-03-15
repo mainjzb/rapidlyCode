@@ -1,7 +1,7 @@
 # Medal
 LINE FRIENDS Bestie==最好的网友
 Elodin Bird Dog==艾洛丁的鹰犬
-
+A.I. Destroyer==AI毁灭者
 
 # Title
 	CONY's Gofer==兔尼的小弟
@@ -242,6 +242,20 @@ Permanent Pendant Slot Expansion Coupon==项链扩展槽永久扩展卡
 	Genesis weapons?==创世武器
 	Genesis Essence==创世精华
 	Arcane Umbra==神秘之影
+	Terminus weapon==特米武器
+	Terminus Weapon==特米武器
+	Terminus Defender==特米防具
+	Glimmering Mechanical Heart Belt==闪耀的机械之心腰带
+	Glimmering Mechanical Heart Pendant==闪耀的机械之心项链
+	Glimmering Mechanical Heart Badge==闪耀的机械之心徽章
+	Glimmering Mechanical Heart Shoulder==闪耀的机械之心护肩
+	Mechanical Heart Belt==机械之心腰带
+	Glimmering Wondroid Heart==闪耀的机械之心
+	Mechanical Heart Pendant==机械之心项链
+	Mechanical Heart Badge==机械之心徽章
+	Wondroid Audio Modules==拟真耳机
+	Mechanical Heart Shoulder==机械之心护肩
+	Wondroid Heart==机械之心
 
 ## 机器人
 Deluxe Android \(M\) Recipe==豪华男机器人配方
@@ -260,6 +274,20 @@ Serenoid==赛莲机器人
 Laniaroid==拉尼亚机器人
 Lidium Heart==锂心脏
 Rock Spiritroid==石精灵机器人
+Wondroids==拟真机器人
+Aster-oid==拟真机器人阿丝塔
+Rhearoid==拟真机器人瑞娅
+Katroid==拟真机器人凯特
+Anastasioid==拟真机器人安娜塔西亚
+Roxxyroid==拟真机器人罗克西
+Apolloid==拟真机器人阿波罗
+Jaxoid==拟真机器人杰克斯
+Sarimroid==拟真机器人萨里姆
+Adam Wondroid==拟真机器人亚当
+Eve Wondroid==拟真机器人夏娃
+Aloraroid==拟真机器人劳拉
+Skyroid==拟真机器人天空
+
 
 ## 图腾 
 	Fury Totem==鬼神图腾

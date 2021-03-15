@@ -1,4 +1,5 @@
 ## 消耗品
+Aspire VIP Area Pass==阿特利埃VIP通行证
 Reboot Meso Pouch==<img src="upload/attach/202011/2_2KM52V6KF8DU5PR.png">R区钱袋
 Money Box==财富礼盒
 Lulu's EXP Box==露露的经验盒
@@ -14,6 +15,7 @@ Hand Sanitizer==洗手液
 Snake Soup==蛇骨汤
 Carrot Juice==胡萝卜汁
 Hair Wax==发蜡
+Ginger Ales==姜汁
 Suspicious Mineral Pouch==奇怪的矿物包
 Suspicious Herb Pouch==奇怪的草药包
 Basic Item Crystal==普通水晶
@@ -25,6 +27,7 @@ Gollux's Left Shoulder Teleport Rock==贝勒德左肩传送石
 Gollux's Right Shoulder Teleport Rock==贝勒德右肩传送石
 Mysterious Trait Boost Potion Box==神秘的倾向药水礼盒
 Great Bebe Box==<span kdclassjsq="XMtooltip">高级贝贝补偿盒<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/vhKQWje8znZqytx.png"/></span></span>
+Mysterious Meso Pouch==<img src="upload/attach/202103/2_YAGS2KGAYGYBA4J.png">神秘钱袋
 Special Bebe Box==<img src="upload/attach/202007/2_CM4SR5MJ6KH29PJ.png">特殊贝贝补偿盒
 Extreme Growth Potion==<img src="upload/attach/202006/2_3T9PR7WG9699XCM.png">随机升级药水
 Deia's G-Potion==工会药水
@@ -43,13 +46,23 @@ Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png">�
 Epic Potential Scroll==<img src="upload/attach/202011/2_AQZ6TNTQG63YVQH.png">紫色潜能卷
 Advanced Potential Scroll==蓝色潜能卷
 Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png">黄色潜能卷
-Potential Scroll==潜能卷轴
+Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png">潜能卷轴
 Return Scroll - Nearest Town==回城卷轴
 Return Scrolls?==回城卷轴
 Extra Character Slot Coupon==<img src="upload/attach/202011/2_XWZZBNMYY6GA66M.png">扩展角色位卡
 Character Slot Expansion Coupon==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png">角色位扩展卡
 Character Slot==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png">角色位扩展卡
 Maple Tour VIP Pass Coupon==<img src="upload/attach/202012/2_HQT6VCZWJQQ5DXM.png">枫叶之旅VIP通行证
+Purple Potion==紫色药水
+Orange Potion==橙色药水
+Red Potion==红色药水
+(\d{2,4}) Maple Reward Points==<img src="upload/attach/202103/2_ZA7Z85UUR4AC4Q9.png">\1 RP积分
+Pet Naming Coupon==<img src="upload/attach/202103/2_9F6HM5CNPHGWX2C.png">宠物更名券
+Shared Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品x\1券
+Premium Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品x\1券
+Pet Food==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品
+40 Slot Chair Bag==<img src="upload/attach/202103/2_YRDQ6RAR4853HGB.png">40槽椅子包
+40 Slot Soul Bag==<img src="upload/attach/202103/2_NDQ33K95FFNCGQX.png">40槽灵魂包
 
 ### 荣誉
 Special Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">特殊的荣誉勋章
@@ -57,10 +70,11 @@ Legendary Medal of Honor==传奇的荣誉勋章
 Medal of Honor x(\d{1,2}) Package==<img src="upload/attach/202012/2_P5NWDF5MUPSSNJZ.png">荣誉勋章\1礼包
 Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">荣誉勋章
 Boss Medal of Honor==荣誉
-
+Advanced Hunter's Honor Medal==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">高级的荣誉勋章
 ### 火花
 Karma Eternal Rebirth Flame x10 Package==<img src="upload/attach/202012/2_9BP7X92YN3PD3WV.png">宿命彩虹火花x10礼包
 Karma Powerful Rebirth Flame x10 Package==<img src="upload/attach/202012/2_X527ZSWD9Q5SA7X.png">宿命绯红火花x10包装
+Karma Black Rebirth Flames?==宿命黑火花
 Black Rebirth Flames?==<img src="upload/attach/202011/2_8AQK8AJDC5QSZM4.png">黑火花
 Karma Eternal Rebirth Flames?==<img src="upload/attach/202012/2_Y2GPP2QN4P9A3PT.png">宿命彩虹火花
 Karma Rejuvenation Flames?==<img src="upload/attach/202012/2_NUS8AVBQJ5AFHFZ.png">宿命绯红火花
@@ -73,7 +87,8 @@ Rebirth Flames?==<img src="upload/attach/202012/2_MNQ43DU5WX55MZR.png">绯红火
 
 
 ## 魔方
-Event Ring Exclusive Meister's Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒专用匠人魔方
+Event Ring Exclusive Meister's Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒指专用匠人魔方
+Event Ring Exclusive Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒指专用匠人魔方
 Karma Meister's Cube==<img src="upload/attach/202012/2_NNYYTWEZQ23GXG2.png">宿命匠人魔方
 Master Craftsman's Cubes?==<img src="upload/attach/202011/2_NCK8WR9YWBBH4KA.png">黄魔方
 Craftsman's Cubes?==<img src="upload/attach/202011/2_NCK8WR9YWBBH4KA.png">黄魔方
@@ -141,3 +156,5 @@ Normal Mode ghosts==普通模式的鬼魂
 
 Cologne\b==香水
 
+# 飞镖
+Hwabi Throwing-Stars==<img src="upload/attach/202103/2_CVCKV2CAC96JS26.png">月牙标

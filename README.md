@@ -23,6 +23,12 @@ help google translate for maplestory to chinese
 	- delete &lt;strong&gt;&lt;/strong&gt; that no purpose
 
 
+## issure
+Chrome 88 has no translation button. You can use `Chrome Canary` instead. 
+
+[Chrome Canary Download](https://www.google.com/intl/zh-CN/chrome/canary/)
+
+
 
 
 

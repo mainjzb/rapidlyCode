@@ -23,7 +23,7 @@
 - [单.](#单)
 
 <!-- /TOC -->
-
+&nbsp;(\S)== \1
 ’=='
 ‘=='
 
@@ -92,7 +92,6 @@
 # 等级 
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
-	&nbsp;(\S)== \1
 	5th (J|j)ob (A|a)dvancement==5转
 	Req. Lv: ([1-9]?\d\d)==\1级以上
 	Lv. ([1-9]?\d\d) and above==\1级以上
@@ -172,8 +171,8 @@
 	Tower of OZ==起源之塔
 	Tower of Oz==起源之塔
 	Seed Tower==起源之塔
-	Kerning Jazz Bar==废弃都市爵士酒吧
-	Kerning City's==废弃都市
+	Ninja Castle==忍者城堡
+	Lith Harbor==明珠港
 	Tru's Info Shop==特鲁的情报商店（明珠港）
 	Tangyoon's Food==唐云的料理
 	Tang Yoon's Cooking Class==唐云的料理班
@@ -222,7 +221,7 @@
 	Karuppa Town==卡尔帕镇
 	Cheong-woon Valley==青云谷
 	Twisted Aquarium==<span kdclassjsq="notranslate">镜像水下世界</span>
-	Alishan==阿里山
+	Showa Town==昭和镇
 	Dimensional Gate==次元门
 	Spirit Savior==拯救精灵(岛四每日)
 	Allian Base==外星人基地
@@ -231,6 +230,9 @@
 	Reverse City==反转城市
 	Silent Crusade Shop==十字币商店
 	Crusader Coins==十字币
+	Hieizan Temple==比睿山寺
+	Kerning Jazz Bar==废弃都市爵士酒吧
+	Kerning City('s)?==废弃都市
 	##################################
 	Cernium==<span kdclassjsq="notranslate">Cernium</span>
 	Blackgate==黑门
@@ -238,14 +240,16 @@
 	Crimsonwood==守护者的要塞
 	Anima==达恩维尔
 	Rien==里恩
+	Showa==昭和
+	Alishan==阿里山
 	Taotie==饕餮
 	Neinheart==南哈特
 	\bMikagami\b==粉色鲸鱼
-	\bHieizan\b==比睿山
 	\bNina\b==妮娜
 	\bKaruppa\b==卡尔帕
 	\bElodin\b==艾洛丁
 	\bGloom\b==黑暗之眼
+	\bHieizan\b==比睿山
 	Momijigaokan==枫叶山丘
 	Darknell==黑暗尼尔
 	Daknell==黑暗尼尔
@@ -285,7 +289,9 @@
 	Ardentmill==匠人街
 	Nautilus==诺特勒斯
 	Darkness==黑暗使者
-
+	\bZipangu\b==日本区域
+	\bWonky\b==妖精温莉
+	\bMoonbeam\b==阿琅
 
 # 宠物
 	Expanded Auto Move Skill==扩展移动技能
@@ -315,8 +321,6 @@
 
 
 # 物品
-	40 Slot Chair Bag==40槽椅子包
-	40 Slot Soul Bag==40槽灵魂包
 	MVP Plus EXP Buff==MVP个人经验卡
 	MVP Silver EXP Atmospheric Effect==MVP白银全体经验卡
 	Maplehood Watch==冒险幸运日
@@ -353,6 +357,7 @@
 	Typhoon Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">台风成长药水
 	nodestones?==核心
 	nodes?==核心
+	Trait Growth Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向成长药水
 	Selective Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
 	Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
 	Trait Increase Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向药水
@@ -431,11 +436,8 @@
 	prerequisite quest==前置任务
 	Rock-Paper-Scissors==剪刀石头布
 	Double Miracle Time==DMT
-	Captivating Fragments?==浓姬碎片
 	8-bit==像素
-	Purple Potion==紫色药水
-	Orange Potion==橙色药水
-	Red Potion==红色药水
+	Captivating Fragments?==浓姬碎片
 	Combo EXP orbs==连击经验球
 	Lunar New Year==农历新年
 	Genesis Force==创世之力
@@ -468,8 +470,8 @@
 	Weapon DEF/Magic DEF ==防御力
 	Bonus Stats==火花属性
 	Spell Traces? enhancements==痕迹强化
-	Spell Traces? Coupon==痕迹
-	Spell Traces?==痕迹
+	Spell Traces? Coupon==<img src="upload/attach/202103/2_9EN7RZ2DAQ9SFYY.png">咒语痕迹
+	Spell Traces?==<img src="upload/attach/202103/2_9EN7RZ2DAQ9SFYY.png">咒语痕迹
 	Mysterious Meso Pouch==随机金币袋
 	Hot Week==热力周
 	Storage Room==仓库
@@ -572,7 +574,6 @@
 	(\d\d?)-day duration==保留\1天
 	(\d\d?) day duration==保留\1天
 	Maple Rewards UI==RP积分界面
-	Maple Reward Points==RP积分
 	Reward Points==RP积分
 	Maple Missions?==枫之使命
 	Sengoku Class Supplementary Pass==战国高校额外通行证
@@ -933,7 +934,7 @@ Empress's Gift==女皇的礼物
 	\bWillroid\b==威尔机器人
 	\bManjiroid\b==麦吉机器人
 	Will's==威尔的
-	Will==威尔
+	[^>]Will\b==威尔
 	gollux==贝勒德
 	Zakum==扎昆
 	Horntail==暗黑龙王
@@ -947,6 +948,8 @@ Empress's Gift==女皇的礼物
 	Living Chains?==生存链
 	Balrog==蝙蝠魔
 	Arkarium==阿卡伊勒
+	Yakuza==黑帮老大
+	Gigatoad==忍者巨蛙
 
 	
 	Hard Lucid's==困难级路西德的

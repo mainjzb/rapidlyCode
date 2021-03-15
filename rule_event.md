@@ -162,3 +162,7 @@ Globe Base==水晶球底座
 Globe Pose==水晶球姿势
 Globe Music==水晶球音乐
 Globe Expression==水晶球表情
+
+
+# 机械之心
+Mechanical Hearts==机械之心

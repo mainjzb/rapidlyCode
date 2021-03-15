@@ -38,7 +38,21 @@ mob respawning==怪物重生
 June 12==6月12日
 Creation Event==创建活动
 
-
+## Buff
+Red Marble Buff==红色大理石BUFF
+Blue Marble Buff==蓝色大理石BUFF
+Green Marble Buff==绿色大理石BUFF
+Yellow Marble Buff==黄色大理石BUFF
+Glass Marble Buff==玻璃大理石BUFF
+Polished Wooden Marble Buff==纯木大理石BUFF
+Plastic Marble Effect==塑料大理石BUFF
+Heavy Iron Marble Buff==重铁大理石BUFF
+Coarse Marble Buff==粗犷大理石BUFF
+Shiny Jewel Marble Buff==大石大理石BUFF
+Peerless Marble Buff==无双大理石BUFF
+Glass Marble==玻璃大理石
+marble buffs==大理石BUFF
+Marbles==大理石
 
 ## 词组
 entered (\d) times==进入\1次
@@ -46,10 +60,11 @@ enter the (\w+) (\d) times==进入\1\2次
 Top (\d{1,2}) - (\d{1,2})%==排名\1% - \2%
 Within top (\d)%==排名前\1%
 buff skills==BUFF技能
+Back to Top==回到顶部
 
 
 ## 单词
 
 dungeons?==副本
 Novice==新手
-buffs==增益效果
+buffs==BUFF
