@@ -117,6 +117,7 @@ Star Force (\d\d) Star Enhancement( Coupon)?==\1星强化卷
 
 Incredible Chaos Scroll of Goodness==惊人的正义混沌卷轴
 Miraculous Positive Chaos Scroll==惊人的正义混沌卷轴
+Karma Chaos Scroll of Goodness==<img src="upload/attach/202104/2_WMCQSVKDWU9SWSV.png">宿命正义混沌卷轴
 Chaos Scroll of Goodness==正义混沌卷轴
 Chaos Scroll==混沌卷轴
 
