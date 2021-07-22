@@ -61,10 +61,7 @@ Top (\d{1,2}) - (\d{1,2})%==排名\1% - \2%
 Within top (\d)%==排名前\1%
 buff skills==BUFF技能
 Back to Top==回到顶部
+Left Arrow==左箭头
+Top Arrow==上箭头
+Right Arrow==右箭头
 
-
-## 单词
-
-dungeons?==副本
-Novice==新手
-buffs==BUFF

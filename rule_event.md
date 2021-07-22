@@ -18,7 +18,6 @@ Tera Burn==泰斗燃
 # 其他
 Cluck, Cluck, Bean Festival==萌鸡豆豆节
 Cluck, Cluck Bean Festival==萌鸡豆豆节
-Cluck, Cluck, Bean==萌鸡豆豆
 Wee Moon Bunny==迷你月兔
 
 LINE FRIENDS Polling==网友投票
@@ -78,7 +77,7 @@ Drill Hall==挂机大厅
 \bSentinel\b==哨兵
 #\bMaster\b==队长
 \bCommander\b==指挥官
-\bJusticar\b==司令
+
 
 
 # 圣诞
@@ -147,9 +146,8 @@ Legion Arena==联盟竞技场
 
 
 # Awake
-Awakening Coins?==觉醒币
-Awakening==觉醒
-Awake==觉醒
+#Awakening Coins?==觉醒币
+
 
 Maple Globe Chair==水晶球椅子
 Globe Chair==水晶球椅子
@@ -166,3 +164,8 @@ Globe Expression==水晶球表情
 
 # 机械之心
 Mechanical Hearts==机械之心
+
+# NEO
+Neo Stones?==<img src="upload/attach/202106/2_KQUH2HDGAX8DK2E.png"><span kdclassjsq="notranslate">Neo原石</span>
+Neo Gems?==<img src="upload/attach/202106/2_9BCY7T7ARWF28JJ.png"><span kdclassjsq="notranslate">Neo宝石</span>
+Neo Cores?==<img src="upload/attach/202106/2_XA9UZUB78HYPFFT.png"><span kdclassjsq="notranslate">Neo核心</span>

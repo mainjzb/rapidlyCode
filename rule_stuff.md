@@ -38,80 +38,101 @@ Nodestone==<img src="upload/attach/202011/2_HZNZKFYT4MKPX59.png">核心
 Mysterious Medal of Honor Box==<img src="upload/attach/202011/2_BWMK4CVQKXKTA4M.png">神秘荣誉勋章盒子
 Production Soul Enchanter==蓝色灵魂附魔石
 Soul Enchanter==灵魂附魔石
-Pure Clean Slate Scroll==纯白卷轴
-Innocent  Scroll==纯白卷轴
+Potential Scroll for Purple Soul Rings==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">紫色灵魂戒指专用潜能卷轴</span>
+Potential Scroll for Blue Soul Rings==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">蓝色灵魂戒指专用潜能卷轴</span>
+Pure Clean Slate Scroll==<img src="upload/attach/202106/2_SVFGVWEMMZFC4J8.png"><span kdclassjsq="notranslate">纯白卷轴</span>
+Innocent  Scroll==<img src="upload/attach/202106/2_SVFGVWEMMZFC4J8.png"><span kdclassjsq="notranslate">纯白卷轴</span>
 Clean Slate Scroll==白衣卷轴
-Special Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png">附加潜能卷轴
-Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png">附加潜能卷轴
-Epic Potential Scroll==<img src="upload/attach/202011/2_AQZ6TNTQG63YVQH.png">紫色潜能卷
+Special Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">特殊潜能卷轴</span>
+Special Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
+Epic Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
+Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
+Bonus Epic Potential Scroll==<img src="upload/attach/202106/2_789PV3P8QA4T796.png"><span kdclassjsq="notranslate">附加A级潜能卷轴</span>
+Epic Potential Scroll==<img src="upload/attach/202011/2_AQZ6TNTQG63YVQH.png"><span kdclassjsq="notranslate">紫色潜能卷</span>
 Advanced Potential Scroll==蓝色潜能卷
-Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png">黄色潜能卷
-Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png">潜能卷轴
+Karma Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><span kdclassjsq="notranslate">宿命黄色潜能卷</span>
+Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><span kdclassjsq="notranslate">黄色潜能卷</span>
+Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">潜能卷轴</span>
 Return Scroll - Nearest Town==回城卷轴
 Return Scrolls?==回城卷轴
-Extra Character Slot Coupon==<img src="upload/attach/202011/2_XWZZBNMYY6GA66M.png">扩展角色位卡
-Character Slot Expansion Coupon==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png">角色位扩展卡
-Character Slot==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png">角色位扩展卡
+Extra Character Slot Coupon==<img src="upload/attach/202011/2_XWZZBNMYY6GA66M.png"><span kdclassjsq="notranslate">扩展角色位卡</span>
+Character Slot Expansion Coupon==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
+Character Slot==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
 Maple Tour VIP Pass Coupon==<img src="upload/attach/202012/2_HQT6VCZWJQQ5DXM.png">枫叶之旅VIP通行证
 Purple Potion==紫色药水
 Orange Potion==橙色药水
 Red Potion==红色药水
-(\d{2,4}) Maple Reward Points==<img src="upload/attach/202103/2_ZA7Z85UUR4AC4Q9.png">\1 RP积分
+([\d,]*) Maple Reward Points==<img src="upload/attach/202103/2_ZA7Z85UUR4AC4Q9.png">\1 RP积分
 Pet Naming Coupon==<img src="upload/attach/202103/2_9F6HM5CNPHGWX2C.png">宠物更名券
 Shared Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品x\1券
 Premium Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品x\1券
 Pet Food==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品
-40 Slot Chair Bag==<img src="upload/attach/202103/2_YRDQ6RAR4853HGB.png">40槽椅子包
-40 Slot Soul Bag==<img src="upload/attach/202103/2_NDQ33K95FFNCGQX.png">40槽灵魂包
-
+40 Slot Chair Bag==<img src="upload/attach/202103/2_YRDQ6RAR4853HGB.png"><span kdclassjsq="notranslate">40槽椅子包</span>
+40 Slot Soul Bag==<img src="upload/attach/202103/2_NDQ33K95FFNCGQX.png"><span kdclassjsq="notranslate">40槽灵魂包</span>
+EXP Coupon Box==<img src="upload/attach/202106/2_88K2VEWTHZH9YSP.png"><span kdclassjsq="notranslate">经验卡礼盒</span>
+Magnificent Darknell Soul==<img src="upload/attach/202106/2_QZAKDD4DZTWMQN8.png"><span kdclassjsq="notranslate">伟大的黑暗尼尔灵魂</span>
+Magnificent Verus Hilla Soul==<img src="upload/attach/202106/2_CU6ACMCE4T658J8.png"><span kdclassjsq="notranslate">伟大的真神希拉灵魂</span>
+Double Legendary Arcane Umbra Weapon Box==<img src="upload/attach/202106/2_NAMR6QM8C4M5JB8.png"><span kdclassjsq="notranslate">传说的神秘之影武器盒</span>
+Reboot Legendary Arcane Umbra Weapon Box==<img src="upload/attach/202106/2_NAMR6QM8C4M5JB8.png"><span kdclassjsq="notranslate">传说的神秘之影武器盒</span>
 ### 荣誉
-Special Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">特殊的荣誉勋章
+(Special)? Medal of Honor x(\d{1,2}) Package==<img src="upload/attach/202012/2_P5NWDF5MUPSSNJZ.png"><span kdclassjsq="notranslate">荣誉勋章\2礼包</span>
+Mysterious Special Medal of Honor Box==<img src="upload/attach/202106/2_YEPTYVNMKSTWGSR.png"><span kdclassjsq="notranslate">神秘特殊荣誉勋章礼盒</span>
+Special Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">特殊荣誉勋章</span>
 Legendary Medal of Honor==传奇的荣誉勋章
-Medal of Honor x(\d{1,2}) Package==<img src="upload/attach/202012/2_P5NWDF5MUPSSNJZ.png">荣誉勋章\1礼包
-Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">荣誉勋章
+Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">荣誉勋章</span>
 Boss Medal of Honor==荣誉
-Advanced Hunter's Honor Medal==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png">高级的荣誉勋章
+Advanced Hunter's Honor Medal==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">高级的荣誉勋章</span>
+
 ### 火花
-Karma Eternal Rebirth Flame x10 Package==<img src="upload/attach/202012/2_9BP7X92YN3PD3WV.png">宿命彩虹火花x10礼包
-Karma Powerful Rebirth Flame x10 Package==<img src="upload/attach/202012/2_X527ZSWD9Q5SA7X.png">宿命绯红火花x10包装
-Karma Black Rebirth Flames?==宿命黑火花
-Black Rebirth Flames?==<img src="upload/attach/202011/2_8AQK8AJDC5QSZM4.png">黑火花
-Karma Eternal Rebirth Flames?==<img src="upload/attach/202012/2_Y2GPP2QN4P9A3PT.png">宿命彩虹火花
-Karma Rejuvenation Flames?==<img src="upload/attach/202012/2_NUS8AVBQJ5AFHFZ.png">宿命绯红火花
-Karma Powerful Rebirth Flames?==<img src="upload/attach/202012/2_NUS8AVBQJ5AFHFZ.png">宿命绯红火花
-Eternal Flame of Rebirth==<img src="upload/attach/202012/2_6XDM7JP6483CVGS.png">彩虹火花
-Eternal Rebirth Flames?==<img src="upload/attach/202012/2_6XDM7JP6483CVGS.png">彩虹火花
-Powerful Rebirth Flames?==<img src="upload/attach/202012/2_MNQ43DU5WX55MZR.png">绯红火花
-Rebirth Flames?==<img src="upload/attach/202012/2_MNQ43DU5WX55MZR.png">绯红火花 
+Karma Eternal Rebirth Flame x(\d{1,2}) Package==<img src="upload/attach/202012/2_9BP7X92YN3PD3WV.png"><span kdclassjsq="notranslate">宿命彩虹火花x\1礼包</span>
+Karma Powerful Rebirth Flame x(\d{1,2}) Package==<img src="upload/attach/202012/2_X527ZSWD9Q5SA7X.png"><span kdclassjsq="notranslate">宿命绯红火花x\1礼包</span>
+Karma Black Rebirth Flame x(\d{1,2}) Package==<img src="upload/attach/202107/2_VFXVZGACDDC8J9E.png"><span kdclassjsq="notranslate">宿命黑火花x\1礼包</span>
+Karma Black Rebirth Flames?==<img src="upload/attach/202106/2_HHYDKZVSFM7Z7W4.png"><span kdclassjsq="notranslate">宿命黑火花</span>
+Black Rebirth Flames?==<img src="upload/attach/202011/2_8AQK8AJDC5QSZM4.png"><span kdclassjsq="notranslate">黑火花</span>
+Karma Eternal Rebirth Flames?==<img src="upload/attach/202012/2_Y2GPP2QN4P9A3PT.png"><span kdclassjsq="notranslate">宿命彩虹火花</span>
+Karma Rejuvenation Flames?==<img src="upload/attach/202012/2_NUS8AVBQJ5AFHFZ.png"><span kdclassjsq="notranslate">宿命绯红火花</span>
+Karma Powerful Rebirth Flames?==<img src="upload/attach/202012/2_NUS8AVBQJ5AFHFZ.png"><span kdclassjsq="notranslate">宿命绯红火花</span>
+Eternal Flame of Rebirth==<img src="upload/attach/202012/2_6XDM7JP6483CVGS.png"><span kdclassjsq="notranslate">彩虹火花</span>
+Eternal Rebirth Flames?==<img src="upload/attach/202012/2_6XDM7JP6483CVGS.png"><span kdclassjsq="notranslate">彩虹火花</span>
+Powerful Rebirth Flames?==<img src="upload/attach/202012/2_MNQ43DU5WX55MZR.png"><span kdclassjsq="notranslate">绯红火花</span>
+Rebirth Flames?==<img src="upload/attach/202012/2_MNQ43DU5WX55MZR.png"><span kdclassjsq="notranslate">绯红火花</span>
 
 
 
 ## 魔方
-Event Ring Exclusive Meister's Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒指专用匠人魔方
-Event Ring Exclusive Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒指专用匠人魔方
-Karma Meister's Cube==<img src="upload/attach/202012/2_NNYYTWEZQ23GXG2.png">宿命匠人魔方
-Master Craftsman's Cubes?==<img src="upload/attach/202011/2_NCK8WR9YWBBH4KA.png">黄魔方
-Craftsman's Cubes?==<img src="upload/attach/202011/2_NCK8WR9YWBBH4KA.png">黄魔方
+Bonus Potential Cube x(\d{0,1}) Package==<img src="upload/attach/202107/2_T5ZRXMM2469SRGS.png"><span kdclassjsq="notranslate">附加潜能魔方x\1礼包</span>
+Bonus Potential Cube Coupon==<img src="upload/attach/202106/2_MNY8ZH57X6UZDF7.png"><span kdclassjsq="notranslate">附加潜能魔方</span>
+Bonus Potential Cubes?==<img src="upload/attach/202106/2_MNY8ZH57X6UZDF7.png"><span kdclassjsq="notranslate">附加潜能魔方</span>
 Karma Bonus Occult Cube==<img src="upload/attach/202012/2_UQKRUCXXNRJS2XN.png">宿命附加潜能怪异魔方
 Bonus Occult Cube==<img src="upload/attach/202011/2_A8WHB6AHYNBEP2E.png">附加潜能怪异魔方
-Occult Cubes?==<img src="upload/attach/202012/2_MEHDSPYCKFC7TFM.png">怪异魔方
-Meister's Cubes?==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">匠人魔方
-Meister’s Cubes?==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">匠人魔方
-Red Cube x(\d{0,1}) Package==<img src="upload/attach/202012/2_B9USP22CWHB99MR.png">红魔方x\1礼包
-Black Cube x(\d{0,1}) Package==<img src="upload/attach/202012/2_ZNKC6Z4XSBVMY42.png">黑魔方x\1礼包
-Bonus Potential Cube x(\d{0,1}) Package==<img src="upload/attach/202012/2_K5XMX23GD5F5HQY.png" width="32" height="33">附加潜能魔方x\1礼包
-Red Cubes?==红魔方
-Black Cubes?==黑魔方
-Violet Cubes?==六角魔方
-Bonus Potential Cubes?==附加潜能魔方
-White Cubes?==白魔方
+
+Event Ring Exclusive Meister's Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒指专用匠人魔方
+Event Ring Exclusive Cube==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png">活动戒指专用匠人魔方
+Karma Meister's Cube==<img src="upload/attach/202012/2_NNYYTWEZQ23GXG2.png"><span kdclassjsq="notranslate">宿命匠人魔方</span>
+Karma Master Craftsman's Cubes?==<img src="upload/attach/202106/2_M93VHQ6NUHFWYE4.png"><span kdclassjsq="notranslate">宿命黄魔方</span>
+Master Craftsman's Cubes?==<img src="upload/attach/202011/2_NCK8WR9YWBBH4KA.png"><span kdclassjsq="notranslate">黄魔方</span>
+Craftsman's Cubes?==<img src="upload/attach/202011/2_NCK8WR9YWBBH4KA.png"><span kdclassjsq="notranslate">黄魔方</span>
+Occult Cubes?==<img src="upload/attach/202012/2_MEHDSPYCKFC7TFM.png"><span kdclassjsq="notranslate">怪异魔方</span>
+Meister's Cubes?==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png"><span kdclassjsq="notranslate">匠人魔方</span>
+Meister’s Cubes?==<img src="upload/attach/202011/2_DRBMWVFCUTPFWW8.png"><span kdclassjsq="notranslate">匠人魔方</span>
+Red Cube x(\d{0,1}) Package==<img src="upload/attach/202012/2_B9USP22CWHB99MR.png"><span kdclassjsq="notranslate">红魔方x\1礼包</span>
+Black Cube x(\d{0,1}) Package==<img src="upload/attach/202012/2_ZNKC6Z4XSBVMY42.png"><span kdclassjsq="notranslate">黑魔方x\1礼包</span>
+Red Cubes?==<img src="upload/attach/202107/2_9BCDDY5Y2TKKTKQ.png"><span kdclassjsq="notranslate">红魔方</span>
+Black Cubes?==<img src="upload/attach/202107/2_CY2H5RJEFM9E857.png"><span kdclassjsq="notranslate">黑魔方</span>
+Violet Cubes?==<img src="upload/attach/202107/2_TCAN8YWXVPZ8CR2.png"><span kdclassjsq="notranslate">六角魔方</span>
+White Cubes?==<img src="upload/attach/202107/2_DA5CFTHXSJ4A3SY.png"><span kdclassjsq="notranslate">白魔方</span>
 \bCube\b==魔方
 
 ## 卷轴
-Scroll for Pet Equip. for ATT==<img src="upload/attach/202011/2_9GMDCNP9F5VVWNW.png">宠物装备物理攻击力卷轴
-Scroll for Pet Equip. for M. ATT==<img src="upload/attach/202011/2_5K9ZWRAZJDTF8MV.png">宠物装备魔法攻击力卷轴
-Karma Chaos Scroll of Greatness 60%==<img src="upload/attach/202012/2_CKX6G27YFPD4MYA.png">宿命惊人正义混沌卷轴60%
-Karma Star Force 15-Star Enhancement==<img src="upload/attach/202012/2_SWBU79NCX9TFJAK.png">宿命15星强化卷
+Karma Premium Scroll for Pet Equipment's Weapon ATT==<img src="upload/attach/202011/2_9GMDCNP9F5VVWNW.png"><span kdclassjsq="notranslate">宿命宠物装备物理攻击力卷轴</span>
+Karma Premium Scroll for Pet Equipment's Magic ATT==<img src="upload/attach/202011/2_5K9ZWRAZJDTF8MV.png"><span kdclassjsq="notranslate">宿命宠物装备魔法攻击力卷轴</span>
+Karma Premium Scroll for Accessories' Weapon ATT==<img src="upload/attach/202106/2_DK9YR9GTJDC4G5K.png"><span kdclassjsq="notranslate">宿命宠物饰品物理攻击力卷轴</span>
+Karma Premium Scroll for Accessories' Magic ATT==<img src="upload/attach/202106/2_XCQ3H7JS8J5PJBA.png"><span kdclassjsq="notranslate">宿命宠物饰品魔法攻击力卷轴</span>
+Scroll for Pet Equip. for ATT==<img src="upload/attach/202011/2_9GMDCNP9F5VVWNW.png"><span kdclassjsq="notranslate">宠物装备物理攻击力卷轴</span>
+Scroll for Pet Equip. for M. ATT==<img src="upload/attach/202011/2_5K9ZWRAZJDTF8MV.png"><span kdclassjsq="notranslate">宠物装备魔法攻击力卷轴</span>
+Karma Chaos Scroll of Greatness 60%==<img src="upload/attach/202012/2_CKX6G27YFPD4MYA.png"><span kdclassjsq="notranslate">宿命惊人正义混沌卷轴60%</span>
+100% (\d\d)\-Star Enhancement==<img src="upload/attach/202106/2_7YV84BCD4JFPGMZ.png"><span kdclassjsq="notranslate">100% \1星强化券</span>
+Karma Star Force (\d\d)\-Star Enhancement==<img src="upload/attach/202106/2_7YV84BCD4JFPGMZ.png"><span kdclassjsq="notranslate">宿命\1星强化卷</span>
 Star Force (\d\d)\-Star Enhancement( Coupon)?==\1星强化卷
 Star Force (\d\d) Star Enhancement( Coupon)?==\1星强化卷
 
@@ -138,20 +159,27 @@ Butterfly Droplet Stone==<img src="upload/attach/202011/2_49VAWPPPGR3PJ9N.png">�
 Stone Origin Droplet==<img src="upload/attach/202012/2_HFTTUJ8E8GH394E.png">太初水滴石
 Stone Cobweb Droplet==蛛网水滴石
 
-Arcane Symbol: Vanishing Journey==<img src="upload/attach/202011/2_JN99EM2MYWDH9S3.png">奥术球：消失的旅途（1岛）
-Arcane Symbol: Chu Chu Island==<img src="upload/attach/202011/2_T7EUD7KQQK382VJ.png">奥术球：啾啾岛（2岛）
-Arcane Symbol: Lachelein==<img src="upload/attach/202011/2_ZCYD3749VXAMDGR.png">奥术球：梦之都拉克兰（3岛）
-Arcane Symbol: Arcana==<img src="upload/attach/202011/2_9EMWKKNB7M72M2P.png">奥术球：阿尔卡那（4岛）
-Arcane Symbol: Morass==<img src="upload/attach/202011/2_CQ954V2B7QQ7GJH.png">奥术球：莫拉斯（5岛）
-Arcane Symbol: Esfera==<img src="upload/attach/202011/2_UVRH3FEUYU79YBP.png">奥术球：埃斯佩拉（6岛）
+Arcane Symbol: Vanishing Journey==<img src="upload/attach/202011/2_JN99EM2MYWDH9S3.png"><span kdclassjsq="notranslate">奥术球：消失的旅途（1岛）</span>
+Arcane Symbol: Chu Chu Island==<img src="upload/attach/202011/2_T7EUD7KQQK382VJ.png"><span kdclassjsq="notranslate">奥术球：啾啾岛（2岛）</span>
+Arcane Symbol: Lachelein==<img src="upload/attach/202011/2_ZCYD3749VXAMDGR.png"><span kdclassjsq="notranslate">奥术球：梦之都拉克兰（3岛）</span>
+Arcane Symbol: Arcana==<img src="upload/attach/202011/2_9EMWKKNB7M72M2P.png"><span kdclassjsq="notranslate">奥术球：阿尔卡那（4岛）</span>
+Arcane Symbol: Morass==<img src="upload/attach/202011/2_CQ954V2B7QQ7GJH.png"><span kdclassjsq="notranslate">奥术球：莫拉斯（5岛）</span>
+Arcane Symbol: Esfera==<img src="upload/attach/202011/2_UVRH3FEUYU79YBP.png"><span kdclassjsq="notranslate">奥术球：埃斯佩拉（6岛）</span>
 
 ## 其他
 
 Ghost Park Charm Enhancement==鬼魂公园符咒增益
 Normal Mode ghosts==普通模式的鬼魂
+Philosopher's Book==<img src="upload/attach/202106/2_ZBKTGUD5B3T4D2Y.png"><span kdclassjsq="notranslate">贤者之书</span>
+Powergacha Ticket==<img src="upload/attach/202106/2_JPE7WABWJVWQTRE.png"><span kdclassjsq="notranslate">高级百宝券</span>
+Gachapon Ticket==<img src="upload/attach/202106/2_BQA77SPJVSB2QDN.png"><span kdclassjsq="notranslate">快乐百宝券</span>
+Wisp's Wondrous Wonderberry==<img src="upload/attach/202106/2_95A6JWRV4XTXG2Y.png"><span kdclassjsq="notranslate">魔法宠物果实</span>
+Luna Crystal==<img src="upload/attach/202106/2_9MUUMPD35GVDDHM.png"><span kdclassjsq="notranslate">月之水晶</span>
 
-
-
+## 礼盒
+Lv\. 30 Equipment Box==<img src="upload/attach/202106/2_T2TJBTGFUYDS5TV.png"><span kdclassjsq="notranslate">30级装备礼盒</span>
+Mysterious Cryptic Chest==<img src="upload/attach/202106/2_F6SRHYTDKJK4PP3.png">神秘礼盒
+Legendary Cryptic Chest==<img src="upload/attach/202106/2_XCDJF7S7NT6WZYB.png">传奇礼盒
 
 # 单个词
 
@@ -159,3 +187,8 @@ Cologne\b==香水
 
 # 飞镖
 Hwabi Throwing-Stars==<img src="upload/attach/202103/2_CVCKV2CAC96JS26.png">月牙标
+
+# 制作材料
+Mana Crystal==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_6DPR8N98E8JE46X.png">魔力结晶</span>
+Rebirth Fragment==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_QUN4HYMUGWAETJT.png">重生碎片</span>
+Grand Spell Essence==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_A3FZJNTNGSER8CH.png">高级卷轴之精髓</span>

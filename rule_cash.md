@@ -33,6 +33,7 @@ Spark Damage Skin==火花四溅伤害皮肤
 Extreme Breakthrough Damage Skin==伤害皮肤
 Red Flame Damage Skin==红色火花伤害皮肤
 Sugar Cookie Damage Skin==糖果饼干伤害皮肤
+Forest of Tenacity Damage Skin==<img src="upload/attach/202107/2_WBQR7XFYQT6K7FW.png"><span kdclassjsq="notranslate">本性森林伤害皮肤</span>
 Pixel Starry Damage Skin==<span kdclassjsq="notranslate">像素版星状伤害皮肤</span>
 Pixel Nine-Tailed Fox Damage Skin==<span kdclassjsq="notranslate">像素版九尾狐伤害皮肤</span>
 Pixel Basic Damage Skin==<span kdclassjsq="notranslate">像素版普通伤害皮肤</span>
@@ -44,8 +45,10 @@ Pixel Full of Hearts Damage Skin==<span kdclassjsq="notranslate">像素版心心
 Pixel Crow Damage Skin==<span kdclassjsq="notranslate">像素版乌鸦伤害皮肤</span>
 Pixel 12th Anniversary Maple Leaf Damage Skin==<span kdclassjsq="notranslate">像素版12周年枫叶伤害皮肤</span>
 Arena Damage Skin: Season (\d)==竞技伤害皮肤：第\1季
-Job Damage Skin Selection Box==职业伤害皮肤选择箱
-Random Damage Skin Box==随机伤害皮肤箱
+Job Damage Skin Selection Box==<img src="upload/attach/202106/2_Y4EYVMR5U4J5UBK.png"><span kdclassjsq="notranslate">职业伤害皮肤选择箱</span>
+Random Damage Skin Box==<img src="upload/attach/202106/2_BFZKWPM9W6ENJYW.png"><span kdclassjsq="notranslate">随机伤害皮肤箱</span>
+Aurora Damage Skin \(Unit\)==<img src="upload/attach/202106/2_9T32G8TPHQG5NYH.png"><span kdclassjsq="notranslate">极光伤害皮肤（单位）</span>
+Yeti x Yeti Damage Skin==<img src="upload/attach/202107/2_BTA6CJNDDZ6KYM6.png"><span kdclassjsq="notranslate">白雪人伤害皮肤</span>
 Damage Skins?==伤害皮肤
 
 
@@ -114,9 +117,18 @@ Crystal Glacier Chair==水晶冰川椅
 Summer Resort Massage Chair==避暑胜地按摩椅
 Globe Chair: Soft Cloud Chair==水晶球椅：流云椅
 Globe Base: Fluffy Cloud Base==水晶球底座：棉花云底座
+Neo Moon Chair==<img src="upload/attach/202107/2_SN958BHTNVMVCP3.png"><span kdclassjsq="notranslate">Neo月亮椅</span>
+Neo Star Chair==<img src="upload/attach/202107/2_R5QB3V337F3KEF3.png"><span kdclassjsq="notranslate">Neo星星椅</span>
+Yeti TV==<img src="upload/attach/202107/2_RUBJV7CDGR4K4V6.png"><span kdclassjsq="notranslate">白雪人电视</span>
+Permanent Superstar Yeti Mount==<img src="upload/attach/202107/2_XRZJJ5S5BUZEJC3.png"><span kdclassjsq="notranslate">永久的超级巨星白雪人坐骑</span>
 
 
 # 点装
+Neo Castle Outfit Set==<img src="upload/attach/202106/2_YPUK3KJ8BED6HFY.png"><span kdclassjsq="notranslate">Neo城堡衣服套装</span>
+Neo Castle Accessory==<img src="upload/attach/202106/2_A34EG543CW9PACN.png"><span kdclassjsq="notranslate">Neo城堡饰品</span>
+Neo Castle Dress \(F\)==<img src="upload/attach/202106/2_SRZYVRDGJHHYVRX.png"><span kdclassjsq="notranslate">Neo城堡连衣裙（女）</span>
+Neo Castle Suit \(M\)==<img src="upload/attach/202106/2_NK287T3UT8GCF35.png"><span kdclassjsq="notranslate">Neo城堡套服（男）</span>
+Neo Castle Shoes==<span kdclassjsq="notranslate">Neo城堡鞋子</span>
 Permanent Inferno Wolf Mount Coupon==<img src="upload/attach/202103/2_JJUH79XWEN3VYN7.png">永久地狱火焰狼坐骑兑换券
 Manji Mask Coupon==<img src="upload/attach/202103/2_FNS9MWEN9NP5SYT.png">麦吉头套券
 Mike Mask Coupon==<img src="upload/attach/202103/2_8QV4HVC62W9QD22.png">迈克头套券
@@ -129,6 +141,9 @@ Ryude Mask Coupon==<img src="upload/attach/202103/2_GZFTBSR9QBD2EP2.png">柳德�
 Wonky Mask Coupon==<img src="upload/attach/202103/2_VC8284X75N6X6U2.png">妖精温莉头套券
 Pollo Mask Coupon==<img src="upload/attach/202103/2_9MDZ5VNQNSG5FQQ.png">保罗头套券
 Fritto Mask Coupon==<img src="upload/attach/202103/2_XJ97WWNHSX9NXV8.png">普利托头套券
+Yeti Horn Coupon==<img src="upload/attach/202107/2_RDRHFCFEURVT8MD.png"><span kdclassjsq="notranslate">白雪人角券</span>
+Me Yeti Too Outfit Coupon==<img src="upload/attach/202107/2_UPUARHCY4T6URUC.png"><span kdclassjsq="notranslate">白雪人衣服券</span>
+Yeti Mic Weapon Coupon==<img src="upload/attach/202107/2_TSZN69NCAB8MDHY.png"><span kdclassjsq="notranslate">白雪人话筒武器券</span>
 Aster's Bon Bon Ribbon==阿丝塔的女仆套服
 Rhea's Classical Dream==瑞亚的梦幻古典套服
 Kat's Magic Kit==凯特的魔法套服
@@ -139,7 +154,6 @@ Jax's Sonata Tuxedo==杰克斯奏鸣曲礼服
 Sarim's Midnight Show==萨利姆的午夜礼服
 Adam's Aspire Personal Assistant Suit==亚当的助理套服
 Eve's Aspire Personal Assistant Suit==夏娃的助理套服
-Avatar Box Stamps==黑色星票
 kaptafel hat==卡塔费帽子
 Custom Puppy==定制小狗
 Black Cat Camper==黑色猫咪露营车
@@ -163,8 +177,57 @@ Angel Costume==天使套服
 Worn Ghost Suit==破旧的鬼魂套服
 Jeweled Bird==梦幻白凤
 Aura Ring==光环戒指
-Cluckhead==萌鸡头套
-Cluckbottom==萌鸡套服
+Cluck, Cluck, Bean Set Coupon==<img src="upload/attach/202106/2_5ZY72SFXPH5BQY2.png"><span kdclassjsq="notranslate">萌鸡豆豆礼包</span>
+Cluckhead==<img src="upload/attach/202106/2_H7H3WH5JMMNCPPZ.png"><span kdclassjsq="notranslate">萌鸡豆豆头套</span>
+Cluckbottom==<img src="upload/attach/202106/2_V4CQPZGGEG3EY35.png"><span kdclassjsq="notranslate">萌鸡豆豆套服</span>
+Cluck, Cluck, Bean==<img src="upload/attach/202106/2_NRY3FBAWNHBTDDK.png"><span kdclassjsq="notranslate">萌鸡豆豆</span>
+
+Azure Teddy Set Box==<img src="upload/attach/202106/2_VGDBT5Q8KVNA79R.png"><span kdclassjsq="notranslate">天蓝色小熊礼包</span>
+Azure Teddy Outfit Set \(M\)==<span kdclassjsq="notranslate">天蓝色小熊套装（男）</span>
+Azure Teddy Outfit Set \(F\)==<span kdclassjsq="notranslate">天蓝色小熊套装（女）</span>
+Azure Teddy Hat==<img src="upload/attach/202106/2_47T9243B23344A4.png"><span kdclassjsq="notranslate">天蓝色小熊帽子</span>
+Azure Teddy Suit==<img src="upload/attach/202106/2_9SB2UBCRY4AF3GV.png"><span kdclassjsq="notranslate">天蓝色小熊礼服</span>
+Azure Teddy Loafers==<img src="upload/attach/202106/2_UHDXTHMBU45A44K.png"><span kdclassjsq="notranslate">天蓝色小熊鞋子</span>
+Azure Teddy Headband==<img src="upload/attach/202106/2_XYQEPPWKWPCUFKT.png"><span kdclassjsq="notranslate">天蓝色小熊头带</span>
+Azure Teddy Dress==<img src="upload/attach/202106/2_MR74ETQ476C55DP.png"><span kdclassjsq="notranslate">天蓝色小熊礼裙</span>
+
+Green-Thumb Gardener Set Box==<img src="upload/attach/202106/2_VGDBT5Q8KVNA79R.png">特殊园丁礼包
+Spring Dandelion==<img src="upload/attach/202106/2_56GTBBQH2MZFREK.png">春天的蒲公英
+Green-Thumb Gardener==<img src="upload/attach/202106/2_83AD4JQUR3Y6TMG.png">特殊的园丁套服
+Floral Basket==<img src="upload/attach/202106/2_X943GJE5VTNB7QF.png">花篮
+
+Lucky Clover Set Box==<img src="upload/attach/202106/2_VGDBT5Q8KVNA79R.png">幸运三叶草礼包
+Lucky Clover Outfit Set \(M\)==幸运三叶草套装（男）
+Lucky Clover Hat \(M\)==<img src="upload/attach/202106/2_VZ43JSA4KMJNHQA.png">幸运三叶草帽子（男）
+Lucky Clover Outfit \(M\)==<img src="upload/attach/202106/2_US88W57UYZSA8YV.png">幸运三叶草套服（男）
+Lucky Clover Outfit Set \(F\)==幸运三叶草套装（女）
+Lucky Clover Hat \(F\)==<img src="upload/attach/202106/2_UXUMHNVDM9NWV53.png">幸运三叶草帽子（女）
+Lucky Clover Outfit \(F\)==<img src="upload/attach/202106/2_GP4Q7U9Y5ZCZFEJ.png">幸运三叶草衣服（女）
+Lucky Clover Weapon==<img src="upload/attach/202106/2_6QY5JCQYXCWJ3RS.png">幸运三叶草武器
+Lucky Clover==<img src="upload/attach/202106/2_6QY5JCQYXCWJ3RS.png">幸运三叶草
+
+Tranquil Sage Set Box==<img src="upload/attach/202106/2_KY2VKGT224552MY.png">安神鼠尾草礼包
+Tranquil Sage Outfit Set \(M\)==安神鼠尾草套装（男）
+Tranquil Sage Hat \(M\)==<img src="upload/attach/202106/2_4EM2Y667CWVSJNW.png">安神鼠尾草帽子（男）
+Tranquil Sage Outfit \(M\)==<img src="upload/attach/202106/2_7MK5H372DYVPE38.png">安神鼠尾草套服（男）
+Tranquil Sage Outfit Set \(F\)==安神鼠尾草套装（女）
+Tranquil Sage Hat \(F\)==<img src="upload/attach/202106/2_FNXZRGFZMN89YVK.png">安神鼠尾草帽子（女）
+Tranquil Sage Outfit \(F\)==<img src="upload/attach/202106/2_DNYP8WHC9XVMRUF.png">安神鼠尾草套服（女）
+Tranquil Sage Shoes==<img src="upload/attach/202106/2_YUJ5FABVCTXYUAY.png">安神鼠尾草鞋子
+Tranquil Sage Cape==<img src="upload/attach/202106/2_PP2MTACTXENP48T.png">安神鼠尾草披风
+Sage Firefly==<img src="upload/attach/202106/2_PRJ65C5GKDYP5GU.png">安神鼠尾草萤火虫
+
+Saint Luminous Set Coupon==<img src="upload/attach/202106/2_YPUK3KJ8BED6HFY.png">圣徒夜光礼包
+Lania's Floral Crown==<img src="upload/attach/202106/2_HX56ZHFZ5DW3WKP.png">拉尼娅的花冠
+Saint Luminous Outfit Set \(M\)==圣徒夜光套装（男）
+Saint Luminous Outfit Set \(F\)==圣徒夜光套装（女）
+Saint Luminous \(M\)==<img src="upload/attach/202106/2_WYMVMFGB2MJV237.png">圣徒夜光套服（男）
+Saint Luminous \(F\)==<img src="upload/attach/202106/2_T3U9UAE954D5NSC.png">圣徒夜光套服（女）
+
+Murgoth's Feather Coupon==<img src="upload/attach/202106/2_J4RUFCM7K69K8CY.png"><span kdclassjsq="notranslate">毛莫之翼交换券</span>
+Spirited Nine Tails Coupon==<img src="upload/attach/202106/2_YDTA7QEFE6TB4V7.png"><span kdclassjsq="notranslate">灵魂九尾狐披风交换券</span>
+Rookie Bobble Heart Band Coupon==<img src="upload/attach/202106/2_Q5Z4KBKDSMMK549.png"><span kdclassjsq="notranslate">新手校园风头带</span>
+
 Unique Chaos Pink Bean Mark==品克缤混沌面具
 Pink Bean Face Accessory==品克缤的脸饰
 Maple Galaxy Laser Gun Coupon==枫叶银河激光枪
@@ -183,7 +246,6 @@ Maple Noble Suit==枫叶贵族套服
 Maple Noble Cape==枫叶贵族披风
 Maple Noble Shoes==枫叶贵族鞋子
 Death's Scythe==死神之刃
-Glory Guard==荣耀守卫
 Havoc Heavy Sword==浩劫重剑
 Havoc Horn==浩劫龙角
 Havoc Uniform==浩劫套服
@@ -213,9 +275,6 @@ Pixel Hero Cape==<span kdclassjsq="notranslate">像素版英雄披风</span>
 Noble Maple Outfit Coupon==枫叶贵族装备兑换券
 Maple Galaxy Outfit Coupon==枫叶银河装备兑换券
 Maple Gumshoe's Outfit Coupon==枫叶侦探装备兑换券
-Lucky Clover Hat==幸运四叶草帽子
-Lucky Clover Outfit==幸运四叶草衣服
-Lucky Clover Weapon==幸运四叶草武器
 Combat Military Academy==战斗军事学院
 
 
@@ -252,7 +311,11 @@ Permanent Cat Cushion Mount==永久的猫咪垫子坐骑
 Permanent Superhero Mount==永久超级英雄坐骑
 Permanent Aurora Doe Mount==永久极光鹿坐骑
 Permanent Alluring Whale Mount==永久迷人鲸鱼坐骑
-
+Permanent Spring Duck Mount Coupon==<img src="upload/attach/202106/2_4PSNF3J4X498J26.png"><span kdclassjsq="notranslate">永久的春鸭坐骑</span>
+Sea Fragment Chair==<img src="upload/attach/202106/2_VGXHNQPDWNQ6K26.png"><span kdclassjsq="notranslate">海洋碎片椅子</span>
+Permanent Sea Explorer Mount Coupon==<span kdclassjsq="notranslate"><img src="upload/attach/202106/2_ZTU7DKTPNY36XTE.png">海上冒险家坐骑券</span>
+Permanent Aurora Jewel Mount Coupon==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_KF34SCD7UZPGSWS.png">永恒极光宝石坐骑券</span>
+Neo Castle Chair==<span kdclassjsq="notranslate"><img src="upload/attach/202106/2_2HCP3EGF7HXMGYM.png">Neo城堡房间</span>
 
 # 戒指名片
 BROWN Chat Ring==棕熊聊天戒指
@@ -264,8 +327,20 @@ Chat Ring==聊天戒指
 
 # 玩具
 Permanent Pink Bean Transformation Potion==永久品克缤变身药水
+Android Ear Sensor Clip==<img src="upload/attach/202106/2_HRRVXHNVQRAASRV.png">机器人耳机隐形器
 
 # 宠物
+Lil' Loafer==<img src="upload/attach/202106/2_BBZQ7QD3KKHAXN8.png"><span kdclassjsq="notranslate">小面包</span>
+Baby Kemdi==<img src="upload/attach/202106/2_268WVTHGJ9D7QN5.png"><span kdclassjsq="notranslate">甘迪宝宝</span>
+Beanyaki==<img src="upload/attach/202106/2_4S5EJEZYHBSTCY7.png"><span kdclassjsq="notranslate">豆豆</span>
+Honey B==<img src="upload/attach/202106/2_FR7FD5U6EWX9SV3.png"><span kdclassjsq="notranslate">小蜜蜂</span>
+Puffy Cloud==<img src="upload/attach/202106/2_KJ5EX8JJZ7U97A4.png"><span kdclassjsq="notranslate">浮云</span>
+Microyeti==<img src="upload/attach/202106/2_FP3VNATGFPFHNJ6.png"><span kdclassjsq="notranslate">小雪人</span>
+Bunny Bun==<img src="upload/attach/202106/2_SCX4FBNNPG5554X.png"><span kdclassjsq="notranslate">小兔兔</span>
+Microslime==<img src="upload/attach/202106/2_G3KMP8R6TVTA4GR.png"><span kdclassjsq="notranslate">迷你绿水灵</span>
+Salmon Sushi==<img src="upload/attach/202106/2_G2U8XHGW5TPEDKD.png"><span kdclassjsq="notranslate">迷你三文鱼寿司</span>
+Peppy Slime==<img src="upload/attach/202106/2_FS63NQ8VVDGTSQY.png"><span kdclassjsq="notranslate">迷你史莱姆</span>
+
 Triple Jr\. Commander Pets Full Package==三指挥官宠物礼包
 Triple Lucid Pets Full Package==三色路西德宠物礼包
 Wonderberry Black Label 1 Package==三精灵宠物礼包
@@ -283,6 +358,7 @@ Forest Dori==多利精灵
 Forest Dari==达里精灵
 Forest Finca==芬卡精灵
 White Duck Pet==白鸭宠物
+Snail Pet==<img src="upload/attach/202106/2_FP4YTH7WQHYGHCU.png">蜗牛宠物
 
 ## 宠物技能
 Meso Magnet==捡金币
@@ -293,3 +369,13 @@ All Pet Skills==全宠物技能
 ## 喇叭
 Loveholic Megaphone Coupon==<img src="upload/attach/202103/2_9PYUKKYBH39SNFT.png">热恋喇叭兑换券
 Loveholic Megaphone==<img src="upload/attach/202103/2_9PYUKKYBH39SNFT.png">热恋喇叭
+
+## 礼盒
+Premium Surprise Style Box==<img src="upload/attach/202106/2_FS5YR8GW4HETAH3.png"><span kdclassjsq="notranslate">高级幸运箱</span>
+Avatar Box Stamps?==<img src="upload/attach/202106/2_BT526TGNJMF7KXV.png"><span kdclassjsq="notranslate">黑色星票</span>
+Style Box Stamps?==<img src="upload/attach/202106/2_BT526TGNJMF7KXV.png"><span kdclassjsq="notranslate">黑色星票</span>
+
+## 皮肤
+Soft Petal Skin Android Coupon==<img src="upload/attach/202106/2_AUEK3NJ8E6795D8.png"><span kdclassjsq="notranslate">柔软花瓣机器人皮肤</span>
+Blushing Petal Skin Android Coupon==<img src="upload/attach/202106/2_AUEK3NJ8E6795D8.png"><span kdclassjsq="notranslate">粉红花瓣机器人皮肤</span>
+
