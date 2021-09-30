@@ -436,8 +436,8 @@ Appraisal Magnifying Glass==鉴定放大镜
 Familiar Slot Expansion Coupon==<span kdclassjsq="XMtooltip">怪怪卡槽扩展券<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/sUJMjWSyn5pdZ6r.png"/></span></span>
 Suspicious Fauxmiliar Coupon==<span kdclassjsq="XMtooltip">奇怪的怪怪卡券<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/JPWTIx5wC6ZLkm2.png"/></span></span>
 Familiar system==怪怪卡系统
-Familiar Essence==<span kdclassjsq="XMtooltip">怪怪精油<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/bXsql9oIU8zxTFi.png"/></span></span>
-Red Familiar Cards?==<span kdclassjsq="XMtooltip">红色怪怪卡<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/4t3vnBeh7RKPfZr.png"/></span></span>
+Familiar Essence==<img src="upload/attach/202108/2_3QT7X9VEN97PFDU.png"><span kdclassjsq="notranslate">怪怪精油</span>
+Red Familiar Cards?==<img src="upload/attach/202108/2_UZNT2UJHC5573B5.png"><span kdclassjsq="notranslate">红色怪怪卡</span>
 Unique Familiar Booster Pack==U级怪怪增强包
 Familiar Booster Pack==<img src="upload/attach/202106/2_7N7Y5T6WQPZ8P3R.png">怪怪增强包
 Suspicious Fauxmiliar Card==怪异万能卡
