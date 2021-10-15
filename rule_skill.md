@@ -1,3 +1,8 @@
+
+# @import "./skill_adele.md"
+
+
+
 Fire Ifrit==火魔兽
 \bIfrit\b==火魔兽
 Fervent Drain==炽热吸收
@@ -76,3 +81,4 @@ Solar Crest==<img src="upload/attach/202107/2_CSH8APD74XDZ8S8.png"><span kdclass
 Mitra's Fire==<span kdclassjsq="notranslate">米特拉的火焰</span>
 Flame Emblem==<span kdclassjsq="notranslate">火焰徽章</span>
 Yorozu's Wisdom==<img src="upload/attach/202107/2_BYSPVGA63UZZW6P.png"><span kdclassjsq="notranslate">河童的智慧</span>
+

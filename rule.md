@@ -32,7 +32,6 @@
 @import "./rule_event.md"
 @import "./rule_NPC.md"
 @import "./rule_equipment.md"
-
 @import "./rule_other.md"
 @import "./rule_skill.md"
 
