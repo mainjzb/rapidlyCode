@@ -171,3 +171,4 @@ Neo Gems?==<img src="upload/attach/202106/2_9BCY7T7ARWF28JJ.png"><span kdclassjs
 Neo Cores?==<img src="upload/attach/202106/2_XA9UZUB78HYPFFT.png"><span kdclassjsq="notranslate">Neo核心</span>
 
 Goos?==史莱姆
+Lara Coins?==拉拉币

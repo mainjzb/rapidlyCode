@@ -2,7 +2,6 @@
 Aspire VIP Area Pass==阿特利埃VIP通行证
 Reboot Meso Pouch==<img src="upload/attach/202011/2_2KM52V6KF8DU5PR.png">R区钱袋
 Money Box==财富礼盒
-Lulu's EXP Box==露露的经验盒
 Mu Gong-Certified Wellness Tonic==武公牌保健品
 Unity Training Center Entrance Charm==联合训练中心入场券
 Premium Cologne==高级香水
@@ -55,7 +54,8 @@ Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><
 Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">潜能卷轴</span>
 Return Scroll - Nearest Town==回城卷轴
 Return Scrolls?==回城卷轴
-Extra Character Slot Coupon==<img src="upload/attach/202011/2_XWZZBNMYY6GA66M.png"><span kdclassjsq="notranslate">扩展角色位卡</span>
+Character Expansion Slot Coupon==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
+Extra Character Slot Coupon==<img src="upload/attach/202011/2_XWZZBNMYY6GA66M.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
 Character Slot Expansion Coupon==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
 Character Slot==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
 Maple Tour VIP Pass Coupon==<img src="upload/attach/202012/2_HQT6VCZWJQQ5DXM.png">枫叶之旅VIP通行证
@@ -69,7 +69,6 @@ Premium Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q
 Pet Food==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品
 40 Slot Chair Bag==<img src="upload/attach/202103/2_YRDQ6RAR4853HGB.png"><span kdclassjsq="notranslate">40槽椅子包</span>
 40 Slot Soul Bag==<img src="upload/attach/202103/2_NDQ33K95FFNCGQX.png"><span kdclassjsq="notranslate">40槽灵魂包</span>
-EXP Coupon Box==<img src="upload/attach/202106/2_88K2VEWTHZH9YSP.png"><span kdclassjsq="notranslate">经验卡礼盒</span>
 Magnificent Darknell Soul==<img src="upload/attach/202106/2_QZAKDD4DZTWMQN8.png"><span kdclassjsq="notranslate">伟大的黑暗尼尔灵魂</span>
 Magnificent Verus Hilla Soul==<img src="upload/attach/202106/2_CU6ACMCE4T658J8.png"><span kdclassjsq="notranslate">伟大的真神希拉灵魂</span>
 Double Legendary Arcane Umbra Weapon Box==<img src="upload/attach/202106/2_NAMR6QM8C4M5JB8.png"><span kdclassjsq="notranslate">传说的神秘之影武器盒</span>
@@ -192,3 +191,17 @@ Hwabi Throwing-Stars==<img src="upload/attach/202103/2_CVCKV2CAC96JS26.png">月�
 Mana Crystal==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_6DPR8N98E8JE46X.png">魔力结晶</span>
 Rebirth Fragment==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_QUN4HYMUGWAETJT.png">重生碎片</span>
 Grand Spell Essence==<span kdclassjsq="notranslate"><img src="upload/attach/202107/2_A3FZJNTNGSER8CH.png">高级卷轴之精髓</span>
+
+
+## 经验卡
+Lulu's EXP Box==露露的经验盒
+Mitra's 2x EXP Coupon Box==<span kdclassjsq="notranslate"><img src="upload/attach/202110/2_T836P7C8UUQBKGZ.png">米特拉的双倍经验礼包</span>
+EXP Coupon Box==<img src="upload/attach/202106/2_88K2VEWTHZH9YSP.png"><span kdclassjsq="notranslate">经验卡礼盒</span>
+MVP Plus EXP Buff==MVP个人经验卡
+MVP Silver EXP Atmospheric Effect==MVP白银全体经验卡
+2(x|X) (Exp|EXP) Coupon==<img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡
+
+Growth Potion Selection Coupon==<img src="upload/attach/202110/2_7DNW65CWRJKB7NM.png">升级药水选择券
+Typhoon Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">台风升级药水
+(Mysterious )?Storm Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">风暴升级药水
+Growth Potion \(==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">升级药水(

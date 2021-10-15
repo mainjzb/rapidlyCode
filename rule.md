@@ -161,7 +161,7 @@ Dimension Invasion==次元入侵
 Dimension Invade==次元入侵
 Fox Valley==狐狸谷
 Savage Terminal==野蛮终点站
-Monster Collection==<span kdclassjsq="notranslate">怪物收藏<span>
+Monster Collection==<span kdclassjsq="notranslate">怪物收藏</span>
 Gold Beach==金海岸
 Six Path Crossway==六岔路口
 Temple of Time==时间神殿
@@ -326,8 +326,6 @@ Magic Wagon==魔法马车
 
 # 物品
 
-MVP Plus EXP Buff==MVP个人经验卡
-MVP Silver EXP Atmospheric Effect==MVP白银全体经验卡
 Maplehood Watch==冒险幸运日
 Super Megaphone==超级喇叭
 Yummy Meat==美味的肉
@@ -367,8 +365,8 @@ Mastery Book 30==<img src="upload/attach/202006/2_ZPRYVX6M2YFSH6V.png">能手册
 Mastery Book 20==<img src="upload/attach/202006/2_EZ57QFADU9JQVBY.png">能手册20
 Mastery Books?==能手册
 Maplehood Watch Mechanical Heart==枫叶M机器人心脏
-Mega Character Burninator==斗燃药水
-Typhoon Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">台风成长药水
+Mega Character Burninator==<img src="upload/attach/202110/2_3Z89J69DRQZB9Z3.png">斗燃药水
+Tera Character Burninator==泰斗燃药水
 nodestones?==核心
 nodes?==核心
 Trait Growth Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png">倾向成长药水
@@ -376,14 +374,12 @@ Selective Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.p
 Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png"><span kdclassjsq="notranslate">倾向药水</span>
 Trait Increase Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png"><span kdclassjsq="notranslate">倾向药水</span>
 Circulator==内在还原器
-2(x|X) (Exp|EXP) Coupon==<img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡
 2x EXP==双倍经验
 2x Exp==双倍经验
 2x Drop( Rate)? Coupon==<img src="upload/attach/202007/2_Z8SZ6E4MH3UAB5C.png">双倍爆率卡
 2x Drop( Rate)?==双倍爆率
 Power Elixirs?==<img src="upload/attach/202006/2_PG775SSSWRUH8EC.png">超级药水
 Pollo and Fritto Entry Ticket==保罗/普利托入场券
-(Mysterious )?Storm Growth Potion==<span kdclassjsq="XMtooltip">风暴成长药水<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/zNXpuf6OxDPeET3.png"/></span></span>
 Equip Tab (\d) Slot Coupon==背包装备栏\1格扩展卷
 Use Tab (\d) Slot Coupon==背包消耗栏\1格扩展卷
 Set-Up Tab (\d) Slot Coupon==背包点装栏\1格扩展卷
@@ -637,6 +633,7 @@ Party Quest Expert==组队任务专家
 Party Quest==组队任务
 Party Points==组队积分
 Bonus EXP==额外经验
+Mysterious Arcane Symbol Box==<img src="upload/attach/202106/2_4GQN87X3EPV7BF9.png">神秘的奥术球礼盒
 Arcane Symbol Selector Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
 Arcane Symbol Selection Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
 Labyrinth Arcane Symbol Box==<img src="upload/attach/202106/2_4GQN87X3EPV7BF9.png">奥术球礼盒
@@ -767,6 +764,7 @@ Magician==法师
 Mage==法师
 Evan==龙神
 Kanna==阴阳师
+Lara\b==<span kdclassjsq="notranslate">拉拉</span>
 Illium==圣晶使徒
 Irium==圣晶使徒
 Luminous\b==<span kdclassjsq="notranslate">夜光法师</span>
