@@ -18,7 +18,7 @@ Glitch Damage Skin==故障损伤皮肤
 Error Message Damage Skin==错误信息上海皮肤
 Lunar New Year Video Message of Love Damage Skin==农历新年爱之视频伤害皮肤
 Soccer Uniform==足球制服
-Damage Skin Slot Expansion Coupon==伤害皮肤储存槽扩展卡
+Damage Skin Slot Expansion Coupon==<img src="upload/attach/202110/2_EXG6AJCG893FWDE.png">伤害皮肤储存槽扩展卡
 Halloween Damage Skin==万圣节伤害皮肤
 8-Bit Damage Skin==像素伤害皮肤
 Remnant of the Goddess Damage Skin==女神的遗物伤害皮肤

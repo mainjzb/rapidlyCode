@@ -169,7 +169,7 @@ Legendary Papulatus Mark Coupon==<img src="upload/attach/202106/2_6XRCQYG2DJUBHN
 Reaper's Pendant==收割者吊坠
 Prepared Pendant of the Spirit==精制的精灵吊坠 
 Prepared Pendent of the Spirit==精制的精灵吊坠 
-Pendant of the Spirit==精灵吊坠
+Pendant of the Spirit==<img src="upload/attach/202110/2_GHQED9T2BH2PUMF.png">精灵吊坠
 Prepared Spirit Pendant==精制的精灵吊坠
 Dominator Pendant==统治者吊坠
 
@@ -337,5 +337,6 @@ Skyroid==拟真机器人天空
 Fury Totem==鬼神图腾
 frenzy totem==轮回图腾
 Frenzy Totem==轮回图腾
-Wild Totem Coupon==<img src="upload/attach/202106/2_WE4AZSF8BTRFRFV.png"><span kdclassjsq="notranslate">蓝色轮回图腾</span>
+Wild Totem==<span kdclassjsq="notranslate"><img src="upload/attach/202106/2_WE4AZSF8BTRFRFV.png">蓝色轮回</span>
+Wild Totem Coupon==<img src="upload/attach/202106/2_WE4AZSF8BTRFRFV.png"><span kdclassjsq="notranslate">蓝色轮回</span>
 

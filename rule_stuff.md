@@ -79,6 +79,8 @@ Reboot Legendary Arcane Umbra Weapon Box==<img src="upload/attach/202106/2_NAMR6
 Mysterious Special Medal of Honor Box==<img src="upload/attach/202106/2_YEPTYVNMKSTWGSR.png"><span kdclassjsq="notranslate">神秘特殊荣誉勋章礼盒</span>
 Special Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">特殊荣誉勋章</span>
 Legendary Medal of Honor==传奇的荣誉勋章
+Intermediate Hunter's Honor Medal x1 Coupon==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">荣誉勋章</span>
+Advanced Hunter's Medal of Honor x1 Coupon==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">荣誉勋章</span>
 Medal of Honor==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">荣誉勋章</span>
 Boss Medal of Honor==荣誉
 Advanced Hunter's Honor Medal==<img src="upload/attach/202006/2_3YZ7MPB3986DFDE.png"><span kdclassjsq="notranslate">高级的荣誉勋章</span>

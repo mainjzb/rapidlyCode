@@ -26,9 +26,12 @@
 &nbsp;(\S)== \1
 ’=='
 ‘=='
+&rsquo;=='
+&lsquo;=='
 
 @import "./rule_stuff.md"
 @import "./rule_cash.md"
+
 @import "./rule_event.md"
 @import "./rule_NPC.md"
 @import "./rule_equipment.md"
@@ -56,38 +59,39 @@
 
 
 #  长句翻译
-	Grants durational stats==
-	After your character reaches Lv.10, they will begin to earn two additional levels every time your character gains a level up to Lv.149.==10-148级之间，每升一级，则获得额外2级。
-	Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
-	Zero characters must have completed up to Chapter 2==神之子必须完成第二章
-	20 levels below and 20 levels above==20级以内
-	2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
-	5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
-	12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
-	4:00 PM PST / 7:00 PM EST / 1:00 AM CET / 11:00 AM AEDT==北京时间早上8点
-	3:59 PM PST / 6:59 PM EST / 12:59 AM CET / 10:59 AM AEDT==次日早上8点
-	\(12\:00 AM UTC\)==(北京早上8点)
-	All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
-	Use coupon to receive permanent item.==双击消耗栏卡卷获得物品。
-	Coupon has 7-day duration.==卡卷保留7天。
-	Receive 50% off when you do Potential appraisals or resets==装备潜能在鉴定或重置时花费的金币享受五折
-	The chance to receive new monsters for your Monster Collection is doubled==怪物收藏在收藏新怪物时概率翻倍
-	Potential appraisals or resets==装备潜能在鉴定或重置
-	Receive 50% off when you do Ability resets==内在能力花费荣誉半价
-	Can be received once per world==每个大区都可以收到一次
-	(\d\d?)-day stat duration==属性持续\1天
-	stat duration lasts for (\d\d?) days==属性持续\1天
-	around your level==你的等级范围内
-	You have until.*to purchase these items==你可以在活动时间内购买物品 
-	Clear Pollo and Fritto once==完成一次保罗或普利托
-	Defeat Elite Boss once==击败一次精英BOSS
-	Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
-	Entry count limited to once daily. Clear count limited to once per week.==进入次数限每天一次，击杀次数限每周一次。
-	Entry count limited to once daily. Clear count limited to once per month.==进入次数限每天一次，击杀次数限每月一次。
-	Rewards can be claimed once==领取一次奖励
-	as you burn your way along==在斗燃的路上
-	Receive 2 stars when you successfully do Star Force 10 enhancements and lower==10星或以下强化成功时获得2星
-	Receive 3x the amount of Surprise Missions==临时任务可完成次数提高3倍
+Grants durational stats==
+After your character reaches Lv.10, they will begin to earn two additional levels every time your character gains a level up to Lv.149.==10-148级之间，每升一级，则获得额外2级。
+Use this scroll to give Epic Potential to items that are ranked Rare or below==给B潜能或无潜能的装备进化为A潜能
+Zero characters must have completed up to Chapter 2==神之子必须完成第二章
+20 levels below and 20 levels above==20级以内
+2:00 AM PDT / 5:00 AM EDT / 11:00 AM CEST / 7:00 PM AEST==北京时间下午5点
+5:00 PM PDT / 8:00 PM EDT / 2:00 AM CEST / 10:00 AM AEST==北京时间早上8点
+12:59 AM PDT / 3:59 AM EDT / 9:59 AM CEST / 5:59 PM AEST==北京时间下午4点
+4:00 PM PST / 7:00 PM EST / 1:00 AM CET / 11:00 AM AEDT==北京时间早上8点
+3:59 PM PST / 6:59 PM EST / 12:59 AM CET / 10:59 AM AEDT==次日早上8点
+\(12\:00 AM UTC\)==(北京早上8点)
+All you have to do is log in to start receiving great items==你所要做的是登录游戏领取奖励！
+Use coupon to receive permanent item.==双击消耗栏卡卷获得物品。
+Coupon has 7-day duration.==卡卷保留7天。
+Receive 50% off when you do Potential appraisals or resets==装备潜能在鉴定或重置时花费的金币享受五折
+The chance to receive new monsters for your Monster Collection is doubled==怪物收藏在收藏新怪物时概率翻倍
+Potential appraisals or resets==装备潜能在鉴定或重置
+Receive 50% off when you do Ability resets==内在能力花费荣誉半价
+Can be received once per world==每个大区都可以收到一次
+(\d\d?)-day stat duration==属性持续\1天
+stat duration lasts for (\d\d?) days==属性持续\1天
+around your level==你的等级范围内
+You have until.*to purchase these items==你可以在活动时间内购买物品 
+Clear Pollo and Fritto once==完成一次保罗或普利托
+Defeat Elite Boss once==击败一次精英BOSS
+Participate in fighting the Inferno Wolf==参加一次地狱火焰狼
+Entry count limited to once daily. Clear count limited to once per week.==进入次数限每天一次，击杀次数限每周一次。
+Entry count limited to once daily. Clear count limited to once per month.==进入次数限每天一次，击杀次数限每月一次。
+Rewards can be claimed once==领取一次奖励
+as you burn your way along==在斗燃的路上
+Receive 2 stars when you successfully do Star Force 10 enhancements and lower==10星或以下强化成功时获得2星
+Receive 3x the amount of Surprise Missions==临时任务可完成次数提高3倍
+Requirement: Available for all levels in non-Reboot worlds only.==要求：仅限普通区，无等级要求
 
 # 等级 
 	Lv. (\d?\d?\d) - (\d?\d?\d)==\1级 - \2级
@@ -161,6 +165,7 @@ Dimension Invasion==次元入侵
 Dimension Invade==次元入侵
 Fox Valley==狐狸谷
 Savage Terminal==野蛮终点站
+Monster Collection Improvements==<span kdclassjsq="notranslate">怪物收藏改进<span>
 Monster Collection==<span kdclassjsq="notranslate">怪物收藏<span>
 Gold Beach==金海岸
 Six Path Crossway==六岔路口
@@ -376,7 +381,7 @@ Selective Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.p
 Trait Boost Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png"><span kdclassjsq="notranslate">倾向药水</span>
 Trait Increase Potion==<img src="upload/attach/202006/2_7JWQWGPPCBH225A.png"><span kdclassjsq="notranslate">倾向药水</span>
 Circulator==内在还原器
-2(x|X) (Exp|EXP) Coupon==<img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡
+2(x|X) (Exp|EXP) Coupon==<span kdclassjsq="notranslate"><img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡</span>
 2x EXP==双倍经验
 2x Exp==双倍经验
 2x Drop( Rate)? Coupon==<img src="upload/attach/202007/2_Z8SZ6E4MH3UAB5C.png">双倍爆率卡
@@ -605,7 +610,7 @@ Infinite Pawsibilites==无限可能
 the Multikill counter==多连杀
 Combo Kill counters?==连续击杀
 Maple Guide stamps==冒险向导的盖章
-Maple Guides?==冒险向导
+Maple Guides?==<span kdclassjsq="notranslate">冒险向导</span>
 advancement prerequisites?==前置任务
 party quests?==组队任务
 V Matrix==V矩阵
@@ -666,13 +671,14 @@ Hyper Stats==超级属性
 Fairy Bros==FB每日
 primary stat==<span kdclassjsq="notranslate">主属性</span>
 master level==最高等级
+party defeated==组队击败
 
 # 语法
-	to trade in for==换取
-	dropped by (\w+)==通过\1掉落
-	a special deal==优惠
-    Hong Bao==红包
-	logging out==退出登录
+to trade in for==换取
+dropped by (\w+)==通过\1掉落
+a special deal==优惠
+Hong Bao==红包
+logging out==退出登录
 
 
 
@@ -715,46 +721,46 @@ Pink Bean's Buddy==品克缤的伙伴
 	
 
 # 职业
-	Demon Avenger==恶魔复仇者(白毛)
-	Demon Slayer==红毛
-	Beast Tamer==林之灵
-	Angelic Buster==爆莉萌天使
-	Dark Knight==黑骑
-	dark Knight==黑骑士
-	Wind Archer==风灵使者
-	Thunder Breaker==奇袭者
-	striker==奇袭者
-	Dual Blade==双刀
-	Dual blade==双刀
-	Blaze Wizard==炎术士
-	Night Walker==夜行者
-	Night walker==夜行者
-	Path finder==开拓者
-	Pathfinder==开拓者
-	Night Lord==标飞
-	Night road==标飞	
-	Wild Hunter==豹弩游侠
-	Wild hunter==豹弩游侠
-	Arch Mage==魔导师
-	Bow Master==神射手(弓)
-	Wind Archer==风灵使者
-	Wind shooter==风灵使者
-	Flame Wizard==炎术士
-	Cannon Shooter==火炮
-	Cannon shooter==火炮
-	\(I/L\)==(冰雷)
-	\(Ice, Lightning\)==(冰雷)
-	Ice/Lightning==冰雷
-	\(Fire Poison\)==(火毒)
-	\(Fire, Poison\)==(火毒)
-	Battle Mage==唤灵斗师
-	Battle mage==唤灵斗师
-	Dawn Warrior==魂骑士
-	Seoul Master==魂骑士
-	Capricious Sage==云游仙人
-	Adele==阿黛尔
 
-
+Job Balances==职业平衡
+Demon Avenger==恶魔复仇者(白毛)
+Demon Slayer==红毛
+Beast Tamer==林之灵
+Angelic Buster==爆莉萌天使
+Dark Knight==黑骑
+dark Knight==黑骑士
+Wind Archer==风灵使者
+Thunder Breaker==奇袭者
+striker==奇袭者
+Dual Blade==双刀
+Dual blade==双刀
+Blaze Wizard==炎术士
+Night Walker==夜行者
+Night walker==夜行者
+Path finder==开拓者
+Pathfinder==开拓者
+Night Lord==标飞
+Night road==标飞	
+Wild Hunter==豹弩游侠
+Wild hunter==豹弩游侠
+Arch Mage==魔导师
+Bow Master==神射手(弓)
+Wind Archer==风灵使者
+Wind shooter==风灵使者
+Flame Wizard==炎术士
+Cannon Shooter==火炮
+Cannon shooter==火炮
+\(I/L\)==(冰雷)
+\(Ice, Lightning\)==(冰雷)
+Ice/Lightning==冰雷
+\(Fire Poison\)==(火毒)
+\(Fire, Poison\)==(火毒)
+Battle Mage==唤灵斗师
+Battle mage==唤灵斗师
+Dawn Warrior==魂骑士
+Seoul Master==魂骑士
+Capricious Sage==云游仙人
+Adele==阿黛尔
 
 \bExplorer\b==冒险家
 Resistance==反抗者
@@ -813,22 +819,23 @@ HOYOUNG==虎影
 
 
 # 倾向
-	\bAmbition\b==领袖气质
-	\bEmpathy\b==感性
-	\bInsight\b==洞察力
-	\bWillpower\b==意志力
-	\bDiligence\b==手技
-	\bCharm\b==魅力
+
+\bAmbition\b==领袖气质
+\bEmpathy\b==感性
+\bInsight\b==洞察力
+\bWillpower\b==意志力
+\bDiligence\b==手技
+\bCharm\b==魅力
 
 # 冒险岛
-	MapleStoryM==冒险岛手机版
-	MapleStory M==冒险岛手机版
-	Maple M\s==冒险岛手机版
-	MapleStory==冒险岛
-	MAPLESTORY==冒险岛
-	\bMaple\b==枫叶
-	(\d\d)th Anniversary==\1周年
-	Anniversary==周年
+MapleStoryM==冒险岛手机版
+MapleStory M==冒险岛手机版
+Maple M\s==冒险岛手机版
+MapleStory==冒险岛
+MAPLESTORY==冒险岛
+\bMaple\b==枫叶
+(\d\d)th Anniversary==\1周年
+Anniversary==周年
 
 # 属性
 Req Level==要求等级
@@ -865,7 +872,9 @@ STR==力量
 DEX==敏捷
 LUK==运气
 INT==智力
-ATT==攻击力
+ATT==攻击
+M.ATT==魔攻
+M. ATT==魔攻
 DEF==防御力
 
 
@@ -915,66 +924,78 @@ DEF==防御力
 Empress's Gift==女皇的礼物
 
 # BOSS
-	Root Abyss Set Box==鲁比塔斯装备套装礼盒
-	Root Abyss==鲁比塔斯
-	Hard Lotus==困难级斯乌
-	Hard Damien==困难级戴安米
-	Hard Lotus's==困难级斯乌的
-	Hard Will's==困难级威尔的
-	Hard Will==困难级威尔
-	Crimson Queen==血腥女皇
-	Akechi Mitsuhide==明智光秀
-	Von Bon==半半
-	Normal Pink Bean==普通品克缤
-	Pink Bean==品克缤
-	Von Leon==狮子王
-	Normal Cygnus==普通希纳斯女皇
-	Easy Cygnus==简单希纳斯女皇
-	Cygnus==希纳斯女皇
-	Easy Zakum==简单扎昆
-	Normal Zakum==普通扎昆
-	Easy Horntail==简单暗黑龙王
-	Normal Horntail==普通暗黑龙王
-	Chaos Horntail==进阶暗黑龙王
-	Easy Papulatus==简单闹钟
-	Normal Papulatus==普通闹钟
-	Papulatus Mark==闹钟脸饰
-	Papulatus==闹钟
-	Crimson Balrog==蝙蝠魔
-	Verus Hillaroid==真神希腊机器人
-	Verus Hilla==真神希拉
-	Necro Orchid==死灵奥尔卡
-	Necro Lotus==死灵斯乌
-	Princess No==浓姬
-	#######################
-	Ursus==乌鲁斯
-	Lotus==斯乌
-	Magnus==麦格纳斯
-	Will's==威尔的
-	[^>]Will\b==威尔
-	gollux==贝勒德
-	Zakum==扎昆
-	Horntail==暗黑龙王
-	Hilla==希拉
-	Pierre==皮埃尔
-	Vellum==贝伦
-	Arkarium==阿卡伊勒
-	OMNI-CLN==钻机
-	Damienroid==戴安米机器人
-	Damien==戴安米
-	Living Chains?==生存链
-	Balrog==蝙蝠魔
-	Arkarium==阿卡伊勒
-	Yakuza==黑帮老大
-	Gigatoad==忍者巨蛙
+Root Abyss Set Box==鲁比塔斯装备套装礼盒
+Root Abyss==鲁比塔斯
+Hard Lotus==困难级斯乌
+Hard Damien==困难级戴安米
+Hard Lotus's==困难级斯乌的
+Hard Will's==困难级威尔的
+Hard Will==困难级威尔
+Crimson Queen==血腥女皇
+Akechi Mitsuhide==明智光秀
+Von Bon==半半
+Normal Pink Bean==普通品克缤
+Pink Bean==品克缤
+Von Leon==狮子王
+Normal Cygnus==普通希纳斯女皇
+Easy Cygnus==简单希纳斯女皇
+Cygnus==希纳斯女皇
+Easy Zakum==简单扎昆
+Normal Zakum==普通扎昆
+Easy Horntail==简单暗黑龙王
+Normal Horntail==普通暗黑龙王
+Chaos Horntail==进阶暗黑龙王
+Easy Papulatus==简单闹钟
+Normal Papulatus==普通闹钟
+Papulatus Mark==闹钟脸饰
+Papulatus==闹钟
+Crimson Balrog==蝙蝠魔
+Verus Hillaroid==真神希腊机器人
+Verus Hilla==真神希拉
+Necro Orchid==死灵奥尔卡
+Necro Lotus==死灵斯乌
+Princess No==浓姬
+Chosen Seren==赛轮
+
+\(Normal, Chaos\)==(普通，困难)
+\(Normal, Hard\)==(普通，困难)
+\(Easy, Normal\)==(简单，普通)
+\(Easy, Normal, Hard\)==(简单，普通，困难)
+\(Easy, Normal, Chaos\)==(简单，普通，困难)
+\(Hard\)==(困难)
+\(Chaos\)==(困难)
+\(Normal\)==(普通)
+#######################
+Ursus==乌鲁斯
+Lotus==斯乌
+Magnus==麦格纳斯
+Will's==威尔的
+\bWill\b==威尔
+gollux==贝勒德
+Zakum==扎昆
+Horntail==暗黑龙王
+Hilla==希拉
+Pierre==皮埃尔
+Vellum==贝伦
+Arkarium==阿卡伊勒
+OMNI-CLN==钻机
+Damienroid==戴安米机器人
+Damien==戴安米
+Living Chains?==生存链
+Balrog==蝙蝠魔
+Arkarium==阿卡伊勒
+Yakuza==黑帮老大
+Gigatoad==忍者巨蛙
+Mitsuhide==光秀
+
 
 	
-	Hard Lucid's==困难级路西德的
-	Lucid's==路西德的
-	Ebony Lucid==黑色路西德
-	Powder Lucid==粉色路西德
-	Rose Lucid==玫瑰路西德
-	Lucid==路西德
+Hard Lucid's==困难级路西德的
+Lucid's==路西德的
+Ebony Lucid==黑色路西德
+Powder Lucid==粉色路西德
+Rose Lucid==玫瑰路西德
+Lucid==<span kdclassjsq="notranslate">路西德</span>
 
 
 
@@ -1124,8 +1145,6 @@ binding skill==控制型技能
 \bFlame\b==火花
 \bandroid\b==机器人
 Master\b==大师
-\(Hard\)==(困难级)
-\(Normal, Hard\)==(普通级，困难级)
 \bAwakening\b==觉醒
 \bAwake\b==觉醒
 \bJusticar\b==司令
