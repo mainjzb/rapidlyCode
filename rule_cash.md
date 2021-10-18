@@ -12,7 +12,7 @@ A Wondroidful Life==九死一生
 Can't Live Without You==非你莫属
 For Display Purposes Only Chair==只限展览椅子
 
-#	伤害皮肤	
+# 伤害皮肤	
 Aspire Industries Damage Skin==阿特利埃工厂伤害皮肤
 Glitch Damage Skin==故障损伤皮肤
 Error Message Damage Skin==错误信息上海皮肤
@@ -49,6 +49,7 @@ Job Damage Skin Selection Box==<img src="upload/attach/202106/2_Y4EYVMR5U4J5UBK.
 Random Damage Skin Box==<img src="upload/attach/202106/2_BFZKWPM9W6ENJYW.png"><span kdclassjsq="notranslate">随机伤害皮肤箱</span>
 Aurora Damage Skin \(Unit\)==<img src="upload/attach/202106/2_9T32G8TPHQG5NYH.png"><span kdclassjsq="notranslate">极光伤害皮肤（单位）</span>
 Yeti x Yeti Damage Skin==<img src="upload/attach/202107/2_BTA6CJNDDZ6KYM6.png"><span kdclassjsq="notranslate">白雪人伤害皮肤</span>
+Lara Damage Skin==<span kdclassjsq="notranslate"><img src="upload/attach/202110/2_HDCAVTJCXXYNXB7.png">拉拉伤害皮肤</span>
 Damage Skins?==伤害皮肤
 
 
