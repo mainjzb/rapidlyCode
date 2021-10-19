@@ -1,0 +1,13 @@
+// 普通替换句，开头结尾自带\b
+//
+example==样例
+
+
+@regular{ examples?==样例 }
+
+@regular{
+
+}
+
+//导入其他文件
+@import""

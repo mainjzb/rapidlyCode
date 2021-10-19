@@ -171,4 +171,10 @@ Neo Gems?==<img src="upload/attach/202106/2_9BCY7T7ARWF28JJ.png"><span kdclassjs
 Neo Cores?==<img src="upload/attach/202106/2_XA9UZUB78HYPFFT.png"><span kdclassjsq="notranslate">Neo核心</span>
 
 Goos?==史莱姆
-Lara Coins?==拉拉币
+BUGCAT CAPOO==猫猫虫咖波
+CAPOO's Heart==咖波之心
+CAPOO’s Heart==咖波之心
+bugcat==猫猫虫
+CAPOO==咖波
+capoo==咖波
+Night Troupe==暗夜马戏团

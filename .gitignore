@@ -2,8 +2,14 @@
 /Code/RapidlyCode/Solution/
 /bin/RapidlyCode_*
 .idea/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 218575f4bf905770cb9a4b7bf91c9d051fee2df2
 !GLCSM.html
 !New_GLCSM.html
 !cn2en.html
 !/bin/RapidlyCode_Debug.exe
 !Tools/*.*
+
+
