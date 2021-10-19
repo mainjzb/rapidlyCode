@@ -33,7 +33,7 @@
 @import "./rule_NPC.md"
 @import "./rule_equipment.md"
 @import "./rule_other.md"
-@import "./rule_skill.md"
+
 
 # 规则
 	#  '#'和'-'开头是注释,会被急速代码忽视
@@ -604,7 +604,7 @@ Maple Guides?==冒险向导
 advancement prerequisites?==前置任务
 party quests?==组队任务
 V Matrix==V矩阵
-Double Jump==二段跳
+# Double Jump==二段跳
 Receive 50% off==享受五折
 50% off==五折
 Elite monsters?==精英怪
@@ -807,6 +807,8 @@ Mercedes==双弩
 Mechanic\b==机械师
 Hoyoung==虎影
 HOYOUNG==虎影
+
+@import "./rule_skill.md"
 
 
 # 倾向
