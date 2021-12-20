@@ -1,0 +1,42 @@
+this is a long test text, we need teach the text replace.
+
+rule: 
+     long -> best
+     long test -> best
+
+middle:
+     long -> best [11,15]
+     long test -> best [11,20]
+
+result: 
+     select "long test -> [11,20]"
+     this is a best text, we need teach the text replace.
+
+
+
+## operation
+
+* replace 
+* add
+* del
+
+## layers
+* first layer: html->markdown
+* second layer: fix content (“->")
+* cover the conetnt 
+
+
+
+## how to muti replace
+
+### For example:
+
+this is a long "test" text, we need teach the text replace.
+
+rule: 
+     “ -> "
+     "test" -> content
+
+
+middle: 
+     long ->"test"

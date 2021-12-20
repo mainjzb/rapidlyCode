@@ -28,9 +28,10 @@ Mysterious Trait Boost Potion Box==神秘的倾向药水礼盒
 Great Bebe Box==<span kdclassjsq="XMtooltip">高级贝贝补偿盒<span kdclassjsq="XMtooltiptext"><img src="https://i.loli.net/2020/05/24/vhKQWje8znZqytx.png"/></span></span>
 Mysterious Meso Pouch==<img src="upload/attach/202103/2_YAGS2KGAYGYBA4J.png">神秘钱袋
 Special Bebe Box==<img src="upload/attach/202007/2_CM4SR5MJ6KH29PJ.png">特殊贝贝补偿盒
-Extreme Growth Potion==<img src="upload/attach/202006/2_3T9PR7WG9699XCM.png">随机升级药水
 Deia's G-Potion==工会药水
 Mysterious Nodestone Box==<img src="upload/attach/202011/2_VYZTBB6TYKFJZGT.png">神秘的核心礼盒
+Mitra's Nodestone Box==<img src="upload/attach/202111/2_Q49YQHE8KHDTUS6.png">米特拉的核心礼盒
+Mitra's Gift Box==<img src="upload/attach/202111/2_737X9SKPMRXF7NQ.png">米特拉的礼盒
 Experience Nodestone==<img src="upload/attach/202011/2_EQDXHM4G5NXS4MV.png">经验核心
 Nodestone x(\d{1,2}) Package==<img src="upload/attach/202012/2_2K8DV9T2KUZ6KK5.png">核心x\1礼包
 Nodestone==<img src="upload/attach/202011/2_HZNZKFYT4MKPX59.png">核心
@@ -197,13 +198,17 @@ Grand Spell Essence==<span kdclassjsq="notranslate"><img src="upload/attach/2021
 
 ## 经验卡
 Lulu's EXP Box==露露的经验盒
-Mitra's 2x EXP Coupon Box==<span kdclassjsq="notranslate"><img src="upload/attach/202110/2_T836P7C8UUQBKGZ.png">米特拉的双倍经验礼包</span>
+Mitra's 2x EXP Coupon Box==<span kdclassjsq="notranslate"><img src="upload/attach/202110/2_T836P7C8UUQBKGZ.png">米特拉的经验卡礼包</span>
+Mitra's EXP Coupon Bo==<span kdclassjsq="notranslate"><img src="upload/attach/202110/2_T836P7C8UUQBKGZ.png">米特拉的经验卡礼包</span>
 EXP Coupon Box==<img src="upload/attach/202106/2_88K2VEWTHZH9YSP.png"><span kdclassjsq="notranslate">经验卡礼盒</span>
 MVP Plus EXP Buff==MVP个人经验卡
 MVP Silver EXP Atmospheric Effect==MVP白银全体经验卡
 2(x|X) (Exp|EXP) Coupon==<img src="upload/attach/202007/2_XNUQ9B3FYJK33AR.png">双倍经验卡
 
 Growth Potion Selection Coupon==<img src="upload/attach/202110/2_7DNW65CWRJKB7NM.png">升级药水选择券
+Growth Potion Selector Coupon==<img src="upload/attach/202110/2_7DNW65CWRJKB7NM.png">升级药水选择券
 Typhoon Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">台风升级药水
 (Mysterious )?Storm Growth Potion==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">风暴升级药水
+Extreme Growth Potion==<img src="upload/attach/202006/2_3T9PR7WG9699XCM.png">随机升级药水
+Magnificent Growth Potion==<img src="upload/attach/202006/2_3T9PR7WG9699XCM.png">伟大的升级药水
 Growth Potion \(==<img src="upload/attach/202012/2_6EHDRDQJBRDHQ76.png">升级药水(

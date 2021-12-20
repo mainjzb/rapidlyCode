@@ -137,7 +137,7 @@ Party Point Merchant==组队积分商店
 Partem Ruins==帕坦遗址
 Immortal Gorgons==不朽的美杜莎
 Tenebris==泰涅布里斯(789岛)
-Vanishing Journey==消失的旅途(1岛)
+Vanishing Journey==<span kdclassjsq="notranslate">消失的旅途(1岛)</span>
 Hungry Muto==饥饿的莫托(岛二每日)
 Dream Defender==梦都防御战(岛三每日)
 Arcane River==奥术河
@@ -152,8 +152,9 @@ Morass==莫拉斯(5岛)
 Esfera==埃斯佩拉(6岛)
 Sellas==塞拉斯(6.5岛)
 Crimsonheart Castle==狮子王城堡
-Monster Park REBORN Coupon==怪物公园优惠券
-Monster Park==怪物公园
+Monster Park REBORN Coupon==<span kdclassjsq="notranslate">怪物公园优惠券</span>
+Monster Park's==<span kdclassjsq="notranslate">怪物公园的</span>
+Monster Park==<span kdclassjsq="notranslate">怪物公园</span>
 Ghost Park==鬼魂公园
 Pollo/Fritto==保罗/普利托
 Pollo and Fritto Entry Ticket==<img src="upload/attach/202006/2_TBX3AAR2V5DTWH6.png">保罗和普利托入场卷
@@ -300,8 +301,42 @@ Darkness==黑暗使者
 \bWonky\b==妖精温莉
 \bMoonbeam\b==阿琅
 
-# 宠物
+# BOSS
+Root Abyss Set Box==鲁比塔斯装备套装礼盒
+Root Abyss==鲁比塔斯
+Hard Lotus==困难级斯乌
+Hard Damien==困难级戴安米
+Hard Lotus's==困难级斯乌的
+Hard Will's==困难级威尔的
+Hard Will==困难级威尔
+Crimson Queen==血腥女皇
+Akechi Mitsuhide==明智光秀
+Von Bon==半半
+Normal Pink Bean==普通品克缤
+Pink Bean==品克缤
+Von Leon==狮子王
+Normal Cygnus==普通希纳斯女皇
+Easy Cygnus==简单希纳斯女皇
+Cygnus==希纳斯女皇
+Easy Zakum==简单扎昆
+Normal Zakum==普通扎昆
+Easy Horntail==简单暗黑龙王
+Normal Horntail==普通暗黑龙王
+Chaos Horntail==进阶暗黑龙王
+Easy Papulatus==简单闹钟
+Normal Papulatus==普通闹钟
+Papulatus Mark==闹钟脸饰
+Papulatus==闹钟
+Crimson Balrog==蝙蝠魔
+Verus Hillaroid==真神希腊机器人
+Verus Hilla==真神希拉
+Necro Orchid==死灵奥尔卡
+Necro Lotus==死灵斯乌
+Princess No==浓姬
+Chosen Seren==赛轮
+Guardian Angel Slime==守护天使绿水灵
 
+# 宠物
 Expanded Auto Move Skill==扩展移动技能
 Auto Move Skill==自动移动技能
 Auto Feed and Movement Skill==自动喂食和移动技能
@@ -346,7 +381,8 @@ Android Hearts?==机器人心脏
 Inkwell Coin==财富币
 Manji Coin==一千万财富币
 Gaga Coin==一亿财富币
-Chaos Circulator==<img src="upload/attach/202011/2_5ZHAEDQPXWCKZCZ.png">黑色内在还原器
+Chaos Circulator==<span kdclassjsq="notranslate"><img src="upload/attach/202011/2_5ZHAEDQPXWCKZCZ.png">黑色内在还原器</span>
+Black Circulator==<span kdclassjsq="notranslate"><img src="upload/attach/202111/2_P7HB7JNA5XDU92P.png">黑星内在还原器</span>
 Legendary Circulator==<img src="upload/attach/202106/2_VJZW7NFDN3XSUGC.png">绿色内在还原器
 Miracle Circulators?==<img src="upload/attach/202011/2_VUPDS65J7F8GF3U.png">内在还原器
 Perfect Potential Stamps?==完美潜能印章
@@ -483,7 +519,7 @@ Epic Potential Scroll==A潜能卷
 Legendary Potential Scrolls?==ss潜能卷轴
 Epic Potential==A潜能
 Buff Freezer==Buff保留符
-Safety Charm==死亡保护符
+Safety Charm==<img src="upload/attach/202111/2_5YQKXMEW2AXXB3W.png">死亡保护符
 Safety Gem==无限*死亡保护符
 Weapon DEF/Magic DEF ==防御力
 Bonus Stats==火花属性
@@ -607,7 +643,7 @@ Infinite Pawsibilites==无限可能
 the Multikill counter==多连杀
 Combo Kill counters?==连续击杀
 Maple Guide stamps==冒险向导的盖章
-Maple Guides?==冒险向导Maple Guides?==<span kdclassjsq="notranslate">冒险向导</span>
+Maple Guides?==<span kdclassjsq="notranslate">冒险向导</span>
 advancement prerequisites?==前置任务
 party quests?==组队任务
 V Matrix==V矩阵
@@ -644,6 +680,7 @@ Arcane Symbol Selector Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.
 Arcane Symbol Selection Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
 Labyrinth Arcane Symbol Box==<img src="upload/attach/202106/2_4GQN87X3EPV7BF9.png">奥术球礼盒
 Arcane Symbol==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球
+Sacred Symbol Selector Coupon==<img src="upload/attach/202111/2_RZYBQYXWVBGH4QS.png">原初徽章选择卡
 Selector Coupon==选择卡
 Stage (\d)==\1阶
 Combo Kill Orbs==连续击杀经验球
@@ -785,8 +822,8 @@ Knights?==骑士
 Bowman==弓箭手
 Bowmen==弓箭手
 \bArk\b==影魂异人
-Aran==战神
-Alan==战神
+Aran\b==战神
+Alan\b==战神
 Heroes==英雄们
 Hero==英雄
 Bishop==主教
@@ -816,8 +853,9 @@ Mercedes==双弩
 Mechanic\b==机械师
 Hoyoung==虎影
 HOYOUNG==虎影
+Kain\b==卡因
 
-@import "./rule_skill.md"
+#@import "./rule_skill.md"
 
 
 # 倾向
@@ -849,7 +887,7 @@ MaxHP==HP
 Weapon Attack==攻击力
 Ignore Defense==无视防御
 Enemy Defense Ignored==无视防御
-Defense==防御力
+Defense\b==防御力
 Attack Speed==攻速
 Set Effects==套装属性
 (\d) Set Effect==\1件套属性
@@ -889,7 +927,7 @@ DEF==防御力
 	Katana==武士刀
 	Fan\s==扇子
 	Scepter==驯兽魔法棒
-	Spear==枪
+	Spear\b==枪
 	Polearm==矛
 	Ellaha==机甲手枪
 	Katara==副刀
@@ -911,7 +949,7 @@ DEF==防御力
 	Frozen==寒冰
 	Absolab==埃苏莱布斯
 	AbsoLab==埃苏莱布斯
-	Bow==弓
+	\bBow\b==弓
 	Crossbow==弩
 	Chain==锁链
 	\bGun\b==短枪
@@ -925,39 +963,7 @@ DEF==防御力
 # temple
 Empress's Gift==女皇的礼物
 
-# BOSS
-Root Abyss Set Box==鲁比塔斯装备套装礼盒
-Root Abyss==鲁比塔斯
-Hard Lotus==困难级斯乌
-Hard Damien==困难级戴安米
-Hard Lotus's==困难级斯乌的
-Hard Will's==困难级威尔的
-Hard Will==困难级威尔
-Crimson Queen==血腥女皇
-Akechi Mitsuhide==明智光秀
-Von Bon==半半
-Normal Pink Bean==普通品克缤
-Pink Bean==品克缤
-Von Leon==狮子王
-Normal Cygnus==普通希纳斯女皇
-Easy Cygnus==简单希纳斯女皇
-Cygnus==希纳斯女皇
-Easy Zakum==简单扎昆
-Normal Zakum==普通扎昆
-Easy Horntail==简单暗黑龙王
-Normal Horntail==普通暗黑龙王
-Chaos Horntail==进阶暗黑龙王
-Easy Papulatus==简单闹钟
-Normal Papulatus==普通闹钟
-Papulatus Mark==闹钟脸饰
-Papulatus==闹钟
-Crimson Balrog==蝙蝠魔
-Verus Hillaroid==真神希腊机器人
-Verus Hilla==真神希拉
-Necro Orchid==死灵奥尔卡
-Necro Lotus==死灵斯乌
-Princess No==浓姬
-Chosen Seren==赛轮
+# Boss2
 
 \(Normal, Chaos\)==(普通，困难)
 \(Normal, Hard\)==(普通，困难)
@@ -1071,7 +1077,7 @@ Flashy==华丽的
 Hearty==旺盛的
 Potent\s==强效的
 Radiant==闪耀的
-Soul==灵魂
+Soul\b==灵魂
 Items==物品
 Afinas?==阿维纳斯
 Bebe==贝贝

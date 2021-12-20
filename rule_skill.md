@@ -123,7 +123,7 @@ True Spirit Claw==真*鬼斩
 Dragon Slash==剑龙连斩
 
 ##　伊利恩
-Reaction==即刻反应
+Reaction\b==即刻反应
 
 ## Boss技能
 Solar Crest==<img src="upload/attach/202107/2_CSH8APD74XDZ8S8.png"><span kdclassjsq="notranslate">阳光烈焰</span>

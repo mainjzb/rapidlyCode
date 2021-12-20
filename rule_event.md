@@ -9,9 +9,9 @@ Burning Leap Zone==斗燃转移空间
 Tera Burning characters?==泰斗燃角色
 Burning characters?==斗燃角色
 Tera Burning Project characters?==泰斗燃的角色
-Tera Burning==泰斗燃
-Tera Burned==泰斗燃
-Tera Burn==泰斗燃
+Tera Burning==<span kdclassjsq="notranslate">泰斗燃</span>
+Tera Burned==<span kdclassjsq="notranslate">泰斗燃</span>
+Tera Burn==<span kdclassjsq="notranslate">泰斗燃</span>
 (FIREPOWER )?Mega Burning==斗燃
 "Burning" effect=="斗燃"效果
 

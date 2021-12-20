@@ -909,7 +909,7 @@ DEF==防御力
 	Frozen==寒冰
 	Absolab==埃苏莱布斯
 	AbsoLab==埃苏莱布斯
-	Bow==弓
+	\bBow\W==弓
 	Crossbow==弩
 	Chain==锁链
 	\bGun\b==短枪
@@ -1069,7 +1069,7 @@ Flashy==华丽的
 Hearty==旺盛的
 Potent\s==强效的
 Radiant==闪耀的
-Soul==灵魂
+Soul\W==灵魂
 Items==物品
 Afinas?==阿维纳斯
 Bebe==贝贝
