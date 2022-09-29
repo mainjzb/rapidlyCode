@@ -178,3 +178,13 @@ bugcat==猫猫虫
 CAPOO==咖波
 capoo==咖波
 Night Troupe==暗夜马戏团
+
+# v232 Blooming 
+Blooming Personal Coins?==<span kdclassjsq="notranslate">私人绽放币</span>
+Blooming Communal Coins?==<span kdclassjsq="notranslate">公共绽放币</span>
+Blooming Coins?==绽放币
+Wish Coins?==许愿币
+Blooming Race==<span kdclassjsq="notranslate">绽放竞速</span>
+
+Blooming Forest==绽放之森
+Blooming==绽放

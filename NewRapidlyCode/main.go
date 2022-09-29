@@ -12,9 +12,9 @@ import (
 	"strings"
 )
 
-func main() {
-	compareHash()
-}
+// func main() {
+// 	//compareHash()
+// }
 
 func compareHash() {
 	// todo:遍历所有文件名字
@@ -70,7 +70,6 @@ func ReadFileHash() map[string]string {
 	if errors.Is(err, os.ErrNotExist) {
 		return make(map[string]string)
 	}
-
 	if err != nil {
 		log.Fatal(errors.Is(err, os.ErrNotExist))
 	}

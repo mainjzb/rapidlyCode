@@ -18,6 +18,7 @@ Holy Pink Beanity==神圣的品克缤
 Master Exorcist==驱魔大师
 Veteran Exorcist==驱魔长者
 Junior Exorcist==驱魔新手
+
 #
 Boss Accessory Random Box==BOSS饰品随机箱
 Lionheart Armor Box==狮心防具盒
@@ -202,15 +203,17 @@ Synergy Ring Cube==集合戒指魔方
 Arcane Umbra equipment==神秘之影装备
 Sweetwater weapons==旋涡武器
 Silver Blossom Ring==<img src="upload/attach/202106/2_X7JT659TRBDV5WJ.png">银花戒指
-Reboot Tenebris Expedition Ring==<img src="upload/attach/202106/2_27FAHXEFA2Z367E.png">泰涅布里斯远征戒指
-Tenebris Enhancement Scroll==<img src="upload/attach/202106/2_SEXUPP6XSM842JR.png">泰涅布里斯戒指强化券
-Awake Ring Enhancement Scroll==<img src="upload/attach/202106/2_HT43KZFFKTSTYEW.png">觉醒戒指增强卷
-Reboot Awake Ring==<img src="upload/attach/202106/2_8FDSF343K79QJ77.png">觉醒戒指
-Tenebris Expedition Ring==<img src="upload/attach/202106/2_27FAHXEFA2Z367E.png">泰涅布里斯远征戒指
-Glory Guard Ring: Justicar==<img src="upload/attach/202106/2_6E757UANAJZ85AD.png">荣耀守卫戒指：圣裁者
+Awake Ring Exclusive Enhancement Scroll==<img src="upload/attach/202106/2_HT43KZFFKTSTYEW.png"><span kdclassjsq="notranslate">觉醒戒指增强卷</span>
+Awake Ring Enhancement Scroll==<img src="upload/attach/202106/2_HT43KZFFKTSTYEW.png"><span kdclassjsq="notranslate">觉醒戒指增强卷</span>
+Reboot Awake Ring==<img src="upload/attach/202106/2_8FDSF343K79QJ77.png"><span kdclassjsq="notranslate">觉醒戒指</span>
 Awake Ring==<img src="upload/attach/202106/2_8FDSF343K79QJ77.png">觉醒戒指
+Tenebris Enhancement Scroll==<img src="upload/attach/202106/2_SEXUPP6XSM842JR.png"><span kdclassjsq="notranslate">泰涅布里斯戒指强化券</span>
+Tenebris Expedition Ring Enhancement Scroll==<img src="upload/attach/202106/2_SEXUPP6XSM842JR.png"><span kdclassjsq="notranslate">泰涅布里斯戒指强化券</span>
+Reboot Tenebris Expedition Ring==<img src="upload/attach/202106/2_27FAHXEFA2Z367E.png"><span kdclassjsq="notranslate">R区泰涅布里斯远征戒指</span>
+Tenebris Expedition Ring==<img src="upload/attach/202106/2_27FAHXEFA2Z367E.png"><span kdclassjsq="notranslate">泰涅布里斯远征戒指</span>
+Glory Guard Ring: Justicar==<img src="upload/attach/202106/2_6E757UANAJZ85AD.png"><span kdclassjsq="notranslate">荣耀守卫戒指：圣裁者</span>
 Glory Guard==荣耀守卫
-1-of-3 Event Ring Selector Coupon==<img src="upload/attach/202107/2_9C8ZNYDVUZ7TVMD.png">活动戒指选择卡
+1-of-3 Event Ring Selector Coupon==<img src="upload/attach/202112/985_SMASEYKRYCAAD5D.png">活动戒指选择卡
 Alicia's Ring Box==<span kdclassjsq="notranslate">阿丽莎戒指箱</span>
 ## 腰带
 Golden Clover Belt==<img src="upload/attach/202106/2_2DS5N347RUEA3QA.png">金色三叶草腰带
@@ -303,6 +306,8 @@ Leoroid Coupon==<img src="upload/attach/202107/2_D79SJ3VNYYVABSN.png"><span kdcl
 Event Android Selector Coupon==<img src="upload/attach/202107/2_9C8ZNYDVUZ7TVMD.png"><span kdclassjsq="notranslate">活动机器人选择卡</span>
 
 Pixel Damienroid==<span kdclassjsq="notranslate">像素戴安米机器人</sapn>
+Pixel Lucidroid==<span kdclassjsq="notranslate">像素路西德机器人</sapn>
+
 Lucidroid==<span kdclassjsq="notranslate">路西德机器人</sapn>
 Pixel Aliciaroid==<img src="upload/attach/202106/2_3GWKXY4G3P6EZAS.png"><span kdclassjsq="notranslate">像素阿丽莎机器人</sapn>
 Aliciaroid==<span kdclassjsq="notranslate">阿丽莎机器人</sapn>
@@ -317,6 +322,7 @@ Manjiroid\b==<span kdclassjsq="notranslate">麦吉机器人</sapn>
 Sugaroid\b==<img src="upload/attach/202106/2_DQ9KXHCJZ45M9VH.png"><span kdclassjsq="notranslate">糖果机器人</sapn>
 Reneeroid\b==<img src="upload/attach/202106/2_YFTTK4F89X5NN8W.png"><span kdclassjsq="notranslate">蕾妮机器人</sapn>
 Leoroid\b==<img src="upload/attach/202106/2_VXYPK8RJVACAJFA.png"><span kdclassjsq="notranslate">蕾奥机器人</sapn>
+Neinheartroid\b==<span kdclassjsq="notranslate">南哈特机器人</sapn>
 Wondroids==拟真机器人
 Aster-oid==拟真机器人阿丝塔
 Rhearoid==拟真机器人瑞娅
@@ -340,3 +346,20 @@ Frenzy Totem==轮回图腾
 Wild Totem==<span kdclassjsq="notranslate"><img src="upload/attach/202106/2_WE4AZSF8BTRFRFV.png">蓝色轮回</span>
 Wild Totem Coupon==<img src="upload/attach/202106/2_WE4AZSF8BTRFRFV.png"><span kdclassjsq="notranslate">蓝色轮回</span>
 
+## 卷轴
+Event Ring Legendary Potential Scroll==<img src="upload/attach/202112/985_ASRQTCDRNV9UKDA.png">活动戒指专用传奇潜能卷轴
+Potential Scroll for Purple Soul Rings==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">紫色灵魂戒指专用潜能卷轴</span>
+Potential Scroll for Blue Soul Rings==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">蓝色灵魂戒指专用潜能卷轴</span>
+Pure Clean Slate Scroll==<img src="upload/attach/202106/2_SVFGVWEMMZFC4J8.png"><span kdclassjsq="notranslate">纯白卷轴</span>
+Innocent  Scroll==<img src="upload/attach/202106/2_SVFGVWEMMZFC4J8.png"><span kdclassjsq="notranslate">纯白卷轴</span>
+Clean Slate Scroll==白衣卷轴
+Special Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">特殊潜能卷轴</span>
+Special Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
+Epic Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
+Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
+Bonus Epic Potential Scroll==<img src="upload/attach/202106/2_789PV3P8QA4T796.png"><span kdclassjsq="notranslate">附加A级潜能卷轴</span>
+Epic Potential Scroll==<img src="upload/attach/202011/2_AQZ6TNTQG63YVQH.png"><span kdclassjsq="notranslate">紫色潜能卷</span>
+Advanced Potential Scroll==蓝色潜能卷
+Karma Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><span kdclassjsq="notranslate">宿命黄色潜能卷</span>
+Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><span kdclassjsq="notranslate">黄色潜能卷</span>
+Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">潜能卷轴</span>

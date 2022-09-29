@@ -38,21 +38,6 @@ Nodestone==<img src="upload/attach/202011/2_HZNZKFYT4MKPX59.png">核心
 Mysterious Medal of Honor Box==<img src="upload/attach/202011/2_BWMK4CVQKXKTA4M.png">神秘荣誉勋章盒子
 Production Soul Enchanter==蓝色灵魂附魔石
 Soul Enchanter==灵魂附魔石
-Potential Scroll for Purple Soul Rings==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">紫色灵魂戒指专用潜能卷轴</span>
-Potential Scroll for Blue Soul Rings==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">蓝色灵魂戒指专用潜能卷轴</span>
-Pure Clean Slate Scroll==<img src="upload/attach/202106/2_SVFGVWEMMZFC4J8.png"><span kdclassjsq="notranslate">纯白卷轴</span>
-Innocent  Scroll==<img src="upload/attach/202106/2_SVFGVWEMMZFC4J8.png"><span kdclassjsq="notranslate">纯白卷轴</span>
-Clean Slate Scroll==白衣卷轴
-Special Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">特殊潜能卷轴</span>
-Special Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
-Epic Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
-Bonus Potential Scroll==<img src="upload/attach/202011/2_XYTXMAGVWVBW63X.png"><span kdclassjsq="notranslate">附加潜能卷轴</span>
-Bonus Epic Potential Scroll==<img src="upload/attach/202106/2_789PV3P8QA4T796.png"><span kdclassjsq="notranslate">附加A级潜能卷轴</span>
-Epic Potential Scroll==<img src="upload/attach/202011/2_AQZ6TNTQG63YVQH.png"><span kdclassjsq="notranslate">紫色潜能卷</span>
-Advanced Potential Scroll==蓝色潜能卷
-Karma Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><span kdclassjsq="notranslate">宿命黄色潜能卷</span>
-Unique Potential Scroll==<img src="upload/attach/202007/2_5JUV558VGM8MN95.png"><span kdclassjsq="notranslate">黄色潜能卷</span>
-Potential Scroll==<img src="upload/attach/202103/2_MXEKXJC5567AW4Q.png"><span kdclassjsq="notranslate">潜能卷轴</span>
 Return Scroll - Nearest Town==回城卷轴
 Return Scrolls?==回城卷轴
 Character Expansion Slot Coupon==<img src="upload/attach/202011/2_7MMVBHT2ZNYZXEB.png"><span kdclassjsq="notranslate">角色位扩展卡</span>
@@ -68,12 +53,18 @@ Pet Naming Coupon==<img src="upload/attach/202103/2_9F6HM5CNPHGWX2C.png">宠物�
 Shared Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品x\1券
 Premium Pet Food x(\d{1,3}) Coupon==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品x\1券
 Pet Food==<img src="upload/attach/202103/2_VJRSKXKDG7Q5V3A.png">宠物食品
-40 Slot Chair Bag==<img src="upload/attach/202103/2_YRDQ6RAR4853HGB.png"><span kdclassjsq="notranslate">40槽椅子包</span>
-40 Slot Soul Bag==<img src="upload/attach/202103/2_NDQ33K95FFNCGQX.png"><span kdclassjsq="notranslate">40槽灵魂包</span>
 Magnificent Darknell Soul==<img src="upload/attach/202106/2_QZAKDD4DZTWMQN8.png"><span kdclassjsq="notranslate">伟大的黑暗尼尔灵魂</span>
 Magnificent Verus Hilla Soul==<img src="upload/attach/202106/2_CU6ACMCE4T658J8.png"><span kdclassjsq="notranslate">伟大的真神希拉灵魂</span>
 Double Legendary Arcane Umbra Weapon Box==<img src="upload/attach/202106/2_NAMR6QM8C4M5JB8.png"><span kdclassjsq="notranslate">传说的神秘之影武器盒</span>
 Reboot Legendary Arcane Umbra Weapon Box==<img src="upload/attach/202106/2_NAMR6QM8C4M5JB8.png"><span kdclassjsq="notranslate">传说的神秘之影武器盒</span>
+
+### 包
+40 Slot Chair Bag==<img src="upload/attach/202103/2_YRDQ6RAR4853HGB.png"><span kdclassjsq="notranslate">40槽椅子包</span>
+40 Slot Soul Bag==<img src="upload/attach/202103/2_NDQ33K95FFNCGQX.png"><span kdclassjsq="notranslate">40槽灵魂包</span>
+8 Slot Recipe Bag==<img src="upload/attach/202207/2_DSBUNX223D7PNRK.png"><span kdclassjsq="notranslate">8槽配方包</span>
+8 Slot Production Bag==<img src="upload/attach/202207/2_2F3475WDH4QZS3N.png"><span kdclassjsq="notranslate">8槽制作包</span>
+20-Slot Scroll Bag==<img src="upload/attach/202207/2_CQVPZWSZ4K34ZY4.png"><span kdclassjsq="notranslate">20槽卷轴包</span>
+
 ### 荣誉
 (Special)? Medal of Honor x(\d{1,2}) Package==<img src="upload/attach/202012/2_P5NWDF5MUPSSNJZ.png"><span kdclassjsq="notranslate">荣誉勋章\2礼包</span>
 Mysterious Special Medal of Honor Box==<img src="upload/attach/202106/2_YEPTYVNMKSTWGSR.png"><span kdclassjsq="notranslate">神秘特殊荣誉勋章礼盒</span>

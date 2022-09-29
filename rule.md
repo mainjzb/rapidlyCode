@@ -335,6 +335,9 @@ Necro Lotus==死灵斯乌
 Princess No==浓姬
 Chosen Seren==赛轮
 Guardian Angel Slime==守护天使绿水灵
+Dorothy==桃乐丝
+Seren==塞伦
+Dyle==迪莱
 
 # 宠物
 Expanded Auto Move Skill==扩展移动技能
@@ -426,8 +429,9 @@ Equip Tab (\d) Slot Coupon==背包装备栏\1格扩展卷
 Use Tab (\d) Slot Coupon==背包消耗栏\1格扩展卷
 Set-Up Tab (\d) Slot Coupon==背包点装栏\1格扩展卷
 Etc Tab (\d) Slot Coupon==背包其他栏\1格扩展卷
-Storage Room (\d)-Slot Coupon==仓库\1格扩展券
+Storage Room (\d)-Slot Coupon==<img src="upload/attach/202204/2_DDN9EM9VVZFWWVS.png">仓库\1格扩展券
 Selective 8 Slot Coupon==<img src="upload/attach/202006/2_YQAYC6GSBYKKQ5J.png"><span kdclassjsq="notranslate">可选择8格扩展卷</span>
+Selective 8-Slot Coupon==<img src="upload/attach/202006/2_YQAYC6GSBYKKQ5J.png"><span kdclassjsq="notranslate">可选择8格扩展卷</span>
 Selective (\d) Slot Coupon==可选择\1格扩展卷
 Selective (\d)-Slot Coupon==可选择\1格扩展卷
 Selective (\d)-Slot==可选择\1格扩展
@@ -675,12 +679,14 @@ Party Quest Expert==组队任务专家
 Party Quest==组队任务
 Party Points==组队积分
 Bonus EXP==额外经验
+Sacred Symbol Selector (x\d )?Coupon==<img src="upload/attach/202204/2_M7FQVNQ76H3NKVQ.png">神圣符号选择券\1
 Mysterious Arcane Symbol Box==<img src="upload/attach/202106/2_4GQN87X3EPV7BF9.png">神秘的奥术球礼盒
-Arcane Symbol Selector Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
-Arcane Symbol Selection Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球选择卡
+Arcane Symbol Selector Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png"><span kdclassjsq="notranslate">奥术球选择卡</span>
+Arcane Symbol Selection Coupon==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png"><span kdclassjsq="notranslate">奥术球选择卡</span>
 Labyrinth Arcane Symbol Box==<img src="upload/attach/202106/2_4GQN87X3EPV7BF9.png">奥术球礼盒
 Arcane Symbol==<img src="upload/attach/202006/2_Z254HG9DKYR9A3H.png">奥术球
-Sacred Symbol Selector Coupon==<img src="upload/attach/202111/2_RZYBQYXWVBGH4QS.png">原初徽章选择卡
+Sacred Symbol Selector Coupon==<img src="upload/attach/202111/2_RZYBQYXWVBGH4QS.png"><span kdclassjsq="notranslate">原初徽章选择卡
+Symbol Selector Coupon==<img src="upload/attach/202207/2_XTFPBEJSQN4P9WE.png"><span kdclassjsq="notranslate">符号选择卡</span>
 Selector Coupon==选择卡
 Stage (\d)==\1阶
 Combo Kill Orbs==连续击杀经验球
@@ -707,6 +713,9 @@ Fairy Bros==FB每日
 primary stat==<span kdclassjsq="notranslate">主属性</span>
 master level==最高等级
 party defeated==组队击败
+Knockback Resistance==稳如泰山
+Slot Expansion Coupon==<img src="upload/attach/202208/2_XN8TKHTFQXEQ5JW.png">背包扩展卡
+
 
 # 语法
 
