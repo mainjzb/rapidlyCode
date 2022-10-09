@@ -11,7 +11,7 @@ var Words = map[string]Word{
 	"major":    {Type: Noun | Adj | Verb},
 	"system":   {Type: Noun},
 	"changes":  {Type: Verb | Noun},
-	"arriving": {Type: Verb},
+	"arriving": {Type: Verb}, // 需要现在分词
 	"this":     {Type: Pron},
 }
 

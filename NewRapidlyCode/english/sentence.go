@@ -58,11 +58,11 @@ func Segment(sentence string) []WordType {
 	if ok {
 		words[0] = firstWord
 	}
-
 	types := make([]WordType, len(words))
 
 	for i := 0; i < len(words); i++ {
 		types[i].Word = words[i]
+		types[i].Suppose = Words[words[i]].Type
 		if IsOneType(Words[words[i]]) {
 			types[i].Real = Words[words[i]].Type
 		}

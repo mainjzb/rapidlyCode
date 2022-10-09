@@ -4,7 +4,7 @@ package english
 type PoS int
 
 const (
-	Unknow  PoS = 0
+	Unknown PoS = 0
 	Noun    PoS = 1 << iota // 名词
 	Verb                    // 动词
 	Adj                     // 形容词
@@ -13,7 +13,8 @@ const (
 	Conj                    // 连词
 	AuxVerb                 // 助动词
 	Pron                    // 代名词
-	Ad      = Adj | Adv
+
+	Ad = Adj | Adv
 )
 
 type Word struct {
