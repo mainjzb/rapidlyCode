@@ -49,7 +49,7 @@ type WordType struct {
 
 func Segment(sentence string) []WordType {
 	// New events and major system changes are arriving this update!
-
+	sentence = strings.TrimRight(sentence, ".!?")
 	words := strings.Split(sentence, " ")
 
 	// 判断首个单词是否应该为小写
@@ -60,13 +60,57 @@ func Segment(sentence string) []WordType {
 	}
 	types := make([]WordType, len(words))
 
+	RealNum := 0
 	for i := 0; i < len(words); i++ {
 		types[i].Word = words[i]
 		types[i].Suppose = Words[words[i]].Type
 		if IsOneType(Words[words[i]]) {
 			types[i].Real = Words[words[i]].Type
+			RealNum++
+			if types[i].Real == Pron && i+1 < len(words) && IsNoun(Words[words[i+1]].Type) {
+				types[i+1].Word = words[i+1]
+				types[i+1].Real = Noun
+				i++
+				RealNum++
+			}
+			continue
 		}
 	}
 
+	startNode := &Node{Type: "^"}
+	prev := startNode
+	for i := 0; i < len(types); {
+		node := &Node{prev: prev}
+		prev.next = node
+		if types[i].Real == Unknown {
+			list := make([]WordType, 0)
+			list = append(list, types[i])
+			nextType := types[i]
+			for j := 0; i+j < len(types); j++ {
+				t := types[i+j].Real
+				if t == Conj || t == AuxVerb {
+					nextType = types[i+j]
+					break
+				}
+				list = append(list, types[i+j])
+			}
+			judge(prev, list, nextType)
+		}
+	}
+
+	// node := &Node{}
+	// // 识别率大于60 开始判断句型
+	// if float64(RealNum)/float64(len(words)) > 0.6 {
+	// 	for i := 0; i < len(types); i++ {
+	// 		if i == 0 && IsOnlyCompoundNoun(types[i].Suppose) {
+	// 			node.
+	// 		}
+	// 	}
+	// }
+
 	return types
+}
+
+func judge(pre *Node, list []WordType, next WordType) {
+
 }
