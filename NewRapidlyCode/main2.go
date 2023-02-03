@@ -8,13 +8,45 @@ import (
 
 	"RapidlyCode/rule"
 	"github.com/PuerkitoBio/goquery"
+	"github.com/dghubble/trie"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/html"
 )
 
 var r *rule.Rule
 
+func test() {
+	t := trie.NewPathTrie()
+	t.Put("cat one", 0)
+	t.Put("cat two", 2)
+	fmt.Println(t)
+}
+
 func main() {
+	t := trie.NewPathTrieWithConfig(&trie.PathTrieConfig{
+		Segmenter: func(path string, start int) (segment string, next int) {
+			if len(path) == 0 || start < 0 || start > len(path)-1 {
+				return "", -1
+			}
+			end := strings.IndexRune(path[start+1:], ' ') // next '/' after 0th rune
+			if end == -1 {
+				return path[start:], -1
+			}
+			return path[start : start+end+1], start + end + 2
+		},
+	})
+
+	t.Put("cat one", 0)
+	t.Put("cat two", 2)
+	v := t.Get("cat two")
+
+	walker := func(key string, value interface{}) error {
+		// if(key )
+		return nil
+	}
+	t.Walk(walker)
+	fmt.Println(v)
+
 	// read rule
 	r = rule.ReadRule("rulefile")
 	// rule, err := ReadRule("rule/rule.md")

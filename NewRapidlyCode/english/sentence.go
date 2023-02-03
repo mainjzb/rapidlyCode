@@ -79,22 +79,24 @@ func Segment(sentence string) []WordType {
 
 	startNode := &Node{Type: "^"}
 	prev := startNode
+	node := &Node{prev: prev}
+	prev.next = node
 	for i := 0; i < len(types); {
-		node := &Node{prev: prev}
-		prev.next = node
 		if types[i].Real == Unknown {
-			list := make([]WordType, 0)
-			list = append(list, types[i])
 			nextType := types[i]
-			for j := 0; i+j < len(types); j++ {
+
+			j := 1
+			for ; i+j < len(types); j++ {
 				t := types[i+j].Real
 				if t == Conj || t == AuxVerb {
 					nextType = types[i+j]
 					break
 				}
-				list = append(list, types[i+j])
 			}
-			judge(prev, list, nextType)
+			judge(prev, types[i:i+j], nextType)
+			i = i + j
+		} else {
+			i++
 		}
 	}
 
@@ -112,5 +114,11 @@ func Segment(sentence string) []WordType {
 }
 
 func judge(pre *Node, list []WordType, next WordType) {
-
+	if pre.Type == "^" && next.Real == Conj {
+		if len(list) == 2 && list[0].Real == Unknown &&
+			list[0].Suppose == Noun|Adj|Adv &&
+			list[1].Real == Noun {
+			list[0].Real = Adj
+		}
+	}
 }
