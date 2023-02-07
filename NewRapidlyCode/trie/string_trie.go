@@ -95,10 +95,10 @@ func (t *StringTrie) Delete(key string) bool {
 }
 
 func (t *StringTrie) Find(doc string) {
-	docNode := make([]DocNode, 0, 32)
-	for part, i := t.segmenter(doc, 0); part != ""; part, i = t.segmenter(doc, i) {
-		docNode = append(docNode, DocNode{Value: part, Index: i - 1 - len(part)})
-	}
+	// docNode := make([]DocNode, 0, 32)
+	// for part, i := t.segmenter(doc, 0); part != ""; part, i = t.segmenter(doc, i) {
+	// 	docNode = append(docNode, DocNode{Value: part, Index: i - 1 - len(part)})
+	// }
 
 }
 
