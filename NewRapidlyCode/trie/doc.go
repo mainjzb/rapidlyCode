@@ -13,6 +13,7 @@ package trie
 
 import (
 	"strings"
+	"unicode"
 	"unicode/utf8"
 )
 
@@ -26,6 +27,7 @@ const (
 
 type StreamNode struct {
 	Data       string
+	Appending  string //  跟随在单词后面的空格，在复原文本时有用
 	Type       StreamNodeType
 	Prev, Next *StreamNode
 }
@@ -43,39 +45,62 @@ func DocParse(content string) *StreamNode {
 			break
 		}
 		firstRune, size := utf8.DecodeRuneInString(content[left:])
-		if firstRune == '<' {
-			right = strings.IndexRune(content, '>') + 1
-			node := &StreamNode{
-				Data: content[:right],
-				Type: Tag,
-				Prev: prev,
-			}
-			prev.Next = node
-			prev = node
-		} else if firstRune == ' ' {
-			continue
-		} else if size == 1 && isPunctuation(byte(firstRune)) {
+		if size == 1 && firstRune == '<' {
+			right = strings.IndexRune(content[left:], '>') + left + 1
+			prev, right = AddStreamNode(content, left, right, prev, Tag)
+		} else if size == 1 && (isPunctuation(byte(firstRune)) || firstRune == '\'') {
 			right = left + 1
 			for isPunctuation(content[right]) {
 				right++
 			}
-			node := &StreamNode{
-				Data: content[left:right],
-				Type: Punctuation,
-				Prev: prev,
-			}
-			prev.Next = node
-			prev = node
+			prev, right = AddStreamNode(content, left, right, prev, Punctuation)
 		} else {
+			for i := left + 1; i <= len(content); i++ {
+				if (content[i] == '.' || content[i] == '\'') && i+1 < len(content) && isLetterOrNumber(content[i+1]) {
+					continue
+				}
 
+				if i == len(content) || isPunctuation(content[i]) || content[i] == ' ' || content[i] == '<' {
+					right = i
+					break
+				}
+			}
+			prev, right = AddStreamNode(content, left, right, prev, Word)
 		}
 		left = right
 	}
 	return root.Next
 }
 
+func AddStreamNode(content string, left int, right int, prev *StreamNode, t StreamNodeType) (*StreamNode, int) {
+	node := &StreamNode{
+		Data: content[left:right],
+		Type: t,
+		Prev: prev,
+	}
+
+	// find space to appending
+	for i := right; i < len(content); i++ {
+		if content[i] != ' ' {
+			right = i
+			break
+		}
+		node.Appending += string(content[i])
+	}
+
+	prev.Next = node
+	return node, right
+}
+
+func isLetterOrNumber(c byte) bool {
+	if unicode.IsLetter(rune(c)) || unicode.IsDigit(rune(c)) {
+		return true
+	}
+	return false
+}
+
 func isPunctuation(r byte) bool {
-	if r == '.' || r == '!' || r == ']' || r == '[' || r == '(' || r == ')' {
+	if r == '.' || r == ',' || r == '!' || r == ']' || r == '[' || r == '(' || r == ')' || r == '-' || r == ':' || r == '"' || r == '?' || r == '\'' {
 		return true
 	}
 	return false

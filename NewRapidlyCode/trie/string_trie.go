@@ -6,6 +6,11 @@ type StringTrie struct {
 	children  map[string]*StringTrie
 }
 
+type Info struct {
+	RawText       string // 一个单词，标点符号 等
+	RawTextAppend string // 跟随在单词后面的空格等，在复原文本时有用
+}
+
 // NewStringTrie allocates and returns a new *PathTrie.
 func NewStringTrie() *StringTrie {
 	return &StringTrie{
