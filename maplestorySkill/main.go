@@ -5,6 +5,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"log"
+	"strconv"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
@@ -44,27 +45,6 @@ type Table struct {
 			} `xml:"td"`
 		} `xml:"tr"`
 	} `xml:"tbody"`
-}
-
-type Mechanic struct {
-	Level  string
-	Detail string
-}
-
-type Skill struct {
-	JobAdvancement string
-
-	Name         string
-	Type         string
-	Icon         string
-	RequireLevel string
-	IconName     string
-	Detail       string
-	MaxLevel     string
-	Description  string
-
-	MechanicsLevel  string
-	MechanicsDetail string
 }
 
 func main() {
@@ -114,54 +94,75 @@ func main() {
 		}
 
 		if n.Nodes[0].Data == "table" {
+			var t Table
+			err := xml.Unmarshal(buf.Bytes(), &t)
+			if err != nil {
+				panic(err)
+			}
+
+			icons := make([]string, 0, 5)
+			detail := ""
+			for _, aTag := range t.Tbody.Tr[0].Th[1].A {
+				if aTag.Img.Src != "" {
+					icons = append(icons, aTag.Href)
+				} else {
+					detail = aTag.Href
+				}
+			}
+
 			if jobLevel == "Hyper Skills" {
-				var t Table
-				err := xml.Unmarshal(buf.Bytes(), &t)
+				maxLevel, err := strconv.Atoi(strings.Trim(t.Tbody.Tr[2].Td.Text, " \r\n"))
 				if err != nil {
 					panic(err)
 				}
-				skill := Skill{
-					JobAdvancement: jobLevel,
-					Name:           strings.Trim(t.Tbody.Tr[0].Th[1].A[1].Text, " \r\n"),
-					Type:           strings.Trim(t.Tbody.Tr[0].Th[0].Text, " \r\n"),
-					Icon:           t.Tbody.Tr[0].Th[1].A[0].Img.Src,
-					IconName:       t.Tbody.Tr[0].Th[1].A[0].Img.DataImageKey,
-					Detail:         t.Tbody.Tr[0].Th[1].A[1].Href,
-					RequireLevel:   strings.Trim(t.Tbody.Tr[1].Td.Text, " \r\n"),
-					MaxLevel:       strings.Trim(t.Tbody.Tr[2].Td.Text, " \r\n"),
-					Description:    t.Tbody.Tr[3].Td.Text,
-
-					MechanicsLevel:  t.Tbody.Tr[4].Th[1].Text,
-					MechanicsDetail: t.Tbody.Tr[4].Td.Text,
-				}
-				skills = append(skills, skill)
-
-			} else if jobLevel == "Enhancements" {
-
-			} else {
-				var t Table
-				err := xml.Unmarshal(buf.Bytes(), &t)
+				requireLevel, err := strconv.Atoi(strings.Trim(t.Tbody.Tr[1].Td.Text, " \r\n"))
 				if err != nil {
 					panic(err)
 				}
-				tr := len(t.Tbody.Tr)
+
 				skill := Skill{
 					JobAdvancement: jobLevel,
 					Name:           strings.Trim(t.Tbody.Tr[0].Th[1].A[len(t.Tbody.Tr[0].Th[1].A)-1].Text, " \r\n"),
 					Type:           strings.Trim(t.Tbody.Tr[0].Th[0].Text, " \r\n"),
-					Icon:           strings.Trim(t.Tbody.Tr[0].Th[1].A[0].Href, " \r\n"),
+					Icons:          icons,
 					IconName:       strings.Trim(t.Tbody.Tr[0].Th[1].A[0].Img.DataImageKey, " \r\n"),
-					Detail:         strings.Trim(t.Tbody.Tr[0].Th[1].A[1].Href, " \r\n"),
-					MaxLevel:       strings.Trim(t.Tbody.Tr[1].Td.Text, " \r\n"),
+					Detail:         strings.Trim(detail, " \r\n"),
+					RequireLevel:   requireLevel,
+					MaxLevel:       maxLevel,
+					Description:    strings.Trim(t.Tbody.Tr[3].Td.Text, " \r\n"),
+
+					MechanicsLevel:  strings.Trim(t.Tbody.Tr[4].Th[1].Text, " \r\n"),
+					MechanicsDetail: strings.Trim(t.Tbody.Tr[4].Td.Text, " \r\n"),
+				}
+				AddSkill(skill)
+				skills = append(skills, skill)
+
+			} else if jobLevel == "Enhancements" {
+			} else {
+				tr := len(t.Tbody.Tr)
+				maxLevel, err := strconv.Atoi(strings.Trim(t.Tbody.Tr[1].Td.Text, " \r\n"))
+				if err != nil {
+					panic(err)
+				}
+
+				skill := Skill{
+					JobAdvancement: jobLevel,
+					Name:           strings.Trim(t.Tbody.Tr[0].Th[1].A[len(t.Tbody.Tr[0].Th[1].A)-1].Text, " \r\n"),
+					Type:           strings.Trim(t.Tbody.Tr[0].Th[0].Text, " \r\n"),
+					Icons:          icons,
+					IconName:       strings.Trim(t.Tbody.Tr[0].Th[1].A[0].Img.DataImageKey, " \r\n"),
+					Detail:         strings.Trim(detail, " \r\n"),
+					MaxLevel:       maxLevel,
 					Description:    strings.Trim(t.Tbody.Tr[2].Td.Text, " \r\n"),
 
 					MechanicsLevel:  strings.Trim(t.Tbody.Tr[tr-1].Th[5-tr].Text, " \r\n"),
 					MechanicsDetail: strings.Trim(t.Tbody.Tr[tr-1].Td.Text, " \r\n"),
 				}
-
+				AddSkill(skill)
 				skills = append(skills, skill)
 
 				fmt.Println(skill)
+
 			}
 		}
 	})
