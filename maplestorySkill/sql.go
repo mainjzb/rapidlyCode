@@ -62,9 +62,9 @@ func AddSkill(skill Skill) {
 	}
 	ctx := context.Background()
 
-	client.HeroSkill.Query().Where()
+	client.Skill.Query().Where()
 
-	client.HeroSkill.Create().
+	client.Skill.Create().
 		SetName(skill.Name).
 		SetType(skill.Type).
 		SetJobAdvancement(skill.JobAdvancement).
