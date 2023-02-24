@@ -21,7 +21,7 @@ func (Skill) Fields() []ent.Field {
 		field.String("icon").Optional(),
 		field.String("icon_name").Optional(),
 		field.Int("require_level").Optional(),
-		field.String("detail").Optional(),
+		field.String("detail").Optional().Unique(),
 		field.Int("max_level"),
 		field.String("description").Optional(),
 		field.String("mechanics_level").Optional(),

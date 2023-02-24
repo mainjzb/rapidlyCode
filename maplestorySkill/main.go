@@ -15,6 +15,65 @@ import (
 
 var HeroSkillUrl = "https://maplestory.fandom.com/wiki/Hero/Skills"
 
+var skillUrl = []struct {
+	class string
+	url   string
+}{
+	{"Hero", "https://maplestory.fandom.com/wiki/Hero/Skills"},
+	{"Paladin", "https://maplestory.fandom.com/wiki/Paladin/Skills"},
+	{"Dark Knight", "https://maplestory.fandom.com/wiki/Dark_Knight/Skills"},
+	{"Magician (Fire, Poison)", "https://maplestory.fandom.com/wiki/Magician_(Fire,_Poison)/Skills"},
+	{"Magician_(Ice, Lightning)", "https://maplestory.fandom.com/wiki/Magician_(Ice,_Lightning)/Skills"},
+	{"Bishop", "https://maplestory.fandom.com/wiki/Bishop/Skills"},
+	{"Bowmaster", "https://maplestory.fandom.com/wiki/Bowmaster/Skills"},
+	{"Marksman", "https://maplestory.fandom.com/wiki/Marksman/Skills"},
+	{"Pathfinder", "https://maplestory.fandom.com/wiki/Pathfinder/Skills"},
+	{"Night Lord", "https://maplestory.fandom.com/wiki/Night_Lord/Skills"},
+	{"Shadower", "https://maplestory.fandom.com/wiki/Shadower/Skills"},
+	{"Dual Blade", "https://maplestory.fandom.com/wiki/Dual_Blade/Skills"},
+	{"Buccaneer", "https://maplestory.fandom.com/wiki/Buccaneer/Skills"},
+	{"Corsair", "https://maplestory.fandom.com/wiki/Corsair/Skills"},
+	{"Cannoneer", "https://maplestory.fandom.com/wiki/Cannoneer/Skills"},
+	{"Jett", "https://maplestory.fandom.com/wiki/Jett/Skills"},
+	{"Dawn Warrior", "https://maplestory.fandom.com/wiki/Dawn_Warrior/Skills"},
+	{"Blaze Wizard", "https://maplestory.fandom.com/wiki/Blaze_Wizard/Skills"},
+	{"Wind Archer", "https://maplestory.fandom.com/wiki/Wind_Archer/Skills"},
+	{"Night Walker", "https://maplestory.fandom.com/wiki/Night_Walker/Skills"},
+	{"Thunder Breaker", "https://maplestory.fandom.com/wiki/Thunder_Breaker/Skills"},
+	{"Mihile", "https://maplestory.fandom.com/wiki/Mihile/Skills"},
+	{"Aran", "https://maplestory.fandom.com/wiki/Aran/Skills"},
+	{"Evan", "https://maplestory.fandom.com/wiki/Evan/Skills"},
+	{"Mercedes", "https://maplestory.fandom.com/wiki/Mercedes/Skills"},
+	{"Phantom", "https://maplestory.fandom.com/wiki/Phantom/Skills"},
+	{"Luminous", "https://maplestory.fandom.com/wiki/Luminous/Skills"},
+	{"Shade", "https://maplestory.fandom.com/wiki/Shade/Skills"},
+	{"Blaster", "https://maplestory.fandom.com/wiki/Blaster/Skills"},
+	{"Battle Mage", "https://maplestory.fandom.com/wiki/Battle_Mage/Skills"},
+	{"Wild Hunter", "https://maplestory.fandom.com/wiki/Wild_Hunter/Skills"},
+	{"Mechanic", "https://maplestory.fandom.com/wiki/Mechanic/Skills"},
+	{"Demon Slayer", "https://maplestory.fandom.com/wiki/Demon_Slayer/Skills"},
+	{"Demon Avenger", "https://maplestory.fandom.com/wiki/Demon_Avenger/Skills"},
+	{"Xenon", "https://maplestory.fandom.com/wiki/Xenon/Skills"},
+	{"Kaiser", "https://maplestory.fandom.com/wiki/Kaiser/Skills"},
+	{"Kain", "https://maplestory.fandom.com/wiki/Kain/Skills"},
+	{"Cadena", "https://maplestory.fandom.com/wiki/Cadena/Skills"},
+	{"Angelic Buster", "https://maplestory.fandom.com/wiki/Angelic_Buster/Skills"},
+	{"Adele", "https://maplestory.fandom.com/wiki/Adele/Skills"},
+	{"Illium", "https://maplestory.fandom.com/wiki/Illium/Skills"},
+	//	{"Khali", "https://maplestory.fandom.com/wiki/Khali/Skills"},
+	{"Ark", "https://maplestory.fandom.com/wiki/Ark/Skills"},
+	{"Hayato", "https://maplestory.fandom.com/wiki/Hayato/Skills"},
+	{"Kanna", "https://maplestory.fandom.com/wiki/Kanna/Skills"},
+	{"Lara", "https://maplestory.fandom.com/wiki/Lara/Skills"},
+	{"Hoyoung", "https://maplestory.fandom.com/wiki/Hoyoung/Skills"},
+	{"Beast Tamer", "https://maplestory.fandom.com/wiki/Beast_Tamer/Skills"},
+	{"Zero", "https://maplestory.fandom.com/wiki/Zero/Skills"},
+	{"Kinesis", "https://maplestory.fandom.com/wiki/Kinesis/Skills"},
+
+	// {"Pink Bean", "https://maplestory.fandom.com/wiki/Pink_Bean/Skills"},
+	// {"Yeti", "https://maplestory.fandom.com/wiki/Yeti/Skills"},
+}
+
 type Table struct {
 	XMLName xml.Name `xml:"table"`
 	Text    string   `xml:",chardata"`
@@ -48,9 +107,15 @@ type Table struct {
 }
 
 func main() {
+	for _, url := range skillUrl {
+		read(url.class, url.url)
+	}
+}
+
+func read(class, url string) {
 
 	// req.DevMode()                     // Treat the package name as a Client, enable development mode
-	resp := req.MustGet(HeroSkillUrl) // Treat the package name as a Request, send GET request.
+	resp := req.MustGet(url) // Treat the package name as a Request, send GET request.
 	// body := resp.String()
 
 	doc, err := goquery.NewDocumentFromReader(resp.Body)
@@ -77,9 +142,9 @@ func main() {
 		// NHTML, _ := n.Html()
 		var buf bytes.Buffer
 		html.Render(&buf, n.Nodes[0])
-		fmt.Println(i, buf.String())
-		fmt.Println()
-		fmt.Println()
+		// fmt.Println(i, buf.String())
+		// fmt.Println()
+		// fmt.Println()
 
 		if n.Nodes[0].Data == "span" {
 			var htmlBuf bytes.Buffer
@@ -135,6 +200,7 @@ func main() {
 					MechanicsDetail: strings.Trim(t.Tbody.Tr[4].Td.Text, " \r\n"),
 				}
 				AddSkill(skill)
+				AddClassSkill(class, skill)
 				skills = append(skills, skill)
 
 			} else if jobLevel == "Enhancements" {
@@ -159,6 +225,7 @@ func main() {
 					MechanicsDetail: strings.Trim(t.Tbody.Tr[tr-1].Td.Text, " \r\n"),
 				}
 				AddSkill(skill)
+				AddClassSkill(class, skill)
 				skills = append(skills, skill)
 
 				fmt.Println(skill)

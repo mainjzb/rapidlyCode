@@ -1,6 +1,9 @@
 package schema
 
-import "entgo.io/ent"
+import (
+	"entgo.io/ent"
+	"entgo.io/ent/schema/field"
+)
 
 // ClassSkill holds the schema definition for the ClassSkill entity.
 type ClassSkill struct {
@@ -9,7 +12,11 @@ type ClassSkill struct {
 
 // Fields of the ClassSkill.
 func (ClassSkill) Fields() []ent.Field {
-	return nil
+	return []ent.Field{
+		field.String("class").NotEmpty(),
+		field.String("job_advancement"),
+		field.String("detail").Optional(),
+	}
 }
 
 // Edges of the ClassSkill.

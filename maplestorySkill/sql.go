@@ -27,6 +27,11 @@ type Skill struct {
 	MechanicsDetail string
 }
 
+type ClassSkill struct {
+	ClassName      string
+	JobAdvancement string
+}
+
 var client *ent.Client
 var createClient sync.Once
 
@@ -62,7 +67,7 @@ func AddSkill(skill Skill) {
 	}
 	ctx := context.Background()
 
-	client.Skill.Query().Where()
+	// client.Skill.Query().Where()
 
 	client.Skill.Create().
 		SetName(skill.Name).
@@ -76,5 +81,18 @@ func AddSkill(skill Skill) {
 		SetDescription(skill.Description).
 		SetMechanicsLevel(skill.MechanicsLevel).
 		SetMechanicsDetail(skill.MechanicsDetail).
+		Save(ctx)
+}
+
+func AddClassSkill(class string, skill Skill) {
+	if client == nil {
+		SqlClient()
+	}
+	ctx := context.Background()
+
+	client.ClassSkill.Create().
+		SetClass(class).
+		SetJobAdvancement(skill.JobAdvancement).
+		SetDetail(skill.Detail).
 		Save(ctx)
 }
