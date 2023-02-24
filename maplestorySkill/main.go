@@ -107,6 +107,8 @@ type Table struct {
 }
 
 func main() {
+	read("Evan", "https://maplestory.fandom.com/wiki/Evan/Skills")
+	return
 	for _, url := range skillUrl {
 		read(url.class, url.url)
 	}
@@ -140,6 +142,10 @@ func read(class, url string) {
 		// }
 		// np := n.Parent()
 		// NHTML, _ := n.Html()
+		if class == "Evan" && i <= 2 {
+			return
+		}
+
 		var buf bytes.Buffer
 		html.Render(&buf, n.Nodes[0])
 		// fmt.Println(i, buf.String())
