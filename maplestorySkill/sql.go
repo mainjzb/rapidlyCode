@@ -17,11 +17,11 @@ type Skill struct {
 	Type           string // 主动技能/被动技能
 	JobAdvancement string
 	Icons          []string
-	IconName       string
-	RequireLevel   int
-	Detail         string // 技能详情连接
-	MaxLevel       int
-	Description    string
+	// IconName       string
+	RequireLevel int
+	Detail       string // 技能详情连接
+	MaxLevel     int
+	Description  string
 
 	MechanicsLevel  string
 	MechanicsDetail string
@@ -61,6 +61,16 @@ func Close() {
 	}
 }
 
+func DeleteAll() {
+	if client == nil {
+		SqlClient()
+	}
+	ctx := context.Background()
+
+	client.Skill.Delete().Exec(ctx)
+	client.ClassSkill.Delete().Exec(ctx)
+}
+
 func AddSkill(skill Skill) {
 	if client == nil {
 		SqlClient()
@@ -74,7 +84,7 @@ func AddSkill(skill Skill) {
 		SetType(skill.Type).
 		SetJobAdvancement(skill.JobAdvancement).
 		SetIcon(strings.Join(skill.Icons, "|")).
-		SetIconName(skill.IconName).
+		// SetIconName(skill.IconName).
 		SetRequireLevel(skill.RequireLevel).
 		SetDetail(skill.Detail).
 		SetMaxLevel(skill.MaxLevel).
